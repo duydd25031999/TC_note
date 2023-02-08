@@ -1,0 +1,7 @@
+- Accelerated Mobile Pages (AMP)
+- Open-source HTML framework
+- A straightforward way to create web pages that are fast, smooth-loading, and prioritize the user experience.
+- It can be used to easily create websites, stories, ads, and more.
+- Improves the user experience and core business metrics
+- Building AMP pages is simple and reduces developer overhead
+- AMP has lots of components that can be used as website building blocks and they are already optimized for best performance.

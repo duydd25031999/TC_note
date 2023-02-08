@@ -24,7 +24,7 @@
 1. List service cần thiết
 2. List các API tương ứng với mỗi UC từ service
 
-![Tux, the Linux mascot](/UseCaseToService.png)
+![UseCaseToService](/UseCaseToService.png)
 
 ## 4. Class UML Diagram
 
