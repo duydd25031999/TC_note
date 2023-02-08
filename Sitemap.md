@@ -28,4 +28,7 @@
 
 # Sitemap report
 
+![Sitemap_report](/Sitemap_report.png)
 
+- Status: the crawl status such as success, has errors, couldn't fetch, and others;
+- Discovered Url: The number of URLs discovered in the sitemap.
