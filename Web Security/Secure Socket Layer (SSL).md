@@ -10,7 +10,7 @@ Tags: Common, Concept
 
 ## SSL Handshake
 
-![SSL.png](Secure%20Socket%20Layer%20(SSL)%20a912a9ea6d6f40a387e906d2f10f5d1f/SSL.png)
+![SSL.png](SSL.png)
 
 - SSL Handshake is the process that kicks off a communication session that uses TLS encryption.
 - HTTP 1.1 use keepalive to reuse a connection.
