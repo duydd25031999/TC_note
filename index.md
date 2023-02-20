@@ -18,44 +18,48 @@
 
     <!--- Javascript -->
 
-1. [ ] Event loop
-1. [ ] Statement ordering of the Event loop
-1. [ ] Javascript language
-1. [ ] Comparison operator of Javascript
-1. [ ] || and &&
-1. [ ] Falsy & Truthy in Javascript
-1. [ ] Null & Undefind in Javascript
-1. [ ] Javascript Datatype
-1. [ ] Promise
-1. [ ] Generators
-1. [ ] Iterator
-1. [ ] Javascript Function
-1. [ ] Javascript Callback
-1. [ ] Scope in Javascript
-1. [ ] Closure in Javascript 
-1. [ ] “this” Object
-1. [ ] URL in Javascript
-1. [ ] Javascript Array
-1. [ ] “window" Object
-1. [ ] “screen” Object
-1. [ ] “history” Object
-1. [ ] “navigator” Object
-1. [ ] “location” Object
-1. [ ] Prototype
-1. [ ] Object Protoype
-1. [ ] Javascript String
-1. [ ] Javascript Map
-1. [ ] Javascript Proxy
-1. [ ] HtmlElement
-1. [ ] Event listener
-1. [ ] Javascript ES6 Syntax
-1. [ ] Javascript Class
+1. [X] Event loop
+1. [X] Statement ordering of the Event loop
+1. [X] Javascript language
+1. [X] Comparison operator of Javascript
+1. [X] || and && - (Or) and (And)
+1. [X] Falsy & Truthy in Javascript
+1. [X] Null & Undefind in Javascript
+1. [X] Javascript Datatype
+1. [X] Promise
+1. [X] Generators
+1. [X] Iterator
+1. [X] Javascript Function
+1. [X] Javascript Callback
+1. [X] Scope in Javascript
+1. [X] Closure in Javascript 
+1. [X] “this” Object
+1. [X] URL in Javascript
+1. [X] Javascript Array
+1. [X] “window” Object
+1. [X] “screen” Object
+1. [X] “history” Object
+1. [X] “navigator” Object
+1. [X] “location” Object
+1. [X] Prototype
+1. [X] Object Prototype
+1. [X] Javascript String
+1. [X] Javascript Map
+1. [X] Javascript Proxy
+1. [X] HtmlElement
+1. [X] Event listener
+1. [X] Javascript ES6 Syntax
+1. [X] Javascript Class
 
     <!--- Web Storage -->
-1. [ ] Cookie
-1. [ ] Web Session
-1. [ ] Cache
-1. [ ] localStorage
+1. [X] Cookie
+1. [X] Web Session
+1. [X] Cache
+1. [X] localStorage
+
+    <!--- Web Security -->
+
+1. A
 
     <!--- Programming -->
 1. [ ] Git
