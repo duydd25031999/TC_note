@@ -1,7 +1,5 @@
 # Box Model
 
-<!--- TODO: UPDATE -->
-
 - Table of content
 
 # 1. ****box-sizing****

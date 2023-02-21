@@ -85,7 +85,15 @@
 1. [ ] HTML Tags
 
     <!-- Strapi -->
-1. [ ] Strapi
+1. [X] Backend
+1. [X] ExpressJS
+1. [X] Fundammental
+1. [X] Strapi v4
+1. [X] Strapi v4 Structure
+1. [X] Strapi Route
+1. [X] Strapi Controller
+1. [X] Strapi Model
+1. [X] Strapi Content-type
 
     <!-- NodeJS -->
 1. [ ] NodeJS
