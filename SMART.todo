@@ -1,0 +1,45 @@
+Item_Type:
+  @Goal
+  @Action
+  @Who
+  @How_many
+  @How_often
+  @When
+  @Where
+  @Why
+  @How_long
+  @Summary
+--------------------------------------
+English:
+  Speaking:
+    Elsa:
+      @Why Đã mua tài khoản đến tháng 7
+      @Goal Tạo thói quen nói hằng ngày cho quen
+        @Action  Luyện hằng ngày
+        @Who Me
+        @How_many Bài Daily lesson
+        @How_many 1 day của pronounciation
+        @How_often 15 phút mỗi ngày
+        @When 10h30 tối hàng ngày
+        @When hời giản rảnh nào đó nếu ngày nghỉ
+        @Where Câu thang
+        @Where Chỗ nào 1 mình
+        @Why Chỉ đơn giản là có hoạt 
+    Grablingo:
+--------------------------------------
+Office:
+  PV demo project:
+    Software Design:
+      Wireframe:
+        @Goal Wireframe dự án
+          @Action Vẽ Wireframe
+          @Action Chuyển từ WBS hôm trước thành wireframe
+          @Who Team front-end
+          @How_many Vẽ wireframe từng page
+          @How_long Chiều 15h phải hoàn thành
+          @Why Từng người phải hiểu luồng hoạt động của phần mềm và các thành phần chính trên giao diện
+          @Why Biết cách làm & đánh giá người khác
+--------------------------------------
+Workout:
+  Bóng đá:
+--------------------------------------
