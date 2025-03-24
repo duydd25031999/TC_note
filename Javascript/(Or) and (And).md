@@ -45,3 +45,25 @@ function foo() {
 var a = false;
 a && foo(); // false
 ```
+
+# Falsy & Truthy
+
+- Falsy  
+  - Giá trị mà if nhận là sai  
+  - 0  
+  - (- 0)  
+  - false  
+  - null  
+  - undefined  
+  - “" (length = 0)  
+  - NaN  
+- Truthy  
+  - Giá trị mà if nhận là đúng  
+  - Tất cả không phải falsy
+
+# Comparison operator
+
+- == là so sánh bằng nhưng có ép type  
+  - Không bằng là !=  
+- === là so sánh bằng nhưng ko ép kiểu  
+  - Không bằng là !==

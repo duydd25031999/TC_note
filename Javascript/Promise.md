@@ -1,10 +1,44 @@
-# Promise
+### Single Threading
 
-Category: Javascript
-First Refrence: What%20is%20a%20Promise%2077af385add414f15a6d5df76af08a067.md, Why%20do%20we%20need%20a%20Promise%20f9f2ac5b978f43e89958ba4e57927217.md, What%20are%20the%20states%20of%20promise%20f3486887bb0e446a9e6b499f47baacc8.md, Difference%20between%20callback,%20promise%20and%20async%20awa%206c2533eb9d9d4a08a4ba7f6fa0595105.md, How%20to%20wait%20requesting%20multiple%20API%20to%20finish%20at%20t%20644ebd60bad1424e9224616831479243.md, How%20to%20request%20multiple%20APIs%20sequentially%200146b42c7cce416998ad71818306e8df.md, What%20should%20aware%20of%20Promise%2019c272ba2c2e4b9296feabbf21e2aa9b.md, How%20to%20call%20a%20function%20whenever%20Promise%20finishing%208c7539d9f8e94aa588b6c04f707c48ca.md, What%20is%20Asynchronous%20Function%200e48b5b75432411c97b6675ea2b891ba.md
-Tags: Basic, Concept
+- Queue  
+  - Cấu trúc hàng đợi theo cơ chế First-in First-out  
+1. Cái đến trước được xử lý trước  
+2. Cái đến sau phải đợi cái liền trước  
+3. Cái đến sau nữa thì cứ đứng chờ thành 1 hàng  
+- Event Loop là 1 hàng chờ tuân theo quy tắc \`First-in First out\`.  
+1. Sự kiện đầu kích hoạt (hay còn gọi là trigger) ⇒ nó được đưa vào event loop  
+2. JS engine thấy event loop có sự kiện thì lấy cái gần nhất ra xử lý  
+3. Sự kiện thứ 2 được đẩy vào thì sẽ phải chờ sự kiện đầu xử lý xong  
+4. Rồi sự kiện thứ 3 tiếp tục đưa vào hàng chờ và đợi cái thứ 2 xong mới được thực hiện  
+- Event loop như 1 cái to-do list cho thread  
+1. Thread sẽ xử lý tuần tự những task trong Event loop  
+2. Event loop rỗng thì Thread sẽ tạm dừng  
+3. Đẩy sự kiện vào Thread thì nó lại chạy tiếp  
+- Single Threading có lợi ích gì?  
+1. Tập trung xử lý từng vấn đề độc lập  
+- Với đa luồng thì CPU sẽ phải chia tài nguyên cho tất cả các luồng  
+- Nhưng với cơ chế đơn luồng thì chỉ xử lý 1 vấn đề tại 1 thời điểm  
+- Do đó tốc độ xử lý 1 vấn đề sẽ nhanh gấp mấy lần đa luồng  
+- Có khi 1 vấn đề chỉ xử lý trong 1 nghìn phần giây nên không thể nhận ra sự khác biệt  
+2. Bộ nhớ không bị xung đột  
+- Với đa luồng không chỉ CPU mà bộ nhớ tạm như RAM cũng sẽ chia sẻ với các luồng  
+- Ví dụ cho 1 biến A  
+  - Mà Thread 1 và Thread 2 cùng sử dụng A cùng 1 thời điểm  
+  - Thì chắc chắn sẽ bị lỗi  
+3. Luồng hoạt động liên tục  
+- Đa luồng thì có luồng làm ít, luồng làm nhiều  
+- Thì luồng nào làm ít thì xong trước thì cứ chờ ở đó, gây tốn tài nguyên vì vẫn phải duy trì luồng đó  
+- Còn đơn luồng công việc làm liên tục  
+- Chưa tắt phần mềm thì nó còn chạy  
+- Làm sao Javascript có thể xử lý Multitasking?  
+1. Chia mỗi task thành các sub-tasks cực nhỏ  
+2. Trộn lẫn các sub-tasks thành 1 hàng  
+3. Rồi xử tuần tự từng sub-task  
+- Tại 1 thời điểm cả 2 tasks lớn cùng trong quá trình xử lý  
+- Mỗi sub-task được xử lý quá nhanh gần như tức thì  
+- Tiếp theo vì xen kẽ các sub-tasks nên task sau sẽ không phải đợi task trước hoàn thành 100%
 
-# Concept
+# Promise conept
 
 - Promise là 1 đối tượng biểu thị 1 giá trị sẽ được nhận về trong tương lai
 - Giá trị đó có thể là lỗi nếu gặp sự cố, hay còn gọi là trạng thái rejected
@@ -394,9 +428,3 @@ Promise.race( [
 - The Promise will accept only the first resolution.
 
 ---
-
-- **Vocabulary**
-    - Alternative: thay thế
-    - Approach: cách tiếp cận
-    - Chain: chuỗi
-    - placeholder = đặt chỗ
