@@ -1,3 +1,150 @@
+# Prototype
+
+- Khi `new` ⇒ tạo 1 bject inherit tới propotype của contructor
+- strict equality operator (`===`)
+- abstract equality operator (`==`)
+
+## ****Class****
+
+- Javascript in old version doesn’t have `class` concept
+- It just `stimulates class`.
+- When function is declared <== JS engine add Prototype to it
+    - Prototype is constructor of function
+    - Prototype inherits from Prototype of object
+
+```jsx
+var Human = function(name) {
+    this.name = name;
+}
+
+Human.prototype.sayHello = function() {
+    console.log("Hello, I'm " + this.name);
+}
+
+Human.prototype.goRage = function() {
+    console.log("goRage");
+}
+
+var p1 = new Human('p1');   // new =call=> Prototype.constructor()
+                            // add __proto__ =refer=> function.prototype
+                            // không mất công tạo những gì có trong prototype
+var p2 = new Human('p2');
+
+p1.sayHello();
+p2.sayHello();
+p1.goRage();
+
+console.log(p1.hasOwnProperty('name'));
+console.log(p1.hasOwnProperty('goRage'));
+console.log(p1.hasOwnProperty('hasOwnProperty'));
+
+console.log(Object.getPrototypeOf(p1));
+console.log(p1);
+
+// Inheritance
+var SuperHero = function(name, alias, power) {
+    Human.call(this, name);
+    this.alias = alias;
+    this.power = power;
+}
+
+SuperHero.prototype = Object.create(Human.prototype);
+SuperHero.prototype.constructor = SuperHero;
+
+var s1 = new SuperHero('p1', 'a1', 'pow1');
+console.log(s1 instanceof SuperHero);
+console.log(s1 instanceof Human);
+s1.sayHello();
+
+// Polymorphism
+SuperHero.prototype.sayHello = function() {
+    console.log("Hello, I'm " + this.alias);
+}
+// Khi gọi 1 attribute trong prototype
+// engine =find=> this.__proto__ =dont_has=> super.__proto__ =dont_has=> Object.__proto__
+```
+
+### Constructor
+
+- Prototype is 1 default object of constructor (class) that instance inherited
+- `Object.prototype` = root prototype
+
+```jsx
+function Foo() {
+    // ...
+}
+
+Foo.prototype.constructor === Foo; // true
+var a = new Foo();
+a.constructor === Foo; // true
+```
+
+# Object Prototype
+
+### getPrototypeOf
+
+```jsx
+Object.getPrototypeOf(obj) // get Prototype of obj
+```
+
+### assign
+
+- The `assign()` method copies all enumerable own properties from one or more source objects to a target object.
+
+```jsx
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
+```
+
+### create
+
+- Clone value from original object to new object.
+- New object isn’t reference to original object.
+
+```jsx
+var obj2 = Object.create(obj) // return clone of original obj
+```
+
+### hasOwnProperty
+
+```jsx
+obj.hasOwnProperty('nameOfProperty') // return boolean
+nameOfProperty in obj //use "in" keyword
+```
+
+### defineProperty
+
+```jsx
+Object.defineProperty(obj, prop, option); // create new property for object
+```
+
+- option is a object
+    - `configurable`: is able to change config of property again.
+    - `value` : default value.
+    - `writable` : is changable
+    - `get` : function get value
+    - `set` : function change value
+
+### instanceof
+
+- Check that is object instance of a class.
+
+### Shallow clone, deep clone
+
+- Shallow clone thì khi clone, biến mới hoặc các thành phần của biến mới vẫn còn quan hệ với biến ban đầu  
+- Shallow clone chỉ clone giá trị nông, nếu có giá trị lồng nhau, như biến lồng trong biến, thì property là object vẫn tham chiếu tới property của đối tượng cũ  
+- Nếu property object đó thay đổi trong 1 đối tượng thì đối tượng còn lại vẫn nhận được  
+- Deep clone là tạo mới một biến có cùng giá trị và được cắt đứt quan hệ hoàn toàn với biến được clone.  
+- Nếu có propesrty là object thì bới deep clone sẽ không tham chiếu tới property object cũ
+
 # Javascript Callback
 
 Category: Javascript

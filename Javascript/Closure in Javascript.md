@@ -1,9 +1,5 @@
 # Closure in Javascript
 
-Category: Javascript
-First Refrence: What%20are%20closures%20e8582c50bf884360bbad74b62c55daa2.md
-Tags: Basic, Concept
-
 **Recall**
 
 ## Concept
