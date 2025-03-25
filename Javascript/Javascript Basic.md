@@ -16,10 +16,6 @@
 
 # Javascript Datatype
 
-Category: Javascript
-First Refrence: Different%20between%20Primary%20&%20Reference%20type%20800b0aed297b4c89873e764cd8953764.md, What%20is%20pass%20by%20reference%20and%20pass%20by%20value%207ac10e8d06494e56b677dd3b12a80f89.md, Are%20primary%20types%20passed%20by%20reference%20or%20passed%20by%202d963303e28a45d2a416129b6c968304.md, How%20to%20check%20a%20variable%20or%20a%20value%20is%20number%20or%20no%202cf987c799d04001b5b250af9ccf4b37.md, Different%20between%20++number%20and%20number++%2094b1d133e52143c280873b9b0322c3f6.md, What%20is%20the%20split%20function%20of%20the%20string%20for%20c3ed6820412f4e20ba47904caf5394d7.md, What%20is%20the%20indexOf%20function%20of%20the%20string%20used%20fo%20d10d66bfd8ad4c0eb51746f1710cdde1.md, Given%20a%20string%20called%20symmetry,%20the%20reverse%20of%20the%208f0fcb54be87414db40569a98cc941a5.md
-Tags: Basic, Concept
-
 # ****Primary - Kiểu nguyên thủy****
 
 - Tuân theo tham trị
@@ -299,3 +295,69 @@ var b = Object( a ); // same as `new String( a )`
 a === b; // false
 a == b; // true
 ```
+
+# || and &&
+
+- The result of a `||` or `&&` expression is always the underlying value of one of the operands, not the (possibly coerced) result of the test
+
+```jsx
+var a = 42;
+var b = "abc";
+var c = null;
+
+a || b; // 42
+a && b; // "abc"
+c || b; // "abc"
+c && b; // null
+```
+
+- `||` operator (ES6: default value)
+
+```jsx
+var a = b || c
+// same
+if (b) a = b 
+else a = c 
+
+function foo(a,b) {
+	a = a || "hello";
+	b = b || "world";
+	console.log( a + " " + b );
+}
+foo(); // "hello world"
+foo( "yeah", "yeah!" ); // "yeah yeah!"
+```
+
+- `&&` operator
+
+```jsx
+// get the first value in chain
+
+function foo() {
+	console.log( a );
+}
+var a = false;
+a && foo(); // false
+```
+
+# Falsy & Truthy
+
+- Falsy  
+  - Giá trị mà if nhận là sai  
+  - 0  
+  - (- 0)  
+  - false  
+  - null  
+  - undefined  
+  - “" (length = 0)  
+  - NaN  
+- Truthy  
+  - Giá trị mà if nhận là đúng  
+  - Tất cả không phải falsy
+
+# Comparison operator
+
+- == là so sánh bằng nhưng có ép type  
+  - Không bằng là !=  
+- === là so sánh bằng nhưng ko ép kiểu  
+  - Không bằng là !==

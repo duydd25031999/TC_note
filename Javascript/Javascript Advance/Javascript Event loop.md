@@ -1,8 +1,5 @@
 # Event Loop
 
-Category: Javascript
-First Refrence: Does%20console%20log%20show%20message%20immediately%20cd5db0b6ef604d6d89ec388f76709489.md, What%20is%20Event%20Loop%20cee6e5ae51424a6d8e2f328b2502b994.md, Does%20setTimeout%20push%20the%20callback%20into%20the%20event%20l%201fa1bbc2db384f9296c279da06a09d14.md, Does%20event%20loop%20process%20based%20on%20parallel%20threadin%201bdd2ae5df3d42f58487a64d2be8d5f0.md, How%20is%20Javascript%20concurrency%20388b28381735402db6f26a197ef9e167.md, What%20is%20Jobs%20in%20Javascript%2095d46a7b80324ae1a6131d804e3b1d92.md, Statement%20ordering%20of%20the%20Event%20loop%201aad8658dce341899dfe528daa55639b.md, How%20many%20Threads%20in%20Javascript%20a312b9c72a5743daa1ebf0de720bc08b.md, What%20is%20advantage%20of%20Single%20Threading%2043b621fd76854b928f86339ce58b7d91.md
-Tags: Basic, Concept
 
 # Javascript Engine
 
@@ -256,3 +253,60 @@ while (true) {
     - Partition: phân vùng
     - Explicit: rõ ràng
     - Serial: nối tiếp
+
+### Single Threading
+
+- Queue  
+  - Cấu trúc hàng đợi theo cơ chế First-in First-out  
+1. Cái đến trước được xử lý trước  
+2. Cái đến sau phải đợi cái liền trước  
+3. Cái đến sau nữa thì cứ đứng chờ thành 1 hàng  
+- Event Loop là 1 hàng chờ tuân theo quy tắc \`First-in First out\`.  
+1. Sự kiện đầu kích hoạt (hay còn gọi là trigger) ⇒ nó được đưa vào event loop  
+2. JS engine thấy event loop có sự kiện thì lấy cái gần nhất ra xử lý  
+3. Sự kiện thứ 2 được đẩy vào thì sẽ phải chờ sự kiện đầu xử lý xong  
+4. Rồi sự kiện thứ 3 tiếp tục đưa vào hàng chờ và đợi cái thứ 2 xong mới được thực hiện  
+- Event loop như 1 cái to-do list cho thread  
+1. Thread sẽ xử lý tuần tự những task trong Event loop  
+2. Event loop rỗng thì Thread sẽ tạm dừng  
+3. Đẩy sự kiện vào Thread thì nó lại chạy tiếp  
+- Single Threading có lợi ích gì?  
+1. Tập trung xử lý từng vấn đề độc lập  
+- Với đa luồng thì CPU sẽ phải chia tài nguyên cho tất cả các luồng  
+- Nhưng với cơ chế đơn luồng thì chỉ xử lý 1 vấn đề tại 1 thời điểm  
+- Do đó tốc độ xử lý 1 vấn đề sẽ nhanh gấp mấy lần đa luồng  
+- Có khi 1 vấn đề chỉ xử lý trong 1 nghìn phần giây nên không thể nhận ra sự khác biệt  
+2. Bộ nhớ không bị xung đột  
+- Với đa luồng không chỉ CPU mà bộ nhớ tạm như RAM cũng sẽ chia sẻ với các luồng  
+- Ví dụ cho 1 biến A  
+  - Mà Thread 1 và Thread 2 cùng sử dụng A cùng 1 thời điểm  
+  - Thì chắc chắn sẽ bị lỗi  
+3. Luồng hoạt động liên tục  
+- Đa luồng thì có luồng làm ít, luồng làm nhiều  
+- Thì luồng nào làm ít thì xong trước thì cứ chờ ở đó, gây tốn tài nguyên vì vẫn phải duy trì luồng đó  
+- Còn đơn luồng công việc làm liên tục  
+- Chưa tắt phần mềm thì nó còn chạy  
+- Làm sao Javascript có thể xử lý Multitasking?  
+1. Chia mỗi task thành các sub-tasks cực nhỏ  
+2. Trộn lẫn các sub-tasks thành 1 hàng  
+3. Rồi xử tuần tự từng sub-task  
+- Tại 1 thời điểm cả 2 tasks lớn cùng trong quá trình xử lý  
+- Mỗi sub-task được xử lý quá nhanh gần như tức thì  
+- Tiếp theo vì xen kẽ các sub-tasks nên task sau sẽ không phải đợi task trước hoàn thành 100%
+
+# Statement ordering of the Event loop
+
+Category: Javascript
+First Source: Event%20Loop%202b01a5971ff141aa824b2992a51339d4.md
+Tags: Concept, Low
+
+- A JavaScript program is (practically) always broken up into two or more chunks.
+- Current event = where the first chunk runs now
+    - Next event = next chunk runs later
+- The Event Loop is composed of the following six phases, which are repeated for as long as the application still has code that needs to be executed:
+1. **Timers:** Callbacks scheduled by `setTimeout()` or `setInterval()` are executed in this phase.
+2. **I/O Callbacks:** Executes I/O callbacks deferred to the next loop iteration.
+3. **Waiting / Preparation:** Internally used only
+4. **I/O Polling:** This is the phase in which all the JavaScript code that we write is executed, starting at the beginning of the file, and working down.
+5. **`setImmediate()` callbacks:** It invokes `setIntermediate()` callbacks.
+6. **Close events:** This phase executes the callbacks of all *close* events.
