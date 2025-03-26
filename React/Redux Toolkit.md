@@ -1,9 +1,5 @@
 # Redux Toolkit
 
-Category: React
-First Source: Redux%20React%20d737fd6dc5754826bd59180585a688b7.md
-Tags: Common, Concept
-
 ## Concept
 
 - RTK is a library that helps me write Redux better, easier and simpler.

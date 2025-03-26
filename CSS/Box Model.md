@@ -282,3 +282,20 @@ div sẽ `BỊ CHIẾM` bởi bottom element (cùng z-index)
 [Have you played around with the new CSS Flexbox or Grid specs?](https://www.notion.so/Have-you-played-around-with-the-new-CSS-Flexbox-or-Grid-specs-4d1ffb9335fa4cc58eb46eb8ee25c2af)
 
 ---
+
+## Wrapper
+
+- Wraps around a single object to provide more functionality and interface to it
+- It’s common to think of a `<div>` that contains all the rest content.
+    
+    ⇒ Assign width & height to section ⇒ Try to assign them to `wrapper`
+    
+
+## Container
+
+- Generally used for structures that can contain more than one element.
+- It represents for a group, not just a single object
+
+---
+
+[The Best Way to Implement a "Wrapper" in CSS | CSS-Tricks](https://css-tricks.com/best-way-implement-wrapper-css/)

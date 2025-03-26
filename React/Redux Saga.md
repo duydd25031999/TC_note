@@ -1,10 +1,5 @@
 # Redux Saga
 
-Category: React
-First Refrence: What%20is%20ReduxSaga%20247f34ef1d274ed49c7a7a2f2b82796c.md, Can%20you%20explain%20the%20difference%20between%20an%20action%20a%200123fdfd29a147f3adea41fc15e9b01b.md, How%20does%20Saga%20work%20cd0d9b1cd3014d018596723e8ec1face.md, Why%20do%20we%20need%20to%20use%20Redux%20Saga%20a934d152dcf34692a8956d8baaeae41d.md, What%20are%20the%20advantages%20and%20disadvantages%20of%20using%20e398f6a807864da5a1512e01a3c02599.md, Do%20you%20think%20that%20sagas%20will%20replace%20thunks%2087a1e2bd660845ff80602af79799da8d.md, What%20are%20the%20steps%20involved%20in%20creating%20a%20new%20saga%203154387c365f4c7d8dada83b31082777.md, What%20happens%20when%20a%20put%20effect%20leads%20to%20a%20blocking%208b8ad2cd24ec40a79a34d89b54fbc9a2.md, What%20are%20some%20best%20practices%20when%20developing%20appli%2051b34964c5da44899eeba180eef8d22e.md, What%E2%80%99s%20the%20best%20way%20to%20manage%20async%20calls%20in%20Redux%207553c28261b94b52a1e0262b3648e729.md
-First Source: Redux%20Async%2059208a9c5cda4c8d83c6c31b8ac8db96.md, Generators%204b130d26a9904d71990c0fa2e480c4c8.md
-Tags: Common, Concept
-
 # Concept
 
 - Redux Saga is a library that helps to manage side effects in Redux app.
