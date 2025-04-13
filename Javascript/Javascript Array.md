@@ -1,9 +1,5 @@
 # Javascript Array
 
-Category: Javascript
-First Refrence: What%20are%20common%20methods%20of%20Array%2027ad7e99976b4eaaa8b02a9d192a35a3.md, What%20does%20filter%20returns%20c1012db260b343e68e48585406eba9bf.md, What%20does%20find%20function%20of%20array%20return%20when%20there%20c45a6ba9d464484dbd08afa7e487ee91.md, Decribe%20way%20to%20use%20join%20function%20of%20array%203e87c48714a74040be6eec7e79c4a822.md, How%20to%20use%20reduce%20function%20ed8b0e6481a74d44adcb1e98f0a3653b.md, %5BExample%5D%20Chain%20function%20of%20Array%20827c416b3f46432cab9707d5641812b8.md
-Tags: Common, Concept
-
 ## Function
 
 ### forEarch

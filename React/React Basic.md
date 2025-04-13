@@ -3,11 +3,16 @@
 ## Virtual DOM
 
 - `The virtual DOM` (VDOM) is a programming `concept` that `representation of a UI` is kept in `memory` and `synced` with the `“real” DOM` by a `library` such as ReactDOM.
-    - The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.****
+    - The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
 - Virtual DOM is a `lightweight JavaScript data format` that is used to `represent` the `content` of the `DOM` at a given `point in time`.
     - It has all the `same properties` as the `DOM` but is `not` as `interoperable` as the DOM.
     - When the `state changes`, `update` the `Virtual DOM first` and then `find` the `corresponding element` on the `real DOM` and to `re-render only it`.
 - React `abstracts` away the `DOM` from you, giving a `simpler programming model` and `better performance`.
+
+----
+
+- Một cách lưu trữ cấu trúc nhẹ của giao diện người dùng trong bộ nhớ, được đồng bộ hóa với DOM thực bởi ReactDOM, giúp cải thiện hiệu suất bằng cách chỉ cập nhật các phần đã thay đổi khi trạng thái thay đổi.
+- Đó là 1 mapping giữa state và DOM, để khi 1 state thay đổi thì phần DOM tương ứng sẽ thay đổi theo, khiến cho hiệu suất được tối ưu hơn.
 
 ### Shadow DOM
 
@@ -20,6 +25,10 @@
 - It works `like a normal DOM`.
 - In Shadow DOM, `all of its markup and style will be scoped`.
 - It refers to the browser’s potential to `add` a `subtree of DOM elements` into the `rendering of a document`, but `not` into the `DOM tree` of the `main document`.
+
+----
+
+- Công nghệ trình duyệt để cô lập biến và CSS trong các thành phần web, tạo ra một cây con DOM không thêm vào cây DOM chính, tập trung vào việc đóng gói hơn là hiệu suất.
 
 | Virtual DOM | Shadow DOM |
 | --- | --- |
@@ -38,6 +47,9 @@
 - So if the `data changes`, React will perform the `UI update` with the `corresponding data`.
 - When the data changes, React will `automatically call` the `render()` function to update the UI.
 
+----
+
+- Mỗi React component cần hàm render() để trả về các React element mô tả giao diện.
 ### JSX
 
 - JSX is a `syntax extension` to Javascript `used in ReactJS` that allows writing `Javascript` that looks `similar to HTML`.
@@ -47,24 +59,17 @@
 
 ---
 
-# Vocabulary
-
-- Integrate: tích hợp
-- Potential: có tiềm năng
-- Interoperable: có thể tương tác
-- Corresponding: phù hợp
+- JSX là một phần mở rộng cú pháp JavaScript, giúp tạo cấu trúc giống HTML, được biên dịch thành React.createElement.
 
 # React Lifecycle
-
-Category: React
-First Refrence: Describe%20React's%20lifecycle%2083e71403db5947509b668209e9c1e191.md, Where%20should%20make%20API%20in%20the%20component%20lifecycle%20W%204a56b57cb3064a0fb910e3b75f7a8e63.md, What%20happens%20when%20calling%20setState%201ad837bc808b4073b1e90ec91b14baf8.md, Why%20call%20setState%20instead%20of%20directly%20changing%20the%20b36abb974a074b77b2b2ffb0853b06a3.md, Does%20React%20re-render%20all%20components%20and%20sub%20compon%207d40dd5b036749e6a8cc7d1cf9670ad6.md, What%20is%20different%20between%20State%20and%20Props%20d27bb098d73e4bb495feccddb8d0614e.md, What%20is%20different%20between%20attributes%20and%20propertie%204886e51a5b524568a6024727409d9e4d.md, If%20you%20need%20to%20access%20the%20DOM%20node%20in%20a%20React%20comp%201a3b63b933484388bd21190e21cfd5d6.md, How%20to%20use%20context%20in%20class%20component%20359257cecfad47c3aad089bbc0fb2d94.md, When%20a%20React%20app%20renders%20slowly,%20how%20do%20you%20find%20o%2072be85b8e71247debb2bd978976af20a.md, How%20to%20pass%20data%20to%20deeply%20nested%20components%20witho%202dc3ef8c30094464a17a06fd20761f86.md, What%20is%20Context%20in%20React%20b99cf87febe74ba4b1d1e2a10acb8ceb.md, What%20happen%20if%20you%20don%E2%80%99t%20bind%20method%20in%20class%20comp%20918108683dcc4b32881028017f3b8a95.md, How%20to%20create%20a%20event%20listener%20in%20React%20b404cf0d1e434702b43d3160da9af2eb.md
-Tags: Basic, Concept
-
-# ****Lifecycle****
 
 - There are 3 phases of React Lifecycle.
 
 ## 1. Mounting
+
+- Gán component vào trong Virtual DOM, từ đó render compoent lần đầu tiên
+
+----
 
 - Putting elements into the DOM.
 - Mounting occurs when the component is placed on the DOM container and the component is rendered on a webpage.
@@ -111,6 +116,10 @@ componentDidMount()
     - Use this pattern with caution because it often causes performance issues.
 
 ## 2. Updating
+
+- Render lại component khi state, prop, context của component thay đổi
+
+----
 
 - A component is updated whenever there is a change in the component's state or props.
 - React has 5 built-in methods that gets called, in this order, when a component is updated:
@@ -190,6 +199,10 @@ componentDidUpdate(prevProps, prevState, snapshot)
 
 ## 3. Unmounting
 
+- Quá trình xóa component khỏi Virtual DOM
+
+----
+
 - A component is detached from the DOM container.
 - React has only 1 built-in method that gets called when a component is unmounted:
 
@@ -199,6 +212,11 @@ componentDidUpdate(prevProps, prevState, snapshot)
 - You should not call **`setState()`** in `componentWillUnmount()` because the component will never be re-rendered.
 
 ## State
+
+- Chức năng quản lý dữ liệu của component theo khái niệm bất biến (immutability)
+- State sẽ không được gán giá trị trực tiếp mà phải thông qua hàm setState
+
+----
 
 ### setState
 
@@ -234,6 +252,11 @@ componentDidUpdate(prevProps, prevState, snapshot)
 
 ## Ref
 
+- Quản lý dữ liệu độc lập với vòng đời của React
+- Khi thay đổi giá trị không làm React Component update
+
+------
+
 - Ref object stores data independently with component.
     - When changing its data, not trigger re-render component.
     - When re-rendering component, ref object still holds its value.
@@ -246,6 +269,12 @@ componentDidUpdate(prevProps, prevState, snapshot)
 - When a ref is passed to an element in `render`, a reference to the node becomes accessible at the `current` attribute of the ref.
 
 ## Context
+
+- Truyền dữ liệu qua nhiều tầng component hơn là sử dụng Props chỉ được 1-1
+- Mỗi Context gồm 2 component
+  - Provider: Lưu trữ 
+
+----
 
 - Context provides a way to pass data through the component tree without passing props down manually at every level.
 - Context data is passed down on the `value`prop using the `Context.Provider` component. It can be consumed using the `Context.Consumer` component or the `contentType` static property of class.
