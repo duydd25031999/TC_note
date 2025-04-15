@@ -28,45 +28,11 @@
 
 ### Questions
 
-1. How does Redux’s single store design contribute to predictable state management?
+[1. What is Redux and what problem does it solve?](../Questions.md#redux-concept-1)
 
-Single Source of Truth:
-• Redux uses one central store that holds the entire state of the application.
-• This centralization makes it easier to track state changes over time and simplifies debugging.
+[2. What are the three core principles of Redux and how do they improve application architecture?](../Questions.md#redux-concept-2)
 
-Predictable Data Flow:
-• With a unidirectional flow (action → reducer → state update), state mutations are predictable.
-• It prevents side effects by enforcing state changes only via dispatched actions.
-
-2. What are the critical design principles Redux enforces regarding immutability and pure functions, and why are these principles essential for Redux’s behavior?
-
-State Immutability:
-• Redux expects state to be read-only; changes are made by returning a new state object.
-• Immutability ensures that previous states remain unmodified, allowing reliable state snapshots and time travel debugging.
-
-Pure Functions in Reducers:
-• Reducers must be pure functions that depend only on their input (current state and action) and produce new state without side effects.
-• This guarantees that state transitions are predictable and testable.
-
-Overall Impact:
-• These principles lead to consistent application behavior, simplify debugging, and enable performance optimizations such as shallow comparison for update detection.
-
-3. How do actions and reducers work together in Redux, and what key requirements must actions meet to trigger proper state updates?
-
-Actions as Payloads:
-• Actions are plain JavaScript objects that must include a type property to indicate the action type.
-• They can also include a payload containing additional data.
-
-Reducer Responsibilities:
-• Reducers listen for specific action types and return a new state based on the action provided.
-• They must be pure functions, ensuring that given the same inputs, the output is always predictable.
-
-Key Requirements for Actions:
-• Consistency: Every action should have a clearly defined type.
-• Predictability: Actions must not contain side effects; they just signal what change should occur.
-
-Interplay:
-• When an action is dispatched, all reducers receive it; each determines if and how the state should change, resulting in a coherent state update.
+[3. How does Redux ensure predictable state management in complex applications?](../Questions.md#redux-concept-3)
 
 ----
 
@@ -424,45 +390,11 @@ const mapDispatchToProps = (
 
 ### Questions
 
-1. How does Redux middleware enable asynchronous actions, and what is the role of Redux Thunk in this process?
+[1. How does Redux handle asynchronous actions using middleware such as redux-thunk?](../Questions.md#redux-async-1)
 
-Middleware Role:
-• Middleware intercepts every action before it reaches the reducer.
-• It allows you to perform side effects (e.g., API calls, logging) outside of reducers.
-• Middleware can modify, delay, or cancel actions if needed.
+[2. What are the advantages and trade-offs of using redux-thunk compared to redux-saga?](../Questions.md#redux-async-2)
 
-Redux Thunk:
-• Redux Thunk is a specific middleware that lets action creators return functions (thunks) instead of plain action objects.
-• Thunks receive dispatch (and optionally getState), enabling asynchronous operations.
-• After async work is completed (such as waiting for an API response), thunks can dispatch new actions to update the state.
-
-Overall Benefit:
-• This pattern bridges the gap between Redux’s synchronous data flow and the asynchronous nature of real-world operations.
-
-2. Explain the advantages and potential pitfalls of using Redux Thunk for handling asynchronous logic in a Redux application.
-
-Advantages:
-• Simplicity: Thunks allow writing async action creators in a familiar function format.
-• Flexibility: You have direct access to dispatch and getState, enabling complex conditional logic.
-• Integration: Thunks easily integrate with existing Redux data flow without additional libraries.
-
-Potential Pitfalls:
-• Overuse: Relying too heavily on thunks can lead to bloated action creators with mixed logic.
-• Testing Complexity: Debugging and testing functions that contain asynchronous code may become more challenging.
-• Readability: Complex async flows inside thunks can reduce code clarity if not well organized.
-
-3. Describe how middleware in Redux intercepts actions and handles asynchronous operations. What problem does middleware solve in Redux applications?
-
-Middleware Role:
-• Middleware functions intercept actions before they reach the reducers, allowing for pre-processing or side-effect management.
-
-Handling Asynchronous Actions:
-• Middleware, such as Redux Thunk, allows action creators to return functions (thunks) instead of plain objects.
-• These functions can perform async operations (like API calls) and then dispatch further actions based on promise resolutions.
-
-Problems Solved:
-• It enables asynchronous workflows in a synchronous Redux data flow.
-• Middleware also supports logging, error handling, and transformation of actions, enhancing overall flexibility and debugging capabilities.
+[3. Can you walk through the flow of dispatching an async action and how Redux processes it using middleware?](../Questions.md#redux-async-3)
 
 ## Redux Middleware
 

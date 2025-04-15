@@ -2,40 +2,15 @@
 
 ### Questions
 
-1. How does Redux Toolkit's `configureStore()` simplify store setup compared to Redux’s traditional createStore()?
+[1. How does Redux Toolkit's `configureStore()` simplify store setup compared to Redux’s traditional createStore()?](../Questions.md#redux-toolkit-1)
 
-- It automatically sets up Redux DevTools for easier debugging.
-- It includes commonly used middleware (e.g., redux-thunk) by default, reducing manual configuration.
-- It accepts a single configuration object (e.g., the reducer), which cuts down on boilerplate code.
-- It standardizes middleware integration and enhances overall developer experience.
+[2. What are the advantages of using `createReducer()` over writing reducers manually, and how does it leverage Immer?](../Questions.md#redux-toolkit-2)
 
-2. What are the advantages of using `createReducer()` over writing reducers manually, and how does it leverage Immer?
+[3. How does `createAction()` simplify the process of action creation, and what is the significance of its `toString()` method?](../Questions.md#redux-toolkit-3)
 
-- It allows writing code that appears mutative while ensuring state immutability under the hood.
-- It simplifies reducer logic by eliminating explicit switch-case statements.
-- Immer is used internally to track changes and produce immutable updates automatically.
-- This leads to more concise, easier-to-read, and maintainable reducer functions.
+[4. Explain the purpose of `createSlice()` in Redux Toolkit. What key properties does it provide, and how does it integrate actions and reducers?](../Questions.md#redux-toolkit-4)
 
-3. How does `createAction()` simplify the process of action creation, and what is the significance of its `toString()` method?
-
-- It creates action creator functions that automatically include the specified action type.
-- It removes the need for manually defining and managing action type constants.
-- The `toString()` method returns the action type, which can be used in reducers for matching actions.
-- This improves consistency and simplifies debugging across your Redux code.
-
-4. Explain the purpose of `createSlice()` in Redux Toolkit. What key properties does it provide, and how does it integrate actions and reducers?
-
-- It combines related action creators and reducers into a single slice object.
-- Returns a reducer function for the slice, an object with auto-generated action creators, and case reducers.
-- Supports “prepare” functions to customize how action payloads are formed.
-- This integration reduces boilerplate by consolidating action type definitions, action creators, and reducer logic in one place.
-
-5. How does Redux Toolkit address the traditional pain points of Redux, such as complex store configuration, multiple packages, and boilerplate code?
-
-- It streamlines store setup with configureStore(), requiring less manual configuration and fewer external packages.
-- It reduces boilerplate by combining actions and reducers through createSlice().
-- It provides built-in support for middleware like redux-thunk, avoiding the need for additional setup.
-- Overall, RTK presents an opinionated and simplified API that encourages best practices while improving developer productivity.
+[5. How does Redux Toolkit address the traditional pain points of Redux, such as complex store configuration, multiple packages, and boilerplate code?](../Questions.md#redux-toolkit-5)
 
 ## Concept
 
