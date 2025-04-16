@@ -97,6 +97,95 @@
  
 # 3. Strategies for Team Collaboration and Mentorship
 
+### Questions
+
+[1. How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?](./Lead_Questions.md#team-collaboration-1)
+
+[2. Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?](./Lead_Questions.md#team-collaboration-2)
+
+[3. Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?](./Lead_Questions.md#team-collaboration-3)
+
+## Team Collaboration
+
+### Objective:
+
+- Build a team that is as close as friends as they are colleagues so that everyone feels comfortable working together.
+- Enable better management by understanding each member’s personality and emotions.
+
+### Collaborative Practices:
+
+- Use a Scrum framework with regular sprint meetings (daily stand-ups, sprint planning, reviews) to structure our teamwork.
+- Organize fun team-building activities, such as weekly snack gatherings, outings for meals, and occasional weekend trips.
+- Establish flexible team guidelines that help everyone adapt effectively while ensuring a shared vision when facing challenges.
+
+### Documentation for Collaboration:
+
+- Encourage every team member to record key decisions and changes in our projects, creating a documented trail that can be reviewed later if needed.
+
+## Communication Between Team and Outside
+
+### Clear Role Definition:
+
+- When communicating with other departments or customers, clearly outline and confirm the responsibilities of each party so that we all move toward the product’s common goals.
+
+### Assumption Management:
+
+- If any issues arise where I am unsure about the details before a handover, I proactively document my assumptions and later confirm them with the relevant parties.
+
+### Dedicated Information Channels:
+
+- Create separate Q&A pages for each major development phase (each version) and for interactions with different stakeholder groups. This ensures the team’s activities are visible and traceable.
+
+### Encouraged Transparency:
+
+- Promote communication with external parties—through documented comments and shared pages—to maintain a clear record of updates and decisions for future reference.
+
+## Mentorship
+
+### Knowledge Sharing:
+
+- Organize team presentations where I share new experiences and technical knowledge to benefit everyone’s professional growth.
+
+### Constructive Code Reviews:
+
+- Provide not only a logic check but also detailed feedback during pull request reviews, suggesting improvements in coding style and approach.
+
+### One-on-One Coaching:
+
+- Conduct mentoring sessions tailored to individual needs, offering guidance on career development and technical skills.
+
+### Culture of Continuous Improvement:
+
+- Build a culture where less experienced team members are encouraged to enhance their professionalism and where everyone supports each other through regular feedback and collaborative problem solving.
+
+### Encouraging Team Participation:
+
+- Lead by example, making it clear that everyone’s input is valued, and ensure that team members see mentorship as a pathway for both personal and collective success.
+
 # 4. Client Engagement and Presale Leadership
+
+### Questions:
+
+[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Lead_Questions.md#client-presale-1)
+
+[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Lead_Questions.md#client-presale-2)
+
+
+## Client Engagement
+
+- Build long-term relationships by thoroughly understanding the client's business context and pain points to design user-friendly solutions that truly address their needs.
+- Proactively research both the documentation provided by the client and external industry insights to propose effective, tailored solutions.
+- Communicate clearly and decisively by organizing internal brainstorming meetings as soon as a new client request or requirement arises.
+- Filter and prioritize client information during these sessions to prepare focused, valuable discussion points before engaging with the client.
+- Ensure effective communication by being mindful of client culture—especially for international clients—avoiding sensitive language and reserved humor to maintain professionalism.
+
+## Presale Process
+
+- Leverage standardized project data and shared resources that can be applied across multiple projects to define tasks accurately.
+- Analyze the client’s business needs and ideas in detail to generate effective, well-thought-out proposals.
+- Identify any unresolved issues within the initial client concept, confirm uncertainties with the client, and offer additional solution recommendations.
+- Balance the client’s requirements with your organization’s capabilities, ensuring that proposals are realistic and mutually beneficial.
+- Document all assumptions, decisions, and Q&A in dedicated pages for each development phase or version, enabling easy reference and clear evidence for future discussions.
+- Encourage team members to document their communications and comments with the client, ensuring a transparent trail of information and decisions.
 
 # 5. Impact, Innovation, and Outcomes
