@@ -53,14 +53,63 @@
 
 # Functional Requirement
 
+- Describe a specific part of functions of product
+    - Functional requirement = Feature
+    - Functional refinement is not applyed to ENTIRE product.
+
 ## User story
 
-### User Journey
+### Concept
 
-- Hành trình của 1 end user thực hiện các steps trên ứng dụng
+- A user story or just story is basically the smallest unit of work
+- From the client perspective user stories define project or business functions, and delivered in a particular sprint. {Q1}
+- Represent a software function that is to be developed.
+- Is a sub feature or a situation of a Epic.
+- Explained from perspective of user with 3C (3 step process) {Q2}
 
-1. Xác định mục tiêu chính
-1. Xác định End User
+1. Card
+    - Description of User Story (main idea)
+    - Not clean features ⇒ free adapt
+2. Conversation
+    - **`Card`** = brief ⇒ **`Point`** = reminder ⇒ **`What to done`**
+        - No need detail specification.
+        ⇒ Need everyone have same understand
+3. Confirmation
+    - Acceptance Criteria
+
+### Template
+
+- As a/an `type of user`, I want `some goal`, so that `some reason`
+    - As a `manager`, I would like to `learn about JIRA` so that `I can use it to manage project susing agile workflows`
+- Background information
+    - Reason for User Story - Background of stakeholder
+- Acceptance Criteria
+    - List of items needed for this story
+
+### Acceptance Criteria
+
+- Test acceptance
+- List of items needed for this story
+- Acceptance Criteria is for >= 1 function only
+- Describe when an item is completed
+    - Create by `Product Owner`
+    - Commitment for PBI (a part of it also)
+- Release PBI only when it meets "Acceptance Criteria" & "Definition of Done"
+
+### Process
+
+1. `Product Owner` define 1 Product Backlog Item as User Story
+2. `Product Owner` discuss it with `Scrum Team`
+    - Make sense the order
+    - Get an estimate (sizing)
+        -  Estimate (sizing) = a guess effort necessary ⇒ given task
+        - ⚠️ NOT commitment || NOT promise => Uncertainty
+    - Use `Product Backlog Refinement`
+3. Use “planning poker” technique ⇒ explain why & discuss
+    - ⚠️ “Planning poker” point = relative sizing
+        - NOT absolute meaning
+    - Just point of User Story
+        - Complex point
 
 ### User story statement
 
@@ -74,10 +123,6 @@ As a [Who],
 I want to [What], 
 So that I can [Why].
 ```
-
-### Epic
-
-- Group của User stories
 
 ### Use case detail
 
@@ -108,6 +153,39 @@ II. Acceptance Criteria
     - Bước cuối
 3. Then
     - Kết quả
+
+## Epic
+
+- Epic is large work wanted to do = group PBIs
+    - Significant (Đáng kể) in size
+    - Doesn't fit in a sprint
+- Epic is Specific feature = can't done 1 print => need few sprints {Q3}
+    - Break into many User Story
+- ⚠️ Epic not in Product Backlog
+    - Group của User stories
+    - A big software feature in the product backlog is known as epic.
+    - Larger body of work
+- 💡 A work is hard to be completed in a sprint - a given iteration.
+    - It usually gets broken into multiple user stories.
+    - Epics are sub-divided into stories ⇒ `Story = sub-epic`
+
+### User Journey
+
+- Hành trình của 1 end user thực hiện các steps trên ứng dụng
+
+1. Xác định mục tiêu chính
+1. Xác định End User
+
+# Non-functional Requirement
+
+- Non-functional Requirement above Feature of Product
+    - Secure
+    - Responsive
+    - Performance
+    - User experience
+- Non-functional Requirement can be written in `User Story` with specific acceptance criteria.
+- Non-functional Requirement is used to define `Definition of Done`
+- Non-functional Requirements have many technical aspects.
 
 # High-level Design
 
@@ -165,7 +243,7 @@ II. Acceptance Criteria
 1. List service cần thiết
 2. List các API tương ứng với mỗi UC từ service
 
-![UseCaseToService](/UseCaseToService.png)
+![UseCaseToService](./image/UseCaseToService.png)
 
 ## 4. Class UML Diagram
 

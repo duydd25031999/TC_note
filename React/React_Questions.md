@@ -164,14 +164,14 @@ useEffect(() => {
 **Q:** What is the primary difference between state and props in React?
 
 State:
-• Managed locally within a component.
-• Mutable and can be updated over time.
-• Used to store data that affects the component's behavior and rendering.
+- Managed locally within a component.
+- Mutable and can be updated over time.
+- Used to store data that affects the component's behavior and rendering.
 
 Props:
-• Passed into a component from a parent.
-• Immutable within the component (read-only).
-• Used to share data and configuration across components.
+- Passed into a component from a parent.
+- Immutable within the component (read-only).
+- Used to share data and configuration across components.
 
 ---
 
@@ -220,16 +220,16 @@ Props:
 **Q:** Compare between "Lazy initial state" and useMemo to transform a prop value into a new variable
 
 Lazy Initial State (useState with a function):
-• The initialization function is executed only once during the first render.
-• It is ideal for performing a one-time, expensive computation that sets up initial state.
-• Once the state is set, changes to the prop do not trigger a re-computation of that state value.
-• It is mainly used when you need to compute an initial state value and the result remains constant or changes through state updates (e.g., via setState).
+- The initialization function is executed only once during the first render.
+- It is ideal for performing a one-time, expensive computation that sets up initial state.
+- Once the state is set, changes to the prop do not trigger a re-computation of that state value.
+- It is mainly used when you need to compute an initial state value and the result remains constant or changes through state updates (e.g., via setState).
 
 useMemo:
-• It computes a value on every render only when its dependencies change.
-• It is used to memoize an expensive computation that depends on the current prop value.
-• When transforming a prop value, useMemo updates the computed value if the prop changes, avoiding recalculations if the prop is unchanged.
-• It keeps the value up-to-date in response to changes while still optimizing performance by caching the result.
+- It computes a value on every render only when its dependencies change.
+- It is used to memoize an expensive computation that depends on the current prop value.
+- When transforming a prop value, useMemo updates the computed value if the prop changes, avoiding recalculations if the prop is unchanged.
+- It keeps the value up-to-date in response to changes while still optimizing performance by caching the result.
 
 ## useEffect
 
@@ -334,20 +334,20 @@ useMemo:
 **Q:** How can you implement dependency injection in React?
 
 Create a Dependency Context:
-• Use React.createContext() to create a context that will hold your dependencies (for example, API clients, configuration objects, or services).
+- Use React.createContext() to create a context that will hold your dependencies (for example, API clients, configuration objects, or services).
 
 Wrap Your Component Tree with a Provider:
-• In your main application or in a specific component tree, wrap the children with the context’s Provider.
-• Pass the dependencies as the value to the Provider.
+- In your main application or in a specific component tree, wrap the children with the context’s Provider.
+- Pass the dependencies as the value to the Provider.
 
 Consume Dependencies with useContext:
-• In any child component that requires one or more of the injected dependencies, call const dependencies = useContext(DependencyContext).
-• This retrieves the dependency values provided, allowing the component to use them without needing to pass props through each level.
+- In any child component that requires one or more of the injected dependencies, call const dependencies = useContext(DependencyContext).
+- This retrieves the dependency values provided, allowing the component to use them without needing to pass props through each level.
 
 Benefits:
-• This approach decouples components from the specifics of their dependencies, making it easier to swap them out during testing or for different environments.
-• It avoids prop drilling and keeps your component tree clean and maintainable.
-• It promotes better modularity, as components focus on their own logic rather than managing dependency passing.
+- This approach decouples components from the specifics of their dependencies, making it easier to swap them out during testing or for different environments.
+- It avoids prop drilling and keeps your component tree clean and maintainable.
+- It promotes better modularity, as components focus on their own logic rather than managing dependency passing.
 
 # React Component
 
@@ -390,20 +390,20 @@ Benefits:
 **Q:** Compare and contrast presentational and container components in a React application. What are the benefits of this separation, and what issues might arise in complex projects?
 
 Presentational Components:
-• Focus solely on rendering UI and styling.
-• Receive data and callbacks via props with minimal or no internal logic.
+- Focus solely on rendering UI and styling.
+- Receive data and callbacks via props with minimal or no internal logic.
 
 Container Components:
-• Handle business logic, state management, and data fetching.
-• Pass necessary data to presentational components as props.
+- Handle business logic, state management, and data fetching.
+- Pass necessary data to presentational components as props.
 
 Benefits:
-• Separation of concerns enhances reusability, testability, and maintainability.
-• Clear distinction makes it easier to isolate UI from logic.
+- Separation of concerns enhances reusability, testability, and maintainability.
+- Clear distinction makes it easier to isolate UI from logic.
 
 Potential Issues:
-• Over-separation may lead to excessive nesting and increased complexity in data flow.
-• Prop drilling can occur if data must be passed through many layers.
+- Over-separation may lead to excessive nesting and increased complexity in data flow.
+- Prop drilling can occur if data must be passed through many layers.
 
 ---
 
@@ -412,17 +412,17 @@ Potential Issues:
 **Q:** How do container components manage state and business logic differently from presentational components, and what pitfalls might you encounter if one pattern is overused?
 
 Container Components:
-• Manage state changes, side effects, and communicate with APIs or Redux.
-• Encapsulate logic that drives the behavior of presentational components.
+- Manage state changes, side effects, and communicate with APIs or Redux.
+- Encapsulate logic that drives the behavior of presentational components.
 
 Presentational Components:
-• Remain stateless (or only manage UI-related state) and focus on rendering.
-• Depend on props for data, reducing internal complexity.
+- Remain stateless (or only manage UI-related state) and focus on rendering.
+- Depend on props for data, reducing internal complexity.
 
 Pitfalls:
-• Overloading container components can make them hard to maintain and debug.
-• Mixing logic in presentational components reduces their reusability and clarity.
-• An imbalance may lead to convoluted state management or redundant code.
+- Overloading container components can make them hard to maintain and debug.
+- Mixing logic in presentational components reduces their reusability and clarity.
+- An imbalance may lead to convoluted state management or redundant code.
 
 ---
 
@@ -433,14 +433,14 @@ Pitfalls:
 **Q:** Discuss the role of React Fragments in optimizing the UI of presentational components. What advantages do they offer compared to traditional DOM wrappers, and what considerations should be kept in mind?
 
 Role and Advantages:
-• Fragments let components return multiple children without adding an extra DOM node.
-• They result in cleaner markup and prevent unnecessary DOM nesting.
-• This can improve performance and reduce styling issues often caused by extra wrapper elements.
+- Fragments let components return multiple children without adding an extra DOM node.
+- They result in cleaner markup and prevent unnecessary DOM nesting.
+- This can improve performance and reduce styling issues often caused by extra wrapper elements.
 
 Considerations:
-• Fragments do not support props (except for keys when using the explicit <Fragment key={...}> syntax).
-• In some cases, a single container element might be required for CSS layouts or event handling.
-• Misuse of fragments can lead to unexpected behavior if layout expectations rely on a specific DOM structure.
+- Fragments do not support props (except for keys when using the explicit <Fragment key={...}> syntax).
+- In some cases, a single container element might be required for CSS layouts or event handling.
+- Misuse of fragments can lead to unexpected behavior if layout expectations rely on a specific DOM structure.
 
 
 ---
@@ -452,14 +452,14 @@ Considerations:
 **Q:** What are the key differences between controlled and uncontrolled components in React, and what are the benefits and trade-offs of each approach?
 
 Controlled Components:
-• Form data is stored in React state and updated via onChange events.
-• Provides tight control over form behavior, making validation and dynamic updates easier.
-• Can lead to more code complexity and potentially slower performance for large or complex forms.
+- Form data is stored in React state and updated via onChange events.
+- Provides tight control over form behavior, making validation and dynamic updates easier.
+- Can lead to more code complexity and potentially slower performance for large or complex forms.
 
 Uncontrolled Components:
-• Form data is managed by the DOM, typically accessed via refs.
-• Simpler to implement for basic use cases and can be more performant when immediate state tracking isn’t required.
-• Harder to implement real-time validation and synchronization with the rest of the application state.
+- Form data is managed by the DOM, typically accessed via refs.
+- Simpler to implement for basic use cases and can be more performant when immediate state tracking isn’t required.
+- Harder to implement real-time validation and synchronization with the rest of the application state.
 
 ---
 
@@ -468,16 +468,16 @@ Uncontrolled Components:
 **Q:** How do you decide whether to use controlled or uncontrolled components in a real-world application, and what factors influence this decision?
 
 Nature of the Form:
-• Use controlled components when form inputs require immediate validation or dynamic interaction with other parts of the application.
-• Consider uncontrolled components for simple or less interactive forms where complex validation isn’t critical.
+- Use controlled components when form inputs require immediate validation or dynamic interaction with other parts of the application.
+- Consider uncontrolled components for simple or less interactive forms where complex validation isn’t critical.
 
 Performance Considerations:
-• Controlled components update state on every keystroke, which might impact performance in highly dynamic or large forms.
-• Uncontrolled components keep state in the DOM, reducing the number of state updates and potential re-renders.
+- Controlled components update state on every keystroke, which might impact performance in highly dynamic or large forms.
+- Uncontrolled components keep state in the DOM, reducing the number of state updates and potential re-renders.
 
 Code Maintenance and Consistency:
-• Controlled components promote a single source of truth (React state), resulting in predictable data flows.
-• Uncontrolled components can reduce boilerplate in simpler scenarios but may diverge from React’s unidirectional data flow pattern.
+- Controlled components promote a single source of truth (React state), resulting in predictable data flows.
+- Uncontrolled components can reduce boilerplate in simpler scenarios but may diverge from React’s unidirectional data flow pattern.
 
 ---
 
@@ -486,14 +486,14 @@ Code Maintenance and Consistency:
 **Q:** Explain how to implement an uncontrolled form component in React using refs, and discuss the limitations of this approach.
 
 Implementation Using Refs:
-• Create a ref using const inputRef = useRef(null).
-• Attach the ref to the desired input element via the ref prop (e.g., `<input ref={inputRef} defaultValue="initial value" />`).
-• Access the input’s current value using inputRef.current.value when needed (for example, on form submit).
+- Create a ref using const inputRef = useRef(null).
+- Attach the ref to the desired input element via the ref prop (e.g., `<input ref={inputRef} defaultValue="initial value" />`).
+- Access the input’s current value using inputRef.current.value when needed (for example, on form submit).
 
 Limitations:
-• Data is not managed by React state, making real-time validation or dynamic UI updates more challenging.
-• May lead to less predictable behavior since it relies on direct DOM manipulation, which can break the unidirectional data flow of React.
-• Harder to integrate with other state-driven parts of the application, potentially resulting in inconsistent form behavior.
+- Data is not managed by React state, making real-time validation or dynamic UI updates more challenging.
+- May lead to less predictable behavior since it relies on direct DOM manipulation, which can break the unidirectional data flow of React.
+- Harder to integrate with other state-driven parts of the application, potentially resulting in inconsistent form behavior.
 
 ---
 
@@ -504,17 +504,17 @@ Limitations:
 **Q:** How do you ensure proper validation and type safety of props in a large-scale functional React application, and what are the limitations of using PropTypes compared to solutions like TypeScript?
 
 Using PropTypes:
-• Import the "prop-types" package and assign a propTypes object to your component.
-• Validate the expected type and structure of each prop at runtime.
+- Import the "prop-types" package and assign a propTypes object to your component.
+- Validate the expected type and structure of each prop at runtime.
 
 Limitations:
-• Runtime checking only; errors aren’t caught during compilation.
-• Warnings appear in development but are stripped in production builds.
+- Runtime checking only; errors aren’t caught during compilation.
+- Warnings appear in development but are stripped in production builds.
 
 Comparison with TypeScript:
-• TypeScript provides static type-checking during development.
-• It catches type mismatches at compile-time, improving robustness.
-• However, TypeScript requires additional setup and learning curve.
+- TypeScript provides static type-checking during development.
+- It catches type mismatches at compile-time, improving robustness.
+- However, TypeScript requires additional setup and learning curve.
 
 ---
 
@@ -523,13 +523,13 @@ Comparison with TypeScript:
 **Q:** How can functional components effectively access and utilize props.children for dynamic content rendering, and what potential pitfalls should be considered?
 
 Effective Usage:
-• Use props.children to render nested elements or pass functions as children for dynamic UIs.
-• Leverage React.Children utilities to safely iterate and manipulate children elements.
+- Use props.children to render nested elements or pass functions as children for dynamic UIs.
+- Leverage React.Children utilities to safely iterate and manipulate children elements.
 
 Pitfalls:
-• Managing single versus multiple children can lead to unexpected behaviors.
-• Forgetting to assign unique keys to children in lists may result in reconciliation issues.
-• Over-reliance on children can complicate component APIs if not well documented.
+- Managing single versus multiple children can lead to unexpected behaviors.
+- Forgetting to assign unique keys to children in lists may result in reconciliation issues.
+- Over-reliance on children can complicate component APIs if not well documented.
 
 ---
 
@@ -538,16 +538,16 @@ Pitfalls:
 **Q:** How do you optimize functional components with props to prevent unnecessary re-renders, particularly when passing functions or objects as props, and what strategies can be employed?
 
 Identify Re-render Triggers:
-• Passing new functions or object literals on every render can trigger re-renders due to changed references.
+- Passing new functions or object literals on every render can trigger re-renders due to changed references.
 
 Optimization Strategies:
-• Use React.memo to memoize the component and avoid re-rendering when props remain the same.
-• Apply useCallback to memoize functions passed as props.
-• Utilize useMemo to cache object values, ensuring referential stability.
+- Use React.memo to memoize the component and avoid re-rendering when props remain the same.
+- Apply useCallback to memoize functions passed as props.
+- Utilize useMemo to cache object values, ensuring referential stability.
 
 Best Practices:
-• Carefully structure prop dependencies to minimize changes.
-• Profile the component’s performance to identify and address frequent re-renders.
+- Carefully structure prop dependencies to minimize changes.
+- Profile the component’s performance to identify and address frequent re-renders.
 
 ---
 
@@ -556,19 +556,19 @@ Best Practices:
 **Q:** How do you handle complex prop structures in functional components to ensure type safety and maintainability?
 
 Prop Validation:
-• Use PropTypes to define the expected shape and types of complex props, ensuring runtime validation during development.
-• For example, specifying shapes with PropTypes.shape({ key: PropTypes.string }) helps document the structure.
+- Use PropTypes to define the expected shape and types of complex props, ensuring runtime validation during development.
+- For example, specifying shapes with PropTypes.shape({ key: PropTypes.string }) helps document the structure.
 
 Static Typing with TypeScript:
-• Define interfaces or type aliases to enforce the prop structure at compile-time, improving code safety and readability.
-• This also helps IDEs provide better autocompletion and error detection.
+- Define interfaces or type aliases to enforce the prop structure at compile-time, improving code safety and readability.
+- This also helps IDEs provide better autocompletion and error detection.
 
 Destructuring and Default Values:
-• Destructure nested props within the component to access only the required data, and provide default values where applicable.
-• This reduces clutter and makes the component logic more focused on the necessary details.
+- Destructure nested props within the component to access only the required data, and provide default values where applicable.
+- This reduces clutter and makes the component logic more focused on the necessary details.
 
 Maintainability:
-• Clear definitions of prop shapes help other developers understand the component API, reducing bugs and making future refactoring easier.
+- Clear definitions of prop shapes help other developers understand the component API, reducing bugs and making future refactoring easier.
 
 # Redux Basic
 
@@ -579,12 +579,23 @@ Maintainability:
 **Q:** What is Redux and what problem does it solve?
 
 Single Source of Truth:
-• Redux uses one central store that holds the entire state of the application.
-• This centralization makes it easier to track state changes over time and simplifies debugging.
+- Redux uses one central store that holds the entire state of the application.
+- This centralization makes it easier to track state changes over time and simplifies debugging.
 
 Predictable Data Flow:
-• With a unidirectional flow (action → reducer → state update), state mutations are predictable.
-• It prevents side effects by enforcing state changes only via dispatched actions.
+- With a unidirectional flow (action → reducer → state update), state mutations are predictable.
+- It prevents side effects by enforcing state changes only via dispatched actions.
+
+---
+- What is Redux?:
+  - Single Source of Truth: 1 nguồn chính duy nhất
+  - 1 store holds entire state: 1 store lưu tất cả state
+  - Easier to track state changes: Dễ dàng theo dõi thay đổi của state
+- What problem does it solve?
+  - Predictable Data Flow: Luồng dữ liệu có thể đoán trước
+  - Unidirectional flow: luồng 1 chiều, luồng không đổi hướng
+  - State mutations are predictable: sự thay đổi của state có thể đoán được
+  - State changes only via dispatched actions: State thay đổi chỉ có thể qua dispatched actions
 
 ---
 
@@ -593,15 +604,29 @@ Predictable Data Flow:
 **Q:** What are the three core principles of Redux and how do they improve application architecture?
 
 State Immutability:
-• Redux expects state to be read-only; changes are made by returning a new state object.
-• Immutability ensures that previous states remain unmodified, allowing reliable state snapshots and time travel debugging.
+- Redux expects state to be read-only; changes are made by returning a new state object.
+- Immutability ensures that previous states remain unmodified, allowing reliable state snapshots and time travel debugging.
 
 Pure Functions in Reducers:
-• Reducers must be pure functions that depend only on their input (current state and action) and produce new state without side effects.
-• This guarantees that state transitions are predictable and testable.
+- Reducers must be pure functions that depend only on their input (current state and action) and produce new state without side effects.
+- This guarantees that state transitions are predictable and testable.
 
 Overall Impact:
-• These principles lead to consistent application behavior, simplify debugging, and enable performance optimizations such as shallow comparison for update detection.
+- These principles lead to consistent application behavior, simplify debugging, and enable performance optimizations such as shallow comparison for update detection.
+
+---
+
+3 core principles of Redux: 3 quy tắc cốt lõi của Redux
+1. State Immutability: state bất định
+  - State is read-only: State chỉ có thể đọc
+  - Changes = returning a new state object: Thay đổi là tạo ra state object mới
+  - Immutability allows snapshots and debugging: Sự bất định giúp so sánh và debug
+2. Pure Functions: Hàm thuần túy
+  - Reducers produce new state without side effects: Tạo state mới mà không có side effect
+  - State transitions are predictable and testable: Dễ đoán và dễ test thay đổi của state
+3. Overall Impact: Ảnh hưởng chung
+  - simplify debugging: debug đơn giản
+  - shallow comparison for update detection: So sánh nổi để phát hiện thay đổi
 
 ---
 
@@ -610,19 +635,28 @@ Overall Impact:
 **Q:** How does Redux ensure predictable state management in complex applications?
 
 Actions as Payloads:
-• Actions are plain JavaScript objects that must include a type property to indicate the action type.
-• They can also include a payload containing additional data.
+- Actions are plain JavaScript objects that must include a type property to indicate the action type.
+- They can also include a payload containing additional data.
 
 Reducer Responsibilities:
-• Reducers listen for specific action types and return a new state based on the action provided.
-• They must be pure functions, ensuring that given the same inputs, the output is always predictable.
+- Reducers listen for specific action types and return a new state based on the action provided.
+- They must be pure functions, ensuring that given the same inputs, the output is always predictable.
 
 Key Requirements for Actions:
-• Consistency: Every action should have a clearly defined type.
-• Predictability: Actions must not contain side effects; they just signal what change should occur.
+- Consistency: Every action should have a clearly defined type.
+- Predictability: Actions must not contain side effects; they just signal what change should occur.
 
 Interplay:
-• When an action is dispatched, all reducers receive it; each determines if and how the state should change, resulting in a coherent state update.
+- When an action is dispatched, all reducers receive it; each determines if and how the state should change, resulting in a coherent state update.
+
+---
+
+- Predictable state management in complex applications: Quản lý state có thể đoán được trong các ứng dụng phức tạp
+- Actions as Payloads: objects must include properties and action type: Action là payload có loại và dữ liệu riêng
+- Reducer Responsibilities: Same inputs, output is always predictable: Có chung 1 mẫu đầu vào và đoán được đầu ra
+- Consistency: action has a clearly defined type: Tính kiên định
+- Predictability: signal what change occur: Tính có thể dự đoán
+- Interplay: all reducers receive dispatched action: Sự ảnh hưởng lẫn nhau
 
 ---
 
@@ -633,12 +667,12 @@ Interplay:
 **Q:** How does Redux handle asynchronous actions using middleware such as redux-thunk?
 
 Redux Thunk:
-• Redux Thunk is a specific middleware that lets action creators return functions (thunks) instead of plain action objects.
-• Thunks receive dispatch (and optionally getState), enabling asynchronous operations.
-• After async work is completed (such as waiting for an API response), thunks can dispatch new actions to update the state.
+- Redux Thunk is a specific middleware that lets action creators return functions (thunks) instead of plain action objects.
+- Thunks receive dispatch (and optionally getState), enabling asynchronous operations.
+- After async work is completed (such as waiting for an API response), thunks can dispatch new actions to update the state.
 
 Overall Benefit:
-• This pattern bridges the gap between Redux’s synchronous data flow and the asynchronous nature of real-world operations.
+- This pattern bridges the gap between Redux’s synchronous data flow and the asynchronous nature of real-world operations.
 
 ---
 
@@ -647,14 +681,14 @@ Overall Benefit:
 **Q:** What are the advantages and trade-offs of using redux-thunk compared to redux-saga?
 
 Advantages:
-• Simplicity: Thunks allow writing async action creators in a familiar function format.
-• Flexibility: You have direct access to dispatch and getState, enabling complex conditional logic.
-• Integration: Thunks easily integrate with existing Redux data flow without additional libraries.
+- Simplicity: Thunks allow writing async action creators in a familiar function format.
+- Flexibility: You have direct access to dispatch and getState, enabling complex conditional logic.
+- Integration: Thunks easily integrate with existing Redux data flow without additional libraries.
 
 Potential Pitfalls:
-• Overuse: Relying too heavily on thunks can lead to bloated action creators with mixed logic.
-• Testing Complexity: Debugging and testing functions that contain asynchronous code may become more challenging.
-• Readability: Complex async flows inside thunks can reduce code clarity if not well organized.
+- Overuse: Relying too heavily on thunks can lead to bloated action creators with mixed logic.
+- Testing Complexity: Debugging and testing functions that contain asynchronous code may become more challenging.
+- Readability: Complex async flows inside thunks can reduce code clarity if not well organized.
 
 ---
 
@@ -663,15 +697,15 @@ Potential Pitfalls:
 **Q:** Can you walk through the flow of dispatching an async action and how Redux processes it using middleware?
 
 Middleware Role:
-• Middleware functions intercept actions before they reach the reducers, allowing for pre-processing or side-effect management.
+- Middleware functions intercept actions before they reach the reducers, allowing for pre-processing or side-effect management.
 
 Handling Asynchronous Actions:
-• Middleware, such as Redux Thunk, allows action creators to return functions (thunks) instead of plain objects.
-• These functions can perform async operations (like API calls) and then dispatch further actions based on promise resolutions.
+- Middleware, such as Redux Thunk, allows action creators to return functions (thunks) instead of plain objects.
+- These functions can perform async operations (like API calls) and then dispatch further actions based on promise resolutions.
 
 Problems Solved:
-• It enables asynchronous workflows in a synchronous Redux data flow.
-• Middleware also supports logging, error handling, and transformation of actions, enhancing overall flexibility and debugging capabilities.
+- It enables asynchronous workflows in a synchronous Redux data flow.
+- Middleware also supports logging, error handling, and transformation of actions, enhancing overall flexibility and debugging capabilities.
 
 ## Redux Toolkit
 
