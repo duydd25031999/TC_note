@@ -1,8 +1,6 @@
-# Concept
+# Git
 
-<aside>
-💡 Git is a free and open source distributed version control system
-</aside>
+-💡 Git is a free and open source distributed version control system
 
 - Git tracks the changes of each file in a working directory.
 - It saves change history
@@ -72,19 +70,16 @@
     - The `develop` branch serves as an integration branch for features.
 - It's also convenient to tag all commits in the `main` branch with a version number.
 
-## **Feature branches**
+## Feature branche
 
 - Each new feature should reside in its own branch.
 1. `feature` branches use `develop`as their parent branch.
 2. `feature` branches are generally created off to the latest `develop` branch.
 3. When a feature is complete, it gets merged back into `develop`.
 
-<aside>
-💡 Features should never interact directly with `main`
+-💡 Features should never interact directly with `main`
 
-</aside>
-
-## **Release branches**
+## Release branches
 
 1. Fork a `release` branch off of `develop`.
     - Once `develop` has acquired enough features for a release (or a predetermined release date is approaching)
@@ -99,7 +94,7 @@
     - This loop will repeat until the release is complete to put into production
 5. `release` branch is merge to `main` branch.
 
-## **Hotfix branches**
+## Hotfix branches
 
 1. If an issue in `main` is detected a `hotfix` branch is created from `main`
 2. Once the `hotfix` is completed it is merged to both `develop` and `main`

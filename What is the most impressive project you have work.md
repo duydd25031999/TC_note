@@ -1,9 +1,5 @@
 # What is the most impressive project you have worked on?
 
-Category: Experience
-Tags: Low, Question
-Vietnamese: Dự án ấn tượng nhất mà bạn đã làm là gì ?
-
 - The last project I have worked on may the most impressive project me until now.
 - In fact, it doesn't have many big features that need a lot of technology.
 - But I had to take on many responsibilities in that project and learned a lot of thing about developing a own product.
@@ -18,8 +14,6 @@ Vietnamese: Dự án ấn tượng nhất mà bạn đã làm là gì ?
     - The company has many products, many repositories. But the design team uses the same design language, a UI Kit for the entire product. If they change even one small point in that UI Kit, it will affect a lot of products.
 
 ------------
-
-<!-- TODO: UPDATE -->
 
 - Dự án mà em ấn tượng nhất là dự án hiện tại mà em đang làm.
 - Đây là dự án làm việc cho khách hàng Hàn Quốc

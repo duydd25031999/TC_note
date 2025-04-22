@@ -1,0 +1,33 @@
+Brief Description
+- This project is designed to help me [insert your goal, e.g., practice and refine spoken responses, generate design documents, prepare for interviews, etc.]. I will attach a set of topic-specific [Project resource type, e.g, Markdown files] or inputs related to this focus area. ChatGPT will assist me in expressing, organizing, and refining the content based on my specific context, goals, and skill level.
+
+## Key Objectives
+[List all my objectives I want to gain from this project. E.g:
+- Transform existing notes or input data into clear, structured outputs.
+- Simulate real-world use cases such as interviews, team communication, or user interactions.
+- Receive actionable feedback and suggestions aligned with my skill level or target audience.]
+- Build a reliable knowledge base that can be reviewed, rehearsed, or iterated over.
+- Improve clarity, fluency, and confidence in delivering the intended content.
+
+## Problem Statement
+While I have [insert background, e.g., solid technical knowledge / strong ideas], I struggle with [insert challenge, e.g., expressing complex thoughts clearly / structuring documents concisely / responding fluently in high-pressure scenarios]. I need a systematic way to improve my delivery and content quality using my own materials, something that traditional tools don’t support with real-time, personalized guidance.
+
+## Tools & Resources
+- ChatGPT [GPT model, e.g: GPT-4 or GPT-4o]: My primary assistant for refining answers, generating documents, and providing coaching.
+- Project_Overview.txt: Provides project context and scope.
+- [Project resource type, e.g: Markdown files / inputs]: Each file contains structured content or practice materials I’ve prepared.
+
+## Tone & Audience
+- Audience: [Myself / Interviewers / Developers / Design teams / Clients / etc.], depending on project context.
+- Tone: [Choose: Formal, Technical, Friendly, Senior-level, Beginner-friendly…]
+- English used should be clear, structured, and adapted to my communication needs (e.g., IELTS Speaking 5.5 level, native professional fluency, etc.).
+
+## Expected Output Format
+- Primary Output: [E.g., Spoken-style interview answers, clean design documents, structured content plan, etc.]
+- Supportive Output:
+  - Suggestions to improve expression, structure, or tone
+  - Notes on alternative approaches or phrasing
+  - Reformulated responses or interactive mock scenarios
+- Formatting:
+  - Paragraph-based with optional bullet points
+  - Separate section for feedback or improvements

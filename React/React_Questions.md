@@ -5,6 +5,20 @@
 ### virtual-dom-1
 
 **Q:** How would you explain the concept of the Virtual DOM, and why is it a key performance optimization in React?
+
+- Vietnamese outline:
+  - Question:
+    - Virtual DOM là gì?
+    - Tại sao nó giúp React tối ưu hiệu suất?
+  - Answer:
+    - Virtual DOM là bản sao nhẹ của DOM thật
+    - Lưu trong bộ nhớ, không hiển thị trực tiếp
+    - React cập nhật Virtual DOM khi state thay đổi
+    - So sánh DOM cũ và DOM mới để tìm khác biệt
+    - Chỉ cập nhật phần thay đổi lên DOM thật
+    - Tránh thao tác DOM không cần thiết
+    - Giúp render nhanh, ứng dụng mượt hơn
+- English sample answer:
   - Virtual DOM is like a copy of real DOM that is kept in computer’s memory. 
   - When something changes in the app, React changes this copy first. 
   - Then, it compares the copy with the real web page and updates only the parts that are different. 
