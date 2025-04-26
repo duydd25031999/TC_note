@@ -320,3 +320,299 @@
   - I make sure technical constraints are clear early.
   - I document assumptions and key decisions clearly.
   - I hold regular reviews with the client to stay aligned.
+
+# Agile
+
+## Agile concept
+
+### agile-concept-1
+
+**Q:** How does the concept of "emergence" in Agile challenge traditional project planning methods?
+
+- Vietnamese outline:
+  - Question:
+    - Khái niệm "emergence" là gì trong Agile?
+    - Tại sao nó thách thức cách lập kế hoạch truyền thống?
+  - Answer:
+    - Emergence là sự xuất hiện thông tin mới qua mỗi vòng lặp
+    - Agile không yêu cầu kế hoạch cố định ngay từ đầu
+    - Scrum khuyến khích học từ thực tiễn qua từng Sprint
+    - Giảm rủi ro do thay đổi hoặc thiếu thông tin ban đầu
+    - Truyền thống muốn rõ ràng từ đầu => ít thích nghi
+- English sample answer:
+  - Emergence in Agile means new requirements or insights can appear during development.
+  - It challenges traditional planning because Agile avoids fixed plans from the start.
+  - Agile embraces learning from each iteration to adjust the product.
+  - It helps teams reduce risks caused by early wrong assumptions.
+  - Traditional methods assume full clarity upfront, but Agile adapts to reality.
+
+### agile-concept-2
+
+**Q:** How does Agile ensure product quality and flexibility without relying on detailed documentation?
+
+- Vietnamese outline:
+  - Question:
+    - Agile làm sao đảm bảo chất lượng và linh hoạt?
+    - Trong khi ít tài liệu chi tiết?
+  - Answer:
+    - Ưu tiên phần mềm hoạt động hơn tài liệu
+    - Dùng Definition of Done để đảm bảo chất lượng
+    - Kiểm thử lặp lại mỗi Sprint, tạo Increment
+    - Inspection & Adaptation giúp phát hiện vấn đề sớm
+    - Giao tiếp trực tiếp thay vì tài liệu
+- English sample answer:
+  - Agile values working software over comprehensive documentation.
+  - It uses Definition of Done to ensure quality in every increment.
+  - Iterative inspection and adaptation detect and fix problems early.
+  - Agile relies on close communication within the team.
+  - This allows flexibility and fast adjustments while keeping high standards.
+
+## Scrum concept
+
+### scrum-concept-1
+
+**Q:** Why is Scrum considered a "lightweight framework" rather than a full methodology?
+
+- Vietnamese outline:
+  - Question: Vì sao Scrum được gọi là framework nhẹ, không phải phương pháp đầy đủ?
+  - Answer:
+    - Scrum chỉ định các yếu tố cần thiết nhất
+    - Không quy định chi tiết cách thực hiện
+    - Hướng dẫn mối quan hệ và tương tác trong team
+    - Người dùng tùy chỉnh kỹ thuật theo nhu cầu thực tế
+    - Scrum dựa trên tính thích ứng và tự tổ chức
+- English sample answer:
+  - Scrum defines only the minimum required elements for managing complex work.
+  - It doesn't prescribe detailed execution steps.
+  - It guides relationships and interactions within the Scrum Team.
+  - Teams are free to adapt techniques to fit their context.
+  - Scrum emphasizes adaptability and self-management over rigid control.
+
+### scrum-concept-2
+
+**Q:** How does Scrum use iterative and incremental delivery to manage risk?
+
+- Vietnamese outline:
+  - Question: Scrum dùng cách tiếp cận lặp lại và tăng dần để quản lý rủi ro như thế nào?
+  - Answer:
+    - Chia nhỏ công việc thành các Sprint
+    - Mỗi Sprint tạo ra một Increment giá trị
+    - Phát hiện và sửa lỗi sớm qua Inspection
+    - Thích nghi kịp thời với thay đổi
+    - Giảm rủi ro khi không đầu tư quá nhiều cho 1 lần giao hàng lớn
+- English sample answer:
+  - Scrum divides work into short, time-boxed Sprints.
+  - Each Sprint delivers a usable Product Increment.
+  - Regular inspection catches problems early.
+  - Adaptation allows fast response to changes.
+  - This minimizes risks compared to large, one-time deliveries.
+
+### scrum-concept-3
+
+**Q:** What is the role of management in an organization adopting Scrum, and why is it still necessary?
+
+- Vietnamese outline:
+  - Question: Quản lý đóng vai trò gì khi tổ chức áp dụng Scrum? Tại sao vẫn cần?
+  - Answer:
+    - Quản lý định hướng tầm nhìn và mục tiêu kinh doanh
+    - Hỗ trợ Product Owner về thông tin nghiệp vụ
+    - Gỡ bỏ rào cản cho Scrum Team
+    - Không điều khiển trực tiếp công việc nhóm
+    - Cần thiết để thúc đẩy thay đổi trong tổ chức
+- English sample answer:
+  - Management sets the vision and business goals.
+  - It supports the Product Owner with business insights.
+  - It helps remove impediments blocking the Scrum Team.
+  - It does not control the team's daily work.
+  - Management is needed to drive organizational change and support Scrum adoption.
+
+### scrum-concept-4
+
+**Q:** Why is Scrum intentionally incomplete, and how does this benefit organizations using it?
+
+- Vietnamese outline:
+  - Question: Vì sao Scrum cố ý không hoàn chỉnh? Lợi ích là gì?
+  - Answer:
+    - Chỉ định các phần tối cần thiết dựa trên lý thuyết Scrum
+  - Khuyến khích nhóm tự xây dựng thêm kỹ thuật phù hợp
+  - Tăng tính thích ứng cho các môi trường phức tạp khác nhau
+  - Không gò bó vào quy trình cứng nhắc
+  - Phát huy trí tuệ tập thể của nhóm
+- English sample answer:
+  - Scrum defines only the parts essential to apply Scrum theory.
+  - It encourages teams to build fitting techniques themselves.
+  - This allows adaptation to different complex environments.
+  - It avoids rigid processes that may not suit every situation.
+  - It leverages the collective intelligence of the people using it.
+
+### scrum-concept-5
+
+**Q:** How can different practices and methods be integrated within Scrum without violating its principles?
+
+- Vietnamese outline:
+  - Question: Làm sao tích hợp nhiều kỹ thuật khác vào Scrum mà không vi phạm nguyên lý?
+  - Answer:
+    - Scrum chỉ hướng dẫn khung, không giới hạn kỹ thuật cụ thể
+    - Có thể dùng kỹ thuật khác miễn phù hợp mục tiêu Sprint
+    - Các kỹ thuật phải phục vụ cho inspect & adapt
+    - Không làm sai lệch giá trị và trụ cột của Scrum
+    - Ví dụ: kết hợp TDD, DevOps, Extreme Programming vào Sprint
+- English sample answer:
+  - Scrum provides a framework, not detailed techniques.
+  - Teams can apply any method if it supports Sprint goals.
+  - Techniques must enable inspection and adaptation.
+  - They must not undermine Scrum values or pillars.
+  - For example, teams often combine Scrum with TDD, DevOps, or XP practices.
+
+### scrum-concept-6
+
+**Q:** Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?
+
+- Vietnamese outline:
+  - Question: Vì sao Scrum Guide không yêu cầu tài liệu chi tiết? Xử lý nhu cầu tài liệu như thế nào?
+  - Answer:
+    - Scrum ưu tiên phần mềm hoạt động hơn tài liệu
+    - Tài liệu vẫn cần thiết khi phục vụ mục tiêu Sprint
+    - Tài liệu nên nhẹ, tập trung vào giá trị thực
+    - Scrum Team tự quyết định mức độ tài liệu phù hợp
+    - Tránh tài liệu dư thừa cản trở tiến độ
+- English sample answer:
+  - Scrum values working software over comprehensive documentation.
+  - Documentation is needed only if it supports the Sprint Goal.
+  - It should be lightweight and focus on real value.
+  - The Scrum Team decides the necessary level of documentation.
+  - This avoids waste and keeps development fast and adaptive.
+
+### scrum-concept-7
+
+**Q:** How does Scrum expose the relative efficacy of current management and work practices?
+
+- Vietnamese outline:
+  - Question: Scrum phơi bày hiệu quả tương đối của quản lý và kỹ thuật ra sao?
+  - Answer:
+    - Scrum yêu cầu minh bạch tiến độ và kết quả
+    - Các sự kiện như Sprint Review, Sprint Retrospective kiểm tra hiệu quả
+    - Các Artifact phản ánh thực trạng công việc
+    - Khuyết điểm hiện ra rõ qua Inspection & Adaptation
+    - Giúp tổ chức cải thiện dựa trên dữ liệu thực tế
+- English sample answer:
+  - Scrum requires transparency of progress and results.
+  - Events like Sprint Review and Retrospective inspect effectiveness.
+  - Artifacts reflect the true state of the work.
+  - Weaknesses are exposed through inspection and adaptation.
+  - Organizations can improve based on real data, not assumptions.
+
+### scrum-concept-8
+
+**Q:** What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?
+
+- Vietnamese outline:
+  - Question:
+    - Cone of Uncertainty là gì trong Scrum? 
+    - Quản lý nó thế nào?
+  - Answer:
+    - Cone mô tả mức độ không chắc chắn giảm dần theo thời gian
+  - Sprint ngắn giúp phát hiện sai lệch sớm
+  - Không cam kết dự báo dài hạn
+  - Dùng dữ liệu thực nghiệm từ các Sprint trước
+  - Chấp nhận và thích nghi với sự không chắc chắn
+- English sample answer:
+  - The Cone of Uncertainty describes how uncertainty decreases over time.
+  - Short Sprints help detect deviations early.
+  - Scrum avoids hard commitments on long-term forecasts.
+  - Teams use empirical data from previous Sprints for better planning.
+  - They accept and adapt to uncertainty rather than fighting it.
+
+# System design
+
+## Functional Requirement
+
+### functional-requirement-1
+
+**Q:** In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?
+
+- Vietnamese outline:
+  - Question: Làm sao định nghĩa User Story trong hệ thống phân tán có yêu cầu thay đổi liên tục?
+  - Answer:
+    - Xác định User Story dựa trên góc nhìn người dùng
+    - Sử dụng mô hình 3C (Card, Conversation, Confirmation)
+    - Đảm bảo mọi người hiểu đúng thông qua thảo luận nhóm
+- English sample answer:
+  - Define each User Story from the user’s perspective
+  - Apply the 3C model: Card (short description), Conversation (team discussion), Confirmation (acceptance criteria)
+  - Facilitate conversations across the distributed team to align understanding
+
+### functional-requirement-2
+
+**Q:** How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?
+
+- Vietnamese outline:
+  - Question: Làm thế nào đảm bảo Acceptance Criteria đầy đủ và linh hoạt?
+  - Answer:
+    - Định nghĩa Acceptance Criteria ngay khi viết User Story
+    - Cập nhật thường xuyên khi yêu cầu thay đổi
+    - Xác minh bằng các trường hợp kiểm thử (test cases)
+- English sample answer:
+  - Define Acceptance Criteria at the time of writing the User Story
+  - Update criteria continuously as client needs evolve
+  - Validate through well-structured test scenarios
+
+### functional-requirement-3
+
+**Q:** What challenges might occur during backlog refinement when sizing user stories, and how would you address them?
+
+- Vietnamese outline:
+  - Question: Những khó khăn khi ước lượng kích thước User Story và cách xử lý?
+  - Answer:
+    - Thiếu chi tiết dẫn đến ước lượng không chính xác
+    - Tổ chức Planning Poker để đạt đồng thuận
+    - Phân nhỏ User Story nếu quá lớn hoặc mơ hồ
+- English sample answer:
+  - Lack of details can cause inaccurate sizing
+  - Conduct Planning Poker sessions to build consensus
+  - Split large or vague user stories into smaller, manageable pieces
+
+### functional-requirement-4
+
+**Q:** When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?
+
+- Vietnamese outline:
+  - Question: Làm sao xác định độ chi tiết hợp lý cho User Story Statement?
+  - Answer:
+    - Dựa vào từng bước hành trình người dùng (User Journey)
+    - Chia tách nếu hành động quá trừu tượng hoặc phức tạp
+    - Luôn đảm bảo có Actor, Action, Purpose rõ ràng
+- English sample answer:
+  - Base the statement on each step of the User Journey
+  - Break down if an action is too abstract or involves multiple scenarios
+  - Always clearly identify Actor, Action, and Purpose
+
+### functional-requirement-5
+
+**Q:** What criteria would you use to decide when a group of user stories should be promoted into an epic?
+
+- Vietnamese outline:
+  - Question: Khi nào nên nhóm User Story thành Epic?
+  - Answer:
+    - Khi phạm vi công việc vượt quá một Sprint
+    - Khi các User Story có cùng mục tiêu lớn
+    - Khi cần quản lý nhóm chức năng phức tạp
+- English sample answer:
+  - When the scope cannot be completed within one Sprint
+  - When user stories align under a single major goal
+  - When managing a group of complex or related features
+
+### functional-requirement-6
+
+**Q:** How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?
+
+- Vietnamese outline:
+  - Question: Làm sao thiết kế User Journey để phát hiện các User Story còn thiếu?
+  - Answer:
+    - Vẽ hành trình từ mục tiêu chính đến từng bước chi tiết
+    - Xác định các điểm tương tác (touchpoints) và hành động
+    - Kiểm tra các bước thiếu để bổ sung User Story
+- English sample answer:
+  - Map the journey starting from the user’s primary goal down to each step
+  - Identify touchpoints and user actions at each phase
+  - Review and fill in missing steps with appropriate user stories

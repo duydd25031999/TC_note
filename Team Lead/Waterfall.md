@@ -1,4 +1,0 @@
-- Waterfall dùng cho những dự án mà các thành phần có liên kết chặt chẽ với nhau
-    - Ví dụ phát triển 1 phần cứng, 1 cái máy
-    - Tránh việc phải thay đổi
-    - Nếu yêu cầu rõ ràng

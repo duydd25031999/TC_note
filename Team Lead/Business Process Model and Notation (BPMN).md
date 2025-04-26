@@ -9,7 +9,7 @@
 - Nhưng không phân biệt các loại động khác (gửi/nhận thông tin) và cũng không phân biệt các kiểu rẽ nhánh
 - Dễ đọc, dễ hiểu
 
-## BPMN
+## Business Process Model and Notation (BPMN)
 
 - Áp dụng cho các quy trình phức tạp
 - Số lượng Notation phong phú
@@ -183,7 +183,7 @@ Inclusive Gateway = Exclusive Gateway + Parallel Gateway
 
 - Biểu diễn luồng thông tin giữa các Pool hoặc Lanes với nhau
 
-# BPMN Process
+## BPMN Process
 
 1. Xác định các thành phần tham gia và mức độ chi tiết từng đối tượng
 	- Pool

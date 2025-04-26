@@ -8,11 +8,11 @@
 - It helps to fix change conflicts in 1 file.
 - It groups changes to each version to release easily.
 
-## Commit 
+## Git Commit 
 
 - Commit a snapshot of all changes in the working directory.
 
-## Branch
+## Git Branch
 
 - A branch in Git is simply a lightweight movable pointer to one of these commits
 - Git branch is a branch of the commit tree
@@ -30,33 +30,29 @@
 
 # Git Command
 
-## Add
+## Git Add
 
 - Add file change into a commit
 
-## Commit
-
-- Create new commit
-
-## Fetch
+## Git Fetch
 
 - Retrieves commits, files, branches, and tags from a remote repository.
 
-## Merge
+## Git Merge
 
 - 
 
-## Pull
+## Git Pull
 
-## Push
+## Git Push
 
-## Rebase
+## Git Rebase
 
-## Cherry-pick
+## Git Cherry-pick
 
-## Reset
+## Git Reset
 
-## Stash
+## Git Stash
 
 # Gitflow
 
@@ -70,7 +66,7 @@
     - The `develop` branch serves as an integration branch for features.
 - It's also convenient to tag all commits in the `main` branch with a version number.
 
-## Feature branche
+## Feature branch
 
 - Each new feature should reside in its own branch.
 1. `feature` branches use `develop`as their parent branch.
@@ -79,7 +75,7 @@
 
 -💡 Features should never interact directly with `main`
 
-## Release branches
+## Release branch
 
 1. Fork a `release` branch off of `develop`.
     - Once `develop` has acquired enough features for a release (or a predetermined release date is approaching)
@@ -94,7 +90,7 @@
     - This loop will repeat until the release is complete to put into production
 5. `release` branch is merge to `main` branch.
 
-## Hotfix branches
+## Hotfix branch
 
 1. If an issue in `main` is detected a `hotfix` branch is created from `main`
 2. Once the `hotfix` is completed it is merged to both `develop` and `main`

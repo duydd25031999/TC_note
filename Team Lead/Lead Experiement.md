@@ -187,5 +187,3 @@
 - Balance the client’s requirements with your organization’s capabilities, ensuring that proposals are realistic and mutually beneficial.
 - Document all assumptions, decisions, and Q&A in dedicated pages for each development phase or version, enabling easy reference and clear evidence for future discussions.
 - Encourage team members to document their communications and comments with the client, ensuring a transparent trail of information and decisions.
-
-# 5. Impact, Innovation, and Outcomes

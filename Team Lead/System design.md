@@ -28,12 +28,12 @@
     - Most important feature
 2. Reduce these features to data definitions.
     1. Product requirement doc
-    2. Features/ abstract concepts
+    2. Features/abstract concepts
     3. Data definitions
     4. Object
     5. Database
 3. Endpoint
-        - API
+    - API
 
 ## Fault Tolerance
 
@@ -58,6 +58,16 @@
     - Functional refinement is not applyed to ENTIRE product.
 
 ## User story
+
+### Questions
+
+[1. In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?](./Lead_Questions.md#functional-requirement-1)
+
+[2. How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?](./Lead_Questions.md#functional-requirement-2)
+
+[3. What challenges might occur during backlog refinement when sizing user stories, and how would you address them?](./Lead_Questions.md#functional-requirement-3)
+
+[4. When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?](./Lead_Questions.md#functional-requirement-4)
 
 ### Concept
 
@@ -155,6 +165,14 @@ II. Acceptance Criteria
     - Kết quả
 
 ## Epic
+
+### Questions
+
+[1. What criteria would you use to decide when a group of user stories should be promoted into an epic?](./Lead_Questions.md#functional-requirement-5)
+
+[2. How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?](./Lead_Questions.md#functional-requirement-6)
+
+### Concept
 
 - Epic is large work wanted to do = group PBIs
     - Significant (Đáng kể) in size

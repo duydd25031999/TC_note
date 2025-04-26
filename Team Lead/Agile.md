@@ -1,5 +1,13 @@
 # Agile
 
+### Questions
+
+[1. How does the concept of "emergence" in Agile challenge traditional project planning methods?](./Lead_Questions.md#agile-concept-1)
+
+[2. How does Agile ensure product quality and flexibility without relying on detailed documentation?](./Lead_Questions.md#agile-concept-2)
+
+## Concept
+
 - Agile is a software development methodology
 - Iterative approach to development
 - Builds software incrementally from the start of the project
@@ -31,8 +39,6 @@
 
 # Kanban
 
-# Concept
-
 - Visualizing work
 - Limitig work in progress
 - Simple to implement
@@ -42,7 +48,7 @@
 - Can combine Scrum & Kanban
 - Common workflow for service
 
-# Progress
+## Progress
 
 - At least 3 columns: To-Do, Work in Progress (WIP), DONE
 - Kanban item = Kanban card
@@ -72,6 +78,24 @@
 
 # Scrum
 
+### Questions
+
+[1. Why is Scrum considered a "lightweight framework" rather than a full methodology?](./Lead_Questions.md#scrum-concept-1)
+
+[2. How does Scrum use iterative and incremental delivery to manage risk?](./Lead_Questions.md#scrum-concept-2)
+
+[3. What is the role of management in an organization adopting Scrum, and why is it still necessary?](./Lead_Questions.md#scrum-concept-3)
+
+[4. Why is Scrum intentionally incomplete, and how does this benefit organizations using it?](./Lead_Questions.md#scrum-concept-4)
+
+[5. How can different practices and methods be integrated within Scrum without violating its principles?](./Lead_Questions.md#scrum-concept-5)
+
+[6. Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?](./Lead_Questions.md#scrum-concept-6)
+
+[7. How does Scrum expose the relative efficacy of current management and work practices?](./Lead_Questions.md#scrum-concept-7)
+
+[8. What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?](./Lead_Questions.md#scrum-concept-8)
+
 ## Definition
 
 💡 Scrum is a lightweight `framework` that helps people, teams and organizations generate `value` through adaptive solutions for `complex problems`.
@@ -81,15 +105,12 @@
 
 - **Scrum** is one of the most popular `framework`s for implementing `*Agile`.*
     - Scrum is probably the most highly recognized agile methodology.
-- Scrum is adopt for its `product development` to `deliver more value` to its `Users` and `Stakeholders` {Q6}
+- Scrum is adopt for its `product development` to `deliver more value` to its `Users` and `Stakeholders`
     - Try it as is and determine if its `philosophy`(triết lý), `theory`, and `structure` help to achieve goals and create value.
 
-<aside>
-⚠️ The Scrum framework consists of **Scrum Teams and their associated roles, events, artifacts, and rules**.
+- ⚠️ The Scrum framework consists of **Scrum Teams and their associated roles, events, artifacts, and rules**.
 
-</aside>
-
-- `Each component` within the Scrum framework `serves a specific purpose` and is `essential` (bản chất) to `Scrum’s success and usage`. {Q8}
+- `Each component` within the Scrum framework `serves a specific purpose` and is `essential` (bản chất) to `Scrum’s success and usage`.
 
 ## Process
 
@@ -100,7 +121,7 @@
 
 ## Management (sự quản lý)
 
-- The `Management` is expected to `set` a `vision` and a `direction` for the `business`. {Q7}
+- The `Management` is expected to `set` a `vision` and a `direction` for the `business`.
     - Sự quản lý từ Organization
 - It `supports` the Product Owner with `business insights` and helps the Scrum Master in causing `change` within the `organization`.
 - While the `Scrum Guide` says `nothing` about `Management`, it does not mean that the `organization` will no longer `have managers`.
@@ -110,13 +131,8 @@
 
 ## Purposefully Incomplete
 
-- Scrum framework is `Purposefully Incomplete` {Q2}.
-    
-    <aside>
-    💡 `Only` defining the `parts` required to `implement Scrum theory`.
-    
-    </aside>
-    
+- Scrum framework is `Purposefully Incomplete`.
+    - 💡 `Only` defining the `parts` required to `implement Scrum theory`.
     - `Rather` than provide people with `detailed instructions`, the rules of Scrum `guide` their `relationships` and `interactions`.
     - Scrum cố ý không hoàn thiện, chỉ đảm bảo các rules extend từ Scrum theory để hướng dẫn mỗi quan hệ và sự tương tác trong Scrum team
 - Scrum is `built` upon by the `Collective Intelligence` of the people using it.
@@ -131,7 +147,7 @@
 
 ### Documentation
 
-⚠️ Scrum Guide doesn't require documentation. {Q5}
+⚠️ Scrum Guide doesn't require documentation.
 
 - Documentation is useful to develop product
 
@@ -148,8 +164,16 @@
 
 ⚠️ `LONGER` the Forecast => `HIGHER` the Uncertainty
     - Never COMMITMENT
-- Describe the Uncertainty by Cone  {Q4}
+- Describe the Uncertainty by Cone
 - Like Forecast the Hurricane
+
+# Waterfall
+
+- Waterfall dùng cho những dự án mà các thành phần có liên kết chặt chẽ với nhau
+    - Ví dụ phát triển 1 phần cứng, 1 cái máy
+    - Tránh việc phải thay đổi
+    - Nếu yêu cầu rõ ràng
+
 
 
 
