@@ -1,30 +1,46 @@
 # Scrum Theory
 
+### Questions
+
+[1. Why does Scrum rely on empiricism and lean thinking instead of detailed upfront planning?](./Lead_Questions.md#scrum-theory-1)
+
+[2. How does transparency in Scrum reduce risk and improve decision-making?](./Lead_Questions.md#scrum-theory-2)
+
+[3. What is "emergence" in Scrum and why is it important for handling complex products?](./Lead_Questions.md#scrum-theory-3)
+
+[4. How does emergence affect the way architecture evolves during a Scrum project?](./Lead_Questions.md#scrum-theory-4)
+
+[5. Why is frequent inspection essential in Scrum, and what happens if it’s missing?](./Lead_Questions.md#scrum-theory-5)
+
+[6. Why must Scrum Teams adapt their process or product immediately after detecting a problem?](./Lead_Questions.md#scrum-theory-6)
+
+## Concept
+
 - 💡 Scrum is founded on `empiricism` and `lean thinking`.
 
-- `Empiricism` (chủ nghĩa kinh nghiệm): `knowledge` comes from `experience` and making `decisions` based on `what is observed`. {Q2}
-		- `Empirical` theory: `Process Control Theory` {Q12}
-		- `Empirical` data
-		- `Empirical` evidence
-- `Lean` (tinh gọn) thinking `reduces waste` and `focuses` on the `essentials`(thứ thiết yếu). {Q3}
-- Scrum employs an `Iterative`(lặp lại), `Incremental` (tăng dần) approach to optimize `predictability` and to `control risk` .
+- `Empiricism` (chủ nghĩa kinh nghiệm): `knowledge` comes from `experience` and making `decisions` based on `what is observed`.
+    - `Empirical` theory: `Process Control Theory` {Q12}
+    - `Empirical` data
+    - `Empirical` evidence
+- `Lean` (tinh gọn) thinking `reduces waste` and `focuses` on the `essentials`(thứ thiết yếu).
+- Scrum employs an `Iterative`(lặp lại), `Incremental` (tăng dần) approach to optimize `predictability` and to `control risk`.
 - Scrum engages `Scrum Team` `collectively` have `all the skills and expertise`(chuyên môn) to do the work and `share or acquire`(mua lại) such skills as needed.
 - Scrum combines 4 formal events into 1 event - the `Sprint`.
-		- These events `work` because they implement 3 Scrum `Empirical Pillars` (Trụ cột)
+    - These events `work` because they implement 3 Scrum `Empirical Pillars` (Trụ cột)
 
 ## 1. Transparency (Minh bạch)
 
-- The `emergent` (rõ nét) `process` and `work` must be `visible` to `those performing` the work as well as `those receiving` the work. {Q6}
-		- All stakeholders & `Scrum Team` (who work, process, receive the work) must be visible to performing the work.
+- The `emergent` (rõ nét) `process` and `work` must be `visible` to `those performing` the work as well as `those receiving` the work.
+	- All stakeholders & `Scrum Team` (who work, process, receive the work) must be visible to performing the work.
 		- Everyone shares the same understand.
 - `Important decisions` are based on the `perceived state` (trạng thái nhận thức) of its `3 formal artifacts`.
-		- Artifacts that have `low transparency` ⇒ `decisions` that `diminish value` (giá trị giảm sút) and `increase risk`.
+	- Artifacts that have `low transparency` ⇒ `decisions` that `diminish value` (giá trị giảm sút) and `increase risk`.
 
 - 💡 Transparency enables inspection.
 	- `Inspection without transparency` is `misleading` and `wasteful`. 
 
 - Trong quá trình phát triển, các thông tin liên quan đến dự án phải được minh bạch và thông suốt.
-		- Các thông tin có thể là: mục tiêu dự án, yêu cầu khách hàng, tiến độ công việc, các rào cản khó khăn,...
+	- Các thông tin có thể là: mục tiêu dự án, yêu cầu khách hàng, tiến độ công việc, các rào cản khó khăn,...
 - Ngoài ra, các yếu tối này cần phải được định nghĩa theo một tiêu chuẩn để người quan sát có thể hiểu những gì họ thấy theo cùng một cách.
 
 ### Emergence (sự xuất hiện - release)
@@ -32,8 +48,8 @@
 - Emergence Infrastructure: cơ sở hạ tầng cho sự xuất hiện
 - Emergence Requirements: yêu cầu cho sự xuất hiện
 - When handling `complex work`
-		- `No` final or `extensive plans`
-		- Never final backlog in first sprint
+	- `No` final or `extensive plans`
+	- Never final backlog in first sprint
 
 - ⚠️ It makes little sense to create SOMETHING FINAL.
 	- When it has LEAST AMOUNT OF INFORMATION
@@ -41,48 +57,57 @@
 ### Emergence Architecture (cấu trúc của sự xuất hiện)
 
 - Emergence = new information
-- Process of Emergence: quá trình tạo ra sự xuất hiện = Learning Process {Q13}
+- Process of Emergence: quá trình tạo ra sự xuất hiện = Learning Process
 - Architecture = Components and Relations of them.
-		- Architecture is emergences after each sprint. {Q14}
-		- Sau mỗi Increment (ít nhất là mỗi sprint) ⇒ Architecture thay đổi
+	- Architecture is emergences after each sprint. {Q14}
+	- Sau mỗi Increment (ít nhất là mỗi sprint) ⇒ Architecture thay đổi
 - 💡 We design Architecture for current Sprint.
 
 ## 2. Inspection (Kiểm thử)
 
 - The `Scrum Artifact` & the `progress` toward agreed goals ⬅️ `inspected` `frequently` & `diligently` (chăm chỉ)
-		- Detect `potentially` undesirable `variances` (phương sai) or `problems`.
-		- Kiểm duyệt thường xuyên + kĩ lưỡng.
+	- Detect `potentially` undesirable `variances` (phương sai) or `problems`.
+	- Kiểm duyệt thường xuyên + kĩ lưỡng.
 - For `inspection`, Scrum provides in the form of its `5` `Scrum Event`
-		- `Scrum Event`  are designed to `provoke change`.
+	- `Scrum Event`  are designed to `provoke change`.
 - 💡 Inspection enables adaptation.
 	- `Inspection without adaptation` is considered `pointless` (vô nghĩa).
 - Các hoạt động trong quá trình thực hiện dự án phải được thường xuyên giám sát và đánh giá tiến độ để phát hiện kịp thời các sự cố không mong muốn.
 
 ## 3. Adaptation (Thích ứng)
 
-- `Process` or `Materials` must be `adjusted` (điều chỉnh) when: {Q8}
-		- Any `process aspects`  is `over acceptable limits`
-		- `Resulting product` is `unacceptable`
+- `Process` or `Materials` must be `adjusted` (điều chỉnh) when:
+	- Any `process aspects`  is `over acceptable limits`
+	- `Resulting product` is `unacceptable`
 - The `adjustment` must be made `as soon as possible` to `minimize further deviation`.
 - `Adaptation` becomes more `difficult` when the `people` involved are **`NOT`** `empowered` or `self-managing`.
-		- `Scrum Team` is expected to `adapt` the moment it `learns anything new through inspection`.
+	- `Scrum Team` is expected to `adapt` the moment it `learns anything new through inspection`.
 - Thích nghi trong bối cảnh này chính là phải liên tục phát triển.
 - Các sự điều chỉnh cần phải được thực hiện ngay khi có thể để giảm thiểu tối đa các vấn đề cũng như sự sai lệch của dự án.
 
 # Scrum Values
 
+### Questions
+
+[1. Why is courage essential for Scrum Team success, especially under pressure?](./Lead_Questions.md#scrum-theory-7)
+
+[2. How does focus help a Scrum Team achieve Sprint and Product Goals more effectively?](./Lead_Questions.md#scrum-theory-8)
+
+[3. What does commitment mean in Scrum, and how does it affect team reliability?](./Lead_Questions.md#scrum-theory-9)
+
+[4. How does mutual respect among Scrum Team members improve collaboration?](./Lead_Questions.md#scrum-theory-10)
+
+[5. Why is openness critical for inspecting and adapting work in Scrum?](./Lead_Questions.md#scrum-theory-11)
+
+## Concept
+
 ![Untitled](./image/Untitled1.png)
 
-- Successful use of Scrum = `Scrum Team` is `proficient` (thành thạo) in `5 values`. {Q5}
-		
-		<aside>
-		💡 Scrum team has truth (on themselves and stakeholders)
-		
-		- All scrum values are impacted by a lack of trust. {Q9}
-		</aside>
-		
+- Successful use of Scrum = `Scrum Team` is `proficient` (thành thạo) in `5 values`.
+    - 💡 Scrum team has truth (on themselves and stakeholders)
+	- All scrum values are impacted by a lack of trust.	
 - These `values` give `direction` to the `Scrum Team` ⇒ their work, actions, and behavior.
-		- Made decisions, steps taken, used way of Scrum is should reinforce these values, not diminish or undermine them.
+	- Made decisions, steps taken, used way of Scrum is should reinforce these values, not diminish or undermine them.
 - `Scrum Team members` learn and explore the `values` as they work with `Scrum Event` and `Scrum Artifact`
 
 ## 1. Courage (Can đảm)
@@ -93,33 +118,39 @@
 ## 2. Focus (Tập trung)
 
 - Their `primary focus` is on the work of the Sprint to make the best possible progress `toward these goals.`
-		- Mọi người tập trung vào công việc của Sprint & Mục tiêu Sprint của Nhóm.
-- Scrum encourages a `sustainable pace` (tốc độ bền vững) for the `development effort`. {Q11}
-		- They do their best to reach the Sprint Goal.
-		- They work as professionals to best achieve goals.
-		- They are dedicated to improving their skills and helping each other.
+	- Mọi người tập trung vào công việc của Sprint & Mục tiêu Sprint của Nhóm.
+- Scrum encourages a `sustainable pace` (tốc độ bền vững) for the `development effort`.
+    - They do their best to reach the Sprint Goal.
+    - They work as professionals to best achieve goals.
+    - They are dedicated to improving their skills and helping each other.
 
 ## 3. Commitment (Cam kết)
 
 - The Scrum Team `commits` to `achieving its goals` and to `supporting each other`.
-		- Mọi thứ cần được cởi mở để các thành viên trong team có thể nắm bắt được công việc cũng như hiểu hết các vấn đề khó khăn đang gặp phải.
-		- Nếu mọi người không cởi mở với nhau, thông tin bị che giấu rất nhiều và hiệu quả công việc khó lòng có thể nâng cao.
+    - Mọi thứ cần được cởi mở để các thành viên trong team có thể nắm bắt được công việc cũng như hiểu hết các vấn đề khó khăn đang gặp phải.
+    - Nếu mọi người không cởi mở với nhau, thông tin bị che giấu rất nhiều và hiệu quả công việc khó lòng có thể nâng cao.
 
-- 💡 Work to identify and add any usability criteria to the Definition of Done. {Q10}
+- 💡 Work to identify and add any usability criteria to the Definition of Done.
 
 - Make sure that every Product Increment adherents to the Definition of Done.
 
 ## 4. Respect (Tôn trọng)
 
 - Scrum Team members `respect each other` to be capable, `independent people`, and are respected as such by the people with whom they work.
-		- Các thành viên trong team cần phải tôn trọng lẫn nhau, giúp nhau trở nên tốt hơn và có thể độc lập hoàn thành công việc của mình.
+    - Các thành viên trong team cần phải tôn trọng lẫn nhau, giúp nhau trở nên tốt hơn và có thể độc lập hoàn thành công việc của mình.
 
 ## 5. Openness (Cởi mở)
 
 - `Scrum Team` and `Stakeholders` are `open` about the `work` and the `challenges`.
-		- Thành viên trong team cần có sự can đảm để làm điều đúng đắn cũng như làm việc trong điều kiện khó khăn.
+    - Thành viên trong team cần có sự can đảm để làm điều đúng đắn cũng như làm việc trong điều kiện khó khăn.
 
 # Scrum Artifact
+
+### Questions
+
+[1. How do Scrum Artifacts maximize transparency and support empirical decision-making?](./Lead_Questions.md#scrum-theory-12)
+
+## Concept
 
 - Scrum’s artifacts represent `work or value`.
     - `Maximize transparency` of key information.
@@ -138,6 +169,26 @@
     - Their inspection `should not be so frequent` that inspection `gets in the way of the work` (cản trở công việc)
 
 # Product Backlog
+
+### Questions
+
+[1. Why is the Product Backlog considered an emergent artifact, and how does that affect product development?](./Lead_Questions.md#product-backlog-1)
+
+[2. Why must each Product Backlog Item be clear enough before Sprint Planning?](./Lead_Questions.md#product-backlog-2)
+
+[3. How does proper ordering of PBIs by the Product Owner maximize product value?](./Lead_Questions.md#product-backlog-3)
+
+[4. Why is it critical that Developers own the sizing of Product Backlog Items?](./Lead_Questions.md#product-backlog-5)
+
+[5. What risks arise if the Product Owner does not actively manage the Product Backlog?](./Lead_Questions.md#product-backlog-5)
+
+[6. How does having a clear Product Goal improve Scrum Team alignment and focus?](./Lead_Questions.md#product-backlog-6)
+
+[7. Why is story point estimation based on relative sizing instead of absolute time?](./Lead_Questions.md#product-backlog-7)
+
+[8. Why is continuous Product Backlog Refinement critical for Sprint success?](./Lead_Questions.md#product-backlog-8)
+
+## Concept
 
 - 💡 `Product Backlog` = Commitment => `Product Goal`
 - `Product Backlog` is an `emergent`(rõ nét), `ordered list` of what is needed to `improve the product`.
@@ -268,6 +319,20 @@
 
 # Sprint Backlog
 
+### Questions
+
+[1. Why is the Sprint Backlog considered a living plan, and how does it support the Sprint Goal?](./Lead_Questions.md#sprint-backlog-1)
+
+[2. How does having a Sprint Goal create flexibility in how the Scrum Team completes Sprint work?](./Lead_Questions.md#sprint-backlog-2)
+
+[3. Why are Developers solely responsible for managing the Sprint Backlog, and not the Product Owner?](./Lead_Questions.md#sprint-backlog-3)
+
+[4. What steps must Developers follow to create and update a meaningful Sprint Backlog?](./Lead_Questions.md#sprint-backlog-4)
+
+[5. Why can the Sprint Scope be adjusted during the Sprint without changing the Sprint Goal?](./Lead_Questions.md#sprint-backlog-5)
+
+## Concept
+
 - 💡 `Sprint Backlog` = `Sprint Goal` + `Top PBIs` + `Plan for delivering`
 
 - The Sprint Backlog is `composed` (bao gồm) of the `Sprint Goal` (`WHY`)
@@ -347,6 +412,18 @@
 
 # Product Increment
 
+### Questions
+
+[1. Why is the Product Increment considered a concrete stepping stone toward the Product Goal?](./Lead_Questions.md#product-increment-1)
+
+[2. What is the basic process to create a Product Increment during a Sprint?](./Lead_Questions.md#product-increment-2)
+
+[3. Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?](./Lead_Questions.md#product-increment-3)
+
+[4. What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?](./Lead_Questions.md#product-increment-4)
+
+## Concept
+
 - An Increment is a `concrete stepping stone` (bước đệm cụ thể) toward `Product Goal`.
 - 💡 A new version of Product
 
@@ -357,7 +434,7 @@
 
 ## Process for Increment
 
-### Create Increment
+### 1. Create Increment
 
 - 💡 `Multiple` Increments may be `created` within a `Sprint`.
 - The `sum of Increments` is presented at `Sprint Review` thus supporting `empiricism`.
@@ -370,7 +447,7 @@
     - Increment is created `as soon as` a Product Backlog` Item meets `Definition of Done`.
     - Increment is `done` when `everyone` knows `what done` mean
 
-## Release Increment
+## 2. Release Increment
 
 - `Product Owner` make `end decision` ⇒ `if & when` release Increment.
 	- In agreement with the rest of `Scrum Team`.

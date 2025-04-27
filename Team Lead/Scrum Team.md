@@ -1,5 +1,27 @@
 # Scrum Team
 
+### Questions
+
+[1. Why is it essential that the Scrum Team collectively shares accountability for creating a valuable Increment every Sprint?](./Lead_Questions.md#scrum-team-concept-1)
+
+[2. How does the Scrum Team’s ability to adapt immediately upon learning new information during inspection differentiate it from traditional project teams?](./Lead_Questions.md#scrum-team-concept-2)
+
+[3. In what ways does cross-functionality in a Scrum Team reduce dependencies, and why is this critical for delivering high-value Increments each Sprint?](./Lead_Questions.md#scrum-team-concept-3)
+
+[4. How does self-management of the Scrum Team impact the organization’s approach to leadership and decision-making structures?](./Lead_Questions.md#scrum-team-concept-4)
+
+[5. Why is it recommended to keep the Scrum Team size between 4 and 10 members, and what risks emerge when the team is too large?](./Lead_Questions.md#scrum-team-concept-5)
+
+[6. Why should velocity be treated as a planning aid rather than a performance metric, and what problems arise when stakeholders misuse it?](./Lead_Questions.md#scrum-team-concept-6)
+
+[7. What are the critical focuses for the Scrum Team during their first three Sprints, and why is early Increment delivery prioritized even if the functionality is minimal?](./Lead_Questions.md#scrum-team-concept-7)
+
+[8. How does accumulating technical debt impact Scrum Team transparency and Sprint forecasting?](./Lead_Questions.md#scrum-team-concept-8)
+
+[9. In a Scrum context, what strategies can a team use to manage technical debt without compromising the Sprint Goal?](./Lead_Questions.md#scrum-team-concept-9)
+
+## Concept
+
 - The `fundamental unit` of Scrum is `Scrum Team`
 - Scrum Team = `1` `Scrum Master` + `1` `Product Owner` + `N` `Developer`
 	- There are `accountabilities`
@@ -99,6 +121,28 @@
 
 # Scrum Master
 
+### Questions
+
+[1. Why is the Scrum Master considered a true leader rather than a traditional project manager in Scrum?](./Lead_Questions.md#scrum-master-1)
+
+[2. How does the Scrum Master’s role of establishing Scrum as a culture impact long-term team performance?](./Lead_Questions.md#scrum-master-2)
+
+[3. What practices should a Scrum Master use to improve Scrum Team’s self-management and cross-functionality?](./Lead_Questions.md#scrum-master-3)
+
+[4. How does a Scrum Master ensure Scrum Events are not just formalities but meaningful activities that drive improvements?](./Lead_Questions.md#scrum-master-4)
+
+[5. What strategies can a Scrum Master use to detect and resolve impediments that the Scrum Team might hesitate to raise?](./Lead_Questions.md#scrum-master-5)
+
+[6. How can a Scrum Master effectively support the Product Owner in managing the Product Backlog?](./Lead_Questions.md#scrum-master-6)
+
+[7. What actions should a Scrum Master take when Developers are struggling with unclear requirements during a Sprint?](./Lead_Questions.md#scrum-master-7)
+
+[8. How should a Scrum Master collaborate with a Project Manager who is unfamiliar with Scrum practices?](./Lead_Questions.md#scrum-master-8)
+
+[9. What are the key responsibilities of a Scrum Master when leading Scrum adoption across an organization?](./Lead_Questions.md#scrum-master-9)
+
+## Concept
+
 - `Scrum Master` is `accountable` for `establishing Scrum` as defined in the `Scrum Guide`.
 - They do this by `helping everyone understand Scrum`, both within `Scrum Team` and `Organization`.
 	- Theory
@@ -116,7 +160,7 @@
 	- `Removes barriers` and `helps` those `outside` the Scrum Team `understand how to interact with them`.
 	- `Teaches` the Scrum Team to `keep meetings` within `time-box`.
 
-## The Scrum Master serves the Scrum Team
+## Scrum Master serves Scrum Team
 
 - `Scrum Master` is `accountable` for the `Scrum Team’s effectiveness`.
 	- They do this by `enabling` (chăm sóc) `Scrum Team` to `improve` its `practices`, within the Scrum framework.
@@ -144,7 +188,7 @@
 	- Deal with impediment at `Organizational level`.
 	- Scrum Master chịu trách nhiệm tổng hợp mọi thứ lại và đảm bảo team làm việc hiệu quả với Scrum.
 
-## The Scrum Master serves the Product Owner
+## Scrum Master serves Product Owner
 
 - `Help` Product Owner do `defective` (thiếu xót) `Product Backlog management`
 	- Helping `find techniques` for `effective` `Product Goal definition` and `Product Backlog management`.
@@ -159,7 +203,7 @@
 - `Facilitating` `Stakeholder collaboration` as requested or needed.
 - Scrum Master còn giúp Product Owner hiểu rõ hơn về các giá trị, lập kế hoạch và chia nhỏ công việc một cách hiệu quả nhất.
 
-## The Scrum Master serves the `Developer`
+## Scrum Master serves Developer
 
 - If `Developers` are `unhappy` because `requirements` are `not clear enough`, `facilitate` a `discussion` around this concern and find ways to bring `clarity` to `Product Backlog`
 - If Developer `team is too big`, Scrum Master `asks` the `developers` to `find` a `way to divide themselves` into teams.
@@ -167,12 +211,12 @@
 	- `Facilitating` `Development` Team `decisions`.
 	- `Development` Team `estimates` work in Scrum
 
-## The Scrum Master serves the Project Manager
+## Scrum Master serves Project Manager
 
 - Scrum Master should `explain` to Product Manager `how Scrum works`.
 - Treat `Product Manager as a Stakeholder` and `invite` them to `Sprint Review` meeting.
 
-## The Scrum Master serves the Organization
+## Scrum Master serves Organization
 
 - `Leading`, `training`, and `coaching` the organization in its `Scrum adoption`
 - `Planning` and `advising` `Scrum implementations` within the organization
@@ -183,6 +227,28 @@
 	- `Facilitates` the `collaborations` between `Scrum Team` and `Stakeholders`
 
 # Developer
+
+### Questions
+
+[1. Why are all members of a Scrum Team called "Developers," even if they have different specialties like design or testing?](./Lead_Questions.md#developer-1)
+
+[2. How does the responsibility for releasing a Product Increment reflect the Developer’s commitment to delivering value?](./Lead_Questions.md#developer-2)
+
+[3. Why must Developers be flexible in adapting the Sprint Backlog during the Sprint, and how does this support the Sprint Goal?](./Lead_Questions.md#developer-3)
+
+[4. How does daily monitoring of Sprint progress by Developers contribute to empirical process control?](./Lead_Questions.md#developer-4)
+
+[5. How does self-management of Developers improve both individual accountability and team performance?](./Lead_Questions.md#developer-5)
+
+[6. Why is it important for Developers to directly communicate with Stakeholders during a Sprint?](./Lead_Questions.md#developer-6)
+
+[7. What is the significance of Developers owning the estimation of Product Backlog Items in Scrum?](./Lead_Questions.md#developer-7)
+
+[8. In a Scrum environment, how does the role of a Business Analyst differ from traditional projects?](./Lead_Questions.md#developer-8)
+
+[9. How does the definition of Developer in Scrum reflect the principle of cross-functionality?](./Lead_Questions.md#developer-9)
+
+## Concept
 
 - The Daily Scrum is only for the Developers.
 
@@ -196,9 +262,9 @@
 	- Developer is `cross-functional`
     	- If a `position is missed`, Product `still be developed`
 
-## Accountability
+## Accountability: Trách nhiệm giải trình
 
-### Release `Product Increment`
+### Release Product Increment
 
 - `Decide` how to `turn` `Product Backlog`Item into `Increment`.
 - `Instilling` (nâng cao) quality by `adhering` (tuân thủ) to `Definition of Done`.
@@ -245,6 +311,28 @@
 
 # Product Owner
 
+### Questions
+
+[1. Why must the Product Owner be a single person, not a committee, and what risks arise if this principle is violated?](./Lead_Questions.md#product-owner-1)
+
+[2. How does the Product Owner role reflect the balance between business needs and technical feasibility in Scrum?](./Lead_Questions.md#product-owner-2)
+
+[3. How does the Product Owner ensure the Scrum Team delivers maximum value without directly managing how Developers do their work?](./Lead_Questions.md#product-owner-3)
+
+[4. Why must the Product Backlog always remain transparent and up-to-date, and how is the Product Owner responsible for this?](./Lead_Questions.md#product-owner-4)
+
+[5. How does the Product Owner’s skill in clarifying Product Backlog Items impact Sprint Planning and team performance?](./Lead_Questions.md#product-owner-5)
+
+[6. When a Product Owner delegates tasks like writing PBIs, how should they still maintain overall accountability?](./Lead_Questions.md#product-owner-6)
+
+[7. How should a Product Owner balance gathering stakeholder input with maintaining control over Product Backlog prioritization?](./Lead_Questions.md#product-owner-7)
+
+[8. Why must the entire organization respect the Product Owner’s decisions, and what risks occur if they don’t?](./Lead_Questions.md#product-owner-8)
+
+[9. Under what circumstances can a Product Owner cancel a Sprint, and why is this authority critical?](./Lead_Questions.md#product-owner-9)
+
+## Concept
+
 - Product Owner is `accountable` for effective `Product Backlog``management`
 - The Product Owner is `1 person`, not a committee (hội đồng)
 	- `Sole` (duy nhất) person accountable
@@ -266,7 +354,7 @@
 - Product Owner should `share any Stakeholders feedback` to Scrum Team (specifically `Developer`) or `concerns` with (quan tâm tới) `Developer` to find the `best way to address them`.
 	- The Product Owner is `not a proxy` between `Developers` and `Stakeholders`.
 
-### Manage `Product Backlog`
+### Manage Product Backlog
 
 - `Developing` and `explicitly communicating` (truyền đạt rõ ràng) `Product Goal`.
 - `Ensuring` that `Product Backlog` is `transparent`, `visible` and `understood`.
@@ -305,72 +393,7 @@
 - `Product Owner` defines the `vision of product`
 	- Bất kì quyết định & tầm nhìn nào của Product Owner nên được thể hiện = nội dung và thứ tự của Product Backlog Item
 
-## Cancel `Sprint`
-
-- `Only` Product Owner has the authority to `cancel a Sprint`.
-
-# Product Owner
-
-- Product Owner is `accountable` for effective `Product Backlog``management`
-- The Product Owner is `1 person`, not a committee (hội đồng)
-	- `Sole` (duy nhất) person accountable
-	- `Any change` of `Product Backlog`need `through Product Owner`
-	- `No one even stakeholders` allow to decide which features should be built and ordered
-	- 💡 All relates for accountability
-- Product Owner phải tiếp nhận tất cả yêu cầu và lập ra các trình tự công việc.
-	- Product Owner không chỉ hiểu khách hàng, mà còn có tầm nhìn về giá trị mà `Scrum Team` có thể mang lại cho khách hàng.
-	- Người chịu trách nhiệm về thành công của dự án.
--💡 `Value measurement` is decided `by organization`
-	- 1 Product chỉ có 1 Product Owner, nhưng 1 Product Owner có thể quản lý nhiều Products
-
-## Accountability
-
-### Maximum Product value
-
-- `Product Owner` is responsible for `maximizing value` of `Product`.
-	- Product Owner should `maximize` the value of the work the `Scrum Team performs`.
-- Product Owner should `share any Stakeholders feedback` to Scrum Team (specifically `Developer`) or `concerns` with (quan tâm tới) `Developer` to find the `best way to address them`.
-	- The Product Owner is `not a proxy` between `Developers` and `Stakeholders`.
-
-### Manage `Product Backlog`
-
-- `Developing` and `explicitly communicating` (truyền đạt rõ ràng) `Product Goal`.
-- `Ensuring` that `Product Backlog` is `transparent`, `visible` and `understood`.
-- `Any requirements` related to the Product are `added` to `Product Backlog`.
-	- Even it is defect, bug, new criteria, non-functional requirement, etc.
-- The Product Owner `cannot` modify `Sprint Backlog`.
-	- That is the responsibility of the Developers.
-	- `Through discussion` with `Product Owner`, `Developers select items` from the Product Backlog items to include in the current Sprint.
-### Clarify Product Backlog Item
-
-- `Creating` and `clearly communicating` (truyền đạt rõ ràng) Product Backlog items.
-- `Ordering` Product Backlog items.
-	- Ensuring that `most valuable functionality` is produced `first`
-	- `Decision` is up to `Product Owner`.
-- `Creates` `user stories`, `prioritizes` them, and ensures they are groomed (chải chuốt) with all relevant (liên quan) details.
-
-### Delegate (ủy quyền) responsibility
-
-- `Product Owner` may `delegate` responsibility to `others`.
-	- Regardless, Product Owner `remains` (giữ nguyên) `accountable`.
-- Product Owner may delegate `architectural decisions` to the `rest of The Scrum Team`.
-	- Product Owner can delegate `Developers` to `manage` `Product Backlog`
-	- Product Owner can assign `other` to `write` `Product Backlog Item` `based` on their `domain`
-
-### Interacting with Stakeholders
-
-- Product Owner may `represent` the `needs of many stakeholders` in the Product Backlog.
-	- Those wanting to `change Product Backlog` can do so by trying to `convince` (thuyết phục) `Product Owner`.
-- The `Stakeholders can influence` the Product Owner but `can't make end decisions`.
-
-### Make decision
-
-- For `Product Owners` to `succeed`, the `entire organization` must `respect` their `decisions`.
-	- These `decisions` are `visible` in the `content` and `ordering` of `Product Backlog`, `through` the `inspectable` `Product Increment` at `Sprint Review`.
-- `Product Owner` defines the `vision of product`
-	- Bất kì quyết định & tầm nhìn nào của Product Owner nên được thể hiện = nội dung và thứ tự của Product Backlog Item
-
-## Cancel Sprint
+### Cancel Sprint
 
 - `Only` Product Owner has the authority to `cancel a Sprint`.
 
