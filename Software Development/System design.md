@@ -224,38 +224,162 @@ II. Acceptance Criteria
 
 # High-level Design
 
+### Questions 
+
+[1. Why is analyzing the idea important before starting system design?](./Developing_Questions.md#high-level-design-1)
+
+[2. What is the purpose of identifying core requirements early?](./Developing_Questions.md#high-level-design-2)
+
+[3. Why is creating a system diagram important during high-level design?](./Developing_Questions.md#high-level-design-3)
+
+[4. What are key factors to consider when designing a system’s use cases?](./Developing_Questions.md#high-level-design-4)
+
+[5. Why is database design crucial for system performance and scalability?](./Developing_Questions.md#high-level-design-5)
+
+[6. How do you select the right technical solution for a system?](./Developing_Questions.md#high-level-design-6)
+
+## Concept
+
+- Focus: System architecture overview
+- Audience: Architects, senior developers, stakeholders
+- View: "Big picture" — systems, modules, how they connect
+- Purpose: Plan system structure
+
+-----
+
 - Example: Live Streaming System Design
 
-## 1. Analysising the ideas
+## 1. Analyzing the Ideas
+
+- Understand the `problem domain`.
+- Ask: `What` is the system supposed to achieve?
+- Identify: high-level goals, user types, and business needs.
+- Avoid thinking about technical solutions too early.
+
+### Example
+
+- Goal: Allow users to broadcast live video and others to view the live feed with minimal delay.
+- Target Users: Broadcasters and Viewers.
+- Business Need: High availability and minimal latency.
 
 ## 2. Summarizing core requirements
 
-- Ex: Streaming video
-- Brainstorm what it's going to work
-- Issues of it
+- Translate ideas into clear functional requirements.
+- Differentiate between Must-have and Nice-to-have features.
+- Think in terms of what the system must deliver.
+
+### Example
+
+- Must-have:
+    - Streamer can broadcast live video.
+    - Viewer can watch live stream with minimal delay.
+- Nice-to-have:
+    - Support for chat during live stream.
+    - Multiple video quality options.
 
 ## 3. Diagramming the approaches
 
-- Sơ đồ hóa cách tiếp cận core features
-- Hoàn thiện theo mức độ quan trọng
-    - Bắt đầu từ core features 
+- Visualize the core system components and their relationships.
+- Focus on data flow, user interactions, and services.
+- High-level diagram first, then refine progressively.
 
-## 4. Designing use case (API)
+### Example
+
+- Diagram basic flow: Broadcaster → Uploads Stream → Streaming Server → Viewer → Receives Stream
+- Additional components:
+    - Authentication service
+    - Chat service (optional)
+
+## 4. Designing workflow (API)
+
+- Define how users interact with the system.
+- Each interaction = a Use Case/APIs.
+- Focus on input, processing, and output for each API.
+
+------
 
 - Các việc cần làm của hệ thống
 - Các bước của nó
 - Các vấn đề có thể gặp phải
 - Solution có các vấn đề
 
+### Example
+- Use Case 1: Start Live Stream
+    - Actor: Broadcaster
+    - Description: Broadcaster starts a live video session.
+    - API: POST /startStream
+    - Input: Broadcaster ID, Stream metadata (title, description)
+    - Output: Stream URL, Stream ID
+- Use Case 2: Watch Live Stream
+    - Actor: Viewer
+    - Description: Viewer joins and watches a live video stream.
+    - API: GET /watchStream
+    - Input: Stream ID
+    - Output: Video feed stream
+- Use Case 3: Send Chat Message
+    - Actor: Viewer
+    - Description: Viewer sends a chat message during a live stream.
+    - API: POST /sendMessage
+    - Input: Stream ID, Viewer ID, Message content
+    - Output: Success or failure confirmation
+- Use Case 4: End Live Stream
+    - Actor: Broadcaster
+    - Description: Broadcaster ends the live video session.
+    - API: POST /endStream
+    - Input: Stream ID
+    - Output: Stream status updated to "ended"
+
 ## 5. Designing Database
+
+- Map out entities based on the requirements.
+- Identify relationships (one-to-many, many-to-many).
+- Normalize to reduce duplication, but denormalize carefully for performance.
+
+------
 
 - Từ Use case => Object cần cho nó => Database
 
+### Example: Database table
+
+- Users: { user_id, name, role }
+- Streams: { stream_id, user_id, start_time, end_time, status }
+- Messages: { message_id, stream_id, user_id, content, timestamp }
+
 ## 6. Choicing technique solution
 
-# Low-Level Design 
+- Pick technologies matching system requirements (not trendy tech).
+- Consider factors: performance, cost, team expertise, scalability.
+- Design for future evolution if possible (extensibility).
 
-- Louis design
+### Example
+
+- Video Streaming: Use WebRTC or HLS protocol.
+- Backend: Use Node.js with scalable microservices.
+- Storage: Use AWS S3 for video storage.
+
+# Low-Level Design
+
+### Questions 
+
+[1. Why is identifying engineering requirements critical before low-level design?](./Developing_Questions.md#low-level-design-1)
+
+[2. What does a use case diagram help clarify in system design?](./Developing_Questions.md#low-level-design-2)
+
+[3. Why is service diagram important in low-level design?](./Developing_Questions.md#low-level-design-3)
+
+[4. What is the purpose of class diagrams in system design?](./Developing_Questions.md#low-level-design-4)
+
+[5. What value does a sequence diagram add to system design?](./Developing_Questions.md#low-level-design-5)
+
+## Concept
+
+- Focus: Detailed component design
+- Audience: Developers, technical team
+- View: "Inside the box" — classes, methods, workflows
+- Purpose: Guide real coding and implementation
+
+------
+
 - Take small chunks of the system and you try to elaborate on each chunk.
 - Chia nhỏ hệ thống và cụ thể hóa mỗi phần 
 - What are the actions that a user can perform
@@ -264,29 +388,95 @@ II. Acceptance Criteria
 
 ## 1. Engineering requirements
 
+- Define non-functional requirements like performance, scalability, latency.
+- Set quantitative goals (e.g., "response time < 300ms").
+- Focus on technical qualities needed for success.
+
+------
+
 - Mục tiêu chất lượng mà Product cần đàm bảo
+
+### Example
+
+- Streaming latency < 2 seconds
+- Support 100,000 concurrent viewers
+- Uptime 99.99%
+- Secure data transmission (HTTPS, encrypted streams)
 
 ## 2. Use case - UML diagram
 
+- Draw a Use Case UML diagram to visualize how users interact with the system.
+- Actors = who uses the system; Use cases = actions users can perform.
+- Keep it simple and clear.
 1. Actor
 2. `actor should do` tree
 3. Use case diagram
 4. Use case document
     - PRD: Product Requirement Document
 
+### Example
+
+- Actors:
+    - Broadcaster
+    - Viewer
+- Use Cases:
+    - Start Stream
+    - Watch Stream
+    - Send Chat Message
+    - End Stream
+
 ## 3. Service diagram
 
+- Map services/microservices needed for the system.
+- Show dependencies between services.
+- Define external services (authentication, media server, etc.)
+------
 1. List service cần thiết
 2. List các API tương ứng với mỗi UC từ service
 
 ![UseCaseToService](./image/UseCaseToService.png)
 
+### Example: 
+
+- Service
+    - Stream Service (Start/End stream)
+    - Viewer Service (Deliver live video)
+    - Chat Service (Handle messaging)
+    - Auth Service (Authentication)
+- Diagram: Arrows showing communication between services and storage (e.g., S3 bucket for video chunks)
+
 ## 4. Class UML Diagram
 
+- Break services into classes and objects.
+- Define attributes and methods for each class.
+- Show relations (inheritance, association, aggregation)
 1. Dựa vào Service Diagram => Class diagram (Class Name only)
 2. Define action & data (abstract)
 3. Define method & property (more detail - optional)
 
-## Sequence UML Diagram
+### Example: Classes:
 
+- User
+    - Attributes: id, name, role
+    - Methods: login(), logout()
+Stream
+    - Attributes: id, ownerId, status
+    - Methods: start(), stop()
+- Message
+    - Attributes: id, content, senderId, streamId
+    - Methods: send()
+
+## 5. Sequence UML Diagram
+
+- Visualize the order of interactions between system components.
+- Show time flow from top (start) to bottom (end).
+- Focus on one use case at a time (e.g., "Start Streaming").
 - Từ UC document + Service diagram => Workflow
+
+### Example: Sequence (for Start Stream)
+
+1. Broadcaster → Auth Service: login request
+2. Auth Service → Broadcaster: login success
+3. Broadcaster → Stream Service: start stream
+4. Stream Service → Database: create stream entry
+5. Stream Service → Broadcaster: return stream URL

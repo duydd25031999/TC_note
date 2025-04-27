@@ -2435,6 +2435,175 @@
   - Identify touchpoints and user actions at each phase
   - Review and fill in missing steps with appropriate user stories
 
+## High-level design
+
+### high-level-design-1
+
+**Q:** Why is analyzing the idea important before starting system design?
+
+- Vietnamese outline:
+  - Question: Vì sao cần phân tích ý tưởng trước khi thiết kế hệ thống?
+  - Answer:
+    - Hiểu đúng mục tiêu và nhu cầu người dùng
+    - Tránh thiết kế sai hướng
+    - Xác định phạm vi và ưu tiên ban đầu
+- English sample answer:
+  - It helps clarify user needs and business goals.
+  - It avoids designing in the wrong direction.
+  - It defines the scope and prioritization for later design stages.
+
+### high-level-design-2
+
+**Q:** What is the purpose of identifying core requirements early?
+
+- Vietnamese outline:
+  - Question: Mục đích của việc xác định yêu cầu cốt lõi sớm là gì?
+  - Answer:
+    - Xác định rõ chức năng bắt buộc
+    - Dễ dàng lập kế hoạch ưu tiên
+    - Tăng khả năng đáp ứng đúng nhu cầu
+- English sample answer:
+  - It clarifies the mandatory functions.
+  - It helps prioritize the system features logically.
+  - It ensures the system truly addresses user and business needs.
+
+### high-level-design-3
+
+**Q:** Why is creating a system diagram important during high-level design?
+
+- Vietnamese outline:
+  - Question: Tại sao cần vẽ sơ đồ hệ thống ở giai đoạn thiết kế tổng thể?
+  - Answer:
+    - Giúp hình dung các thành phần và luồng dữ liệu
+    - Xác định sớm các điểm phức tạp
+    - Dễ dàng thảo luận và chia sẻ ý tưởng
+- English sample answer:
+  - It helps visualize system components and data flows clearly.
+  - It identifies potential complexity or bottlenecks early.
+  - It makes it easier to discuss and share ideas across teams.
+
+### high-level-design-4
+
+**Q:** What are key factors to consider when designing a system’s use cases?
+
+- Vietnamese outline:
+  - Question: Những yếu tố chính khi thiết kế use case hệ thống là gì?
+  - Answer:
+    - Rõ vai trò người dùng
+    - Xác định rõ input và output
+    - Phác thảo luồng xử lý chính
+- English sample answer:
+  - Clearly define user roles involved.
+  - Identify the input data and expected output for each use case.
+  - Sketch the main flow of data and interaction.
+
+### high-level-design-5
+
+**Q:** Why is database design crucial for system performance and scalability?
+
+- Vietnamese outline:
+  - Question: Tại sao thiết kế database quan trọng với hiệu suất và khả năng mở rộng?
+  - Answer:
+    - Ảnh hưởng trực tiếp tới tốc độ truy xuất dữ liệu
+    - Tối ưu hóa lưu trữ và xử lý dữ liệu lớn
+    - Dễ dàng mở rộng hệ thống theo nhu cầu
+- English sample answer:
+  - It directly affects how fast data can be retrieved or stored.
+  - It optimizes handling of large volumes of data.
+  - It makes scaling the system easier and more efficient.
+
+### high-level-design-6
+
+**Q:** How do you select the right technical solution for a system?
+
+- Vietnamese outline:
+  - Question: Làm sao chọn giải pháp kỹ thuật phù hợp cho hệ thống?
+  - Answer:
+    - Dựa trên yêu cầu hiệu suất và khả năng mở rộng
+    - Cân nhắc chi phí và kinh nghiệm đội ngũ
+    - Lựa chọn công nghệ hỗ trợ mở rộng tương lai
+- English sample answer:
+  - Base choices on performance and scalability needs.
+  - Consider cost efficiency and team familiarity with the technology.
+  - Prefer solutions that allow easy future extensions.
+
+## Low-level design
+
+### low-level-design-1
+
+**Q:** Why is identifying engineering requirements critical before low-level design?
+
+- Vietnamese outline:
+  - Question: Tại sao cần xác định yêu cầu kỹ thuật trước khi thiết kế chi tiết?
+  - Answer:
+    - Xác định mục tiêu về hiệu suất và độ tin cậy
+    - Dễ dàng chọn kiến trúc và công nghệ phù hợp
+    - Tránh phát sinh lỗi khó sửa về sau
+- English sample answer:
+  - It defines clear performance and reliability targets.
+  - It helps select the right architecture and technologies early.
+  - It avoids costly mistakes during implementation.
+
+### low-level-design-2
+
+**Q:** What does a use case diagram help clarify in system design?
+
+- Vietnamese outline:
+  - Question: Use Case Diagram giúp làm rõ điều gì trong thiết kế hệ thống?
+  - Answer:
+    - Xác định các hành động chính của người dùng
+    - Làm rõ phạm vi chức năng hệ thống
+    - Hỗ trợ lập kế hoạch kiểm thử
+- English sample answer:
+  - It identifies the key actions users can perform.
+  - It clarifies the functional scope of the system.
+  - It helps plan better testing later.
+
+### low-level-design-3
+
+**Q:** Why is service diagram important in low-level design?
+
+- Vietnamese outline:
+  - Question: Tại sao service diagram quan trọng trong thiết kế chi tiết?
+  - Answer:
+    - Phân tách rõ trách nhiệm các service
+    - Hiểu luồng dữ liệu và giao tiếp giữa các thành phần
+    - Giảm lỗi trong khi tích hợp
+- English sample answer:
+  - It clearly separates service responsibilities.
+  - It helps visualize data flow and component communication.
+  - It reduces integration errors during development.
+
+### low-level-design-4
+
+**Q:** What is the purpose of class diagrams in system design?
+
+- Vietnamese outline:
+  - Question: Mục đích của Class Diagram trong thiết kế hệ thống là gì?
+  - Answer:
+    - Mô hình hóa cấu trúc bên trong của hệ thống
+    - Làm rõ mối quan hệ giữa các đối tượng
+    - Chuẩn bị cho việc viết code dễ dàng hơn
+- English sample answer:
+  - It models the internal structure of the system.
+  - It clarifies the relationships between objects.
+  - It makes actual coding more systematic and easier.
+
+### low-level-design-5
+
+**Q:** What value does a sequence diagram add to system design?
+
+- Vietnamese outline:
+  - Question: Sequence Diagram mang lại giá trị gì cho thiết kế hệ thống?
+  - Answer:
+    - Minh họa rõ ràng luồng xử lý của từng use case
+    - Giúp phát hiện lỗi logic sớm
+    - Hỗ trợ phối hợp giữa các thành phần hệ thống
+- English sample answer:
+  - It clearly illustrates the process flow for each use case.
+  - It helps detect logical errors early.
+  - It supports better coordination between system components.
+
 # Git
 
 ## Git command
