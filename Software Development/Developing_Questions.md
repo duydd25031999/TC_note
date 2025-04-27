@@ -2201,6 +2201,148 @@
 
 # System design
 
+## System Design Process
+
+### system-design-process-1
+
+**Q:** What are the key design challenges you must solve when building a large-scale distributed system?
+
+- Vietnamese outline:
+  - Question: Những thách thức cần giải quyết trong hệ thống phân tán quy mô lớn?
+  - Answer:
+    - Quản lý dữ liệu lớn và lưu lượng cao
+    - Đảm bảo tính sẵn sàng và khả năng mở rộng
+    - Xử lý lỗi phân tán và đồng bộ dữ liệu
+- English sample answer:
+  - Handle large volumes of data and high user traffic efficiently
+  - Ensure system availability and scalability under variable loads
+  - Manage distributed failures and maintain data consistency across nodes
+
+### system-design-process-2
+
+**Q:** In a distributed system, what are the primary reasons for choosing a distributed architecture over a centralized one?
+
+- Vietnamese outline:
+  - Question: Vì sao chọn kiến trúc phân tán thay vì tập trung?
+  - Answer:
+    - Tăng tính sẵn sàng và độ tin cậy
+    - Cải thiện hiệu suất và mở rộng quy mô
+    - Đảm bảo dự phòng và phục hồi sau lỗi
+- English sample answer:
+  - To improve system availability and reliability by avoiding single points of failure
+  - To enhance performance by distributing workloads closer to users
+  - To support redundancy and better disaster recovery capabilities
+
+### system-design-process-3
+
+**Q:** Why are design patterns important in system design, especially for distributed systems?
+
+- Vietnamese outline:
+  - Question: Tại sao design pattern quan trọng trong thiết kế hệ thống?
+  - Answer:
+    - Giải quyết các vấn đề phổ biến nhanh hơn
+    - Tăng khả năng tái sử dụng và duy trì hệ thống
+    - Cải thiện khả năng mở rộng và hiệu suất
+- English sample answer:
+  - They provide proven solutions to common design problems
+  - Help ensure systems are reusable, maintainable, and easier to scale
+  - Improve efficiency by applying best practices instead of reinventing solutions
+
+### system-design-process-4
+
+**Q:** Can you walk me through the general flow you follow when starting a system design from scratch?
+
+- Vietnamese outline:
+  - Question: Quy trình chung khi bắt đầu thiết kế hệ thống?
+  - Answer:
+    - Thu thập yêu cầu từ góc độ người dùng
+    - Xác định dữ liệu và đối tượng cốt lõi
+    - Thiết kế endpoint, API và sơ đồ cơ sở dữ liệu
+- English sample answer:
+  - Start by gathering requirements from the user’s perspective
+  - Define core data structures, objects, and database schemas
+  - Design endpoints and APIs to connect data flows logically and securely
+
+### system-design-process-5
+
+**Q:** How would you design a system to be fault-tolerant, and why is it critical in distributed systems?
+
+- Vietnamese outline:
+
+  - Question:
+    - Làm sao thiết kế hệ thống chịu lỗi?
+    - Vì sao nó quan trọng?
+  - Answer:
+    - Phân phối dữ liệu và xử lý thành nhiều node
+    - Triển khai cơ chế phát hiện và khôi phục lỗi tự động
+    - Duy trì tính khả dụng và độ tin cậy hệ thống
+- English sample answer:
+  - Distribute both data and processing across multiple independent nodes
+  - Implement automated failure detection and recovery mechanisms
+  - Ensure system remains highly available and reliable even during partial failures
+
+### system-design-process-6
+
+**Q:** What practices would you apply to make a system easily extensible for future changes?
+
+- Vietnamese outline:
+  - Question: Làm sao thiết kế hệ thống dễ mở rộng khi yêu cầu thay đổi?
+  - Answer:
+    - Thiết kế kiến trúc module hóa và loose coupling
+    - Định nghĩa API và giao diện linh hoạt
+    - Tuân thủ nguyên tắc SOLID và separation of concerns
+- English sample answer:
+  - Design modular and loosely coupled architectures
+  - Define flexible APIs and service contracts for easy updates
+  - Follow SOLID principles and maintain separation of concerns between components
+
+### system-design-process-7
+
+**Q:** What aspects would you focus on when testing a newly designed system?
+
+- Vietnamese outline:
+  - Question: Cần tập trung kiểm thử những gì với hệ thống mới thiết kế?
+  - Answer:
+    - Kiểm tra hiệu suất và khả năng chịu tải
+    - Xác minh khả năng mở rộng và phục hồi lỗi
+    - Đảm bảo tính toàn vẹn dữ liệu và bảo mật
+- English sample answer:
+  - Test system performance and load handling under expected and peak conditions
+  - Verify scalability and fault recovery mechanisms work as intended
+  - Ensure data integrity and security policies are properly enforced
+
+### system-design-process-8
+
+**Q:** What is a non-functional requirement, and how is it different from a functional requirement?
+
+- Vietnamese outline:
+  - Question:
+    - Non-functional requirement là gì?
+    - Khác gì với functional requirement?
+  - Answer:
+    - Non-functional: đặc tính của hệ thống (ví dụ: bảo mật, hiệu suất)
+    - Functional: hành vi cụ thể của hệ thống (ví dụ: chức năng đăng nhập)
+    - Non-functional bổ sung cho functional để hoàn thiện sản phẩm
+- English sample answer:
+  - A non-functional requirement describes the quality attributes of a system, like security, performance, or usability.
+  - A functional requirement defines specific behaviors or functions, like user login or file upload.
+  - Non-functional requirements complement functional requirements to deliver a complete and user-friendly product.
+
+### system-design-process-9
+
+**Q:** How do you ensure non-functional requirements are properly addressed during system design?
+
+- Vietnamese outline:
+  - Question: Làm sao đảm bảo non-functional requirement được thực hiện đúng trong thiết kế hệ thống?
+  - Answer:
+    - Xác định rõ từ giai đoạn yêu cầu
+    - Gắn các tiêu chí đo lường (ví dụ: thời gian phản hồi < 1s)
+    - Thiết kế kiến trúc đáp ứng và kiểm thử sau khi xây dựng
+- English sample answer:
+  - Clearly identify non-functional requirements early during the requirement gathering phase.
+  - Attach measurable criteria to each, such as "response time must be less than 1 second."
+  - Design system architecture to meet these standards and validate them through rigorous testing after development.
+
 ## Functional Requirement
 
 ### functional-requirement-1

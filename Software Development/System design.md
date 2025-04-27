@@ -1,5 +1,26 @@
 # System Design Concept
 
+### Questions
+
+[1. What are the key design challenges you must solve when building a large-scale distributed system?](./Developing_Questions.md#system-design-process-1)
+
+[2. In a distributed system, what are the primary reasons for choosing a distributed architecture over a centralized one?](./Developing_Questions.md#system-design-process-2)
+
+[3. Why are design patterns important in system design, especially for distributed systems?](./Developing_Questions.md#system-design-process-3)
+
+[4. Can you walk me through the general flow you follow when starting a system design from scratch?](./Developing_Questions.md#system-design-process-4)
+
+[5. How would you design a system to be fault-tolerant, and why is it critical in distributed systems?](./Developing_Questions.md#system-design-process-5)
+
+[6. What practices would you apply to make a system easily extensible for future changes?](./Developing_Questions.md#system-design-process-6)
+
+[7. What aspects would you focus on when testing a newly designed system?](./Developing_Questions.md#system-design-process-7)
+
+[8. What is a non-functional requirement, and how is it different from a functional requirement?](./Developing_Questions.md#system-design-process-8)
+
+[9. How do you ensure non-functional requirements are properly addressed during system design?](./Developing_Questions.md#system-design-process-9)
+
+
 ## Large scale distributed systems
 
 ### Large scale
@@ -20,7 +41,7 @@
 - Design patterns are particular practices, principles, or processes which are used by engineers to build these systems.
 - Design patterns are common solutions for common problems
 
-## System Design
+## System Design flow
 
 1. Define requirements from the user's perspective.
     - Well document
@@ -51,11 +72,18 @@
 
 - Design should be tested
 
-# Functional Requirement
+## Non-functional Requirement
 
-- Describe a specific part of functions of product
-    - Functional requirement = Feature
-    - Functional refinement is not applyed to ENTIRE product.
+- Non-functional Requirement above Feature of Product
+    - Secure
+    - Responsive
+    - Performance
+    - User experience
+- Non-functional Requirement can be written in `User Story` with specific acceptance criteria.
+- Non-functional Requirement is used to define `Definition of Done`
+- Non-functional Requirements have many technical aspects.
+
+# Functional Requirement
 
 ## User story
 
@@ -75,15 +103,14 @@
 - From the client perspective user stories define project or business functions, and delivered in a particular sprint. {Q1}
 - Represent a software function that is to be developed.
 - Is a sub feature or a situation of a Epic.
-- Explained from perspective of user with 3C (3 step process) {Q2}
+- Explained from perspective of user with 3C (3 step process) 
 
 1. Card
     - Description of User Story (main idea)
     - Not clean features ⇒ free adapt
 2. Conversation
-    - **`Card`** = brief ⇒ **`Point`** = reminder ⇒ **`What to done`**
-        - No need detail specification.
-        ⇒ Need everyone have same understand
+    - `Card` = brief ⇒ `Point` = reminder ⇒ `What to done`
+    - No need detail specification ⇒ Need everyone have same understand
 3. Confirmation
     - Acceptance Criteria
 
@@ -194,25 +221,16 @@ II. Acceptance Criteria
 1. Xác định mục tiêu chính
 1. Xác định End User
 
-# Non-functional Requirement
-
-- Non-functional Requirement above Feature of Product
-    - Secure
-    - Responsive
-    - Performance
-    - User experience
-- Non-functional Requirement can be written in `User Story` with specific acceptance criteria.
-- Non-functional Requirement is used to define `Definition of Done`
-- Non-functional Requirements have many technical aspects.
 
 # High-level Design
 
 - Example: Live Streaming System Design
 
-## 1. Summarizing the requirements
+## 1. Analysising the ideas
 
-## 2. Core requirement - Streaming video
+## 2. Summarizing core requirements
 
+- Ex: Streaming video
 - Brainstorm what it's going to work
 - Issues of it
 
@@ -222,22 +240,22 @@ II. Acceptance Criteria
 - Hoàn thiện theo mức độ quan trọng
     - Bắt đầu từ core features 
 
-## 4. Use case - API Design
+## 4. Designing use case (API)
 
 - Các việc cần làm của hệ thống
 - Các bước của nó
 - Các vấn đề có thể gặp phải
 - Solution có các vấn đề
 
-## 5. Database Design
+## 5. Designing Database
 
 - Từ Use case => Object cần cho nó => Database
 
-## 6. Choice technique solution
+## 6. Choicing technique solution
 
 # Low-Level Design 
 
-`Louis design`
+- Louis design
 - Take small chunks of the system and you try to elaborate on each chunk.
 - Chia nhỏ hệ thống và cụ thể hóa mỗi phần 
 - What are the actions that a user can perform
