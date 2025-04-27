@@ -460,6 +460,24 @@
 
 # Definition of Done
 
+### Questions
+
+[1. Why is the Definition of Done critical for ensuring transparency and quality in Scrum?](./Developing_Questions.md#definition-done-1)
+
+[2. What is the basic process for establishing the Definition of Done in a Scrum Team?](./Developing_Questions.md#definition-done-2)
+
+[3. What factors should a Scrum Team consider when creating their Definition of Done?](./Developing_Questions.md#definition-done-3)
+
+[4. When and why should the Scrum Team update the Definition of Done?](./Developing_Questions.md#definition-done-4)
+
+[5. How should a Scrum Master support the team in maintaining and evolving the Definition of Done?](./Developing_Questions.md#definition-done-5)
+
+[6. What are the Developers' responsibilities regarding the Definition of Done during a Sprint?](./Developing_Questions.md#definition-done-6)
+
+[7. How should multiple Scrum Teams working on the same product manage their Definition of Done?](./Developing_Questions.md#definition-done-7)
+
+## Concept
+
 - A `formal description` of the `state of Increment` when it `meets` the `quality measures required` for the product.
 	- It specifies `what` it means for the `Increment` to be `complete` and `releasable`.
 	- The moment a `Product Backlog item` `meets` the `Definition of Done`, an `Increment is born`.

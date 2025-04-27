@@ -1028,6 +1028,113 @@
 
 ## Definition of Done
 
+### definition-done-1
+
+**Q:** Why is the Definition of Done critical for ensuring transparency and quality in Scrum?
+
+- Vietnamese outline:
+  - Question: Vì sao Definition of Done quan trọng cho minh bạch và chất lượng?
+  - Answer:
+    - Xác định tiêu chuẩn hoàn thành chung
+    - Minh bạch công việc đã hoàn tất
+    - Đảm bảo Increment có thể sử dụng
+- English sample answer:
+  - The Definition of Done provides a shared understanding of what "complete" means for a Product Increment.
+  - It ensures that everyone — Developers, Product Owner, and Stakeholders — has the same expectations.
+  - By making quality criteria explicit, it increases transparency and allows early detection of issues.
+  - It guarantees that every Increment is usable and meets a consistent level of quality, reducing risks of misunderstanding or rework later.
+
+### definition-done-2
+
+**Q:** What is the basic process for establishing the Definition of Done in a Scrum Team?
+
+- Vietnamese outline:
+  - Question: Quy trình cơ bản thiết lập Definition of Done là gì?
+  - Answer:
+    - Tạo bởi tổ chức hoặc Scrum Team
+    - Thiết lập trong Sprint đầu tiên
+    - Sử dụng cho mọi Increment
+- English sample answer:
+  - The organization should ideally define a common Definition of Done.
+  - If no organizational standard exists, the Scrum Team creates their own.
+  - It should be created during or before the first Sprint Planning.
+  - Once established, the Definition of Done applies to every Increment to ensure a minimum quality standard.
+
+### definition-done-3
+
+**Q:** What factors should a Scrum Team consider when creating their Definition of Done?
+
+- Vietnamese outline:
+  - Question: Scrum Team cần cân nhắc gì khi tạo Definition of Done?
+  - Answer:
+    - Yêu cầu chất lượng sản phẩm
+    - Quy định kiểm thử và coding convention
+    - Thoả thuận chung trong team
+- English sample answer:
+  - The Scrum Team should consider the product’s quality requirements, such as functionality, performance, security, and usability.
+  - They should define necessary testing processes like unit tests, integration tests, and coding conventions.
+  - It's important that the team reaches a collective agreement on these standards, ensuring that all Developers understand and commit to them.
+
+### definition-done-4
+
+**Q:** When and why should the Scrum Team update the Definition of Done?
+
+- Vietnamese outline:
+  - Question: Khi nào và vì sao nên cập nhật Definition of Done?
+  - Answer:
+    - Khi nâng cao chất lượng sản phẩm
+    - Qua Sprint Retrospective
+    - Để thích nghi với thay đổi
+- English sample answer:
+  - The Scrum Team should update the Definition of Done whenever the product quality needs to be improved or new standards emerge.
+  - This often happens during Sprint Retrospectives when the team reflects on how to work more effectively.
+  - Updating it ensures that the Definition of Done remains relevant and aligned with evolving goals and technologies.
+
+### definition-done-5
+
+**Q:** How should a Scrum Master support the team in maintaining and evolving the Definition of Done?
+
+- Vietnamese outline:
+  - Question: Scrum Master hỗ trợ Definition of Done thế nào?
+  - Answer:
+    - Khuyến khích cải tiến liên tục
+    - Xử lý bất đồng về tiêu chuẩn
+    - Đảm bảo hiểu chung trong team
+- English sample answer:
+  - The Scrum Master should encourage the team to continuously improve their Definition of Done to raise product quality.
+  - They should facilitate discussions to resolve any disagreements about what "done" means.
+  - Most importantly, they must ensure that all team members share a consistent understanding of the Definition of Done, preserving transparency and accountability.
+
+### definition-done-6
+
+**Q:** What are the Developers' responsibilities regarding the Definition of Done during a Sprint?
+
+- Vietnamese outline:
+  - Question: Developer có trách nhiệm gì với Definition of Done?
+  - Answer:
+    - Tuân thủ khi phát triển
+    - Dùng để dự báo Sprint
+    - Góp phần hoàn thiện tiêu chuẩn
+- English sample answer:
+  - Developers must strictly adhere to the Definition of Done while completing Product Backlog Items.
+  - They must consider it when forecasting how much work can be completed in a Sprint.
+  - Developers also contribute by proposing improvements to the Definition of Done as they find better ways to ensure product quality.
+
+### definition-done-7
+
+**Q:** How should multiple Scrum Teams working on the same product manage their Definition of Done?
+
+- Vietnamese outline:
+  - Question: Nhiều Scrum Team cùng sản phẩm quản lý Definition of Done thế nào?
+  - Answer:
+    - Thống nhất cùng một tiêu chuẩn
+    - Cùng chịu trách nhiệm duy trì
+    - Hợp tác chặt chẽ kiểm soát chất lượng
+- English sample answer:
+  - When multiple Scrum Teams work on the same product, they must agree on a shared Definition of Done.
+  - This ensures that Increments from different teams integrate seamlessly into a single, cohesive product.
+  - Each team is responsible for maintaining this standard, and collaboration is essential to ensure consistent product quality across teams.
+
 # Scrum Team
 
 ## Scrum Team Concept
