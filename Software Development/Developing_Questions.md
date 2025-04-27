@@ -1775,6 +1775,430 @@
   - The authority to cancel enables flexible adjustment of product direction.
   - It prevents wasting resources on misaligned work.
 
+## Scrum Event
+
+### scrum-event-1
+
+**Q:** Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?
+
+- Vietnamese outline:
+  - Question:
+    - Vì sao Scrum Event là cơ hội chính thức để kiểm thử & thích nghi?
+    - Bỏ sự kiện sẽ thế nào?
+  - Answer:
+    - Tạo nhịp điệu kiểm tra liên tục
+    - Tăng cơ hội thích nghi kịp thời
+    - Bỏ Event làm giảm minh bạch và chậm cải tiến
+- English sample answer:
+  - Scrum Events are formalized to ensure the team regularly inspects their work and adapts accordingly.
+  - These events introduce a rhythm that promotes continuous learning and adjustment.
+  - If a Scrum Event is skipped, the team loses an opportunity to detect problems early, resulting in lower transparency and slower adaptation.
+  - Over time, this can significantly reduce product quality and team effectiveness.
+
+### scrum-event-2
+
+**Q:** What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?
+
+- Vietnamese outline:
+  - Question:
+    - Trách nhiệm chính của Developer trong Scrum Event là gì?
+    - Vì sao cần tham gia tích cực?
+  - Answer:
+    - Kiểm tra tiến độ thực tế
+    - Điều chỉnh kế hoạch kịp thời
+    - Tăng tính tự quản nhóm
+- English sample answer:
+  - Developers are responsible for inspecting the actual progress toward the Sprint Goal during Scrum Events.
+  - Their participation ensures that plans stay realistic and responsive to changes.
+  - Active engagement strengthens the team’s self-management, helping them identify obstacles early and make collective decisions for improvement.
+
+### scrum-event-3
+
+**Q:** Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?
+
+- Vietnamese outline:
+  - Question: Vì sao Sprint là container chứa tất cả Scrum Event?
+  - Answer:
+    - Gom tất cả hoạt động trong khung thời gian cố định
+    - Tạo tính nhịp nhàng và dự đoán được tiến độ
+    - Giúp kiểm tra và thích nghi thường xuyên
+- English sample answer:
+  - The Sprint acts as a container because it encapsulates all Scrum Events within a fixed time-box.
+  - It structures all team activities around a common rhythm, improving predictability.
+  - By time-boxing work and meetings, the Sprint fosters frequent inspection and adaptation, which are essential for delivering valuable, high-quality Increments.
+
+### scrum-event-4
+
+**Q:** Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?
+
+- Vietnamese outline:
+  - Question:
+    - Vì sao phải chọn độ dài Sprint hợp lý?
+    - Các yếu tố ảnh hưởng?
+  - Answer:
+    - Cân bằng học hỏi và rủi ro
+    - Dựa trên độ phức tạp và yêu cầu thay đổi
+    - Sprint càng ngắn, càng dễ thích nghi
+- English sample answer:
+  - Choosing the right Sprint length balances learning opportunities and risk control.
+  - Shorter Sprints allow teams to adapt faster to changes and gather feedback sooner.
+  - Factors such as project complexity, uncertainty, stakeholder involvement, and technology maturity influence the optimal Sprint length.
+  - A Sprint should never exceed one month, and ideally should be as short as practical for the product and environment.
+
+### scrum-event-5
+
+**Q:** What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?
+
+- Vietnamese outline:
+  - Question: Developer cần thực hành gì trong Sprint để duy trì tập trung và tiến độ?
+  - Answer:
+    - Bám sát Sprint Goal
+    - Cập nhật và điều chỉnh Sprint Backlog hàng ngày
+    - Tạo ít nhất một Increment
+- English sample answer:
+  - Developers must stay focused on achieving the Sprint Goal throughout the Sprint.
+  - They continuously update and adjust the Sprint Backlog based on daily progress.
+  - They are also responsible for building at least one usable Increment during the Sprint.
+  - These practices ensure alignment, adaptability, and real progress toward delivering value.
+
+### scrum-event-6
+
+**Q:** How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?
+
+- Vietnamese outline:
+  - Question: Product Owner hỗ trợ Scrum Team thế nào trong Sprint mà không gây gián đoạn?
+  - Answer:
+    - Làm rõ yêu cầu khi cần
+    - Quản lý Product Backlog
+    - Hạn chế can thiệp Sprint Backlog
+- English sample answer:
+  - The Product Owner should clarify requirements promptly when Developers have questions.
+  - They must actively manage the Product Backlog, refining and reprioritizing if needed.
+  - However, they must not interfere with the Sprint Backlog or the Developers’ daily work.
+  - This balance ensures that Developers have a stable, uninterrupted environment while still receiving the necessary business support.
+
+### scrum-event-7
+
+**Q:** What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?
+
+- Vietnamese outline:
+  - Question: Scrum Master có vai trò gì trong Sprint để bảo vệ giá trị Scrum và hiệu quả team?
+  - Answer:
+    - Gỡ bỏ trở ngại
+    - Bảo vệ nhóm khỏi gián đoạn ngoài
+    - Đảm bảo Scrum được thực hành đúng
+- English sample answer:
+  - The Scrum Master removes impediments that could slow the team down.
+  - They protect the team from external distractions, ensuring Developers can focus on Sprint Goals.
+  - The Scrum Master also ensures Scrum rules and values are upheld, coaching the team and organization on correct practices.
+  - Their work strengthens team autonomy, quality, and continuous improvement.
+
+### scrum-event-8
+
+**Q:** How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?
+
+- Vietnamese outline:
+  - Question: Stakeholder và Sponsor nên tương tác với Scrum Team thế nào trong Sprint?
+  - Answer:
+    - Tôn trọng quyền tự quản của team
+    - Cung cấp phản hồi qua Product Owner
+    - Tránh can thiệp trực tiếp công việc
+- English sample answer:
+  - Stakeholders and Sponsors should respect the Scrum Team’s autonomy and self-management.
+  - They should channel all feedback and requests through the Product Owner.
+  - Direct interference with the Developers’ work during a Sprint should be avoided.
+  - By providing timely feedback through the right channels, they help maximize the chances of delivering valuable outcomes without disrupting the Sprint flow.
+
+## Sprint Planning
+
+### sprint-planning-1
+
+**Q:**  Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?
+
+- Vietnamese outline:
+  - Question:
+    - Vì sao Sprint Planning rất quan trọng?
+    - Rủi ro nếu làm kém?
+  - Answer:
+    - Định hướng rõ Sprint Goal
+    - Dự báo công việc thực tế
+    - Nếu làm kém, Sprint dễ lạc hướng
+- English sample answer:
+  - Sprint Planning establishes a clear purpose and plan for the Sprint through defining the Sprint Goal and selecting work.
+  - It allows the Scrum Team to forecast achievable work based on capacity and past performance.
+  - Poorly executed planning leads to unclear goals, unrealistic expectations, misaligned efforts, and increased Sprint failures.
+
+### sprint-planning-2
+
+**Q:** What is the Product Owner’s role during Sprint Planning, and why is their active participation important?
+
+- Vietnamese outline:
+  - Question:
+    - Vai trò của Product Owner trong Sprint Planning?
+    - Vì sao cần tham gia tích cực?
+  - Answer:
+    - Đề xuất giá trị sản phẩm
+    - Làm rõ PBI khi cần
+    - Đảm bảo mục tiêu Sprint liên kết với Product Goal
+- English sample answer:
+  - The Product Owner proposes how the product can increase its value in the Sprint.
+  - They clarify Product Backlog Items (PBIs) and answer Developer questions during planning.
+  - Active involvement ensures that the selected PBIs align with the Product Goal, keeping the Sprint focused on maximizing value.
+
+### sprint-planning-3
+
+**Q:** Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?
+
+- Vietnamese outline:
+  - Question: Vì sao Developer phải chủ động trong Sprint Planning? Trách nhiệm gì?
+  - Answer:
+    - Chọn PBI cho Sprint
+    - Lập kế hoạch thực hiện
+    - Xác nhận khả năng hoàn thành Sprint Goal
+- English sample answer:
+  - Developers are responsible for selecting which PBIs to pull into the Sprint and breaking them down into actionable work.
+  - They decide how the work will be accomplished and commit to a feasible Sprint Goal.
+  - Their ownership ensures realistic planning and self-management throughout the Sprint.
+
+### sprint-planning-4
+
+**Q:** How does the Scrum Master support an effective Sprint Planning session?
+
+- Vietnamese outline:
+  - Question: Scrum Master hỗ trợ Sprint Planning thế nào?
+  - Answer:
+    - Giải thích mục đích Sprint Planning
+    - Đảm bảo sự kiện trong time-box
+    - Hỗ trợ team tuân thủ Scrum đúng
+- English sample answer:
+  - The Scrum Master facilitates Sprint Planning by explaining its purpose, guiding the flow of discussion, and ensuring the event stays within its time-box.
+  - They help the team focus on defining a clear Sprint Goal, selecting appropriate PBIs, and building a realistic plan.
+  - Their presence ensures adherence to Scrum principles and maximizes the event’s effectiveness.
+
+### sprint-planning-5
+
+**Q:** Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?
+
+- Vietnamese outline:
+  - Question:
+    - Khi nào Stakeholder tham dự Sprint Planning? 
+    - Tham gia thế nào cho đúng?
+  - Answer:
+    - Chỉ khi được mời
+    - Cung cấp tư vấn kỹ thuật hoặc yêu cầu
+    - Không can thiệp lựa chọn Sprint Backlog
+- English sample answer:
+  - Stakeholders may be invited to Sprint Planning to provide technical advice or clarify requirements.
+  - However, they do not participate in selecting PBIs or influencing Sprint Backlog decisions.
+  - Their role is advisory, supporting the Scrum Team without compromising their autonomy.
+
+### sprint-planning-6
+
+**Q:** Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?
+
+- Vietnamese outline:
+  - Question: 
+    - Vì sao phải tạo Sprint Goal trong Sprint Planning? 
+    - Ảnh hưởng thế nào?
+  - Answer:
+    - Cung cấp định hướng chung
+    - Tăng tính linh hoạt trong chi tiết công việc
+    - Đo lường thành công Sprint
+- English sample answer:
+  - Defining a Sprint Goal provides the Scrum Team with a shared purpose and direction for the Sprint.
+  - It enables flexibility in how work is done while maintaining a clear objective.
+  - The Sprint Goal serves as a benchmark for Sprint success and decision-making throughout execution.
+
+### sprint-planning-7
+
+**Q:** How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?
+
+- Vietnamese outline:
+  - Question: 
+    - Sprint Backlog được tạo thế nào trong Sprint Planning? 
+    - Vì sao Developer phải sở hữu?
+  - Answer:
+    - Developer chọn PBI
+    - Lập kế hoạch hành động
+    - Đảm bảo khả năng hoàn thành Sprint Goal
+- English sample answer:
+  - Developers create the Sprint Backlog by selecting PBIs from the Product Backlog and planning how to turn them into a usable Increment.
+  - They break PBIs down into actionable tasks and forecast the work based on their capacity.
+  - Ownership of the Sprint Backlog ensures Developers' full commitment and accountability for delivering the Sprint Goal.
+
+### sprint-planning-8
+
+**Q:** What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?
+
+- Vietnamese outline:
+  - Question:
+    - Các yếu tố chính của kế hoạch Sprint Planning?
+    - Kế hoạch thay đổi thế nào trong Sprint?
+  - Answer:
+    - Sprint Goal
+    - Sprint Backlog (PBI + task)
+    - Kế hoạch được cập nhật theo thực tế
+  - English sample answer:
+    - The plan created during Sprint Planning includes the Sprint Goal, the selected PBIs (Sprint Backlog), and the detailed action plan for completing them.
+    - As new information emerges during the Sprint, Developers adapt the Sprint Backlog but keep the Sprint Goal fixed.
+    - This flexible planning approach allows the team to respond to real-world changes without losing sight of the Sprint’s primary objective.
+
+## Daily Scrum
+
+### daily-scrum-1
+
+**Q:**  Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?
+
+- Vietnamese outline:
+  - Question:
+    - Vì sao Daily Scrum thiết yếu cho tiến độ Sprint?
+    - Khác gì status meeting?
+  - Answer:
+    -  Kiểm tra tiến độ so với Sprint Goal
+    - Điều chỉnh kế hoạch hàng ngày
+    - Tập trung vào tự quản, không báo cáo
+- English sample answer:
+  - The Daily Scrum is critical because it allows Developers to inspect their progress toward the Sprint Goal and adapt their plan daily.
+  - It fosters team self-management by encouraging Developers to solve problems collaboratively.
+  - Unlike a status meeting, it is not about reporting to a manager but about synchronizing and adjusting among Developers to achieve the Sprint Goal.
+
+### daily-scrum-2
+
+**Q:** What key activities should happen during the Daily Scrum to ensure it achieves its purpose?
+
+- Vietnamese outline:
+  - Question: Những hoạt động chính trong Daily Scrum là gì để đảm bảo hiệu quả?
+  - Answer:
+    - Kiểm tra tiến độ
+    - Phát hiện cản trở
+    - Lên kế hoạch ngắn hạn
+- English sample answer:
+  - During the Daily Scrum, Developers inspect their work toward the Sprint Goal, identify any impediments, and plan the next 24 hours of work.
+  - The meeting should stay focused, time-boxed to 15 minutes, and not be used for detailed problem-solving.
+  - If issues are identified, follow-up discussions can be scheduled separately to avoid derailing the event.
+
+## Sprint Review
+
+### sprint-review-1
+
+**Q:**  Why is Sprint Review considered a critical event for maximizing product value and steering future development?
+
+- Vietnamese outline:
+  - Question: Vì sao Sprint Review rất quan trọng để tối đa hóa giá trị sản phẩm?
+  - Answer:
+    - Kiểm tra Increment thực tế
+    - Thu thập phản hồi từ Stakeholder
+    - Định hướng điều chỉnh Product Backlog
+- English sample answer:
+  -The Sprint Review is vital because it enables the Scrum Team and Stakeholders to inspect the real Product Increment and discuss future directions.
+  - It provides an opportunity to gather valuable feedback early and frequently.
+  - Insights gained during the Sprint Review directly shape adjustments to the Product Backlog, ensuring the product evolves to maximize delivered value.
+
+### sprint-review-2
+
+**Q:** What risks occur if the Scrum Team frequently skips Sprint Reviews?
+
+- Vietnamese outline:
+  - Question: Rủi ro gì nếu Scrum Team thường xuyên bỏ Sprint Review?
+  - Answer:
+    - Mất kết nối với Stakeholder
+    - Product Backlog lỗi thời
+    - Giảm cơ hội khiểm thử & thích nghi
+- English sample answer:
+  - Skipping Sprint Reviews weakens the Scrum Team’s connection with Stakeholders and customers.
+  - Without regular inspection, the Product Backlog may become outdated, misaligned with real user needs.
+  - Missing these critical adaptation points increases the likelihood of building features nobody values, wasting effort, and delaying necessary course corrections.
+
+### sprint-review-3
+
+**Q:** What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?
+
+- Vietnamese outline:
+  - Question:
+    - Product Environment là gì trong Sprint Review?
+    - Vì sao cần bàn?
+  - Answer:
+    - Yếu tố bên ngoài ảnh hưởng sản phẩm
+    - Gồm thị trường, nhu cầu, xu hướng
+    - Cần cập nhật để điều chỉnh Product Backlog
+- English sample answer:
+  - The Product Environment refers to external factors that impact the product’s success, such as market trends, customer behaviors, competitive moves, or regulatory changes.
+  - Discussing the environment during Sprint Review ensures the Scrum Team adapts the Product Backlog based on the latest realities.
+  - It helps keep product development relevant and strategically aligned with the changing world.
+
+### sprint-review-4
+
+**Q:** What is the typical flow of a Sprint Review, and why is each step important?
+
+- Vietnamese outline:
+  - Question:
+    - Flow cơ bản của Sprint Review là gì?
+    - Vì sao mỗi bước quan trọng?
+  - Answer:
+    - Trình bày kết quả Sprint
+    - Stakeholder phản hồi
+    - Cập nhật Product Backlog
+- English sample answer:
+  - The Sprint Review typically follows this flow:
+    1. The Scrum Team presents the completed Product Increment.
+    2. Stakeholders inspect the outcome and provide feedback.
+    3. The team and Stakeholders collaborate to adjust the Product Backlog based on new insights.
+  - Each step is crucial: 
+    1. Showcasing the Increment builds transparency
+    2. Gathering feedback ensures continuous improvement
+    3. Updating the Product Backlog steers future work to maximize value.
+
+## Sprint Retrospective
+
+### sprint-retrospective-1
+
+**Q:** Why is the Sprint Retrospective important for continuous improvement in Scrum?
+
+- Vietnamese outline:
+  - Question: Vì sao Sprint Retrospective quan trọng cho cải tiến liên tục?
+  - Answer:
+    - Kiểm tra quy trình và tương tác nhóm
+    - Phát hiện điểm cần cải thiện
+    - Tăng hiệu quả Sprint sau
+- English sample answer:
+  - The Sprint Retrospective provides the Scrum Team with a structured opportunity to inspect how they worked during the last Sprint.
+  - It identifies process weaknesses, collaboration issues, and improvement opportunities.
+  - By acting on the insights, the team improves Sprint by Sprint, leading to higher performance, better products, and a healthier team culture.
+
+### sprint-retrospective-2
+
+**Q:** What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?
+
+- Vietnamese outline:
+  - Question: Scrum Team cần tập trung vào điều gì trong Sprint Retrospective để hiệu quả?
+  - Answer:
+    - Đánh giá điều làm tốt và chưa tốt
+    - Xác định nguyên nhân gốc rễ
+    - Đề xuất cải tiến thực tế
+- English sample answer:
+  - During the Sprint Retrospective, the Scrum Team should evaluate what went well, what didn’t, and why.
+  - They should aim to uncover root causes of problems, not just surface symptoms.
+  - Finally, they should agree on a few practical, high-impact improvements to implement in the next Sprint.
+
+### sprint-retrospective-3
+
+**Q:** What is the typical flow of a Sprint Retrospective, and why is each stage important?
+
+- Vietnamese outline:
+  - Question:
+    - Flow cơ bản của Sprint Retrospective là gì?
+    - Vì sao mỗi bước quan trọng?
+  - Answer:
+    - Thu thập dữ liệu
+    - Phân tích và thảo luận
+    - Lập kế hoạch cải tiến
+- English sample answer:
+  - The Sprint Retrospective typically follows this flow:
+  - Gather data: Everyone shares observations about the Sprint.
+  - Analyze and discuss: Identify key successes, problems, and their causes.
+  - Plan improvements: Select a few concrete actions to improve in the next Sprint.
+  - Each step builds upon the previous one: gathering information ensures no blind spots, analysis brings deep insights, and planning guarantees that improvement actions are real and actionable.
+
 # System design
 
 ## Functional Requirement
