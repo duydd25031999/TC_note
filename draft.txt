@@ -1,0 +1,10 @@
+**Q:** [Insert your English interview question here]
+
+- Vietnamese outline:
+  - Question:
+    - [Vietnamese analysis about question]
+  - Answer:
+    - [Vietnamese bullet point]
+- English sample answer:
+	- [English bullet point]
+

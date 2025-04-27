@@ -1,5 +1,41 @@
 # Git
 
+### Questions
+
+[1. What is Git and why is it important in software development?](./Lead_Questions.md#git-concept-1)
+
+[2. In Git, what does a commit represent?](./Lead_Questions.md#git-concept-2)
+
+[3. What happens when you run the git commit command?](./Lead_Questions.md#git-concept-3)
+
+[4. What is a branch in Git and why do we use it?](./Lead_Questions.md#git-concept-4)
+
+[5. What does the git branch command do?](./Lead_Questions.md#git-concept-5)
+
+[6. What is a pull request and why is it used in team collaboration?](./Lead_Questions.md#git-concept-6)
+
+[7. What is a remote repository in Git?](./Lead_Questions.md#git-concept-7)
+
+[8. What is the purpose of the git add command?](./Lead_Questions.md#git-concept-8)
+
+[9. What does git fetch do?](./Lead_Questions.md#git-concept-9)
+
+[10. What does the git merge command accomplish?](./Lead_Questions.md#git-concept-10)
+
+[11. What happens when you run git pull?](./Lead_Questions.md#git-concept-11)
+
+[12. What does the git push command do?](./Lead_Questions.md#git-concept-12)
+
+[13. What is the purpose of using git rebase?](./Lead_Questions.md#git-concept-13)
+
+[14. What does git cherry-pick do in Git?](./Lead_Questions.md#git-concept-14)
+
+[15. What is the git reset command used for?](./Lead_Questions.md#git-concept-15)
+
+[16. What is git stash and when would you use it?](./Lead_Questions.md#git-concept-16)
+
+## Concept
+
 -💡 Git is a free and open source distributed version control system
 
 - Git tracks the changes of each file in a working directory.
@@ -40,21 +76,59 @@
 
 ## Git Merge
 
-- 
+- Combines commit changes from one branch into another branch.
 
 ## Git Pull
 
+- Fetches updates from a remote repository and immediately merges them into your local branch.
+
 ## Git Push
+
+- Sends your local commits to a remote repository.
 
 ## Git Rebase
 
+- Moves or re-applies commits from one branch onto another, creating a cleaner commit history.
+- Moves or "replays" commits from one branch onto another branch.
+- Creates a linear history by eliminating the branch point.
+- Git Merge:
+    - Combines two branches together by creating a new "merge commit."
+    - Keeps the history of both branches, showing where they diverged and joined.
+
+
 ## Git Cherry-pick
+
+- Applies a specific commit from one branch to another branch.
 
 ## Git Reset
 
+- Moves the current branch pointer to a previous commit and optionally changes staged/working directory state.
+- Git Reset --soft:
+    - Moves the branch pointer to another commit.
+    - Keeps all your changes in the staging area (ready to commit).
+- Git Reset --hard:
+    - Moves the branch pointer to another commit.
+    - Deletes all changes in both the staging area and the working directory (completely clean).
+
 ## Git Stash
 
+- Temporarily saves changes that are not ready to commit, allowing you to work on something else.
+
 # Gitflow
+
+### Questions
+
+[1. What is Gitflow and why is it used in software development?](./Lead_Questions.md#gitflow-1)
+
+[2. How does Gitflow work with CI/CD pipelines?](./Lead_Questions.md#gitflow-2)
+
+[3. What is a Feature branch in Gitflow and when do you use it?](./Lead_Questions.md#gitflow-3)
+
+[4. What is a Release branch in Gitflow and what is its purpose?](./Lead_Questions.md#gitflow-4)
+
+[5. What is a Hotfix branch in Gitflow and when is it needed?](./Lead_Questions.md#gitflow-5)
+
+## Concept
 
 - Gitflow is a Git workflow for managing Git branches.
 - Based on trunk-based workflows.

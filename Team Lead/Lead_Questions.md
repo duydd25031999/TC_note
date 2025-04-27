@@ -523,6 +523,50 @@
   - Teams use empirical data from previous Sprints for better planning.
   - They accept and adapt to uncertainty rather than fighting it.
 
+## Kanban Waterfall
+
+### kanban-waterfall-1
+
+**Q:** How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?
+
+- Vietnamese outline:
+  - Question: Giới hạn WIP trong Kanban cải thiện chất lượng và tốc độ thế nào?
+  - Answer:
+    - Giảm số lượng công việc đang làm để tránh quá tải
+    - Tăng sự tập trung vào từng task
+    - Phát hiện và xử lý vấn đề nhanh hơn
+    - Tránh tồn đọng và tắc nghẽn quy trình
+    - Tối ưu hóa dòng chảy công việc liên tục (flow)
+- English sample answer:
+  - Limiting WIP prevents teams from being overloaded.
+  - It increases focus on completing individual tasks.
+  - Problems are detected and resolved faster.
+  - It reduces backlog and bottlenecks in the workflow.
+  - It optimizes continuous flow, improving both speed and quality.
+
+### kanban-waterfall-2
+
+**Q:** Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?
+
+- Vietnamese outline:
+  - Question:
+    - Vì sao Waterfall không phù hợp với dự án hay thay đổi? 
+    - Tác động tới rủi ro thế nào?
+  - Answer:
+    - Waterfall yêu cầu xác định rõ yêu cầu ngay từ đầu
+    - Các bước sau phụ thuộc hoàn toàn vào kết quả bước trước
+    - Việc thay đổi yêu cầu gây tốn kém và khó khăn
+    - Khó thích ứng nếu môi trường hoặc yêu cầu thay đổi
+    - Tăng nguy cơ thất bại do kế hoạch ban đầu sai lệch
+- English sample answer:
+  - Waterfall requires all requirements to be fixed upfront.
+  - Each phase depends fully on the previous phase's output.
+  - Changes later in the project are costly and difficult.
+  - It struggles to adapt if the environment or needs evolve.
+  - This increases the risk of failure if early assumptions are wrong.
+
+# Scrum Team
+
 # System design
 
 ## Functional Requirement
@@ -616,3 +660,268 @@
   - Map the journey starting from the user’s primary goal down to each step
   - Identify touchpoints and user actions at each phase
   - Review and fill in missing steps with appropriate user stories
+
+# Git
+
+## Git command
+
+### git-concept-1
+
+**Q:** What is Git and why is it important in software development?
+
+- Vietnamese outline:
+  - Question:
+    - Git là gì?
+    - Tại sao Git quan trọng trong phát triển phần mềm?
+  - Answer:
+    - Git là hệ thống quản lý phiên bản phân tán
+    - Giúp theo dõi lịch sử thay đổi
+    - Hỗ trợ làm việc nhóm hiệu quả
+- English sample answer:
+  - Git is a distributed version control system.
+  - It helps track changes in files and collaborate in teams.
+
+### git-concept-2
+
+**Q:** In Git, what does a commit represent?
+
+- Vietnamese outline:
+  - Question: Commit trong Git đại diện cho điều gì?
+  - Answer:
+    - Commit là bản ghi snapshot thay đổi
+    - Lưu trạng thái mã nguồn tại 1 thời điểm
+- English sample answer:
+  - A commit is a snapshot of the changes.
+  - It records the project’s state at a specific moment.
+
+### git-concept-3
+
+**Q:** What happens when you run the git commit command?
+
+- Vietnamese outline:
+  - Question: git commit làm gì?
+  - Answer: Tạo bản ghi mới chứa thay đổi đã được staged
+- English sample answer:
+  - It creates a new commit that saves the staged changes.
+
+### git-concept-4
+
+**Q:** What is a branch in Git and why do we use it?
+
+- Vietnamese outline:
+  - Question:
+    - Branch trong Git là gì?
+    - Tại sao cần dùng branch?
+  - Answer: 
+    - Branch là nhánh riêng để phát triển độc lập
+    - Tránh ảnh hưởng tới mã chính
+- English sample answer:
+  - A branch is a separate line of development.
+  - It helps isolate changes without affecting the main code.
+
+### git-concept-5
+
+**Q:** What does the git branch command do?
+
+- Vietnamese outline:
+  - Question: Lệnh git branch làm gì?
+  - Answer:
+    - Hiển thị danh sách branch
+    - Tạo branch mới
+- English sample answer:
+  - It shows existing branches or creates a new branch.
+
+### git-concept-6
+
+**Q:** What is a pull request and why is it used in team collaboration?
+
+- Vietnamese outline:
+  - Question:
+    - Pull request là gì?
+    - Tại sao dùng pull request trong teamwork?
+  - Answer:
+    - Đề xuất hợp nhất code từ branch khác
+    - Tạo quy trình review và kiểm tra code
+- English sample answer:
+  - A pull request proposes merging code from another branch.
+  - It helps teams review and discuss changes before merging.
+
+### git-concept-7
+
+**Q:** What is a remote repository in Git?
+
+- Vietnamese outline:
+  - Question: Remote repository trong Git là gì?
+  - Answer: Kho lưu trữ dự án trên server hoặc cloud
+- English sample answer:
+  - A remote repository is a cloud or server-based storage for the project.
+
+### git-concept-8
+
+**Q:** What is the purpose of the git add command?
+
+- Vietnamese outline:
+  - Question: Lệnh git add dùng để làm gì?
+  - Answer: Đưa thay đổi vào khu vực staging chuẩn bị commit
+- English sample answer:
+  - It stages changes to prepare them for a commit.
+
+### git-concept-9
+
+**Q:** What does git fetch do?
+
+- Vietnamese outline:
+  - Question: git fetch thực hiện điều gì?
+  - Answer: Lấy cập nhật mới từ remote về local nhưng không merge
+- English sample answer:
+  - It retrieves updates from the remote without merging them.
+
+### git-concept-10
+
+**Q:** What does the git merge command accomplish?
+
+- Vietnamese outline:
+  - Question: git merge dùng để làm gì?
+  - Answer: Gộp thay đổi từ branch này sang branch hiện tại
+- English sample answer:
+  - It combines changes from another branch into the current branch.
+
+### git-concept-11
+
+**Q:** What happens when you run git pull?
+
+- Vietnamese outline:
+  - Question: git pull làm gì?
+  - Answer: Vừa fetch vừa merge cập nhật từ remote
+- English sample answer:
+  - It fetches and merges updates from the remote repository.
+
+### git-concept-12
+
+**Q:** What does the git push command do?
+
+- Vietnamese outline:
+  - Question: Lệnh git push có tác dụng gì?
+  - Answer: Đẩy commit từ local lên remote repository
+- English sample answer:
+  - It uploads local commits to the remote repository.
+
+### git-concept-13
+
+**Q:** What is the purpose of using git rebase?
+
+- Vietnamese outline:
+  - Question: git rebase dùng để làm gì?
+  - Answer: Di chuyển hoặc kết hợp các commit thành một dòng lịch sử mới
+- English sample answer:
+  - It moves or combines commits to create a cleaner commit history.
+
+### git-concept-14
+
+**Q:** What does git cherry-pick do in Git?
+
+- Vietnamese outline:
+  - Question: git cherry-pick làm gì?
+  - Answer: Áp dụng commit cụ thể vào branch hiện tại
+- English sample answer:
+  - It applies a specific commit from one branch onto another.
+
+### git-concept-15
+
+**Q:** What is the git reset command used for?
+
+- Vietnamese outline:
+  - Question: git reset được dùng để làm gì?
+  - Answer: Quay về trạng thái trước commit hoặc trước staging
+- English sample answer:
+  - It moves the current branch to a previous state or unstages changes.
+
+### git-concept-16
+
+**Q:** What is git stash and when would you use it?
+
+- Vietnamese outline:
+  - Question:
+    - git stash là gì?
+    - Khi nào nên dùng git stash?
+  - Answer:
+    - Lưu tạm thay đổi chưa commit
+    - Dùng khi cần chuyển sang task khác
+- English sample answer:
+  - It temporarily saves uncommitted changes.
+  - It’s useful when switching tasks quickly.
+
+## Gitflow
+
+### gitflow-1
+
+**Q:** What is Gitflow and why is it used in software development?
+
+- Vietnamese outline:
+  - Question: 
+    - Gitflow là gì?
+    - Tại sao cần sử dụng Gitflow trong phát triển phần mềm?
+  - Answer:
+    - Gitflow là workflow quản lý branch rõ ràng
+    - Hỗ trợ quản lý phát hành, tính năng, sửa lỗi dễ dàng
+- English sample answer:
+  - Gitflow is a branching workflow that organizes feature, release, and hotfix branches.
+  - It helps teams manage releases, features, and bug fixes systematically.
+
+### gitflow-2
+
+**Q:** How does Gitflow work with CI/CD pipelines?
+
+- Vietnamese outline:
+  - Question: Gitflow hoạt động như thế nào với quy trình CI/CD?
+  - Answer:
+    - Các branch rõ ràng giúp tự động hóa kiểm thử, build, deploy
+    - Release branch hoặc main branch trigger các pipeline
+- English sample answer:
+  - Gitflow structures branches so CI/CD pipelines can automatically test, build, and deploy.
+  - Release or main branches often trigger the automation process.
+
+### gitflow-3
+
+**Q:** What is a Feature branch in Gitflow and when do you use it?
+
+- Vietnamese outline:
+  - Question:
+    - Feature branch trong Gitflow là gì?
+    - Khi nào cần dùng feature branch?
+  - Answer:
+    - Feature branch dùng để phát triển tính năng mới
+    - Tách riêng để không ảnh hưởng đến nhánh chính
+- English sample answer:
+  - A Feature branch is used to develop a new feature separately.
+  - It isolates work until it is ready to merge into the main development branch.
+
+### gitflow-4
+
+**Q:** What is a Release branch in Gitflow and what is its purpose?
+
+- Vietnamese outline:
+  - Question:
+    - Release branch trong Gitflow là gì?
+    - Mục đích của release branch là gì?
+  - Answer:
+    - Release branch dùng để chuẩn bị phát hành
+    - Cho phép kiểm thử và sửa lỗi mà không chặn phát triển tính năng mới
+- English sample answer:
+  - A Release branch is for preparing a new version of the product.
+  - It allows testing and bug fixing while new features continue in parallel.
+
+### gitflow-5
+
+**Q:** What is a Hotfix branch in Gitflow and when is it needed?
+
+- Vietnamese outline:
+  - Question:
+    - Hotfix branch trong Gitflow là gì?
+    - Khi nào cần dùng hotfix branch?
+  - Answer:
+    - Hotfix branch dùng để sửa lỗi khẩn cấp trên bản production
+    - Khởi tạo trực tiếp từ main branch
+- English sample answer:
+  - A Hotfix branch is used to quickly fix critical bugs in the production environment.
+  - It is created directly from the main branch and patched back after fixing.

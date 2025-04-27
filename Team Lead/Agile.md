@@ -39,6 +39,12 @@
 
 # Kanban
 
+### Questions
+
+[1. How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?](./Lead_Questions.md#kanban-waterfall-1)
+
+## Concept
+
 - Visualizing work
 - Limitig work in progress
 - Simple to implement
@@ -168,6 +174,12 @@
 - Like Forecast the Hurricane
 
 # Waterfall
+
+### Questions
+
+[1. Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?](./Lead_Questions.md#kanban-waterfall-2)
+
+## Concept
 
 - Waterfall dùng cho những dự án mà các thành phần có liên kết chặt chẽ với nhau
     - Ví dụ phát triển 1 phần cứng, 1 cái máy
