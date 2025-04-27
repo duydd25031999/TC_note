@@ -61,13 +61,13 @@
 
 ### Questions
 
-[1. In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?](./Lead_Questions.md#functional-requirement-1)
+[1. In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?](./Developing_Questions.md#functional-requirement-1)
 
-[2. How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?](./Lead_Questions.md#functional-requirement-2)
+[2. How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?](./Developing_Questions.md#functional-requirement-2)
 
-[3. What challenges might occur during backlog refinement when sizing user stories, and how would you address them?](./Lead_Questions.md#functional-requirement-3)
+[3. What challenges might occur during backlog refinement when sizing user stories, and how would you address them?](./Developing_Questions.md#functional-requirement-3)
 
-[4. When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?](./Lead_Questions.md#functional-requirement-4)
+[4. When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?](./Developing_Questions.md#functional-requirement-4)
 
 ### Concept
 
@@ -168,9 +168,9 @@ II. Acceptance Criteria
 
 ### Questions
 
-[1. What criteria would you use to decide when a group of user stories should be promoted into an epic?](./Lead_Questions.md#functional-requirement-5)
+[1. What criteria would you use to decide when a group of user stories should be promoted into an epic?](./Developing_Questions.md#functional-requirement-5)
 
-[2. How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?](./Lead_Questions.md#functional-requirement-6)
+[2. How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?](./Developing_Questions.md#functional-requirement-6)
 
 ### Concept
 

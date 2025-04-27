@@ -979,15 +979,52 @@
 
 ### product-increment-2
 
-**Q:** 
+**Q:** What is the basic process to create a Product Increment during a Sprint?
+
+- Vietnamese outline:
+  - Question: Quy trình cơ bản tạo Product Increment trong Sprint là gì?
+  - Answer: Chọn PBI => Hoàn thành theo Definition of Done => Tích hợp vào Increment
+- English sample answer:
+  1. The basic process begins by selecting Product Backlog Items (PBIs) during Sprint Planning.
+  2. Developers complete the work while ensuring it meets the Definition of Done.
+  3. Once completed, each PBI becomes part of the new Product Increment.
+  4. All Increments must integrate properly to ensure they form a cohesive, usable product.
 
 ### product-increment-3
 
-**Q:** 
+**Q:** Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?
+
+- Vietnamese outline:
+  - Question: Vì sao phải tạo ít nhất một Increment mỗi Sprint dù chưa release?
+  - Answer:
+    - Đảm bảo tiến độ hiện thực
+    - Hỗ trợ kiểm tra, thích ứng liên tục
+    - Duy trì cam kết chất lượng
+- English sample answer:
+  - Creating at least one Increment each Sprint ensures tangible progress toward the Product Goal.
+  - It allows the team to frequently inspect the working software and adapt based on real results.
+  - Even if the Increment is not immediately released, it must be potentially releasable and meet the Definition of Done.
+  - It reinforces the team's commitment to quality and transparency.
 
 ### product-increment-4
 
-**Q:** 
+**Q:** What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?
+
+- Vietnamese outline:
+  - Question:
+    - Khi nào nên release Increment? 
+    - Cần cân nhắc yếu tố nào?
+  - Answer:
+    - Increment có thể sử dụng
+    - Đáp ứng Definition of Done
+    - Cân nhắc giá trị đem lại cho khách hàng
+    - Phối hợp giữa Product Owner và Developer
+- English sample answer:
+  - The primary consideration is whether the Increment is usable and meets the Definition of Done.
+  - The Product Owner evaluates if releasing it delivers valuable outcomes to users or stakeholders.
+  - Timing of the release should maximize business value without disrupting overall product stability.
+  - Collaboration between the Product Owner and Developers ensures that quality and business needs are aligned.
+  - A Sprint Review may inform release decisions, but release can happen anytime once an Increment is ready.
 
 ## Definition of Done
 
@@ -1156,12 +1193,6 @@
   - Prioritize fixing debts that affect Sprint Goals directly.
   - Move other debt items into the Product Backlog for future planning.
   - Combine continuous improvement with feature delivery.
-
-## Scrum Artifact
-
-### scrum-artifact-1
-
-**Q:** 
 
 ## Scrum Master
 

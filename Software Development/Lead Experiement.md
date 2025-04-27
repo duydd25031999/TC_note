@@ -2,17 +2,17 @@
 
 ### Questions
 
-[1. How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?](./Lead_Questions.md#leadership-philosophy-1)
+[1. How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?](./Developing_Questions.md#leadership-philosophy-1)
 
-[2. Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?](./Lead_Questions.md#leadership-philosophy-2)
+[2. Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?](./Developing_Questions.md#leadership-philosophy-2)
 
-[3. Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?](./Lead_Questions.md#leadership-philosophy-3)
+[3. Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?](./Developing_Questions.md#leadership-philosophy-3)
 
-[4. How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.](./Lead_Questions.md#leadership-philosophy-4)
+[4. How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.](./Developing_Questions.md#leadership-philosophy-4)
 
-[5. What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?](./Lead_Questions.md#leadership-philosophy-5)
+[5. What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?](./Developing_Questions.md#leadership-philosophy-5)
 
-[6. Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?](./Lead_Questions.md#leadership-philosophy-6)
+[6. Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?](./Developing_Questions.md#leadership-philosophy-6)
 
 ## Adaptability
 - Definition: Embracing the uniqueness of every project and being ready to adjust quickly to unforeseen challenges.
@@ -47,15 +47,15 @@
 
 ### Questions
 
-[1. Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).](./Lead_Questions.md#leadership-roles-1)
+[1. Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).](./Developing_Questions.md#leadership-roles-1)
 
-[2. How do you handle conflicting priorities between technical requirements and stakeholder demands?](./Lead_Questions.md#leadership-roles-2)
+[2. How do you handle conflicting priorities between technical requirements and stakeholder demands?](./Developing_Questions.md#leadership-roles-2)
 
-[3. Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?](./Lead_Questions.md#leadership-roles-3)
+[3. Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?](./Developing_Questions.md#leadership-roles-3)
 
-[4. As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?](./Lead_Questions.md#leadership-roles-4)
+[4. As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?](./Developing_Questions.md#leadership-roles-4)
 
-[5. How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?](./Lead_Questions.md#leadership-roles-5)
+[5. How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?](./Developing_Questions.md#leadership-roles-5)
 
 ## Leader for the Front-End Team
 
@@ -99,11 +99,11 @@
 
 ### Questions
 
-[1. How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?](./Lead_Questions.md#team-collaboration-1)
+[1. How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?](./Developing_Questions.md#team-collaboration-1)
 
-[2. Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?](./Lead_Questions.md#team-collaboration-2)
+[2. Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?](./Developing_Questions.md#team-collaboration-2)
 
-[3. Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?](./Lead_Questions.md#team-collaboration-3)
+[3. Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?](./Developing_Questions.md#team-collaboration-3)
 
 ## Team Collaboration
 
@@ -166,9 +166,9 @@
 
 ### Questions:
 
-[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Lead_Questions.md#client-presale-1)
+[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Developing_Questions.md#client-presale-1)
 
-[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Lead_Questions.md#client-presale-2)
+[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Developing_Questions.md#client-presale-2)
 
 
 ## Client Engagement

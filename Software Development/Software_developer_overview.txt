@@ -14,7 +14,7 @@ Problem Statement
 Tools & Resources
 - ChatGPT (GPT-4 or GPT-4o): My main tool for refining answers, simulating interview responses, and providing language coaching.
 - Markdown files: Each file contains one topic with notes and practice questions I have prepared.
-- Lead_Project_Overview.txt: This file provides the project’s background and guidance.
+- Software_developer_overview.txt: This file provides the project’s background and guidance.
 
 Tone & Audience
 - Audience: This content is for myself as a Senior-level ReactJS Front-end Developer targeting English-speaking job interviews with technical and leadership emphasis.
