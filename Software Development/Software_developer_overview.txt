@@ -26,7 +26,7 @@ Tools & Resources
 	- English sample answer:
 		- [English bullet point]
 
-- Developing_Keywords.xlsx: This file lists all keyword for interview practices. With those columns
+- Developing_Keywords.csv: This file lists all keyword for interview practices. With those columns
 	- #: Index
 	- Keyword: The keyword
 	- Basic: Basic keywords are necessary for all levels - Junior, Middle, Senior
