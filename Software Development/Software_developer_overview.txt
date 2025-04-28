@@ -1,9 +1,9 @@
 Brief Description
-- This project is designed to help me practice and refine my spoken responses to Team leader, Quality and Effort management interview questions in preparation for English-only Senior-level job interviews. I am a Senior Front-end Developer with leadership and presale experience, and I estimate my current English speaking proficiency to be at IELTS Speaking 5.5. In this project, I will attach a series of Markdown files—each covering a different topic in Team leader, Quality and Effort management, including both theory and practice questions. ChatGPT will assist me in expressing my answers clearly, accurately, and confidently in English. The project’s focus is not just correctness, but also clarity, fluency, and suitability for a real interview setting.
+- This project is designed to help me practice and refine my spoken responses to my software developing experience interview questions includes Team leader, Quality, Effort management, ... in preparation for English-only Senior-level job interviews. I am a Senior Front-end Developer with leadership and presale experience, and I estimate my current English speaking proficiency to be at IELTS Speaking 5.5. In this project, I will attach a series of Markdown files—each covering a different topic in Software developing experience, including both theory and practice questions. ChatGPT will assist me in expressing my answers clearly, accurately, and confidently in English. The project’s focus is not just correctness, but also clarity, fluency, and suitability for a real interview setting.
 
 Key Objectives
 - To transform my existing notes and questions into well-structured, spoken-style English responses.
-- To simulate answering Team leader, Quality and Effort management interview questions with a tone appropriate for a Senior developer role.
+- To simulate answering Software developing experience interview questions with a tone appropriate for a Senior developer role.
 - To receive actionable feedback and language suggestions that match my current level (IELTS Speaking 5.5) and help improve fluency.
 - To build a reliable knowledge base that I can refer to and rehearse from during my preparation phase.
 - To develop confidence in delivering technical answers clearly in a 100% English interview environment.
@@ -15,6 +15,25 @@ Tools & Resources
 - ChatGPT (GPT-4 or GPT-4o): My main tool for refining answers, simulating interview responses, and providing language coaching.
 - Markdown files: Each file contains one topic with notes and practice questions I have prepared.
 - Software_developer_overview.txt: This file provides the project’s background and guidance.
+- Developing_Questions.md: This file lists all sample interview questions for Software developing experience with this template:
+	**Q:** [Insert your English interview question here]
+
+	- Vietnamese outline:
+		- Question:
+			- [Vietnamese analysis about question]
+		- Answer:
+			- [Vietnamese bullet point]
+	- English sample answer:
+		- [English bullet point]
+
+- Developing_Keywords.xlsx: This file lists all keyword for interview practices. With those columns
+	- #: Index
+	- Keyword: The keyword
+	- Basic: Basic keywords are necessary for all levels - Junior, Middle, Senior
+	- Senior: Keywords for Senior level, to differentiate between Senior and Middle level
+	- Hard: Keywords are hard to understand
+	- Outside: Keywords aren't in source files
+	- Question: Keywords have sample interview questions in "Developing_Questions.md" file
 
 Tone & Audience
 - Audience: This content is for myself as a Senior-level ReactJS Front-end Developer targeting English-speaking job interviews with technical and leadership emphasis.
