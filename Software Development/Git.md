@@ -36,8 +36,7 @@
 
 ## Concept
 
--💡 Git is a free and open source distributed version control system
-
+- 💡 Git is a free and open source distributed version control system
 - Git tracks the changes of each file in a working directory.
 - It saves change history
 - It synchronizes that history with all members
@@ -147,7 +146,7 @@
 2. `feature` branches are generally created off to the latest `develop` branch.
 3. When a feature is complete, it gets merged back into `develop`.
 
--💡 Features should never interact directly with `main`
+- 💡 Features should never interact directly with `main`
 
 ## Release branch
 

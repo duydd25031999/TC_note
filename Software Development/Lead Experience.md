@@ -59,7 +59,6 @@
 
 ## Leader for the Front-End Team
 
-- Transitioned from a regular front-end developer to a Middle-level developer and then assumed the leadership role over Junior and Fresher developers.
 - Built projects from the ground up by selecting the appropriate front-end technology and setting project-specific rules.
 - Organized tasks for the entire team, ensuring that assignments were clearly communicated and aligned with project goals.
 - Acted as the main liaison between the front-end team, project management, and customers.
