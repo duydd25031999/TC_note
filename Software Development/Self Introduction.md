@@ -2,36 +2,27 @@
 
 **Q:** Can you introduce yourself and your work experience
 
-- My name is Duy.
-- I have three years experience for web development.
-- I have worked for three companies.
-    1. The first is FPT Software, I have joined in a project for translation. I have worked as a Frontend Developer with VueJS Framework.
-    2. The second company is IMPL, this is a outsourcing company for Japanese customer. I also applied as a a Frontend Developer.
-        - But this company had a lot of PHP projects, but PHP teams didn’t have enough members to resolve all tasks.
-        - So I was moved to PHP team and worked with both roles Frontend and Backend.
-    3. The last company is Seal Commerce, this is a Vietnamese product company.
-- Do you know Shopify platform ?
-- This company is a partner of Shopify. We develop a web builder app for Shopify.
-- I applied as Frontend Developer and the product, first is built on jQuery, after several years, it move to. VueJS, but the core features still code in jQuery.
-
-## Options
-
-- Thank you for giving me the opportunity to be interviewed for this position today.
-- This project doesn’t a product owner, so I and development team had to join to develop the feature specification.
-- I work directly with the designer to design the functionality together.
-- I also help the customer service team to support customer. If there was urgent bug, I had to fix it immediately.
-- When working in last company, I had two times being monthly spotlight in Development team.
-- I have learned a number of other frameworks as well as other technologies but have not participated in any real projects so I am most confident in Vuejs.
-- Now I am looking for a Frontend Development job with VueJS.
-
-------------
-
-- Em xin chào các anh (các chị)
-- Em là Duy
-- Em đã có hơn 4 năm kinh nghiệm lập trình web
-- Em chủ yếu làm các dự án với các công nghệ về Javascript.
-- Thế mạnh của em là làm vị trí Front-end như jQuery, framework ReactJS, VueJS
-- Ngoài ra em cũng đã tham gia 1 công việc về Back-end như PHP Laravel, NodeJS
+- Vietnamese outline
+    - Question:
+        - Giới thiệu bản thân
+        - Nêu rõ kỹ năng & kinh nghiệm nổi bật
+        - Định hướng phát triển
+    - Answer:
+        - Tên: Duy
+        	- Vị trí: Senior Front-end Developer, hơn 5 năm kinh nghiệm
+        	- Công nghệ chính: ReactJS, VueJS, Scrum
+        - 1 chút kinh nghiệm Back-end: NodeJS, LaravelPHP, mySQL, mongoDB
+        	- Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
+        - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia presale với khách hàng, mentoring
+        - Định hướng: phát triển song song kỹ năng quản lý kỹ thuật và kỹ năng presale, hướng tới vai trò lãnh đạo dự án và tư vấn giải pháp
+- English answer:
+    - My name is Duy.
+    - I am a Senior Front-end Developer with more than five years of experience, mainly focusing on ReactJS, VueJS, and working within Scrum environments.
+    - Besides front-end development, I also have some hands-on experience in back-end technologies like NodeJS, Laravel PHP, MySQL, and MongoDB, which helps me understand the full-stack flow and collaborate better across teams.
+    - Throughout my career, I have specialized in projects related to Ecommerce platforms, CRM systems, and chatbot solutions, always aiming to deliver user-friendly and high-performance applications.
+    - I have had the opportunity to lead small front-end teams, mentor junior developers, and participate directly in presale activities, working closely with clients to understand their business needs and propose technical solutions.
+    - Moving forward, I aim to strengthen both my technical leadership and presale consulting skills, with a clear goal of growing into project leadership and solution consulting roles.
+    - I’m excited to bring my technical expertise, leadership experience, and client-oriented mindset to contribute to new challenges and opportunities.
 
 # Impressive project / recent project
 
