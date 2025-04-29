@@ -2343,6 +2343,23 @@
   - Attach measurable criteria to each, such as "response time must be less than 1 second."
   - Design system architecture to meet these standards and validate them through rigorous testing after development.
 
+### system-design-process-10
+
+**Q:** What strategies would you use to design a fault-tolerant distributed system?
+
+- Vietnamese outline:
+  - Question: Làm sao thiết kế hệ thống phân tán chịu lỗi?
+  - Answer:
+    - Dùng nhiều node để tránh điểm chết đơn lẻ (no single point of failure)
+    - Sử dụng cơ chế tự động phát hiện lỗi và tự khôi phục
+    - Thiết kế hệ thống có cơ chế dự phòng (redundancy, backup)
+    - Kiểm thử thường xuyên để xác nhận khả năng chịu lỗi
+- English sample answer:
+  - I would design the system with multiple nodes to avoid a single point of failure.
+  - I would implement automatic failure detection and self-recovery mechanisms.
+  - I would add redundancy at different layers, such as backup databases and replicated services.
+  - Regular fault-tolerance testing would also be necessary to ensure that the system behaves correctly under failure scenarios.
+
 ## Functional Requirement
 
 ### functional-requirement-1
