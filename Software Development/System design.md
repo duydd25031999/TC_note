@@ -20,6 +20,7 @@
 
 [9. How do you ensure non-functional requirements are properly addressed during system design?](./Developing_Questions.md#system-design-process-9)
 
+[10. What strategies would you use to design a fault-tolerant distributed system?](./Developing_Questions.md#system-design-process-10)
 
 ## Large scale distributed systems
 
@@ -86,19 +87,30 @@
 
 ## Fault Tolerance: Khả năng chịu lỗi
 
-- Usually a product requirement document does not define optional or good to have features. 
-- These are all core features which are required in the document.
-- The good to have features will be probably picked up in the next document
-    - Don't need to think of which features are optional
+- The system’s ability to keep running even when some parts of it fail (hardware failure, network issue, server crash, etc.).
+- Prevent total system downtime when something goes wrong.
+- Examples:
+    - Load balancers redirect traffic from failed servers to healthy servers.
+    - Database replication allows backup database to take over if the primary one fails.
+	- Kubernetes automatically restarts crashed containers.
 
 ## Extensibility: Khả năng mở rộng
 
-- How easy it is to change that solution.
-- Build a system that can Scale & Extend as and when requirement change
+- How easy to add new features or modify the system without breaking existing functionality
+- Build systems that can grow and evolve over time.
+- Examples:
+	- Microservices architecture allows you to add new services without touching old ones.
+    - Plugin systems in apps (like Chrome extensions) allow flexible additions.
+    - API versioning allows new clients to work with updated server APIs without breaking old clients.
 
 ## Testing
 
-- Design should be tested
+- How easily you can add new features or modify the system without breaking existing functionality.
+- Build systems that can grow and evolve over time.
+- Examples:
+	- Microservices architecture allows you to add new services without touching old ones.
+	- Plugin systems in apps (like Chrome extensions) allow flexible additions.
+	- API versioning allows new clients to work with updated server APIs without breaking old clients.
 
 ## Non-functional Requirement
 
