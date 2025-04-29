@@ -25,15 +25,42 @@
 
 ### Large scale
 
-- Use a lot or intensive in terms of computer or data or any computer engineering principle
+- Use a lot or intensive in terms (đòi hỏi nhiều) of computer or data or any computer engineering principle
 1. Have a lot of data
-1. Used by a lot of people
-1. Updated frequently
-1. A lot of performance expectations
+2. Used by a lot of people
+3. Updated frequently
+4. A lot of performance expectations
+
+| Pattern                        | What it Means                                              | Why it Helps                                             |
+|--------------------------------|------------------------------------------------------------|----------------------------------------------------------|
+| Microservices                  | Split backend into small, independent services             | Easier to scale, deploy, and maintain                    |
+| Micro-frontends                | Split frontend UI into smaller independent apps            | Scale frontend teams separately                          |
+| Load Balancing                 | Distribute traffic across servers                          | Avoid overload and downtime                              |
+| Caching                        | Store frequent data closer to users (ex: Redis, CDN)       | Reduce backend/database load                             |
+| Database Sharding              | Split database into smaller, faster pieces                 | Handle very large datasets                               |
+| Event-Driven Architecture      | Use messaging between components (ex: Kafka, RabbitMQ)     | Decouple systems for scalability and resilience          |
+| Replication                    | Duplicate services/databases                               | High availability and fault tolerance                    |
+| Auto-scaling                   | Automatically add/remove servers based on traffic          | Save cost and handle unpredictable spikes                |
+| Content Delivery Network (CDN) | Cache static content globally                              | Faster delivery, reduces origin server load              |
+| Service Mesh                   | Manage secure service-to-service communication (ex: Istio) | Control traffic, retries, failure handling automatically |
 
 ### Distributed systems
 
 - The server or the code that is actually executing this program is not in one place.
+
+| Pattern                          | What it Means                                         | Why It’s Used                                         |
+|----------------------------------|-------------------------------------------------------|-------------------------------------------------------|
+| CDN (Content Delivery Network)   | Distribute static assets closer to users              | Improve latency and reduce server load                |
+| Load Balancing                   | Distribute traffic among servers                      | Prevent overload                                      |
+| Replication                      | Make copies of data/services                          | Increase availability and reliability                 |
+| Sharding                         | Split database into parts                             | Scale data horizontally                               |
+| Caching                          | Store frequent data closer to user or app             | Improve speed and reduce server load                  |
+| Publish-Subscribe (Event Driven) | Services communicate through events, not direct calls | Decouple components for better scaling                |
+| Leader Election                  | Choose a leader among nodes to coordinate tasks       | Manage distributed control (example: master node)     |
+| Consensus Algorithms             | Nodes agree on the state (ex: Paxos, Raft)            | Keep system consistent across failures                |
+| Data Partitioning                | Divide large datasets into smaller chunks             | Scale storage and retrieval efficiently               |
+| Service Discovery                | Services find each other automatically                | Handle dynamic scaling without manual configuration   |
+| Heartbeat Monitoring             | Check if services are alive                           | Detect failures early (ex: Kubernetes liveness probe) |
 
 ## Design patterns
 
@@ -55,15 +82,16 @@
     5. Database
 3. Endpoint
     - API
+    - Router
 
-## Fault Tolerance
+## Fault Tolerance: Khả năng chịu lỗi
 
 - Usually a product requirement document does not define optional or good to have features. 
 - These are all core features which are required in the document.
 - The good to have features will be probably picked up in the next document
     - Don't need to think of which features are optional
 
-## Extensibility
+## Extensibility: Khả năng mở rộng
 
 - How easy it is to change that solution.
 - Build a system that can Scale & Extend as and when requirement change
