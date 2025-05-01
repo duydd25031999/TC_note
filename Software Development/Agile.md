@@ -2,9 +2,9 @@
 
 ### Questions
 
-[1. How does the concept of "emergence" in Agile challenge traditional project planning methods?](./Developing_Questions.md#agile-concept-1)
+[1. How does the concept of "emergence" in Agile challenge traditional project planning methods?](./Scrum_Questions.md#agile-concept-1)
 
-[2. How does Agile ensure product quality and flexibility without relying on detailed documentation?](./Developing_Questions.md#agile-concept-2)
+[2. How does Agile ensure product quality and flexibility without relying on detailed documentation?](./Scrum_Questions.md#agile-concept-2)
 
 ## Concept
 
@@ -41,7 +41,7 @@
 
 ### Questions
 
-[1. How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?](./Developing_Questions.md#kanban-waterfall-1)
+[1. How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?](./Scrum_Questions.md#kanban-waterfall-1)
 
 ## Concept
 
@@ -86,21 +86,21 @@
 
 ### Questions
 
-[1. Why is Scrum considered a "lightweight framework" rather than a full methodology?](./Developing_Questions.md#scrum-concept-1)
+[1. Why is Scrum considered a "lightweight framework" rather than a full methodology?](./Scrum_Questions.md#scrum-concept-1)
 
-[2. How does Scrum use iterative and incremental delivery to manage risk?](./Developing_Questions.md#scrum-concept-2)
+[2. How does Scrum use iterative and incremental delivery to manage risk?](./Scrum_Questions.md#scrum-concept-2)
 
-[3. What is the role of management in an organization adopting Scrum, and why is it still necessary?](./Developing_Questions.md#scrum-concept-3)
+[3. What is the role of management in an organization adopting Scrum, and why is it still necessary?](./Scrum_Questions.md#scrum-concept-3)
 
-[4. Why is Scrum intentionally incomplete, and how does this benefit organizations using it?](./Developing_Questions.md#scrum-concept-4)
+[4. Why is Scrum intentionally incomplete, and how does this benefit organizations using it?](./Scrum_Questions.md#scrum-concept-4)
 
-[5. How can different practices and methods be integrated within Scrum without violating its principles?](./Developing_Questions.md#scrum-concept-5)
+[5. How can different practices and methods be integrated within Scrum without violating its principles?](./Scrum_Questions.md#scrum-concept-5)
 
-[6. Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?](./Developing_Questions.md#scrum-concept-6)
+[6. Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?](./Scrum_Questions.md#scrum-concept-6)
 
-[7. How does Scrum expose the relative efficacy of current management and work practices?](./Developing_Questions.md#scrum-concept-7)
+[7. How does Scrum expose the relative efficacy of current management and work practices?](./Scrum_Questions.md#scrum-concept-7)
 
-[8. What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?](./Developing_Questions.md#scrum-concept-8)
+[8. What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?](./Scrum_Questions.md#scrum-concept-8)
 
 ## Definition
 
@@ -177,7 +177,7 @@
 
 ### Questions
 
-[1. Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?](./Developing_Questions.md#kanban-waterfall-2)
+[1. Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?](./Scrum_Questions.md#kanban-waterfall-2)
 
 ## Concept
 

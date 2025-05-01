@@ -2,23 +2,23 @@
 
 ### Questions
 
-[1. What are the key design challenges you must solve when building a large-scale distributed system?](./Developing_Questions.md#system-design-process-1)
+[1. What are the key design challenges you must solve when building a large-scale distributed system?](./Presale_Requirement_Question.md#system-design-process-1)
 
-[2. In a distributed system, what are the primary reasons for choosing a distributed architecture over a centralized one?](./Developing_Questions.md#system-design-process-2)
+[2. In a distributed system, what are the primary reasons for choosing a distributed architecture over a centralized one?](./Presale_Requirement_Question.md#system-design-process-2)
 
-[3. Why are design patterns important in system design, especially for distributed systems?](./Developing_Questions.md#system-design-process-3)
+[3. Why are design patterns important in system design, especially for distributed systems?](./Presale_Requirement_Question.md#system-design-process-3)
 
-[4. Can you walk me through the general flow you follow when starting a system design from scratch?](./Developing_Questions.md#system-design-process-4)
+[4. Can you walk me through the general flow you follow when starting a system design from scratch?](./Presale_Requirement_Question.md#system-design-process-4)
 
-[5. How would you design a system to be fault-tolerant, and why is it critical in distributed systems?](./Developing_Questions.md#system-design-process-5)
+[5. How would you design a system to be fault-tolerant, and why is it critical in distributed systems?](./Presale_Requirement_Question.md#system-design-process-5)
 
-[6. What practices would you apply to make a system easily extensible for future changes?](./Developing_Questions.md#system-design-process-6)
+[6. What practices would you apply to make a system easily extensible for future changes?](./Presale_Requirement_Question.md#system-design-process-6)
 
-[7. What aspects would you focus on when testing a newly designed system?](./Developing_Questions.md#system-design-process-7)
+[7. What aspects would you focus on when testing a newly designed system?](./Presale_Requirement_Question.md#system-design-process-7)
 
-[8. What is a non-functional requirement, and how is it different from a functional requirement?](./Developing_Questions.md#system-design-process-8)
+[8. What is a non-functional requirement, and how is it different from a functional requirement?](./Presale_Requirement_Question.md#system-design-process-8)
 
-[9. How do you ensure non-functional requirements are properly addressed during system design?](./Developing_Questions.md#system-design-process-9)
+[9. How do you ensure non-functional requirements are properly addressed during system design?](./Presale_Requirement_Question.md#system-design-process-9)
 
 [10. What strategies would you use to design a fault-tolerant distributed system?](./Developing_Questions.md#system-design-process-10)
 
@@ -68,6 +68,19 @@
 - A software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design
 - Design patterns are particular practices, principles, or processes which are used by engineers to build these systems.
 - Design patterns are common solutions for common problems
+
+### Architectural Design Pattern
+
+- Level: Micro-level (inside each app/component)
+- Architectural patterns organize internal code to make apps stable and scalable individually.
+1. First, design a good app architecture
+2. Use system design patterns to integrate apps/services together	
+
+### System Design Patterns
+
+- Level: Macro-level (across apps/systems)
+- System design patterns connect those apps together into a bigger, reliable, distributed system.
+- Poor app architecture makes scaling harder even with good system design
 
 ## System Design flow
 
@@ -129,13 +142,13 @@
 
 ### Questions
 
-[1. In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?](./Developing_Questions.md#functional-requirement-1)
+[1. In a distributed system with rapidly changing requirements, how would you define and manage user stories to ensure consistent understanding among all team members?](./Presale_Requirement_Question.md#functional-requirement-1)
 
-[2. How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?](./Developing_Questions.md#functional-requirement-2)
+[2. How do you ensure that acceptance criteria are comprehensive and adaptable when dealing with evolving client requirements?](./Presale_Requirement_Question.md#functional-requirement-2)
 
-[3. What challenges might occur during backlog refinement when sizing user stories, and how would you address them?](./Developing_Questions.md#functional-requirement-3)
+[3. What challenges might occur during backlog refinement when sizing user stories, and how would you address them?](./Presale_Requirement_Question.md#functional-requirement-3)
 
-[4. When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?](./Developing_Questions.md#functional-requirement-4)
+[4. When creating a user story statement, how do you determine the correct level of abstraction to avoid overgeneralization?](./Presale_Requirement_Question.md#functional-requirement-4)
 
 ### Concept
 
@@ -235,9 +248,9 @@ II. Acceptance Criteria
 
 ### Questions
 
-[1. What criteria would you use to decide when a group of user stories should be promoted into an epic?](./Developing_Questions.md#functional-requirement-5)
+[1. What criteria would you use to decide when a group of user stories should be promoted into an epic?](./Presale_Requirement_Question.md#functional-requirement-5)
 
-[2. How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?](./Developing_Questions.md#functional-requirement-6)
+[2. How would you create a comprehensive user journey to identify potential gaps for writing complete user stories?](./Presale_Requirement_Question.md#functional-requirement-6)
 
 ### Concept
 
@@ -266,17 +279,17 @@ II. Acceptance Criteria
 
 ### Questions 
 
-[1. Why is analyzing the idea important before starting system design?](./Developing_Questions.md#high-level-design-1)
+[1. Why is analyzing the idea important before starting system design?](./Presale_Requirement_Question.md#high-level-design-1)
 
-[2. What is the purpose of identifying core requirements early?](./Developing_Questions.md#high-level-design-2)
+[2. What is the purpose of identifying core requirements early?](./Presale_Requirement_Question.md#high-level-design-2)
 
-[3. Why is creating a system diagram important during high-level design?](./Developing_Questions.md#high-level-design-3)
+[3. Why is creating a system diagram important during high-level design?](./Presale_Requirement_Question.md#high-level-design-3)
 
-[4. What are key factors to consider when designing a system’s use cases?](./Developing_Questions.md#high-level-design-4)
+[4. What are key factors to consider when designing a system’s use cases?](./Presale_Requirement_Question.md#high-level-design-4)
 
-[5. Why is database design crucial for system performance and scalability?](./Developing_Questions.md#high-level-design-5)
+[5. Why is database design crucial for system performance and scalability?](./Presale_Requirement_Question.md#high-level-design-5)
 
-[6. How do you select the right technical solution for a system?](./Developing_Questions.md#high-level-design-6)
+[6. How do you select the right technical solution for a system?](./Presale_Requirement_Question.md#high-level-design-6)
 
 ## Concept
 
@@ -401,15 +414,15 @@ II. Acceptance Criteria
 
 ### Questions 
 
-[1. Why is identifying engineering requirements critical before low-level design?](./Developing_Questions.md#low-level-design-1)
+[1. Why is identifying engineering requirements critical before low-level design?](./Presale_Requirement_Question.md#low-level-design-1)
 
-[2. What does a use case diagram help clarify in system design?](./Developing_Questions.md#low-level-design-2)
+[2. What does a use case diagram help clarify in system design?](./Presale_Requirement_Question.md#low-level-design-2)
 
-[3. Why is service diagram important in low-level design?](./Developing_Questions.md#low-level-design-3)
+[3. Why is service diagram important in low-level design?](./Presale_Requirement_Question.md#low-level-design-3)
 
-[4. What is the purpose of class diagrams in system design?](./Developing_Questions.md#low-level-design-4)
+[4. What is the purpose of class diagrams in system design?](./Presale_Requirement_Question.md#low-level-design-4)
 
-[5. What value does a sequence diagram add to system design?](./Developing_Questions.md#low-level-design-5)
+[5. What value does a sequence diagram add to system design?](./Presale_Requirement_Question.md#low-level-design-5)
 
 ## Concept
 

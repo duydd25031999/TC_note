@@ -2,17 +2,17 @@
 
 ### Questions
 
-[1. Why does Scrum rely on empiricism and lean thinking instead of detailed upfront planning?](./Developing_Questions.md#scrum-theory-1)
+[1. Why does Scrum rely on empiricism and lean thinking instead of detailed upfront planning?](./Scrum_Questions.md#scrum-theory-1)
 
-[2. How does transparency in Scrum reduce risk and improve decision-making?](./Developing_Questions.md#scrum-theory-2)
+[2. How does transparency in Scrum reduce risk and improve decision-making?](./Scrum_Questions.md#scrum-theory-2)
 
-[3. What is "emergence" in Scrum and why is it important for handling complex products?](./Developing_Questions.md#scrum-theory-3)
+[3. What is "emergence" in Scrum and why is it important for handling complex products?](./Scrum_Questions.md#scrum-theory-3)
 
-[4. How does emergence affect the way architecture evolves during a Scrum project?](./Developing_Questions.md#scrum-theory-4)
+[4. How does emergence affect the way architecture evolves during a Scrum project?](./Scrum_Questions.md#scrum-theory-4)
 
-[5. Why is frequent inspection essential in Scrum, and what happens if it’s missing?](./Developing_Questions.md#scrum-theory-5)
+[5. Why is frequent inspection essential in Scrum, and what happens if it’s missing?](./Scrum_Questions.md#scrum-theory-5)
 
-[6. Why must Scrum Teams adapt their process or product immediately after detecting a problem?](./Developing_Questions.md#scrum-theory-6)
+[6. Why must Scrum Teams adapt their process or product immediately after detecting a problem?](./Scrum_Questions.md#scrum-theory-6)
 
 ## Concept
 
@@ -89,15 +89,15 @@
 
 ### Questions
 
-[1. Why is courage essential for Scrum Team success, especially under pressure?](./Developing_Questions.md#scrum-theory-7)
+[1. Why is courage essential for Scrum Team success, especially under pressure?](./Scrum_Questions.md#scrum-theory-7)
 
-[2. How does focus help a Scrum Team achieve Sprint and Product Goals more effectively?](./Developing_Questions.md#scrum-theory-8)
+[2. How does focus help a Scrum Team achieve Sprint and Product Goals more effectively?](./Scrum_Questions.md#scrum-theory-8)
 
-[3. What does commitment mean in Scrum, and how does it affect team reliability?](./Developing_Questions.md#scrum-theory-9)
+[3. What does commitment mean in Scrum, and how does it affect team reliability?](./Scrum_Questions.md#scrum-theory-9)
 
-[4. How does mutual respect among Scrum Team members improve collaboration?](./Developing_Questions.md#scrum-theory-10)
+[4. How does mutual respect among Scrum Team members improve collaboration?](./Scrum_Questions.md#scrum-theory-10)
 
-[5. Why is openness critical for inspecting and adapting work in Scrum?](./Developing_Questions.md#scrum-theory-11)
+[5. Why is openness critical for inspecting and adapting work in Scrum?](./Scrum_Questions.md#scrum-theory-11)
 
 ## Concept
 
@@ -148,7 +148,7 @@
 
 ### Questions
 
-[1. How do Scrum Artifacts maximize transparency and support empirical decision-making?](./Developing_Questions.md#scrum-theory-12)
+[1. How do Scrum Artifacts maximize transparency and support empirical decision-making?](./Scrum_Questions.md#scrum-theory-12)
 
 ## Concept
 
@@ -172,21 +172,21 @@
 
 ### Questions
 
-[1. Why is the Product Backlog considered an emergent artifact, and how does that affect product development?](./Developing_Questions.md#product-backlog-1)
+[1. Why is the Product Backlog considered an emergent artifact, and how does that affect product development?](./Scrum_Questions.md#product-backlog-1)
 
-[2. Why must each Product Backlog Item be clear enough before Sprint Planning?](./Developing_Questions.md#product-backlog-2)
+[2. Why must each Product Backlog Item be clear enough before Sprint Planning?](./Scrum_Questions.md#product-backlog-2)
 
-[3. How does proper ordering of PBIs by the Product Owner maximize product value?](./Developing_Questions.md#product-backlog-3)
+[3. How does proper ordering of PBIs by the Product Owner maximize product value?](./Scrum_Questions.md#product-backlog-3)
 
-[4. Why is it critical that Developers own the sizing of Product Backlog Items?](./Developing_Questions.md#product-backlog-5)
+[4. Why is it critical that Developers own the sizing of Product Backlog Items?](./Scrum_Questions.md#product-backlog-5)
 
-[5. What risks arise if the Product Owner does not actively manage the Product Backlog?](./Developing_Questions.md#product-backlog-5)
+[5. What risks arise if the Product Owner does not actively manage the Product Backlog?](./Scrum_Questions.md#product-backlog-5)
 
-[6. How does having a clear Product Goal improve Scrum Team alignment and focus?](./Developing_Questions.md#product-backlog-6)
+[6. How does having a clear Product Goal improve Scrum Team alignment and focus?](./Scrum_Questions.md#product-backlog-6)
 
-[7. Why is story point estimation based on relative sizing instead of absolute time?](./Developing_Questions.md#product-backlog-7)
+[7. Why is story point estimation based on relative sizing instead of absolute time?](./Scrum_Questions.md#product-backlog-7)
 
-[8. Why is continuous Product Backlog Refinement critical for Sprint success?](./Developing_Questions.md#product-backlog-8)
+[8. Why is continuous Product Backlog Refinement critical for Sprint success?](./Scrum_Questions.md#product-backlog-8)
 
 ## Concept
 
@@ -321,15 +321,15 @@
 
 ### Questions
 
-[1. Why is the Sprint Backlog considered a living plan, and how does it support the Sprint Goal?](./Developing_Questions.md#sprint-backlog-1)
+[1. Why is the Sprint Backlog considered a living plan, and how does it support the Sprint Goal?](./Scrum_Questions.md#sprint-backlog-1)
 
-[2. How does having a Sprint Goal create flexibility in how the Scrum Team completes Sprint work?](./Developing_Questions.md#sprint-backlog-2)
+[2. How does having a Sprint Goal create flexibility in how the Scrum Team completes Sprint work?](./Scrum_Questions.md#sprint-backlog-2)
 
-[3. Why are Developers solely responsible for managing the Sprint Backlog, and not the Product Owner?](./Developing_Questions.md#sprint-backlog-3)
+[3. Why are Developers solely responsible for managing the Sprint Backlog, and not the Product Owner?](./Scrum_Questions.md#sprint-backlog-3)
 
-[4. What steps must Developers follow to create and update a meaningful Sprint Backlog?](./Developing_Questions.md#sprint-backlog-4)
+[4. What steps must Developers follow to create and update a meaningful Sprint Backlog?](./Scrum_Questions.md#sprint-backlog-4)
 
-[5. Why can the Sprint Scope be adjusted during the Sprint without changing the Sprint Goal?](./Developing_Questions.md#sprint-backlog-5)
+[5. Why can the Sprint Scope be adjusted during the Sprint without changing the Sprint Goal?](./Scrum_Questions.md#sprint-backlog-5)
 
 ## Concept
 
@@ -414,13 +414,13 @@
 
 ### Questions
 
-[1. Why is the Product Increment considered a concrete stepping stone toward the Product Goal?](./Developing_Questions.md#product-increment-1)
+[1. Why is the Product Increment considered a concrete stepping stone toward the Product Goal?](./Scrum_Questions.md#product-increment-1)
 
-[2. What is the basic process to create a Product Increment during a Sprint?](./Developing_Questions.md#product-increment-2)
+[2. What is the basic process to create a Product Increment during a Sprint?](./Scrum_Questions.md#product-increment-2)
 
-[3. Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?](./Developing_Questions.md#product-increment-3)
+[3. Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?](./Scrum_Questions.md#product-increment-3)
 
-[4. What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?](./Developing_Questions.md#product-increment-4)
+[4. What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?](./Scrum_Questions.md#product-increment-4)
 
 ## Concept
 
@@ -462,19 +462,19 @@
 
 ### Questions
 
-[1. Why is the Definition of Done critical for ensuring transparency and quality in Scrum?](./Developing_Questions.md#definition-done-1)
+[1. Why is the Definition of Done critical for ensuring transparency and quality in Scrum?](./Scrum_Questions.md#definition-done-1)
 
-[2. What is the basic process for establishing the Definition of Done in a Scrum Team?](./Developing_Questions.md#definition-done-2)
+[2. What is the basic process for establishing the Definition of Done in a Scrum Team?](./Scrum_Questions.md#definition-done-2)
 
-[3. What factors should a Scrum Team consider when creating their Definition of Done?](./Developing_Questions.md#definition-done-3)
+[3. What factors should a Scrum Team consider when creating their Definition of Done?](./Scrum_Questions.md#definition-done-3)
 
-[4. When and why should the Scrum Team update the Definition of Done?](./Developing_Questions.md#definition-done-4)
+[4. When and why should the Scrum Team update the Definition of Done?](./Scrum_Questions.md#definition-done-4)
 
-[5. How should a Scrum Master support the team in maintaining and evolving the Definition of Done?](./Developing_Questions.md#definition-done-5)
+[5. How should a Scrum Master support the team in maintaining and evolving the Definition of Done?](./Scrum_Questions.md#definition-done-5)
 
-[6. What are the Developers' responsibilities regarding the Definition of Done during a Sprint?](./Developing_Questions.md#definition-done-6)
+[6. What are the Developers' responsibilities regarding the Definition of Done during a Sprint?](./Scrum_Questions.md#definition-done-6)
 
-[7. How should multiple Scrum Teams working on the same product manage their Definition of Done?](./Developing_Questions.md#definition-done-7)
+[7. How should multiple Scrum Teams working on the same product manage their Definition of Done?](./Scrum_Questions.md#definition-done-7)
 
 ## Concept
 

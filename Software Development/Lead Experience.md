@@ -165,9 +165,9 @@
 
 ### Questions:
 
-[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Developing_Questions.md#client-presale-1)
+[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Presale_Requirement_Question.md#client-presale-1)
 
-[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Developing_Questions.md#client-presale-2)
+[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Presale_Requirement_Question.md#client-presale-2)
 
 
 ## Client Engagement

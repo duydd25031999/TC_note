@@ -2,9 +2,9 @@
 
 ### Questions
 
-[1. Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?](./Developing_Questions.md#scrum-event-1)
+[1. Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?](./Scrum_Questions.md#scrum-event-1)
 
-[2. What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?](./Developing_Questions.md#scrum-event-2)
+[2. What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?](./Scrum_Questions.md#scrum-event-2)
 
 ## Concept
 
@@ -33,17 +33,17 @@
 
 ### Questions
 
-[1. Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?](./Developing_Questions.md#scrum-event-3)
+[1. Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?](./Scrum_Questions.md#scrum-event-3)
 
-[2. Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?](./Developing_Questions.md#scrum-event-4)
+[2. Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?](./Scrum_Questions.md#scrum-event-4)
 
-[3. What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?](./Developing_Questions.md#scrum-event-5)
+[3. What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?](./Scrum_Questions.md#scrum-event-5)
 
-[4. How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?](./Developing_Questions.md#scrum-event-6)
+[4. How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?](./Scrum_Questions.md#scrum-event-6)
 
-[5. What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?](./Developing_Questions.md#scrum-event-7)
+[5. What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?](./Scrum_Questions.md#scrum-event-7)
 
-[6. How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?](./Developing_Questions.md#scrum-event-8)
+[6. How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?](./Scrum_Questions.md#scrum-event-8)
 
 ## Concept
 
@@ -131,21 +131,21 @@
 
 ### Questions
 
-[1. Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?](./Developing_Questions.md#sprint-planning-1)
+[1. Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?](./Scrum_Questions.md#sprint-planning-1)
 
-[2. What is the Product Owner’s role during Sprint Planning, and why is their active participation important?](./Developing_Questions.md#sprint-planning-2)
+[2. What is the Product Owner’s role during Sprint Planning, and why is their active participation important?](./Scrum_Questions.md#sprint-planning-2)
 
-[3. Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?](./Developing_Questions.md#sprint-planning-3)
+[3. Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?](./Scrum_Questions.md#sprint-planning-3)
 
-[4. How does the Scrum Master support an effective Sprint Planning session?](./Developing_Questions.md#sprint-planning-4)
+[4. How does the Scrum Master support an effective Sprint Planning session?](./Scrum_Questions.md#sprint-planning-4)
 
-[5. Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?](./Developing_Questions.md#sprint-planning-5)
+[5. Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?](./Scrum_Questions.md#sprint-planning-5)
 
-[6. Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?](./Developing_Questions.md#sprint-planning-6)
+[6. Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?](./Scrum_Questions.md#sprint-planning-6)
 
-[7. How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?](./Developing_Questions.md#sprint-planning-7)
+[7. How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?](./Scrum_Questions.md#sprint-planning-7)
 
-[8. What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?](./Developing_Questions.md#sprint-planning-8)
+[8. What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?](./Scrum_Questions.md#sprint-planning-8)
 
 ## Concept 
 
@@ -262,9 +262,9 @@
 
 ### Questions
 
-[1. Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?](./Developing_Questions.md#daily-scrum-1)
+[1. Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?](./Scrum_Questions.md#daily-scrum-1)
 
-[2. What key activities should happen during the Daily Scrum to ensure it achieves its purpose?](./Developing_Questions.md#daily-scrum-2)
+[2. What key activities should happen during the Daily Scrum to ensure it achieves its purpose?](./Scrum_Questions.md#daily-scrum-2)
 
 ## Concept
 
@@ -333,13 +333,13 @@
 
 ### Questions
 
-[1. Why is Sprint Review considered a critical event for maximizing product value and steering future development?](./Developing_Questions.md#sprint-review-1)
+[1. Why is Sprint Review considered a critical event for maximizing product value and steering future development?](./Scrum_Questions.md#sprint-review-1)
 
-[2. What risks occur if the Scrum Team frequently skips Sprint Reviews?](./Developing_Questions.md#sprint-review-2)
+[2. What risks occur if the Scrum Team frequently skips Sprint Reviews?](./Scrum_Questions.md#sprint-review-2)
 
-[3. What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?](./Developing_Questions.md#sprint-review-3)
+[3. What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?](./Scrum_Questions.md#sprint-review-3)
 
-[4. What is the typical flow of a Sprint Review, and why is each step important?](./Developing_Questions.md#sprint-review-4)
+[4. What is the typical flow of a Sprint Review, and why is each step important?](./Scrum_Questions.md#sprint-review-4)
 
 ## Concept
 
@@ -410,11 +410,11 @@
 
 ### Questions
 
-[1. Why is the Sprint Retrospective important for continuous improvement in Scrum?](./Developing_Questions.md#sprint-retrospective-1)
+[1. Why is the Sprint Retrospective important for continuous improvement in Scrum?](./Scrum_Questions.md#sprint-retrospective-1)
 
-[2. What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?](./Developing_Questions.md#sprint-retrospective-2)
+[2. What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?](./Scrum_Questions.md#sprint-retrospective-2)
 
-[3. What is the typical flow of a Sprint Retrospective, and why is each stage important?](./Developing_Questions.md#sprint-retrospective-3)
+[3. What is the typical flow of a Sprint Retrospective, and why is each stage important?](./Scrum_Questions.md#sprint-retrospective-3)
 
 
 ## Concept 

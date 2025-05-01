@@ -2,23 +2,23 @@
 
 ### Questions
 
-[1. Why is it essential that the Scrum Team collectively shares accountability for creating a valuable Increment every Sprint?](./Developing_Questions.md#scrum-team-concept-1)
+[1. Why is it essential that the Scrum Team collectively shares accountability for creating a valuable Increment every Sprint?](./Scrum_Questions.md#scrum-team-concept-1)
 
-[2. How does the Scrum Team’s ability to adapt immediately upon learning new information during inspection differentiate it from traditional project teams?](./Developing_Questions.md#scrum-team-concept-2)
+[2. How does the Scrum Team’s ability to adapt immediately upon learning new information during inspection differentiate it from traditional project teams?](./Scrum_Questions.md#scrum-team-concept-2)
 
-[3. In what ways does cross-functionality in a Scrum Team reduce dependencies, and why is this critical for delivering high-value Increments each Sprint?](./Developing_Questions.md#scrum-team-concept-3)
+[3. In what ways does cross-functionality in a Scrum Team reduce dependencies, and why is this critical for delivering high-value Increments each Sprint?](./Scrum_Questions.md#scrum-team-concept-3)
 
-[4. How does self-management of the Scrum Team impact the organization’s approach to leadership and decision-making structures?](./Developing_Questions.md#scrum-team-concept-4)
+[4. How does self-management of the Scrum Team impact the organization’s approach to leadership and decision-making structures?](./Scrum_Questions.md#scrum-team-concept-4)
 
-[5. Why is it recommended to keep the Scrum Team size between 4 and 10 members, and what risks emerge when the team is too large?](./Developing_Questions.md#scrum-team-concept-5)
+[5. Why is it recommended to keep the Scrum Team size between 4 and 10 members, and what risks emerge when the team is too large?](./Scrum_Questions.md#scrum-team-concept-5)
 
-[6. Why should velocity be treated as a planning aid rather than a performance metric, and what problems arise when stakeholders misuse it?](./Developing_Questions.md#scrum-team-concept-6)
+[6. Why should velocity be treated as a planning aid rather than a performance metric, and what problems arise when stakeholders misuse it?](./Scrum_Questions.md#scrum-team-concept-6)
 
-[7. What are the critical focuses for the Scrum Team during their first three Sprints, and why is early Increment delivery prioritized even if the functionality is minimal?](./Developing_Questions.md#scrum-team-concept-7)
+[7. What are the critical focuses for the Scrum Team during their first three Sprints, and why is early Increment delivery prioritized even if the functionality is minimal?](./Scrum_Questions.md#scrum-team-concept-7)
 
-[8. How does accumulating technical debt impact Scrum Team transparency and Sprint forecasting?](./Developing_Questions.md#scrum-team-concept-8)
+[8. How does accumulating technical debt impact Scrum Team transparency and Sprint forecasting?](./Scrum_Questions.md#scrum-team-concept-8)
 
-[9. In a Scrum context, what strategies can a team use to manage technical debt without compromising the Sprint Goal?](./Developing_Questions.md#scrum-team-concept-9)
+[9. In a Scrum context, what strategies can a team use to manage technical debt without compromising the Sprint Goal?](./Scrum_Questions.md#scrum-team-concept-9)
 
 ## Concept
 
@@ -123,23 +123,23 @@
 
 ### Questions
 
-[1. Why is the Scrum Master considered a true leader rather than a traditional project manager in Scrum?](./Developing_Questions.md#scrum-master-1)
+[1. Why is the Scrum Master considered a true leader rather than a traditional project manager in Scrum?](./Scrum_Questions.md#scrum-master-1)
 
-[2. How does the Scrum Master’s role of establishing Scrum as a culture impact long-term team performance?](./Developing_Questions.md#scrum-master-2)
+[2. How does the Scrum Master’s role of establishing Scrum as a culture impact long-term team performance?](./Scrum_Questions.md#scrum-master-2)
 
-[3. What practices should a Scrum Master use to improve Scrum Team’s self-management and cross-functionality?](./Developing_Questions.md#scrum-master-3)
+[3. What practices should a Scrum Master use to improve Scrum Team’s self-management and cross-functionality?](./Scrum_Questions.md#scrum-master-3)
 
-[4. How does a Scrum Master ensure Scrum Events are not just formalities but meaningful activities that drive improvements?](./Developing_Questions.md#scrum-master-4)
+[4. How does a Scrum Master ensure Scrum Events are not just formalities but meaningful activities that drive improvements?](./Scrum_Questions.md#scrum-master-4)
 
-[5. What strategies can a Scrum Master use to detect and resolve impediments that the Scrum Team might hesitate to raise?](./Developing_Questions.md#scrum-master-5)
+[5. What strategies can a Scrum Master use to detect and resolve impediments that the Scrum Team might hesitate to raise?](./Scrum_Questions.md#scrum-master-5)
 
-[6. How can a Scrum Master effectively support the Product Owner in managing the Product Backlog?](./Developing_Questions.md#scrum-master-6)
+[6. How can a Scrum Master effectively support the Product Owner in managing the Product Backlog?](./Scrum_Questions.md#scrum-master-6)
 
-[7. What actions should a Scrum Master take when Developers are struggling with unclear requirements during a Sprint?](./Developing_Questions.md#scrum-master-7)
+[7. What actions should a Scrum Master take when Developers are struggling with unclear requirements during a Sprint?](./Scrum_Questions.md#scrum-master-7)
 
-[8. How should a Scrum Master collaborate with a Project Manager who is unfamiliar with Scrum practices?](./Developing_Questions.md#scrum-master-8)
+[8. How should a Scrum Master collaborate with a Project Manager who is unfamiliar with Scrum practices?](./Scrum_Questions.md#scrum-master-8)
 
-[9. What are the key responsibilities of a Scrum Master when leading Scrum adoption across an organization?](./Developing_Questions.md#scrum-master-9)
+[9. What are the key responsibilities of a Scrum Master when leading Scrum adoption across an organization?](./Scrum_Questions.md#scrum-master-9)
 
 ## Concept
 
@@ -230,23 +230,23 @@
 
 ### Questions
 
-[1. Why are all members of a Scrum Team called "Developers," even if they have different specialties like design or testing?](./Developing_Questions.md#developer-1)
+[1. Why are all members of a Scrum Team called "Developers," even if they have different specialties like design or testing?](./Scrum_Questions.md#developer-1)
 
-[2. How does the responsibility for releasing a Product Increment reflect the Developer’s commitment to delivering value?](./Developing_Questions.md#developer-2)
+[2. How does the responsibility for releasing a Product Increment reflect the Developer’s commitment to delivering value?](./Scrum_Questions.md#developer-2)
 
-[3. Why must Developers be flexible in adapting the Sprint Backlog during the Sprint, and how does this support the Sprint Goal?](./Developing_Questions.md#developer-3)
+[3. Why must Developers be flexible in adapting the Sprint Backlog during the Sprint, and how does this support the Sprint Goal?](./Scrum_Questions.md#developer-3)
 
-[4. How does daily monitoring of Sprint progress by Developers contribute to empirical process control?](./Developing_Questions.md#developer-4)
+[4. How does daily monitoring of Sprint progress by Developers contribute to empirical process control?](./Scrum_Questions.md#developer-4)
 
-[5. How does self-management of Developers improve both individual accountability and team performance?](./Developing_Questions.md#developer-5)
+[5. How does self-management of Developers improve both individual accountability and team performance?](./Scrum_Questions.md#developer-5)
 
-[6. Why is it important for Developers to directly communicate with Stakeholders during a Sprint?](./Developing_Questions.md#developer-6)
+[6. Why is it important for Developers to directly communicate with Stakeholders during a Sprint?](./Scrum_Questions.md#developer-6)
 
-[7. What is the significance of Developers owning the estimation of Product Backlog Items in Scrum?](./Developing_Questions.md#developer-7)
+[7. What is the significance of Developers owning the estimation of Product Backlog Items in Scrum?](./Scrum_Questions.md#developer-7)
 
-[8. In a Scrum environment, how does the role of a Business Analyst differ from traditional projects?](./Developing_Questions.md#developer-8)
+[8. In a Scrum environment, how does the role of a Business Analyst differ from traditional projects?](./Scrum_Questions.md#developer-8)
 
-[9. How does the definition of Developer in Scrum reflect the principle of cross-functionality?](./Developing_Questions.md#developer-9)
+[9. How does the definition of Developer in Scrum reflect the principle of cross-functionality?](./Scrum_Questions.md#developer-9)
 
 ## Concept
 
@@ -313,23 +313,23 @@
 
 ### Questions
 
-[1. Why must the Product Owner be a single person, not a committee, and what risks arise if this principle is violated?](./Developing_Questions.md#product-owner-1)
+[1. Why must the Product Owner be a single person, not a committee, and what risks arise if this principle is violated?](./Scrum_Questions.md#product-owner-1)
 
-[2. How does the Product Owner role reflect the balance between business needs and technical feasibility in Scrum?](./Developing_Questions.md#product-owner-2)
+[2. How does the Product Owner role reflect the balance between business needs and technical feasibility in Scrum?](./Scrum_Questions.md#product-owner-2)
 
-[3. How does the Product Owner ensure the Scrum Team delivers maximum value without directly managing how Developers do their work?](./Developing_Questions.md#product-owner-3)
+[3. How does the Product Owner ensure the Scrum Team delivers maximum value without directly managing how Developers do their work?](./Scrum_Questions.md#product-owner-3)
 
-[4. Why must the Product Backlog always remain transparent and up-to-date, and how is the Product Owner responsible for this?](./Developing_Questions.md#product-owner-4)
+[4. Why must the Product Backlog always remain transparent and up-to-date, and how is the Product Owner responsible for this?](./Scrum_Questions.md#product-owner-4)
 
-[5. How does the Product Owner’s skill in clarifying Product Backlog Items impact Sprint Planning and team performance?](./Developing_Questions.md#product-owner-5)
+[5. How does the Product Owner’s skill in clarifying Product Backlog Items impact Sprint Planning and team performance?](./Scrum_Questions.md#product-owner-5)
 
-[6. When a Product Owner delegates tasks like writing PBIs, how should they still maintain overall accountability?](./Developing_Questions.md#product-owner-6)
+[6. When a Product Owner delegates tasks like writing PBIs, how should they still maintain overall accountability?](./Scrum_Questions.md#product-owner-6)
 
-[7. How should a Product Owner balance gathering stakeholder input with maintaining control over Product Backlog prioritization?](./Developing_Questions.md#product-owner-7)
+[7. How should a Product Owner balance gathering stakeholder input with maintaining control over Product Backlog prioritization?](./Scrum_Questions.md#product-owner-7)
 
-[8. Why must the entire organization respect the Product Owner’s decisions, and what risks occur if they don’t?](./Developing_Questions.md#product-owner-8)
+[8. Why must the entire organization respect the Product Owner’s decisions, and what risks occur if they don’t?](./Scrum_Questions.md#product-owner-8)
 
-[9. Under what circumstances can a Product Owner cancel a Sprint, and why is this authority critical?](./Developing_Questions.md#product-owner-9)
+[9. Under what circumstances can a Product Owner cancel a Sprint, and why is this authority critical?](./Scrum_Questions.md#product-owner-9)
 
 ## Concept
 
