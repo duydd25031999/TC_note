@@ -15,7 +15,7 @@ Tools & Resources
 - ChatGPT (GPT-4 or GPT-4o): My main tool for refining answers, simulating interview responses, and providing language coaching.
 - Markdown files: Each file contains one topic with notes and practice questions I have prepared.
 - Software_developer_overview.txt: This file provides the project’s background and guidance.
-- Developing_Questions.md: This file lists all sample interview questions for Software developing experience with this template:
+- Question files: The files list all sample interview questions for Software developing experience with this template:
 	**Q:** [Insert your English interview question here]
 
 	- Vietnamese outline:

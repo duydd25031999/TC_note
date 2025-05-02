@@ -153,28 +153,39 @@
 ### Concept
 
 - A user story or just story is basically the smallest unit of work
-- From the client perspective user stories define project or business functions, and delivered in a particular sprint. {Q1}
+- From the client perspective user stories define project or business functions, and delivered in a particular sprint.
 - Represent a software function that is to be developed.
 - Is a sub feature or a situation of a Epic.
-- Explained from perspective of user with 3C (3 step process) 
+    - Small step (action) in each Epic (destination of User Journey)
+- Explained from perspective of user with **3C** (3 step process) 
 
-1. Card
+1. **C**ard
     - Description of User Story (main idea)
-    - Not clean features ⇒ free adapt
-2. Conversation
+    - **Not** clean features ⇒ free adapt
+2. **C**onversation
     - `Card` = brief ⇒ `Point` = reminder ⇒ `What to done`
     - No need detail specification ⇒ Need everyone have same understand
-3. Confirmation
+3. **C**onfirmation
     - Acceptance Criteria
 
-### Template
+### User story statement
 
-- As a/an `type of user`, I want `some goal`, so that `some reason`
-    - As a `manager`, I would like to `learn about JIRA` so that `I can use it to manage project susing agile workflows`
-- Background information
-    - Reason for User Story - Background of stakeholder
-- Acceptance Criteria
-    - List of items needed for this story
+- 1 sentence about actions of user
+- Capture a description of a software feature from an end-user perspective. 
+- User Story statements are short, simple descriptions of a feature from the user's perspective.
+
+----
+
+1. Dựa vào User Journey => Actor => `Who`
+2. Với 1 step => nhiều actions => `What`
+    - Có thẻ step quá abtract => nhiều trường hợp có thể xảy ra || nhiều actions cần thực hiện => nhiều user story
+3. Dựa vào thứ tự của action => Purpose => `Why`
+
+```
+As a [Who], 
+I want to [What], 
+So that I can [Why].
+```
 
 ### Acceptance Criteria
 
@@ -185,6 +196,30 @@
     - Create by `Product Owner`
     - Commitment for PBI (a part of it also)
 - Release PBI only when it meets "Acceptance Criteria" & "Definition of Done"
+
+### Template
+
+- Story: As a/an `type of user`, I want `some goal`, so that `some reason`
+    - User story statement
+    - Ex: As a `manager`, I would like to `learn about JIRA` so that `I can use it to manage project susing agile workflows`
+- Reason: Background information
+    - Reason for User Story - Background of stakeholder
+- Acceptance Criteria
+    - List of items needed for this story
+- Example:
+    - Story:
+        - As a language learner,
+        - I want to practice conversational English with ChatGPT,
+        - so that I can improve my fluency and confidence in real-life situations.​
+    - Reason:
+        - The stakeholder is an English language learner preparing for international travel and job opportunities.
+        - They need a convenient and interactive way to practice English conversation without the pressure of real-world interactions.​
+    - Acceptance Criteria:
+        - Interactive Conversation: ChatGPT can engage in back-and-forth English conversations on various everyday topics.
+        - Feedback Mechanism: After each response, ChatGPT provides constructive feedback on grammar and vocabulary usage.
+        - Difficulty Levels: Users can select conversation difficulty levels (beginner, intermediate, advanced) to match their proficiency.
+        - Session Summaries: At the end of each session, ChatGPT summarizes key vocabulary and phrases learned.
+        - Pronunciation Assistance: ChatGPT offers pronunciation guides or links to audio resources for difficult words.
 
 ### Process
 
@@ -201,48 +236,33 @@
     - Just point of User Story
         - Complex point
 
-### User story statement
-
-1. Dựa vào User Journey => Actor => `Who`
-1. Với 1 step => nhiều actions => `What`
-    - Có thẻ step quá abtract => nhiều trường hợp có thể xảy ra || nhiều actions cần thực hiện => nhiều user story
-1. Dựa vào thứ tự của action => Purpose => `Why`
-
-```
-As a [Who], 
-I want to [What], 
-So that I can [Why].
-```
-
 ### Use case detail
 
+- Test case
 - Phát triển từ US statement
 
-I. Description
+- I. Description
+    1. Navigation
+        - Đường dẫn tới UC đó (link) 
+        - Đường dẫn từ User Journey
+    2. Design & Diagram
+        - Có sẵn Design hoặc Wireframe 
+        - Workflow Diagram hoặc cái gì đó có sẵn
+    3. Business Rules
+        - Validation
+    4. Screen's element liên quan
+    5. Message, labels, content 
 
-1. Navigation
-    - Đường dẫn tới UC đó (link) 
-    - Đường dẫn từ User Journey
-2. Design & Diagram
-    - Có sẵn Design hoặc Wireframe 
-    - Workflow Diagram hoặc cái gì đó có sẵn
-3. Business Rules
-    - Validation
-4. Screen's element liên quan
-5. Message, labels, content 
-
-II. Acceptance Criteria
-
-(!) Scenario - Gherkin format
-    - Bằng 1 Use case
-
-1. Given
-    - Precondition
-    - Các step khác cuối
-2. When
-    - Bước cuối
-3. Then
-    - Kết quả
+- II. Acceptance Criteria
+    - (!) Scenario - Gherkin format
+        - Bằng 1 Use case
+    1. Given
+        - Precondition
+        - Các step khác cuối
+    2. When
+        - Bước cuối
+    3. Then
+        - Kết quả
 
 ## Epic
 
@@ -257,7 +277,8 @@ II. Acceptance Criteria
 - Epic is large work wanted to do = group PBIs
     - Significant (Đáng kể) in size
     - Doesn't fit in a sprint
-- Epic is Specific feature = can't done 1 print => need few sprints {Q3}
+- Epic: big milestone (destinatios) in "User Journey" map
+- Epic is Specific feature = can't done 1 print => need few sprints
     - Break into many User Story
 - ⚠️ Epic not in Product Backlog
     - Group của User stories
@@ -269,10 +290,32 @@ II. Acceptance Criteria
 
 ### User Journey
 
+- 💡 Map of user's path
 - Hành trình của 1 end user thực hiện các steps trên ứng dụng
 
 1. Xác định mục tiêu chính
-1. Xác định End User
+2. Xác định End User
+
+### Example: Language Learner Using ChatGPT
+
+- Step 1: User Journey (Big picture - experience flow)
+    1. Learner opens ChatGPT for language practice
+    2. Learner selects "Practice English Conversation" mode
+    3. Learner chats and receives grammar corrections
+    4. Learner finishes session and reviews mistakes and new words
+    5. Learner gets suggested exercises for improvement
+
+- Step 2: Epic (Big features supporting that journey)
+    - Epic 1: "Interactive Conversation Mode"
+    - Epic 2: "Grammar Correction Feature"
+    - Epic 3: "Learning Progress Summary and Recommendations"
+
+- Step 3: User Stories (Small specific tasks inside each Epic)
+    - Epic 2: "Grammar Correction Feature"
+    - As a learner, I want ChatGPT to highlight grammar errors in my messages, so that I can see my mistakes immediately.
+    - As a learner, I want ChatGPT to show a corrected version of my sentence, so that I know the right way to express it.
+    - As a learner, I want ChatGPT to explain grammar mistakes briefly, so that I can understand and remember the correction.
+
 
 
 # High-level Design

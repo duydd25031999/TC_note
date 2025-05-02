@@ -197,10 +197,12 @@
   - Answer:
     - Xác định User Story dựa trên góc nhìn người dùng
     - Sử dụng mô hình 3C (Card, Conversation, Confirmation)
+    - Focus main value in User Story
     - Đảm bảo mọi người hiểu đúng thông qua thảo luận nhóm
 - English sample answer:
   - Define each User Story from the user’s perspective
   - Apply the 3C model: Card (short description), Conversation (team discussion), Confirmation (acceptance criteria)
+  - Focus main value in User Story
   - Facilitate conversations across the distributed team to align understanding
 
 ### functional-requirement-2
