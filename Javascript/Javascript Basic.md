@@ -1,27 +1,65 @@
 # Javascript Language
 
+- At the beginning, Javascript had been the programming language only for interaction on website
+- After NodeJS was released, Javascript have been used for  multiplatform like backend, mobile, window app, etc 
+
+-----
+
 - JavaScript là ngôn ngữ lập trình được sử dụng để tạo trang web tương tác.  
-  - Sau này do sự phát triển của NodeJS thì Javascript có thể dùng cho multiplatform như backend, mobile, window app, etc  
-- Loosely typing  
-  - Không khai báo cụ thể kiểu biến  
-  - javascript  
-  - php  
-  - ruby  
-  - python  
-- Dynamically typed  
-  - Ngôn ngữ có kiểu dữ liệu được nhận biết trong quá trình runtime.  
-  - 1 biến có thể được gán cho bất kì loại kiểu biến nào  
-- Weakly typed  
-  - Kiểu dữ liệu có thể được suy ra từ một kiểu dữ liệu khác.
+- Sau này do sự phát triển của NodeJS thì Javascript có thể dùng cho multiplatform như backend, mobile, window app, etc 
+
+### Questions
+
+[1. What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?](./Javascript_Questions.md#javascript-language-1)
+
+## Loosely typed (language without declared types)
+
+- Variables are created with `var / let / const` without specifying a type; the engine infers it from the value
+- The same variable can later store a value of a different type (e.g., number → string)
+
+----
+
+- Không khai báo cụ thể kiểu biến  
+- javascript  
+- php  
+- ruby  
+- python  
+
+## Dynamically typed (runtime typing)
+
+- A variable’s type is determined at runtime, not at compile-time
+- You can reassign a variable to any other type during execution
+
+------
+
+- Ngôn ngữ có kiểu dữ liệu được nhận biết trong quá trình runtime.  
+- 1 biến có thể được gán cho bất kì loại kiểu biến nào  
+
+## Weakly typed (implicit coercion)
+
+- When an operation mixes types, JavaScript automatically coerces values to a common type
+  - Example: `0 == false → true` because 0 is coerced to false
+- Use strict operators (===, !==) to avoid unintended coercion effects
+
+------
+
+- Kiểu dữ liệu có thể được suy ra từ một kiểu dữ liệu khác.
 
 # Javascript Datatype
 
-# ****Primary - Kiểu nguyên thủy****
+### Questions
 
-- Tuân theo tham trị
+[1. Differentiate between primitive (primary) types and reference types.](./Javascript_Questions.md#javascript-datatype-1)
 
----
+[2. List JavaScript’s built-in types and say which are primitives versus the sole reference type.](./Javascript_Questions.md#javascript-datatype-2)
 
+[3. Why should you avoid using object wrappers like new String() or new Boolean()?](./Javascript_Questions.md#javascript-datatype-3)
+
+
+## Primary - Kiểu nguyên thủy, tham trị
+
+- Each assignment copies the value into a new memory slot, so the variables are independent.
+- Example: When assign variable A to variable B, changing the value of variable A does not affect variable B.
 - string
 - number
 - boolean
@@ -30,11 +68,7 @@
 
 ---
 
-<aside>
-💡 Mỗi lần gán giá trị tham trị sẽ được vào 1 ô nhớ mới
-
-</aside>
-
+- 💡 Mỗi lần gán giá trị tham trị sẽ được vào 1 ô nhớ mới
 - Nếu gán biến A với biến B có giá trị tham trị
 
 ```jsx
@@ -46,12 +80,11 @@ A = B
 - A và B không liên kết với nhau
 - A thay đổi thì B không đổi và ngược lại
 
-# ****Reference - Tham chiếu****
+## Reference - Tham chiếu
 
-- Tuân theo tham chiếu
-
----
-
+- The first assignment allocates a memory cell for the data.
+- Later assignments only copy that memory address, so multiple variables point to the same memory cell.
+- Mutating the data through one variable is reflected in every variable that shares the reference.
 - object
 - array
 - function
@@ -60,11 +93,7 @@ A = B
 
 ---
 
-<aside>
-💡 Giá trị tham chiếu sẽ cùng tham chiếu tới cùng 1 ô nhớ với mỗi lần gán
-
-</aside>
-
+- 💡 Giá trị tham chiếu sẽ cùng tham chiếu tới cùng 1 ô nhớ với mỗi lần gán
 - Gán giá trị tham chiếu lần đầu, tạo ô nhớ mới
 - Từ lần gán thứ 2, chỉ là gán địa chỉ ô nhớ tới biến đó
 - Nếu gán biến A với biến B có giá trị tham chiếu
@@ -76,52 +105,52 @@ A = B
 - A được gán địa chỉ ô nhớ của B
 - Giá trị bên trong B thay đổi thì A cũng thay đổi và ngược lại
 
----
+### Core differences
 
-**Recall**
+- Copy semantics: 
+  - Primitive → copies the value; 
+  - Reference → copies the address.
+- Mutation visibility: 
+  - Primitive changes stay local
+  - Reference changes propagate to all references
+- `typeof` check: 
+  - Primitives (except null) return their own type string; 
+  - Most reference values return "object". 
 
-- Built-in: cài sẵn
+## Built-in Types
 
-# Built-in Types
+- Original types are always directly recognized by Javascript engine
+  - `undefined` - absence of value; uninitialized variables default to it.
+  - `null` - intentional “no object” marker; typeof null is the historic quirk "object".
+  - `boolean` - only true / false; anything else is coerced when used in logical context.
+  - `number` - IEEE-754 double-precision; watch out for NaN, Infinity, and floating-point rounding
+    - toFixed: Làm tròn số thập phân
+    ```jsx
+    var a = 42.59;
+    a.toFixed( 0 ); // "43"
+    a.toFixed( 1 ); // "42.6"
+    a.toFixed( 2 ); // "42.59"
+    a.toFixed( 3 ); // "42.590"
+    a.toFixed( 4 ); // "42.5900"
+    ```
+  - `bigint` - ES 2020 extension for integers larger than 2⁵³-1; can’t mix directly with number without explicit conversion
+  - `string` - immutable sequences of UTF-16 code units; length counts code units, not full Unicode code points
+  - `symbol` - ES 2015 unique, immutable identifiers; commonly used as non-colliding object keys
+  - `object` - Single reference type: objects `{}`, arrays `[]`, functions, dates, regexes, maps, sets, errors, etc.
+- Other types are known as 1 of Built-in Types by Javascript engine
 
-JavaScript defines seven built-in types:
+### Native object wrappers
 
-- null
-- undefined
-- boolean
-- number
-- string
-- object
-- symbol—added in ES6!
+- `new String()`, `new Number()`, `new Boolean()` create objects, not primitives
+  - `typeof new String('a')` → object
 
-## Number
-
-- toFixed
-    - Làm tròn số thập phân
-
-```jsx
-var a = 42.59;
-a.toFixed( 0 ); // "43"
-a.toFixed( 1 ); // "42.6"
-a.toFixed( 2 ); // "42.59"
-a.toFixed( 3 ); // "42.590"
-a.toFixed( 4 ); // "42.5900"
-```
-
-## Natives
-
-**String()**
-
+- String()
 ```jsx
 var a = new String( "abc" );
 typeof a; // "object" ... not "String"
 a instanceof String; // true
 Object.prototype.toString.call( a ); // "[object String]"
-```
 
-- Object Wrapper Gotchas
-
-```jsx
 var a = "abc";
 var b = new String( a );
 var c = Object( a );
@@ -144,48 +173,61 @@ a.valueOf(); // "abc"
 b.valueOf(); // 42
 c.valueOf(); // true
 ```
-
-- toString
-
-**Number()**
-
-- toNumber
-
-**Boolean()**
-
-**Array()**
-
-- Array contructor
-
+- Number()
+- Boolean()
+- Array(): Array contructor
 ```jsx
 var a = new Array( 1, 2, 3 );
 a; // [1, 2, 3]
 var b = [1, 2, 3];
 b; // [1, 2, 3]
-```
 
-```jsx
 var a = new Array( 3 );  // empty x 3
 var b = [ undefined, undefined, undefined ]; // undefind x 3
 var c = []; 
 c.length = 3; // empty x 3
 ```
+- Symbol(): Symbols are special “unique”
+- Utility objects: Date, RegExp, Error, Promise, Function, Object, Proxy, Reflect, JSON, Math.
+  - Function()
+  - RegExp()
+  - Date()
+  - Error()
+  - Promise()
+  - Object()
+  - JSON()
+  - Math()
+  - Reflect()
+  - Proxy()
 
-**Object()**
+# Variable Declaration
 
-**Function()**
+### Questions
 
-**RegExp()**
+[1. Explain hoisting for var and function declarations, and contrast it with let/const block scope.](./Javascript_Questions.md#variable-declaration-1)
 
-**Date()**
+[2. What is the Temporal Dead Zone (TDZ)?](./Javascript_Questions.md#variable-declaration-2)
 
-**Error()**
+## Hoisting — “raise declarations to the top of their scope”
 
-**Symbol()—added in ES6!**
+- Applies to var variables and function declarations.
+- The declaration is processed first, so code can “see” the identifier anywhere in the same function/global scope.
+- The assignment stays where it is, so before that line the identifier holds `undefined`.
+- Lets you reference a `var` variable or call a function before its physical declaration.
+- Common setback:
+  - Unexpected `undefined`
+  - Accidental shadowing
+  - Harder-to-read control flow.
 
-- Symbols are special “unique”
+## Block-scoped bindings (let, const, and class) — “stay exactly where you wrote them”
 
-### Hoisting & Block-scoped
+- Visible only inside the surrounding `{ … }` block (if/for/while, function body, etc.).
+- Enter a Temporal Dead Zone (TDZ) from the start of the block until the declaration line
+  - Any access inside the TDZ throws a ReferenceError.
+- `let` allows reassignment
+- `const` doesn't allow reassignment of the binding (the referenced memory address) but the object’s internal state may still mutate.
+
+-----
 
 - Phân biệt let, var, const  
 - Hoisting di chuyển tất cả các biến và hàm khi khai báo lên đầu scope trước khi chúng được thực thi.  
@@ -196,49 +238,24 @@ c.length = 3; // empty x 3
   - Vị trí khai báo của biến được giữ nguyên  
   - Không được sử dụng biến trước khi khai báo
 
-# Falsy & Truthy in Javascript
-
-Category: Javascript
-First Source: Comparison%20operator%20of%20Javascript%20c6d2ea2b78a74139af60fcc3a63b9221.md
-Tags: Basic, Concept
-
-# ****Falsy****
-
-<aside>
-💡 Giá trị mà `if` nhận là sai
-
-</aside>
-
-- 0
-- - 0
-- false
-- null
-- undefined
-- “" (length = 0)
-- NaN
-
-# ****Truthy****
-
-<aside>
-💡 Giá trị mà `if` nhận là đúng
-
-</aside>
-
-- Tất cả không phải falsy
-
 # Comparison operator of Javascript
 
-Category: Javascript
-First Refrence: What%20is%20the%20difference%20between%20==%20and%20===%20operator%20fb9528b22ead48bb9f4bd9228fc415c8.md, Operator%20!!%20used%20for%20what%205d43efcf1fb648a29b9b508da37e4097.md, and%20&&%204af002d7b3194ccbaafdd54f75772170.md, Falsy%20&%20Truthy%20in%20Javascript%20d5d0981199e54a348cb5c19f1c5d1a0a.md
-Tags: Basic, Concept
+### Questions
 
-== là so sánh bằng nhưng có ép type
+[1. Compare == and === in JavaScript. When should each be used?](./Javascript_Questions.md#javascript-comparison-1)
 
-- không bằng là !=
+[2. Demonstrate how || and && short-circuit and return operand values, not Booleans.](./Javascript_Questions.md#javascript-comparison-2)
 
-=== là so sánh bằng nhưng ko ép kiểu
+[3. List all falsy values in JavaScript and explain truthy/falsy evaluation.](./Javascript_Questions.md#javascript-comparison-3)
 
-- không bằng là !==
+[4. Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?s](./Javascript_Questions.md#javascript-comparison-4)
+
+## Equal & Non-equal
+
+- `==` là so sánh bằng nhưng có ép type
+  - không bằng là `!=`
+- `===` là so sánh bằng nhưng ko ép kiểu
+  - không bằng là `!==`
 
 ```jsx
 0 == false   // true
@@ -253,15 +270,14 @@ null === undefined // false
 {} == {} or {} === {} //false, refer different objects in memory
 ```
 
+```
 - > là lớn hơn
 - >= là lớn hơn hoặc bằng
 - < là nhỏ hơn
 - <= là nhỏ hơn hoặc bằng
+```
 
-<aside>
-💡 return **boolean**
-
-</aside>
+- 💡 return `boolean`
 
 ## Comparing
 
@@ -296,7 +312,7 @@ a === b; // false
 a == b; // true
 ```
 
-# || and &&
+## || and &&
 
 - The result of a `||` or `&&` expression is always the underlying value of one of the operands, not the (possibly coerced) result of the test
 
@@ -311,7 +327,23 @@ c || b; // "abc"
 c && b; // null
 ```
 
-- `||` operator (ES6: default value)
+### Falsy  
+- Giá trị mà if nhận là sai  
+- 0  
+- (- 0)  
+- false  
+- null  
+- undefined  
+- “" (length = 0)  
+- NaN
+
+### Truthy  
+- Giá trị mà if nhận là đúng  
+- Tất cả không phải falsy
+
+### `||` operator (ES6: default value)
+
+- `||` return first Truthy
 
 ```jsx
 var a = b || c
@@ -328,7 +360,9 @@ foo(); // "hello world"
 foo( "yeah", "yeah!" ); // "yeah yeah!"
 ```
 
-- `&&` operator
+### `&&` operator
+
+- `&&` return first Falsy
 
 ```jsx
 // get the first value in chain
@@ -340,24 +374,3 @@ var a = false;
 a && foo(); // false
 ```
 
-# Falsy & Truthy
-
-- Falsy  
-  - Giá trị mà if nhận là sai  
-  - 0  
-  - (- 0)  
-  - false  
-  - null  
-  - undefined  
-  - “" (length = 0)  
-  - NaN  
-- Truthy  
-  - Giá trị mà if nhận là đúng  
-  - Tất cả không phải falsy
-
-# Comparison operator
-
-- == là so sánh bằng nhưng có ép type  
-  - Không bằng là !=  
-- === là so sánh bằng nhưng ko ép kiểu  
-  - Không bằng là !==

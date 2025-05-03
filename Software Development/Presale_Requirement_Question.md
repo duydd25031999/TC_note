@@ -284,10 +284,10 @@
 
 ### high-level-design-1
 
-**Q:** Why is analyzing the idea important before starting system design?
+**Q:** Why is analyzing business important before starting system design?
 
 - Vietnamese outline:
-  - Question: Vì sao cần phân tích ý tưởng trước khi thiết kế hệ thống?
+  - Question: Vì sao cần phân tích nghiệp vụ trước khi thiết kế hệ thống?
   - Answer:
     - Hiểu đúng mục tiêu và nhu cầu người dùng
     - Tránh thiết kế sai hướng
@@ -334,7 +334,7 @@
 - Vietnamese outline:
   - Question: Những yếu tố chính khi thiết kế use case hệ thống là gì?
   - Answer:
-    - Rõ vai trò người dùng
+    - Rõ các vai trò người dùng
     - Xác định rõ input và output
     - Phác thảo luồng xử lý chính
 - English sample answer:
@@ -364,11 +364,11 @@
 - Vietnamese outline:
   - Question: Làm sao chọn giải pháp kỹ thuật phù hợp cho hệ thống?
   - Answer:
-    - Dựa trên yêu cầu hiệu suất và khả năng mở rộng
+    - Dựa trên yêu cầu non-functional - yêu cầu về chất lượng như hiệu suất, khả năng mở rộng
     - Cân nhắc chi phí và kinh nghiệm đội ngũ
     - Lựa chọn công nghệ hỗ trợ mở rộng tương lai
 - English sample answer:
-  - Base choices on performance and scalability needs.
+  - Base choices on non-functional requirements like performance, scalability needs.
   - Consider cost efficiency and team familiarity with the technology.
   - Prefer solutions that allow easy future extensions.
 

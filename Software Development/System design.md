@@ -38,11 +38,11 @@
 | Micro-frontends                | Split frontend UI into smaller independent apps            | Scale frontend teams separately                          |
 | Load Balancing                 | Distribute traffic across servers                          | Avoid overload and downtime                              |
 | Caching                        | Store frequent data closer to users (ex: Redis, CDN)       | Reduce backend/database load                             |
-| Database Sharding              | Split database into smaller, faster pieces                 | Handle very large datasets                               |
+| Content Delivery Network (CDN) | Cache static content globally                              | Faster delivery, reduces origin server load              |
 | Event-Driven Architecture      | Use messaging between components (ex: Kafka, RabbitMQ)     | Decouple systems for scalability and resilience          |
+| Database Sharding              | Split database into smaller, faster pieces                 | Handle very large datasets                               |
 | Replication                    | Duplicate services/databases                               | High availability and fault tolerance                    |
 | Auto-scaling                   | Automatically add/remove servers based on traffic          | Save cost and handle unpredictable spikes                |
-| Content Delivery Network (CDN) | Cache static content globally                              | Faster delivery, reduces origin server load              |
 | Service Mesh                   | Manage secure service-to-service communication (ex: Istio) | Control traffic, retries, failure handling automatically |
 
 ### Distributed systems
@@ -51,7 +51,7 @@
 
 | Pattern                          | What it Means                                         | Why It’s Used                                         |
 |----------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-| CDN (Content Delivery Network)   | Distribute static assets closer to users              | Improve latency and reduce server load                |
+| Content Delivery Network (CDN)   | Distribute static assets closer to users              | Improve latency and reduce server load                |
 | Load Balancing                   | Distribute traffic among servers                      | Prevent overload                                      |
 | Replication                      | Make copies of data/services                          | Increase availability and reliability                 |
 | Sharding                         | Split database into parts                             | Scale data horizontally                               |
@@ -118,16 +118,17 @@
 
 ## Testing
 
-- How easily you can add new features or modify the system without breaking existing functionality.
-- Build systems that can grow and evolve over time.
-- Examples:
-	- Microservices architecture allows you to add new services without touching old ones.
-	- Plugin systems in apps (like Chrome extensions) allow flexible additions.
-	- API versioning allows new clients to work with updated server APIs without breaking old clients.
+- Define testing strategy early by identifying critical components and non-functional requirements such as performance, security, and fault tolerance.
+- Design system interfaces (APIs, modules) with testability in mind, using modular and loosely coupled architecture.
+- Plan for testing overview, including unit, integration, and load testing, to validate behavior under realistic and extreme conditions.
+- Example:
+    - While designing APIs for a microservice, define clear request/response formats (with OpenAPI/Swagger).
+    - Create Design component library (UI Toolkit) as project standard for UI development and testing
+    - Every user story requires an acceptance criteria
 
 ## Non-functional Requirement
 
-- Non-functional Requirement above Feature of Product
+- Non-functional Requirements are the Quality requirements of product above Feature of Product
     - Secure
     - Responsive
     - Performance
@@ -160,7 +161,7 @@
 - Explained from perspective of user with **3C** (3 step process) 
 
 1. **C**ard
-    - Description of User Story (main idea)
+    - Description of Story (main idea)
     - **Not** clean features ⇒ free adapt
 2. **C**onversation
     - `Card` = brief ⇒ `Point` = reminder ⇒ `What to done`
@@ -191,7 +192,7 @@ So that I can [Why].
 
 - Test acceptance
 - List of items needed for this story
-- Acceptance Criteria is for >= 1 function only
+- Acceptance Criteria is for >= 1 function
 - Describe when an item is completed
     - Create by `Product Owner`
     - Commitment for PBI (a part of it also)
@@ -277,7 +278,7 @@ So that I can [Why].
 - Epic is large work wanted to do = group PBIs
     - Significant (Đáng kể) in size
     - Doesn't fit in a sprint
-- Epic: big milestone (destinatios) in "User Journey" map
+- Epic: big milestone (destination) in "User Journey" map
 - Epic is Specific feature = can't done 1 print => need few sprints
     - Break into many User Story
 - ⚠️ Epic not in Product Backlog
@@ -339,15 +340,15 @@ So that I can [Why].
 - Focus: System architecture overview
 - Audience: Architects, senior developers, stakeholders
 - View: "Big picture" — systems, modules, how they connect
-- Purpose: Plan system structure
+- Purpose: Plan system structure, presale process
 
 -----
 
 - Example: Live Streaming System Design
 
-## 1. Analyzing the Ideas
+## 1. Analyzing the Business
 
-- Understand the `problem domain`.
+- Analyzing the ideas => understand the `problem domain`.
 - Ask: `What` is the system supposed to achieve?
 - Identify: high-level goals, user types, and business needs.
 - Avoid thinking about technical solutions too early.
@@ -360,7 +361,7 @@ So that I can [Why].
 
 ## 2. Summarizing core requirements
 
-- Translate ideas into clear functional requirements.
+- Translate main ideas into core functional requirements.
 - Differentiate between Must-have and Nice-to-have features.
 - Think in terms of what the system must deliver.
 
@@ -386,7 +387,7 @@ So that I can [Why].
     - Authentication service
     - Chat service (optional)
 
-## 4. Designing workflow (API)
+## 4. Designing workflow (Use Case/APIs)
 
 - Define how users interact with the system.
 - Each interaction = a Use Case/APIs.
@@ -484,7 +485,7 @@ So that I can [Why].
 
 ## 1. Engineering requirements
 
-- Define non-functional requirements like performance, scalability, latency.
+- Define measurable non-functional requirements like performance, scalability, latency.
 - Set quantitative goals (e.g., "response time < 300ms").
 - Focus on technical qualities needed for success.
 

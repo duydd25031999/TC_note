@@ -12,7 +12,7 @@
 - 1 (nested) child function accesses into a variable belonged to parent function.
     - When scope parent function is cleaned, that variable still closure reference into parent function isn’t collected by garbage.
 
-### ****Builder Pattern****
+### Builder Pattern
 
 ```jsx
 function buildAdder(x) {
@@ -29,7 +29,7 @@ adder(3);   //  6
 adder(4);   //  10
 ```
 
-### ****Stimulate Class****
+### Stimulate Class
 
 ```jsx
 var newPerson = function(name) {
@@ -54,7 +54,7 @@ var person2 = newPerson('Person 2');
 person2.sayHi();
 ```
 
-### ****Singleton Pattern****
+### Singleton Pattern
 
 ```jsx
 const singleton = (function() {
@@ -73,7 +73,7 @@ singleton.increment();
 console.log(singleton.get());
 ```
 
-### ****Pitfall Closure****
+### Pitfall Closure
 
 ```jsx
 var newPerson = function(name) {

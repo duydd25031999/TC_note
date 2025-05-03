@@ -29,7 +29,7 @@ array.forEach(
     - `forEach` repeat 1 action for each element.
     - `map/filter/reduce` create new item.
 
-### ****map****
+### map
 
 - Create a new array from original array that each new item transforms from one original item.
 
@@ -39,7 +39,7 @@ const array1 = [1, 4, 9, 16];
 const map1 = array1.map(x => x * 2);
 ```
 
-### ****filter****
+### filter
 
 - Create a new array from original array with all elements that pass the test implemented by the provided function.
 
@@ -48,7 +48,7 @@ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
 const result = words.filter(word => word.length > 6);
 ```
 
-### ****reduce****
+### reduce
 
 - It executes a user-supplied reducer callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element.
 
