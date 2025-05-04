@@ -8,9 +8,9 @@
 
 ## Concept
 
-- `Each event` in Scrum is a `formal` opportunity to `inspect & adapt` `Scrum Artifact`.
+- `Each event` in Scrum is a `formal` opportunity to `inspect & adapt` Scrum Artifact.
 	- `Failure` to operate `any events` as prescribed results in `lost` opportunities to `inspect & adapt`.
-	- Scrum Events are used to `create regularity` (sự đều đặn) and to `minimize the need for meetings outside Scrum`.
+	- Scrum Events are used to `create regularity` and to `minimize the need for meetings outside Scrum`.
 - Scrum events are `designed` to `provoke change`(kích động sự thay đổi).
 
 - 💡 All events have time-boxed
@@ -115,7 +115,7 @@
 
 - Collaborate with `Stakeholder` & `Developers`
 - Manage `Product Backlog`
-- `Decide (if || when) release` `Product Increment` with `agreement` of `Developer`
+- `Decide (if || when) release` Product Increment with `agreement` of Developer
 
 ### Scrum Master
 
@@ -165,7 +165,7 @@
 - Can refine `Product Backlog`  if there is new insight
 - Answer:
     - Why:	Sprint is valuable	        (?) => Sprint Goal
-    - What:	Can be done	                (?) => `Sprint Backlog`
+    - What:	Can be done	                (?) => Sprint Backlog
     - How:	Chosen work is done					(?) => Plan
 
 - 💡 `Sprint Backlog` = `Sprint Goal` + `Top PBIs` + `Plan for delivering`
@@ -187,7 +187,7 @@
 
 ### Product Owner
 
-- Product Owner `proposes` (đề xuất) `how` the product could `increase its value & utility` in the current Sprint.
+- Product Owner `proposes` how the product could `increase its value & utility` in the current Sprint.
 - The Product Owner `ensures` attendees `discuss` the `most important` Product Backlog items
 	- How they map to the Product Goal.
 	- Clarify PBIs
@@ -196,7 +196,7 @@
 
 ### Developer
 
-- `Developer` `pull work by self`
+- Developer `pull work by self`
 - The Developers `collaborate` with `Product Owner` until the end of meeting.
 	- They need to `discuss` if `Sprint Goal` is still `reachable` and try to `adapt Sprint scope`.
 	- If Developers find any problem during Sprint Planning, Sprint Goal still be modified if necessary
@@ -221,8 +221,8 @@
 
 - 💡 Each sprint should create value thing.
 
-- Whole `Scrum Team` `collaborates` to define a `Sprint Goal` that communicates `why` the Sprint is `valuable` to `Stakeholders`.
-    - Product Owner `proposes` (đề xuất) `how` the product could `increase its value & utility` in the current Sprint.
+- Whole `Scrum Team` collaborates to define a `Sprint Goal` that communicates `why` the Sprint is `valuable` to `Stakeholders`.
+    - Product Owner proposes `how` the product could `increase its value & utility` in the current Sprint.
 - Sprint Goal = specific, measurable, flexibility
     - `Specific` & `Measurable` = Measurable result = ‣
     - `Flexibility` ⇒ Not fixed how
@@ -231,7 +231,7 @@
 
 ## 1.2. Sprint Backlog - `What` can be Done this Sprint?
 
-- `Developer` `selects` items from the `Product Backlog`  to include in the current Sprint.
+- `Developer` selects items from the `Product Backlog`  to include in the current Sprint.
     - Through `discussion`, `collaboration` with the `Product Owner`.
     - `Sprint Backlog` get `top PBIs`.
     - `Forecast` PBIs selected by `Developer` can be finished in this sprint.
@@ -271,8 +271,8 @@
 - Developer - Only
 - Get `feedback`
 - `Scrum Master` ensures `Developer` have the `meeting by themselves`.
-		- `Scrum Master` does `not participate`
-		- `Scrum Master` may `observe` in order to later `provide feedback` to the `Development Team` on how to possibly `improve the event`.
+	- `Scrum Master` does `not participate`
+	- `Scrum Master` may `observe` in order to later `provide feedback` to the `Development Team` on how to possibly `improve the event`.
 
 -----
 
@@ -280,6 +280,8 @@
 	- Daily stand-up
 	- Stand-up
 	- Daily
+
+-----
 
 - `Inspect` progress `toward` the `Sprint Goal` and `adapt` the `Sprint Backlog` as necessary
 	- `Informal`
@@ -313,7 +315,7 @@
 	- Guide decision-making
 	- Consequently eliminate (loại bỏ) the need for other meetings.
 
-- `Scrum Master``ensures `Developer` have the `meeting by themselves`.
+- `Scrum Master` ensures `Developer` have the `meeting by themselves`.
 	- `Scrum Master` guide & make sure it happen
 	- If others are `present` at the Daily Scrum, ensures that they do `not disrupt the meeting`
 	- Scrum Master doesn’t do anything else.
@@ -322,8 +324,8 @@
 ## Scrum Board
 
 - Manage work of `Developer`
-    - All Developers remain accountable
-    - Decide who do what
+  - All Developers remain accountable
+	- Decide who do what
 - Board to check status of features in Sprint Backlog
 - A Scrum board is typically structured in the form of columns
 - The goal of the sprint is to basically move all the tickets from the leftmost column to the right.
@@ -354,7 +356,7 @@
   - All `Scrum Team` (Scaling Scrum) & `Stakeholder` inspect outcome
 	- 💡 “inspect & adapt” meeting
     
-- `Scrum Team` `presents the results` of their work to `key Stakeholders`.
+- `Scrum Team` presents the results of their work to `key Stakeholders`.
     - `Progress toward the Product Goal` is discussed.
     - They will also `discuss` what has `changed` in the `environment` and `adapt` the `Product Backlog` as needed.
     - If the `Product Backlog` does `not` contain the `newest insights`, it is `outdated`
@@ -367,7 +369,7 @@
     - `Unfinish` work is put back to `Product Backlog`
 - `Product Owner` decide `what to do next`
     - `Scrum Team` and `Stakeholders`  collaborate on `what to do next`.
-- 💡 Time-boxed: `4 hours for a monthly Sprint`.
+- 💡 Time-boxed: 4 hours for a monthly Sprint.
 	- `Scrum Team` should avoid limiting it to a presentation.
 
 - Sprint review = buổi demo thành quả.
@@ -397,7 +399,7 @@
 
 ## Flow
 
-1. `Scrum Team` & `Stakeholders` `review` what was `accomplished` in the Sprint
+1. `Scrum Team` & `Stakeholders` review what was `accomplished` in the Sprint
 2. `Product Owner` decide `what to do next`
 	- `Scrum Team` and `Stakeholders`  collaborate on `what to do next`.
 - 💡 The development process is inspected during the Sprint Retrospective.
@@ -424,7 +426,7 @@
 
 ----
 
-- Sprint Retrospective is to `plan` ways to `increase` `quality` and `effectiveness`.
+- Sprint Retrospective is to `plan` ways to increase `quality` and `effectiveness`.
 - `Scrum Team` inspects `how the last Sprint went` with regards to individuals, interactions, processes, tools, and their `Definition of Done` .
 	- Buổi riêng của Scrum Team ⇒ bàn luận về cách cải thiện chất lượng làm việc
 	- `Inspected elements` often `vary` (thay đổi) with the `domain of work`.
@@ -436,9 +438,9 @@
 	- Identifies the `most helpful changes` to improve its `effectiveness` 
 	- The `most impactful improvements` are addressed `as soon as possible.`
 - It is at the end of each Sprint.
-	- Improvement plan can be added ⇒ `Product Backlog` & `Sprint Backlog` in `next` `Sprint`
+	- Improvement plan can be added ⇒ `Product Backlog` & `Sprint Backlog` in next `Sprint`
 
-- 💡 Time-box: `3 hours for 1 month Sprint
+- 💡 Time-box: 3 hours for 1 month Sprint
 
 - Time to change `Definition of Done`
 	- No need to `Definition of Done` change every `Sprint`
