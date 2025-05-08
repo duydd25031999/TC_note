@@ -67,7 +67,7 @@
 
 ## Project Introduction
 
-### 1. Project Overview
+### Project Overview
 
 - Project `Bespin` is a web‑based chatbot platform that lets cloud‑focused engineers manage servers and AWS resources through natural‑language conversations.
 - Users can query multiple AI models (ChatGPT, Copilot, bespoke LLMs) or escalate to in‑house experts, then execute the resulting commands in a secure, real‑time web terminal.
@@ -75,14 +75,14 @@
 - Web chatbot for server and cloud management.
 - Dual‑layer answers: AI first, human experts refine.
 
-## 2. Goals
+## Goals
 
 1. `Multi‑Model Q&A` - Support ChatGPT, Copilot, etc., for coding, server, and AWS questions.
 2. `Natural‑Language Control` - Convert user queries to shell/CLI commands and execute safely.
 3. `AI‑Driven System Design` - Generate architecture diagrams and design documents.
 4. `Human Expert Support` - Provide live specialists to augment AI responses.
 
-## 3 . Evolution Phases
+## Evolution Phases
 
 | Phase | Key Deliverables                                                |
 | ----- | --------------------------------------------------------------- |
@@ -91,29 +91,29 @@
 | 3     | Rich responses (Diagrams, Code, Commands)                       |
 | 4     | Web Terminal, remote server/AWS control, OS Copilot integration |
 
-## 4. Technical Stack
+## Technical Stack
 
 - `Front‑end:` Vue 3, Pinia, TailwindCSS, Socket.IO (real‑time)
 - `Back‑end:` Client‑owned AI server & REST/WS APIs
 - `Security:` JWT auth, RBAC, command sandboxing (future)
 
-## 5. User Roles
+## User Roles
 
 - `User` - Devs, DevOps, cloud admins, CTOs; ask questions & deploy commands.
 - `Engineer` - In‑house experts; support users and operate as users.
 - `Admin` - Configure menus, permissions, languages via separate Admin panel.
 
-## 6. Non‑Functional Requirements
+## Non‑Functional Requirements
 
 - Clean, developer‑oriented UI
 - Always‑on, real‑time connectivity
 - High security for customer infrastructure links
 
-## 7. Achievements
+## Achievements
 
 - Multiple funding rounds secured through live demos
 
-## 8. Lessons Learned
+## Lessons Learned
 
 - Adaptability to rapid change
 - Client communication & stakeholder alignment
@@ -121,11 +121,26 @@
 
 ## My responsibilities
 
-### Team lead
-- Presales for each phase
-- High‑ & low‑level design, WBS creation
-- Task assignment & team coordination
+### Presales
 
-### Front-end developer
-- Implementation, testing, delivery
+- Trigger: Customer submits a new phase idea.
+1. Analyse the idea and produce a high‑level design.
+2. Break that design into tasks.
+3. Estimate each task to build the WBS.
+4. Compile the plan and contract, then present it to the customer for approval.
+5. After customer approves, we start write SRS, implement new phase
 
+
+### Team Lead
+
+- Feature‑development management
+- Low‑level design and technical specification
+- Task assignment & workload balancing
+- Team coordination and daily support
+
+### Senior Front‑End Developer
+
+- Implementation of critical Front-end features
+- Testing (unit, integration, manual UAT) and bug‑fixing
+
+## Interesting Technologies
