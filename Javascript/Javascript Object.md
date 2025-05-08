@@ -104,7 +104,15 @@ console.log(superHero1 instanceof Human);
 
 ## Object Prototype
 
+### Questions
+
 [8. {Scan} Why is Object Prototype important?](./Javascript_Questions.md#javascript-prototype-8)
+
+[17. {Interrogate} Why is storing methods on the constructor’s prototype more memory-efficient than defining them inside the constructor, and when can the extra lookup hurt performance?](./Javascript_Questions.md#javascript-prototype-17)
+
+[18. {Interrogate} Why do developers often use `Object.create(null)` to build “pure dictionary” objects, and what drawbacks should you watch out for?](./Javascript_Questions.md#javascript-prototype-18)
+
+----
 
 - Object Prototype is the root prototype
 - Every prototype extends from Object Prototype
@@ -198,12 +206,20 @@ Object.defineProperty(obj, prop, option); // create new property for object
 
 # Javascript Callback
 
+### Questions
+
+[1. {Scan} Why can Callback be passed into another function as an argument?](./Javascript_Questions.md#javascript-callback-1)
+
+[7. {Scan} {Interrograte} Why do we register a deferred action as a callback (e.g., via setTimeout, AJAX), and what trade-offs does this non-blocking model introduce?](./Javascript_Questions.md#javascript-callback-7)
+
+----
+
 - ⚠️ Sự mất kiểm soát ở 1 step ⇒ mất kiểm soát các steps sau
 - Nếu không có cách kiểm soát hoàn toàn ⇒ bugs
 
 ## Concept
 
-[1. {Scan} Why can Callback be passed into another function as an argument?](./Javascript_Questions.md#javascript-callback-1)
+
 
 - A callback is a function passed into another function as an argument.
 - Callback là function mà truyền vào function khác như tham chiếu
@@ -273,13 +289,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 ### Callback Hell
 
 [4. {Scan} What is callback hell?](./Javascript_Questions.md#javascript-callback-4)
-[5. {Scan} Why callback hell happens?](./Javascript_Questions.md#javascript-callback-5)
-
-- Callback Hell là 1 lỗi coding với việc để callbacks lồng nhau nhiều quá khiến code khó đọc và debug
-    - Nhất là khi sử dụng trong logic bất đồng bộ
-- Callback Hell khiến khó biết rõ được thứ tự chạy của callback và thời điểm callback được gọi
-
----
+[5. {Scan} Why does “callback hell” emerge in deeply nested asynchronous code, and how does inversion of control hurt maintainability?](./Javascript_Questions.md#javascript-callback-5)
 
 - Callback Hell is an anti-pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic.
 - Callback Hell is that executing order of different callbacks cannot be determined.
@@ -288,12 +298,20 @@ consoleLogFrom(sayHelloWorld); //hello world
 - The difficulty of control callback-driven design is the worst (and yet most subtle) problems.
 - The most troublesome problem with callbacks is inversion of control leading to a complete breakdown along all those trust lines.
 
+---
+
+- Callback Hell là 1 lỗi coding với việc để callbacks lồng nhau nhiều quá khiến code khó đọc và debug
+    - Nhất là khi sử dụng trong logic bất đồng bộ
+- Callback Hell khiến khó biết rõ được thứ tự chạy của callback và thời điểm callback được gọi
+
+
+
 ### Trying to Save Callbacks
 
 [6. {Scan} How to save callback from Callback hell?](./Javascript_Questions.md#javascript-callback-6)
 
 - Split callbacks = break into clearly steps in same level, sequence ⇒ pass multiple callback arguments lead to each step.
-- Error-first style =  thinking about catching error first then implement case success.
+- Error-first style = thinking about catching error first then implement case success.
 - Call the callback too early
     - Callback is executed before sequential code.
 - Call the callback too late (or never)
@@ -304,7 +322,18 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 # Javascript Map
 
-[7. {Scan} What is advantage of Map with Array?](./Javascript_Questions.md#javascript-callback-7)
+### Questions
+
+[1. {Scan} What is advantage of Map with Array?](./Javascript_Questions.md#javascript-map-1)
+
+[2. {Interrograte} Why would you choose Map over a plain object for a key-value store, and what real impact does that have on large-scale data handling?](./Javascript_Questions.md#javascript-map-2)
+
+## Concept
+
+- Lookup complexity: Average O(1)—hash-based key table.
+- No accidental index clash: Keys live in their own hash table; you can safely use "0" or length as keys without affecting structure.	
+- Memory for large sets: Engines store Maps in specialized tables → better memory/layout for tens of thousands of pairs.
+- Semantic clarity: Code reads “this is a key-value store”.	
 
 ```jsx
 var m = new Map();

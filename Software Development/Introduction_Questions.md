@@ -24,7 +24,9 @@
     - Moving forward, I aim to strengthen both my technical leadership and presale consulting skills, with a clear goal of growing into project leadership and solution consulting roles.
     - I’m excited to bring my technical expertise, leadership experience, and client-oriented mindset to contribute to new challenges and opportunities.
 
-# Recent project
+# Bespin - Recent Project
+
+### Questions
 
 **Q:** Can you describe your recent project?
 
@@ -62,3 +64,68 @@
         - Improved adaptability to rapid client-driven changes.
         - Enhanced communication skills with clients and stakeholders.
         - Strengthened internal leadership and team management skills under dynamic conditions.
+
+## Project Introduction
+
+### 1. Project Overview
+
+- Project `Bespin` is a web‑based chatbot platform that lets cloud‑focused engineers manage servers and AWS resources through natural‑language conversations.
+- Users can query multiple AI models (ChatGPT, Copilot, bespoke LLMs) or escalate to in‑house experts, then execute the resulting commands in a secure, real‑time web terminal.
+- Over four phases the product has expanded from basic Q&A to full remote control, attracting investor interest and demonstrating the power of combining AI guidance with human expertise.
+- Web chatbot for server and cloud management.
+- Dual‑layer answers: AI first, human experts refine.
+
+## 2. Goals
+
+1. `Multi‑Model Q&A` - Support ChatGPT, Copilot, etc., for coding, server, and AWS questions.
+2. `Natural‑Language Control` - Convert user queries to shell/CLI commands and execute safely.
+3. `AI‑Driven System Design` - Generate architecture diagrams and design documents.
+4. `Human Expert Support` - Provide live specialists to augment AI responses.
+
+## 3 . Evolution Phases
+
+| Phase | Key Deliverables                                                |
+| ----- | --------------------------------------------------------------- |
+| 1     | Core chat with AI + expert handoff                              |
+| 2     | Multiple AI models, file support, Google Drive integration      |
+| 3     | Rich responses (Diagrams, Code, Commands)                       |
+| 4     | Web Terminal, remote server/AWS control, OS Copilot integration |
+
+## 4. Technical Stack
+
+- `Front‑end:` Vue 3, Pinia, TailwindCSS, Socket.IO (real‑time)
+- `Back‑end:` Client‑owned AI server & REST/WS APIs
+- `Security:` JWT auth, RBAC, command sandboxing (future)
+
+## 5. User Roles
+
+- `User` - Devs, DevOps, cloud admins, CTOs; ask questions & deploy commands.
+- `Engineer` - In‑house experts; support users and operate as users.
+- `Admin` - Configure menus, permissions, languages via separate Admin panel.
+
+## 6. Non‑Functional Requirements
+
+- Clean, developer‑oriented UI
+- Always‑on, real‑time connectivity
+- High security for customer infrastructure links
+
+## 7. Achievements
+
+- Multiple funding rounds secured through live demos
+
+## 8. Lessons Learned
+
+- Adaptability to rapid change
+- Client communication & stakeholder alignment
+- Internal leadership under dynamic conditions
+
+## My responsibilities
+
+### Team lead
+- Presales for each phase
+- High‑ & low‑level design, WBS creation
+- Task assignment & team coordination
+
+### Front-end developer
+- Implementation, testing, delivery
+
