@@ -4,7 +4,7 @@
 
 ### javascript-language-1
 
-**Q:** What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?
+**Q:** {Interrogate} What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?
 
 - Vietnamese outline:
 	- Question: Giải thích ba khái niệm type (loose / dynamic / weak)
@@ -21,7 +21,7 @@
 
 ### javascript-datatype-1
 
-**Q:** Differentiate between primitive (primary) types and reference types.
+**Q:** {Interrogate} Differentiate between primitive (primary) types and reference types.
 
 - Vietnamese outline:
 	- Question: So sánh primitive vs reference
@@ -35,7 +35,7 @@
 
 ### javascript-datatype-2
 
-**Q:** List JavaScript’s built-in types and say which are primitives versus the sole reference type.
+**Q:** {Interrogate} List JavaScript’s built-in types and say which are primitives versus the sole reference type.
 
 - Vietnamese outline:
 	- Question: Liệt kê built-in types
@@ -49,7 +49,7 @@
 
 ### javascript-datatype-3
 
-**Q:** Why should you avoid using object wrappers like new String() or new Boolean()?
+**Q:** {Interrogate} Why should you avoid using object wrappers like new String() or new Boolean()?
 
 - Vietnamese outline:
 	- Question:	Setback of wrapper objects
@@ -65,7 +65,7 @@
 
 ### variable-declaration-1
 
-**Q:** Explain hoisting for var and function declarations, and contrast it with let/const block scope.
+**Q:** {Interrogate} Explain hoisting for var and function declarations, and contrast it with let/const block scope.
 
 - Vietnamese outline:
 	- Question: Hoisting vs block-scoped
@@ -80,7 +80,7 @@
 
 ### variable-declaration-2
 
-**Q:** What is the Temporal Dead Zone (TDZ)?
+**Q:** {Interrogate} What is the Temporal Dead Zone (TDZ)?
 
 - Vietnamese outline:
 	- Question:	TDZ là gì?
@@ -95,7 +95,7 @@
 
 ### javascript-comparison-1
 
-**Q:** Compare == and === in JavaScript. When should each be used?
+**Q:** {Interrogate} Compare == and === in JavaScript. When should each be used?
 
 - Vietnamese outline:
 	- Question: So sánh == vs ===
@@ -111,7 +111,7 @@
 
 ### javascript-comparison-2
 
-**Q:** Demonstrate how || and && short-circuit and return operand values, not Booleans.
+**Q:** {Interrogate} Demonstrate how || and && short-circuit and return operand values, not Booleans.
 
 - Vietnamese outline:
 	- Question: Giải thích short-circuit value
@@ -124,7 +124,7 @@
 
 ### javascript-comparison-3
 
-**Q:** List all falsy values in JavaScript and explain truthy/falsy evaluation.
+**Q:** {Interrogate} List all falsy values in JavaScript and explain truthy/falsy evaluation.
 
 - Vietnamese outline:
 	- Question: Liệt kê falsy
@@ -142,7 +142,7 @@
 
 ### javascript-comparison-4
 
-**Q:** Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?
+**Q:** {Interrogate} Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?
 
 - Vietnamese outline:
 	- Question: Lý do lỗi float & cách xử lý
@@ -154,3 +154,201 @@
 	- many decimals lack an exact binary representation, so 0.1 + 0.2 stores a tiny error.
 	- When you need a clean decimal for UI or finance, round explicitly with Number((0.1+0.2).toFixed(2)), Math.round(x * 100)/100, or a decimal library.
 
+# Javascript Object
+
+## Javascript Prototype
+
+### javascript-prototype-1
+
+**Q:** {Scan} What is javascript prototype?
+
+- Vietnamese outline:
+	- Là 1 object lưu methods và static properties của 1 constructor hoặc class
+	- Được tham chiếu tới toàn bộ instance của onstructor hoặc class
+	- Instance cùng chia sẻ chứ không copy, nên dù thế nào các instance đều dùng chung
+
+### javascript-prototype-2
+
+**Q:** {Scan} What is constructor in javascript?
+
+- Vietnamese outline:
+	- Constructor là 1 function để định nghĩa instance
+	- Contructor chỉ tạo object với keyword `new`
+
+### javascript-prototype-3
+
+**Q:** {Scan} How does "JS Prototype" replace "Class" in OOP like Java?
+- Vietnamese outline:
+	- Contructor định nghĩa instance
+	- Prototype share chung chứ không copy
+	- Contructor và Prototype có thể mô phỏng OOP
+
+### javascript-prototype-4
+
+**Q:** {Scan} How to create "stimulates class" with javascript function
+
+- Vietnamese outline:
+	1. Tạo 1 contructor
+	2. Define prototype của contructor đó
+
+### javascript-prototype-5
+
+**Q:** {Scan} Is return of "person2.sayHello()" same with "person1.sayHello()"
+
+- Vietnamese outline:
+	- `sayHello` thực chất là 1 function duy nhất mà 2 object refer tới
+	- Có thể return cùng 1 giá trị với cùng input
+
+### javascript-prototype-6
+
+**Q:** {Scan} What is return of those console.log
+
+- English sample answer:
+	1. true
+	2. false // this belongs to Protoype
+	3. false // this belongs to Protoype
+
+### javascript-prototype-7
+
+**Q:** {Scan} How to check an object is instance of a class / function?
+
+- English sample answer:
+	- Use keyword `instanceof`
+
+### javascript-prototype-8
+
+**Q:** {Scan} Why is Object Prototype important?
+
+- English sample answer:
+	- Object Prototype is the root prototype
+	- Every prototype extends from Object Prototype
+
+### javascript-prototype-9
+
+**Q:** {Scan} What is return of this line?
+
+- English sample answer:
+```jsx
+{
+	constructor: SuperHero(),
+	sayHello: ƒ(),
+	goRage: ƒ()
+}
+```
+
+### javascript-prototype-10
+
+**Q:** {Scan} When do we use Shallow clone?
+
+- Vietnamese outline:
+	- Khi obj/array chỉ có 1-level
+	- Vẫn muốn giữ sự ref của children
+
+### javascript-prototype-11
+
+**Q:** {Scan} When do we use Deep clone?
+
+- English sample answer:
+	- Totally clone without any connection
+
+### javascript-prototype-12
+
+**Q:** {Scan} Does `returnedTarget` properties refer with `target` properties
+
+- English sample answer:
+	- Common properties of `returnedTarget` with `target` still references to `target`
+
+### javascript-prototype-13
+
+**Q:** {Scan} What is different between `assign()` and `create()`
+
+- Vietnamese outline:
+	- `assign()`: merge 2 object
+	- `create()`: tạo 1 instance khác chung prototype
+
+### javascript-prototype-14
+
+**Q:** {Scan} `create()` is shallow clone or deep clone
+
+- English sample answer:
+	- It isn't clone
+
+### javascript-prototype-15
+
+**Q:** {Scan} How to check object has an property or not
+
+- English sample answer:
+	- Use `obj.hasOwnProperty()`
+
+### javascript-prototype-16
+
+**Q:** {Scan} Why we need to define property
+
+- Vietnamese outline:
+	- Khi cần 1 object với nhiều control đặc biệt
+
+## Javascript Callback
+
+### javascript-callback-1
+
+**Q:** {Scan} Why can Callback be passed into another function as an argument?
+
+- Vietnamese outline:
+	- Function là 1 data type
+	- Mỗi function là 1 variable
+
+### javascript-callback-2
+
+**Q:** {Scan} Callback is used only for calling API, isn't it?
+
+- Vietnamese outline:
+	- Callback là 1 abtract function
+	- Thực hiện đa hình
+	- Đăng kí 1 hành động trong tương lai
+
+### javascript-callback-3
+
+**Q:** {Scan} How can we run multitasking in Javascript?
+
+- English sample answer:
+1. - When we `fake multitasking`
+2. We switch back and `forth between two or more tasks` in rapid succession
+- Simultaneously progressing on each task in `tiny, fast little chunks`
+- We do it so `fast` that to the `outside world` it appears as if we're `doing these things in parallel`
+
+### javascript-callback-4
+
+**Q:** {Scan} What is callback hell?
+
+- English sample answer:
+	- Callback Hell is an anti-pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic.
+	- Callback Hell is that executing order of different callbacks cannot be determined.
+
+### javascript-callback-5
+
+**Q:** {Scan} Why callback hell happens?
+
+- When we call multiple nested callbacks without pattern and cannot be determined
+
+### javascript-callback-6
+
+**Q:** {Scan} How to save callback from Callback hell?
+
+- English sample answer:
+	- Split callbacks = break into clearly steps in same level, sequence ⇒ pass multiple callback arguments lead to each step.
+	- Error-first style = thinking about catching error first then implement case success.
+		- Call the callback too early
+		- Call the callback too late (or never)
+		- Call the callback too few or too many times
+		- Fail to pass along any necessary environment/parameters
+		- Swallow any errors/exceptions that may happen
+
+### javascript-callback-7
+
+**Q:** {Scan} What is advantage of Map with Array?
+
+- Vietnamese outline:
+	- Dễ tra cứu phức tạp
+	- Không sắp xếp theo thứ tự
+	- Bộ nhớ cho tập dữ liệu lớn
+	- Tính rõ ràng về code

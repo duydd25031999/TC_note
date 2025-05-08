@@ -10,7 +10,7 @@
 
 ### Questions
 
-[1. What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?](./Javascript_Questions.md#javascript-language-1)
+[1. {Interrogate} What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?](./Javascript_Questions.md#javascript-language-1)
 
 ## Loosely typed (language without declared types)
 
@@ -49,11 +49,11 @@
 
 ### Questions
 
-[1. Differentiate between primitive (primary) types and reference types.](./Javascript_Questions.md#javascript-datatype-1)
+[1. {Interrogate} Differentiate between primitive (primary) types and reference types.](./Javascript_Questions.md#javascript-datatype-1)
 
-[2. List JavaScript’s built-in types and say which are primitives versus the sole reference type.](./Javascript_Questions.md#javascript-datatype-2)
+[2. {Interrogate} List JavaScript’s built-in types and say which are primitives versus the sole reference type.](./Javascript_Questions.md#javascript-datatype-2)
 
-[3. Why should you avoid using object wrappers like new String() or new Boolean()?](./Javascript_Questions.md#javascript-datatype-3)
+[3. {Interrogate} Why should you avoid using object wrappers like new String() or new Boolean()?](./Javascript_Questions.md#javascript-datatype-3)
 
 
 ## Primary - Kiểu nguyên thủy, tham trị
@@ -204,9 +204,9 @@ c.length = 3; // empty x 3
 
 ### Questions
 
-[1. Explain hoisting for var and function declarations, and contrast it with let/const block scope.](./Javascript_Questions.md#variable-declaration-1)
+[1. {Interrogate} Explain hoisting for var and function declarations, and contrast it with let/const block scope.](./Javascript_Questions.md#variable-declaration-1)
 
-[2. What is the Temporal Dead Zone (TDZ)?](./Javascript_Questions.md#variable-declaration-2)
+[2. {Interrogate} What is the Temporal Dead Zone (TDZ)?](./Javascript_Questions.md#variable-declaration-2)
 
 ## Hoisting — “raise declarations to the top of their scope”
 
@@ -242,13 +242,13 @@ c.length = 3; // empty x 3
 
 ### Questions
 
-[1. Compare == and === in JavaScript. When should each be used?](./Javascript_Questions.md#javascript-comparison-1)
+[1. {Interrogate} Compare == and === in JavaScript. When should each be used?](./Javascript_Questions.md#javascript-comparison-1)
 
-[2. Demonstrate how || and && short-circuit and return operand values, not Booleans.](./Javascript_Questions.md#javascript-comparison-2)
+[2. {Interrogate} Demonstrate how || and && short-circuit and return operand values, not Booleans.](./Javascript_Questions.md#javascript-comparison-2)
 
-[3. List all falsy values in JavaScript and explain truthy/falsy evaluation.](./Javascript_Questions.md#javascript-comparison-3)
+[3. {Interrogate} List all falsy values in JavaScript and explain truthy/falsy evaluation.](./Javascript_Questions.md#javascript-comparison-3)
 
-[4. Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?s](./Javascript_Questions.md#javascript-comparison-4)
+[4. {Interrogate} Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?s](./Javascript_Questions.md#javascript-comparison-4)
 
 ## Equal & Non-equal
 
