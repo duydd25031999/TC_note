@@ -1,14 +1,119 @@
 # Presale
 
-## Client Presale
+## High-level design
+
+### high-level-design-1
+
+**Q:** {Scan} Why is analyzing business important before starting system design?
+
+- Vietnamese outline:
+  - Question: Vì sao cần phân tích nghiệp vụ trước khi thiết kế hệ thống?
+  - Answer:
+    - Hiểu đúng mục tiêu và nhu cầu người dùng
+    - Tránh thiết kế sai hướng
+    - Xác định phạm vi và ưu tiên ban đầu
+- English sample answer:
+  - It helps clarify user needs and business goals.
+  - It avoids designing in the wrong direction.
+  - It defines the scope and prioritization for later design stages.
+
+### high-level-design-2
+
+**Q:** {Scan} What is the purpose of identifying core requirements early?
+
+- Vietnamese outline:
+  - Question: Mục đích của việc xác định yêu cầu cốt lõi sớm là gì?
+  - Answer:
+    - Xác định rõ chức năng bắt buộc
+    - Dễ dàng lập kế hoạch ưu tiên
+    - Tăng khả năng đáp ứng đúng nhu cầu
+- English sample answer:
+  - It clarifies the mandatory functions.
+  - It helps prioritize the system features logically.
+  - It ensures the system truly addresses user and business needs.
+
+### high-level-design-3
+
+**Q:** {Interrogate} Why is creating a system diagram important during high-level design?
+
+- Vietnamese outline:
+  - Question: Tại sao cần vẽ sơ đồ hệ thống ở giai đoạn thiết kế tổng thể?
+  - Answer:
+    - Giúp hình dung các thành phần và luồng dữ liệu
+    - Xác định sớm các điểm phức tạp
+    - Dễ dàng thảo luận và chia sẻ ý tưởng
+- English sample answer:
+  - It helps visualize system components and data flows clearly.
+  - It identifies potential complexity or bottlenecks early.
+  - It makes it easier to discuss and share ideas across teams.
+
+### high-level-design-4
+
+**Q:** {Scan} What are key factors to consider when designing a system’s use cases?
+
+- Vietnamese outline:
+  - Question: Những yếu tố chính khi thiết kế use case hệ thống là gì?
+  - Answer:
+    - Rõ các vai trò người dùng
+    - Xác định rõ input và output
+    - Phác thảo luồng xử lý chính
+- English sample answer:
+  - Clearly define user roles involved.
+  - Identify the input data and expected output for each use case.
+  - Sketch the main flow of data and interaction.
+
+### high-level-design-5
+
+**Q:** {Interrogate} Why is database design crucial for system performance and scalability?
+
+- Vietnamese outline:
+  - Question: Tại sao thiết kế database quan trọng với hiệu suất và khả năng mở rộng?
+  - Answer:
+    - Ảnh hưởng trực tiếp tới tốc độ truy xuất dữ liệu
+    - Tối ưu hóa lưu trữ và xử lý dữ liệu lớn
+    - Dễ dàng mở rộng hệ thống theo nhu cầu
+- English sample answer:
+  - It directly affects how fast data can be retrieved or stored.
+  - It optimizes handling of large volumes of data.
+  - It makes scaling the system easier and more efficient.
+
+### high-level-design-6
+
+**Q:** {Scan} How do you select the right technical solution for a system?
+
+- Vietnamese outline:
+  - Question: Làm sao chọn giải pháp kỹ thuật phù hợp cho hệ thống?
+  - Answer:
+    - Dựa trên yêu cầu non-functional - yêu cầu về chất lượng như hiệu suất, khả năng mở rộng
+    - Cân nhắc chi phí và kinh nghiệm đội ngũ
+    - Lựa chọn công nghệ hỗ trợ mở rộng tương lai
+- English sample answer:
+  - Base choices on non-functional requirements like performance, scalability needs.
+  - Consider cost efficiency and team familiarity with the technology.
+  - Prefer solutions that allow easy future extensions.
+
+### high-level-design-7
+
+**Q:** {Scan} What is purpose of high-level Design?
+
+### high-level-design-8
+
+**Q:** {Scan} How do you image how system operates?
+
+### high-level-design-9
+
+**Q:** {Scan} Is main workflow enough to define non-functional requirement and choice technique solution?
+
+
+## Client & Presale
 
 ### client-presale-1
 
-**Q:** Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?
+**Q:** {Interrogate} Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?
 
 - Vietnamese outline:
   - Question:
-    - Khi khách hàng có kỳ vọng mâu thuẫn, bạn xử lý sao?
+    - Khi khách hàng có mâu thuẫn trong quá trình presale, bạn xử lý sao?
   - Answer:
     - Phân tích kỹ tài liệu và nghiên cứu thêm thị trường
     - Họp nội bộ để xác định điểm mâu thuẫn và cơ hội
@@ -24,7 +129,7 @@
 
 ### client-presale-2
 
-**Q:** How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?
+**Q:** {Interrogate} How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?
 
 - Vietnamese outline:
   - Question:
@@ -41,6 +146,18 @@
   - I make sure technical constraints are clear early.
   - I document assumptions and key decisions clearly.
   - I hold regular reviews with the client to stay aligned.
+
+### client-presale-3
+
+**Q:** {Scan} What is the first step of presale processing?
+
+### client-presale-4
+
+**Q:** {Scan} How can you break that design into tasks?
+
+### client-presale-5
+
+**Q:** {Scan} How to make real value for customer while processing presale?
 
 ## Presale Quality
 
@@ -67,8 +184,6 @@
 ### presale-quality-6
 
 **Q:** {Scan} What is common problem do you usually meet in communication with stakeholder while processing presale?
-
-
 
 # System design
 
@@ -307,98 +422,6 @@
   - Map the journey starting from the user’s primary goal down to each step
   - Identify touchpoints and user actions at each phase
   - Review and fill in missing steps with appropriate user stories
-
-## High-level design
-
-### high-level-design-1
-
-**Q:** Why is analyzing business important before starting system design?
-
-- Vietnamese outline:
-  - Question: Vì sao cần phân tích nghiệp vụ trước khi thiết kế hệ thống?
-  - Answer:
-    - Hiểu đúng mục tiêu và nhu cầu người dùng
-    - Tránh thiết kế sai hướng
-    - Xác định phạm vi và ưu tiên ban đầu
-- English sample answer:
-  - It helps clarify user needs and business goals.
-  - It avoids designing in the wrong direction.
-  - It defines the scope and prioritization for later design stages.
-
-### high-level-design-2
-
-**Q:** What is the purpose of identifying core requirements early?
-
-- Vietnamese outline:
-  - Question: Mục đích của việc xác định yêu cầu cốt lõi sớm là gì?
-  - Answer:
-    - Xác định rõ chức năng bắt buộc
-    - Dễ dàng lập kế hoạch ưu tiên
-    - Tăng khả năng đáp ứng đúng nhu cầu
-- English sample answer:
-  - It clarifies the mandatory functions.
-  - It helps prioritize the system features logically.
-  - It ensures the system truly addresses user and business needs.
-
-### high-level-design-3
-
-**Q:** Why is creating a system diagram important during high-level design?
-
-- Vietnamese outline:
-  - Question: Tại sao cần vẽ sơ đồ hệ thống ở giai đoạn thiết kế tổng thể?
-  - Answer:
-    - Giúp hình dung các thành phần và luồng dữ liệu
-    - Xác định sớm các điểm phức tạp
-    - Dễ dàng thảo luận và chia sẻ ý tưởng
-- English sample answer:
-  - It helps visualize system components and data flows clearly.
-  - It identifies potential complexity or bottlenecks early.
-  - It makes it easier to discuss and share ideas across teams.
-
-### high-level-design-4
-
-**Q:** What are key factors to consider when designing a system’s use cases?
-
-- Vietnamese outline:
-  - Question: Những yếu tố chính khi thiết kế use case hệ thống là gì?
-  - Answer:
-    - Rõ các vai trò người dùng
-    - Xác định rõ input và output
-    - Phác thảo luồng xử lý chính
-- English sample answer:
-  - Clearly define user roles involved.
-  - Identify the input data and expected output for each use case.
-  - Sketch the main flow of data and interaction.
-
-### high-level-design-5
-
-**Q:** Why is database design crucial for system performance and scalability?
-
-- Vietnamese outline:
-  - Question: Tại sao thiết kế database quan trọng với hiệu suất và khả năng mở rộng?
-  - Answer:
-    - Ảnh hưởng trực tiếp tới tốc độ truy xuất dữ liệu
-    - Tối ưu hóa lưu trữ và xử lý dữ liệu lớn
-    - Dễ dàng mở rộng hệ thống theo nhu cầu
-- English sample answer:
-  - It directly affects how fast data can be retrieved or stored.
-  - It optimizes handling of large volumes of data.
-  - It makes scaling the system easier and more efficient.
-
-### high-level-design-6
-
-**Q:** How do you select the right technical solution for a system?
-
-- Vietnamese outline:
-  - Question: Làm sao chọn giải pháp kỹ thuật phù hợp cho hệ thống?
-  - Answer:
-    - Dựa trên yêu cầu non-functional - yêu cầu về chất lượng như hiệu suất, khả năng mở rộng
-    - Cân nhắc chi phí và kinh nghiệm đội ngũ
-    - Lựa chọn công nghệ hỗ trợ mở rộng tương lai
-- English sample answer:
-  - Base choices on non-functional requirements like performance, scalability needs.
-  - Consider cost efficiency and team familiarity with the technology.
-  - Prefer solutions that allow easy future extensions.
 
 ## Low-level design
 

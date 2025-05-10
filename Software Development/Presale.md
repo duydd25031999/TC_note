@@ -2,19 +2,13 @@
 
 ### Questions 
 
-[1. Why is analyzing the idea important before starting system design?](./Presale_Requirement_Question.md#high-level-design-1)
+[3. {Interrogate} Why is creating a system diagram important during high-level design?](./Presale_Requirement_Question.md#high-level-design-3)
 
-[2. What is the purpose of identifying core requirements early?](./Presale_Requirement_Question.md#high-level-design-2)
-
-[3. Why is creating a system diagram important during high-level design?](./Presale_Requirement_Question.md#high-level-design-3)
-
-[4. What are key factors to consider when designing a system’s use cases?](./Presale_Requirement_Question.md#high-level-design-4)
-
-[5. Why is database design crucial for system performance and scalability?](./Presale_Requirement_Question.md#high-level-design-5)
-
-[6. How do you select the right technical solution for a system?](./Presale_Requirement_Question.md#high-level-design-6)
+[5. {Interrogate} Why is database design crucial for system performance and scalability?](./Presale_Requirement_Question.md#high-level-design-5)
 
 ## Concept
+
+[7. {Scan} ](./Presale_Requirement_Question.md#high-level-design-7)
 
 - Focus: System architecture overview
 - Audience: Architects, senior developers, stakeholders
@@ -26,6 +20,8 @@
 - Example: Live Streaming System Design
 
 ## 1. Analyzing the Business
+
+[1. {Scan} Why is analyzing the idea important before starting system design?](./Presale_Requirement_Question.md#high-level-design-1)
 
 - Analyzing the ideas => understand the `problem domain`.
 - Ask: `What` is the system supposed to achieve?
@@ -39,6 +35,8 @@
 - Business Need: High availability and minimal latency.
 
 ## 2. Summarizing core requirements
+
+[2. {Scan} What is the purpose of identifying core requirements early?](./Presale_Requirement_Question.md#high-level-design-2)
 
 - Translate main ideas into core functional requirements.
 - Differentiate between Must-have and Nice-to-have features.
@@ -55,6 +53,8 @@
 
 ## 3. Diagramming the approaches
 
+[8. {Scan} How do you image how system operates?](./Presale_Requirement_Question.md#high-level-design-8)
+
 - Visualize the core system components and their relationships.
 - Focus on data flow, user interactions, and services.
 - High-level diagram first, then refine progressively.
@@ -67,6 +67,8 @@
 		- Chat service (optional)
 
 ## 4. Designing main workflow (Use Case/APIs)
+
+[4. {Scan} What are key factors to consider when designing a system’s use cases?](./Presale_Requirement_Question.md#high-level-design-4)
 
 - Define how users interact with the system.
 - Each interaction = a Use Case/APIs.
@@ -107,6 +109,8 @@
 
 ## 5. Designing database overview
 
+[9. {Scan} Is main workflow enough to define non-functional requirement and choice technique solution?](./Presale_Requirement_Question.md#high-level-design-9)
+
 - Map out core entities based on the requirements.
 - Identify main relationships (one-to-many, many-to-many).
 - Normalize to reduce duplication, but denormalize carefully for performance.
@@ -123,6 +127,8 @@
 
 ## 6. Define Non-functional requirement
 
+[6. {Scan} How do you select the right technical solution for a system?](./Presale_Requirement_Question.md#high-level-design-6)
+
 - Define Non-functional requirement then choice technique solution
 - Pick technologies matching system requirements (not trendy tech).
 - Consider factors: performance, cost, team expertise, scalability.
@@ -134,23 +140,32 @@
 - Backend: Use Node.js with scalable microservices.
 - Storage: Use AWS S3 for video storage.
 
-
 # Presale Process
+
+### Questions
+
+[1. {Interrogate} Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Presale_Requirement_Question.md#client-presale-1)
 
 ## 1. Analyse the idea
 
+[3. {Scan} What is the first step of presale processing?](./Presale_Requirement_Question.md#client-presale-3)
+
 - Analyze the client’s business needs and ideas in detail to generate effective, well-thought-out proposals.
 - Produce a high‑level design.
-
 - Identify any unresolved issues within the initial client concept, confirm uncertainties with the client, and offer additional solution recommendations.
 
 ## 2. Break that design into tasks
+
+[4. {Scan} How can you break that design into tasks?](./Presale_Requirement_Question.md#client-presale-4)
 
 - Leverage standardized project data and shared resources that can be applied across multiple projects to define tasks accurately.
 
 - Balance the client’s requirements with my organization’s capabilities, ensuring that proposals are realistic and mutually beneficial.
 
 ## 3. Estimate each task to build the WBS
+
+[5. {Scan} How to make real value for customer while processing presale?](./Presale_Requirement_Question.md#client-presale-5)
+
 
 - Encourage team members to document their communications and comments with the client, ensuring a transparent trail of information and decisions.
 

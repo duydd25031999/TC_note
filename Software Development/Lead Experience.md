@@ -161,16 +161,14 @@
 
 - Lead by example, making it clear that everyone’s input is valued, and ensure that team members see mentorship as a pathway for both personal and collective success.
 
-# 4. Client Engagement and Presale Leadership
+# 4. Client Engagement
 
 ### Questions:
 
-[1. Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Presale_Requirement_Question.md#client-presale-1)
-
-[2. How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Presale_Requirement_Question.md#client-presale-2)
+[2. {Interrogate} How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Presale_Requirement_Question.md#client-presale-2)
 
 
-## Client Engagement
+## Concept
 
 - Build long-term relationships by thoroughly understanding the client's business context and pain points to design user-friendly solutions that truly address their needs.
 - Proactively research both the documentation provided by the client and external industry insights to propose effective, tailored solutions.
