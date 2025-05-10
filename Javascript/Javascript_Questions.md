@@ -9,19 +9,48 @@
 - Vietnamese outline:
 	- Question: Giải thích ba khái niệm type (loose / dynamic / weak)
 	- Answer:
-		- Không khai báo kiểu khi tạo biến
-	- Nhận kiểu tại runtime, có thể gán lại
-	- Tự ép kiểu khi so sánh ➜ cần ===
+		- Loosely-typed: Không khai báo kiểu khi tạo biến
+		- Dynamically typed: Nhận kiểu tại runtime, có thể gán lại
+		- Weakly typed: Tự ép kiểu khi so sánh ➜ cần ===
 - English sample answer:
 	- Loosely-typed: variables are declared without an explicit type; the engine infers it.
-	- Dynamically-typed: the type is decided at runtime, so a variable can hold a number now and a string later.
+	- Dynamically-typed: the type is decided at runtime, so a variable can hold any type, a number now and a string later.
 	- Weakly-typed: mixed-type operations trigger implicit coercion (e.g., 0 == false → true), which is why seasoned developers prefer the strict operators === and !==.
+
+### javascript-language-2
+
+**Q:** {Scan} Why could Javascript not been use for multiplatform?
+
+- English sample answer:
+	- Because was designed as the programming language only for interaction on website
+
+### javascript-language-3
+
+**Q:** {Scan} How can developer make sure about Javascript variable datatype?
+
+- Vietnamese outline:
+	- 1 biến có thể nhận nhiều kiểu datatype tại mỗi assignment
+	- Developer chỉ có thể kiểm tra datatype của variable tại từng thời điểm thông qua 'typeof', 'instanceof'
+
+### javascript-language-4
+
+**Q:** {Scan} What happens when concat numerical value to a string variable?
+
+- English sample answer:
+	- Numerical value is coerced to string value then concatted to string variable
+
+### javascript-language-5
+
+**Q:** {Scan} How to compare between string value and numerical value in Javascript?
+
+- English sample answer:
+	- Numerical value is coerced to string value then compared to string value
 
 ## Javascript datatype
 
 ### javascript-datatype-1
 
-**Q:** {Interrogate} Differentiate between primitive (primary) types and reference types.
+**Q:** {Scan} Differentiate between primitive (primary) types and reference types.
 
 - Vietnamese outline:
 	- Question: So sánh primitive vs reference
@@ -29,13 +58,13 @@
 		- Primitive: sao chép giá trị, độc lập
 		- Reference: sao chép địa chỉ, cùng dữ liệu
 - English sample answer:
-	- Primitives (string, number, boolean, bigint, symbol, undefined, null) are copied by value—each assignment creates a new slot in memory, so mutating a never changes b.
-	- Reference types (object, arrays, functions, etc.) are copied by reference—assigning b = a just copies the pointer; edits through either alias affect the same object.
+	- Primitives (string, number, boolean, bigint, symbol, undefined, null) are copied by value-each assignment creates a new slot in memory, so mutating a never changes b.
+	- Reference types (object, arrays, functions, etc.) are copied by reference-assigning b = a just copies the pointer; edits through either alias affect the same object.
 	- This distinction drives everyday bugs in state management and equality checks.
 
 ### javascript-datatype-2
 
-**Q:** {Interrogate} List JavaScript’s built-in types and say which are primitives versus the sole reference type.
+**Q:** {Scan} List JavaScript’s built-in types and say which are primitives versus the sole reference type.
 
 - Vietnamese outline:
 	- Question: Liệt kê built-in types
@@ -59,28 +88,68 @@
 - English sample answer:
 	- Wrappers produce objects, not primitives (typeof new String('a') → "object").
 	- That breaks strict equality (new Boolean(false) === false // false) and adds unnecessary memory overhead.
-	- Use literals ("a", true, 42); reserve wrappers only when you explicitly need boxed behavior—rare in modern code.
+	- Use literals ("a", true, 42); reserve wrappers only when you explicitly need boxed behavior-rare in modern code.
+
+### javascript-datatype-4
+
+**Q:** {Scan} What are primary datatypes?
+
+- English sample answer: Primary datatypes are
+	- string
+	- number
+	- boolean
+	- bigint
+	- symbol
+
+### javascript-datatype-5
+
+**Q:** {Scan} What are reference datatypes?
+
+- English sample answer: Reference datatypes are
+	- object
+	- array
+	- function
+	- null
+	- undefined
+
+### javascript-datatype-6
+
+**Q:** {Scan} Why we need native object wrappers in Javascript?
+
+- Vietnamese outline:
+	- Question: Vì sao cần Native Object Wrapper?
+	- Answer:
+		- Autobox: thêm method cho primitive
+		- Kế thừa & mở rộng qua prototype
+		- Di sản chuẩn ECMAScript, giữ tương thích
+		- Tránh new wrapper ⇢ dễ bug (typeof “object”)
+- English sample answer:
+	- Primitives have no methods of their own. When you call "abc".toUpperCase(), the engine secretly creates a transient String object wrapper, invokes the method, then discards it. This autoboxing mechanism relies on the built-in constructors String, Number, and Boolean.
+	- Wrappers expose a prototype you can extend. If you really must add a cross-cutting helper like String.prototype.repeatSafe, the method lives on the wrapper’s prototype and becomes available to every primitive string through autoboxing.
+	- Historical compatibility. Early ECMAScript editions borrowed the idea of object wrappers from Java; removing them now would break legacy code, so the spec continues to keep the constructors.
+	- Use with caution. Instantiating wrappers manually (new Boolean(false)) creates an object-typeof returns "object" and strict equality against the corresponding primitive fails, leading to subtle bugs Javascript BasicJavascript Basic. In modern code we rely on implicit boxing for method access and stick to literal primitives for storage and comparison.
+
 
 ## Variable Declaration
 
 ### variable-declaration-1
 
-**Q:** {Interrogate} Explain hoisting for var and function declarations, and contrast it with let/const block scope.
+**Q:** {Scan} Explain hoisting for var and function declarations, and contrast it with let/const block scope.
 
 - Vietnamese outline:
 	- Question: Hoisting vs block-scoped
 	- Answer:
 		- var/function: khai báo nâng lên đầu
-		- let/const: TDZ, chỉ trong block
+		- let/const: chỉ trong block, tránh TDZ
 - English sample answer:
 	- Hoisting moves the declaration of var variables and named functions to the top of their containing scope, so they exist from line 1 with the value undefined (functions are fully callable).
 	- In ES6, let, const, and class are block-scoped
-	- They live in a Temporal Dead Zone from the start of the block until the declaration executes—accessing them early throws ReferenceError.
+	- They live in a Temporal Dead Zone from the start of the block until the declaration executes-accessing them early throws ReferenceError.
 	- Adopting let/const makes lifetimes explicit and avoids subtle bugs from hoisting.
 
 ### variable-declaration-2
 
-**Q:** {Interrogate} What is the Temporal Dead Zone (TDZ)?
+**Q:** {Scan} What is the Temporal Dead Zone (TDZ)?
 
 - Vietnamese outline:
 	- Question:	TDZ là gì?
@@ -91,11 +160,26 @@
 	- The TDZ is the period between entering a block and executing a let / const declaration where the identifier exists syntactically but is inaccessible.
 	- Any read/write inside the TDZ triggers an immediate ReferenceError, enforcing “declare-before-use” discipline.
 
+	
+### javascript-declaration-3
+
+**Q:** {Scan} Which JavaScript keywords create block-scoped bindings?
+
+- English sample answer: 
+	- `let`, `const`, and `class` are block-scoped
+
+### javascript-declaration-4
+
+**Q:** {Scan} What runtime error do you get a const varaible if you access one before its declaration?
+
+- English sample answer:
+	- Any read/write inside the TDZ triggers an immediate ReferenceError, enforcing “declare-before-use” discipline.
+
 ## Javascript Comparison
 
 ### javascript-comparison-1
 
-**Q:** {Interrogate} Compare == and === in JavaScript. When should each be used?
+**Q:** {Scan} Compare == and === in JavaScript. When should each be used?
 
 - Vietnamese outline:
 	- Question: So sánh == vs ===
@@ -104,14 +188,14 @@
 		- === so sánh giá trị + kiểu ➜ khuyên dùng
 - English sample answer:
 	- == performs abstract equality: if the operands differ in type, it applies coercion rules ("1" == 1 → true).
-	- === is strict equality: no coercion—both value and type must match.
+	- === is strict equality: no coercion-both value and type must match.
 	- Best practice:
 		- Default to ===
 		- Reach for == only when you intentionally want coercion, e.g., value == null to match both null and undefined.
 
 ### javascript-comparison-2
 
-**Q:** {Interrogate} Demonstrate how || and && short-circuit and return operand values, not Booleans.
+**Q:** {Scan} Demonstrate how || and && short-circuit and return operand values, not Booleans.
 
 - Vietnamese outline:
 	- Question: Giải thích short-circuit value
@@ -124,7 +208,7 @@
 
 ### javascript-comparison-3
 
-**Q:** {Interrogate} List all falsy values in JavaScript and explain truthy/falsy evaluation.
+**Q:** {Scan} List all falsy values in JavaScript
 
 - Vietnamese outline:
 	- Question: Liệt kê falsy
@@ -138,7 +222,7 @@
 		- NaN
 - English sample answer:
 	- JavaScript treats exactly seven values as falsy: false, 0, -0, the empty string "", null, undefined, and NaN.
-	- Everything else—including empty object `{}`, empty array `[]`, string "0", and string "false" — is truthy, so conditionals evaluate based on this internal ToBoolean conversion.
+	- Everything else-including empty object `{}`, empty array `[]`, string "0", and string "false" - is truthy, so conditionals evaluate based on this internal ToBoolean conversion.
 
 ### javascript-comparison-4
 
@@ -153,6 +237,14 @@
 	- JavaScript numbers follow IEEE-754 double-precision
 	- many decimals lack an exact binary representation, so 0.1 + 0.2 stores a tiny error.
 	- When you need a clean decimal for UI or finance, round explicitly with Number((0.1+0.2).toFixed(2)), Math.round(x * 100)/100, or a decimal library.
+
+### javascript-comparison-5
+
+**Q:** {Scan} How can we know a value is truthy
+
+- English sample answer:
+	- Every value not falsy is truthy
+	- Not seven values as falsy: false, 0, -0, the empty string "", null, undefined, and NaN.
 
 # Javascript Object
 
@@ -328,7 +420,7 @@ Inline methods inside the constructor only make sense when each instance truly n
 		- Nhược: mất hasOwnProperty, toString, khó debug
 		- Một số API (JSON, libs) giả định prototype ⇒ lỗi
 - English sample answer:
-	- `Object.create(null)` returns an object with no prototype link—its `[[Prototype]]` is null
+	- `Object.create(null)` returns an object with no prototype link-its `[[Prototype]]` is null
 	- There are zero inherited keys like `toString` or `__proto__`, so you can store arbitrary user-supplied strings without risking prototype-pollution bugs
 	- Building a trusted key-value dictionary where keys come from external input.
 	- Implementing guards against prototype pollution attacks in server-side JavaScript.
@@ -447,6 +539,6 @@ Inline methods inside the constructor only make sense when each instance truly n
 		- Tiết kiệm bộ nhớ
 - English sample answer:
 	- Hash-table implementation gives average O(1) get/has even with tens of thousands of entries
-	- Accepts any value—including objects—as a key without string coercion or prototype pollution risks
+	- Accepts any value-including objects-as a key without string coercion or prototype pollution risks
 	- Maintains insertion order, useful for predictable iteration (LRU caches, config dumps)
 	- Memory footprint per entry is lower than storing [key, value] pairs in an object stuffed with hidden classes

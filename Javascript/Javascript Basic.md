@@ -1,18 +1,24 @@
 # Javascript Language
 
+### Questions
+
+[1. {Interrogate} What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?](./Javascript_Questions.md#javascript-language-1)
+
+[2 {Scan} Why could Javascript not been use for multiplatform?](./Javascript_Questions.md#javascript-language-2)
+
+## Concept
+
 - At the beginning, Javascript had been the programming language only for interaction on website
-- After NodeJS was released, Javascript have been used for  multiplatform like backend, mobile, window app, etc 
+- After NodeJS was released, Javascript have been used for multiplatform like backend, mobile, window app, etc 
 
 -----
 
 - JavaScript là ngôn ngữ lập trình được sử dụng để tạo trang web tương tác.  
 - Sau này do sự phát triển của NodeJS thì Javascript có thể dùng cho multiplatform như backend, mobile, window app, etc 
 
-### Questions
-
-[1. {Interrogate} What does it mean that JavaScript is loosely-typed, dynamically-typed, and weakly-typed?](./Javascript_Questions.md#javascript-language-1)
-
 ## Loosely typed (language without declared types)
+
+[3. {Scan} How can developer make sure about Javascript variable datatype?](./Javascript_Questions.md#javascript-language-3)
 
 - Variables are created with `var / let / const` without specifying a type; the engine infers it from the value
 - The same variable can later store a value of a different type (e.g., number → string)
@@ -27,6 +33,8 @@
 
 ## Dynamically typed (runtime typing)
 
+[4. {Scan} What happens when concat numerical value to a string variable?](./Javascript_Questions.md#javascript-language-4)
+
 - A variable’s type is determined at runtime, not at compile-time
 - You can reassign a variable to any other type during execution
 
@@ -36,6 +44,8 @@
 - 1 biến có thể được gán cho bất kì loại kiểu biến nào  
 
 ## Weakly typed (implicit coercion)
+
+[5. {Scan} How to compare between string value and numerical value in Javascript?](./Javascript_Questions.md#javascript-language-5)
 
 - When an operation mixes types, JavaScript automatically coerces values to a common type
   - Example: `0 == false → true` because 0 is coerced to false
@@ -49,14 +59,11 @@
 
 ### Questions
 
-[1. {Interrogate} Differentiate between primitive (primary) types and reference types.](./Javascript_Questions.md#javascript-datatype-1)
-
-[2. {Interrogate} List JavaScript’s built-in types and say which are primitives versus the sole reference type.](./Javascript_Questions.md#javascript-datatype-2)
-
 [3. {Interrogate} Why should you avoid using object wrappers like new String() or new Boolean()?](./Javascript_Questions.md#javascript-datatype-3)
 
-
 ## Primary - Kiểu nguyên thủy, tham trị
+
+[4. {Scan} What are primary datatypes?](./Javascript_Questions.md#javascript-datatype-4)
 
 - Each assignment copies the value into a new memory slot, so the variables are independent.
 - Example: When assign variable A to variable B, changing the value of variable A does not affect variable B.
@@ -81,6 +88,8 @@ A = B
 - A thay đổi thì B không đổi và ngược lại
 
 ## Reference - Tham chiếu
+
+[5. {Scan} What are reference datatypes?](./Javascript_Questions.md#javascript-datatype-5)
 
 - The first assignment allocates a memory cell for the data.
 - Later assignments only copy that memory address, so multiple variables point to the same memory cell.
@@ -107,6 +116,8 @@ A = B
 
 ### Core differences
 
+[1. {Scan} Differentiate between primitive (primary) types and reference types.](./Javascript_Questions.md#javascript-datatype-1)
+
 - Copy semantics: 
   - Primitive → copies the value; 
   - Reference → copies the address.
@@ -119,12 +130,14 @@ A = B
 
 ## Built-in Types
 
+[2. {Scan} List JavaScript’s built-in types and say which are primitives versus the sole reference type.](./Javascript_Questions.md#javascript-datatype-2)
+
 - Original types are always directly recognized by Javascript engine
   - `undefined` - absence of value; uninitialized variables default to it.
   - `null` - intentional “no object” marker; typeof null is the historic quirk "object".
   - `boolean` - only true / false; anything else is coerced when used in logical context.
   - `number` - IEEE-754 double-precision; watch out for NaN, Infinity, and floating-point rounding
-    - toFixed: Làm tròn số thập phân
+    - `toFixed`: Làm tròn số thập phân
     ```jsx
     var a = 42.59;
     a.toFixed( 0 ); // "43"
@@ -140,6 +153,8 @@ A = B
 - Other types are known as 1 of Built-in Types by Javascript engine
 
 ### Native object wrappers
+
+[6. {Scan} Why we need native object wrappers in Javascript?](./Javascript_Questions.md#javascript-datatype-6)
 
 - `new String()`, `new Number()`, `new Boolean()` create objects, not primitives
   - `typeof new String('a')` → object
@@ -204,11 +219,9 @@ c.length = 3; // empty x 3
 
 ### Questions
 
-[1. {Interrogate} Explain hoisting for var and function declarations, and contrast it with let/const block scope.](./Javascript_Questions.md#variable-declaration-1)
+## Hoisting - “raise declarations to the top of their scope”
 
-[2. {Interrogate} What is the Temporal Dead Zone (TDZ)?](./Javascript_Questions.md#variable-declaration-2)
-
-## Hoisting — “raise declarations to the top of their scope”
+[1. {Scan} Explain hoisting for var and function declarations, and contrast it with let/const block scope.](./Javascript_Questions.md#variable-declaration-1)
 
 - Applies to var variables and function declarations.
 - The declaration is processed first, so code can “see” the identifier anywhere in the same function/global scope.
@@ -219,7 +232,13 @@ c.length = 3; // empty x 3
   - Accidental shadowing
   - Harder-to-read control flow.
 
-## Block-scoped bindings (let, const, and class) — “stay exactly where you wrote them”
+## Block-scoped bindings (let, const, and class) - “stay exactly where you wrote them”
+
+[2. {Scan} What is the Temporal Dead Zone (TDZ)?](./Javascript_Questions.md#variable-declaration-2)
+
+[3. {Scan} Which JavaScript keywords create block-scoped bindings?](./Javascript_Questions.md#javascript-declaration-3)
+
+[4. {Scan} What runtime error do you get if you access one before its declaration?](./Javascript_Questions.md#javascript-declaration-4)
 
 - Visible only inside the surrounding `{ … }` block (if/for/while, function body, etc.).
 - Enter a Temporal Dead Zone (TDZ) from the start of the block until the declaration line
@@ -242,15 +261,11 @@ c.length = 3; // empty x 3
 
 ### Questions
 
-[1. {Interrogate} Compare == and === in JavaScript. When should each be used?](./Javascript_Questions.md#javascript-comparison-1)
-
-[2. {Interrogate} Demonstrate how || and && short-circuit and return operand values, not Booleans.](./Javascript_Questions.md#javascript-comparison-2)
-
-[3. {Interrogate} List all falsy values in JavaScript and explain truthy/falsy evaluation.](./Javascript_Questions.md#javascript-comparison-3)
-
 [4. {Interrogate} Why do floating-point numbers like 0.1 + 0.2 yield 0.30000000000000004, and how can you round safely?s](./Javascript_Questions.md#javascript-comparison-4)
 
 ## Equal & Non-equal
+
+[1. {Scan} Compare == and === in JavaScript. When should each be used?](./Javascript_Questions.md#javascript-comparison-1)
 
 - `==` là so sánh bằng nhưng có ép type
   - không bằng là `!=`
@@ -314,6 +329,8 @@ a == b; // true
 
 ## || and &&
 
+[2. {Scan} Demonstrate how || and && short-circuit and return operand values, not Booleans.](./Javascript_Questions.md#javascript-comparison-2)
+
 - The result of a `||` or `&&` expression is always the underlying value of one of the operands, not the (possibly coerced) result of the test
 
 ```jsx
@@ -328,6 +345,9 @@ c && b; // null
 ```
 
 ### Falsy  
+
+[3. {Scan} List all falsy values in JavaScript](./Javascript_Questions.md#javascript-comparison-3)
+
 - Giá trị mà if nhận là sai  
 - 0  
 - (- 0)  
@@ -338,6 +358,9 @@ c && b; // null
 - NaN
 
 ### Truthy  
+
+[5. {Scan} How can we know a value is truthy](./Javascript_Questions.md#javascript-comparison-5)
+
 - Giá trị mà if nhận là đúng  
 - Tất cả không phải falsy
 

@@ -1145,7 +1145,7 @@
     - Đảm bảo Increment có thể sử dụng
 - English sample answer:
   - The Definition of Done provides a shared understanding of what "complete" means for a Product Increment.
-  - It ensures that everyone — Developers, Product Owner, and Stakeholders — has the same expectations.
+  - It ensures that everyone - Developers, Product Owner, and Stakeholders - has the same expectations.
   - By making quality criteria explicit, it increases transparency and allows early detection of issues.
   - It guarantees that every Increment is usable and meets a consistent level of quality, reducing risks of misunderstanding or rework later.
 

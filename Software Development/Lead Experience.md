@@ -19,7 +19,7 @@
 - Actions:
 	- Start with a brainstorming session to capture a wide range of ideas.
 	- Set a time limit to encourage focused yet rapid ideation.
-- Example: When a customer requested a new feature, I convened a time-limited brainstorming meeting, allowing all ideas—even those not immediately feasible—to be shared, demonstrating our readiness to pivot and adjust.
+- Example: When a customer requested a new feature, I convened a time-limited brainstorming meeting, allowing all ideas-even those not immediately feasible-to be shared, demonstrating our readiness to pivot and adjust.
 
 ## Order (Discipline)
 - Definition: Establishing clear processes and structured workflows to maintain clarity and organization while still allowing creativity.
@@ -137,7 +137,7 @@
 
 ### Encouraged Transparency:
 
-- Promote communication with external parties—through documented comments and shared pages—to maintain a clear record of updates and decisions for future reference.
+- Promote communication with external parties-through documented comments and shared pages-to maintain a clear record of updates and decisions for future reference.
 
 ## Mentorship
 
@@ -176,7 +176,7 @@
 - Proactively research both the documentation provided by the client and external industry insights to propose effective, tailored solutions.
 - Communicate clearly and decisively by organizing internal brainstorming meetings as soon as a new client request or requirement arises.
 - Filter and prioritize client information during these sessions to prepare focused, valuable discussion points before engaging with the client.
-- Ensure effective communication by being mindful of client culture—especially for international clients—avoiding sensitive language and reserved humor to maintain professionalism.
+- Ensure effective communication by being mindful of client culture-especially for international clients-avoiding sensitive language and reserved humor to maintain professionalism.
 
 ## Presale Process
 

@@ -254,7 +254,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ### Registering an abstract, polymorphic action
 
-- An action that is abstract—flexible and context-dependent
+- An action that is abstract-flexible and context-dependent
 - Abstract means we know the action exists, but its internal content will vary with the situation
 
 ---
@@ -330,7 +330,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Concept
 
-- Lookup complexity: Average O(1)—hash-based key table.
+- Lookup complexity: Average O(1)-hash-based key table.
 - No accidental index clash: Keys live in their own hash table; you can safely use "0" or length as keys without affecting structure.	
 - Memory for large sets: Engines store Maps in specialized tables → better memory/layout for tens of thousands of pairs.
 - Semantic clarity: Code reads “this is a key-value store”.	

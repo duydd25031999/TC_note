@@ -339,7 +339,7 @@ So that I can [Why].
 
 - Focus: System architecture overview
 - Audience: Architects, senior developers, stakeholders
-- View: "Big picture" — systems, modules, how they connect
+- View: "Big picture" - systems, modules, how they connect
 - Purpose: Plan system structure, presale process
 
 -----
@@ -472,7 +472,7 @@ So that I can [Why].
 
 - Focus: Detailed component design
 - Audience: Developers, technical team
-- View: "Inside the box" — classes, methods, workflows
+- View: "Inside the box" - classes, methods, workflows
 - Purpose: Guide real coding and implementation
 
 ------

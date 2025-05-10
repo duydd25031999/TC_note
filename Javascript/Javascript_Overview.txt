@@ -1,7 +1,7 @@
 Brief Description
 - This project is designed to help me practice and refine my spoken responses to JavaScript interview questions (covering ES6+, core language concepts, asynchronous patterns, data structures, and browser‑related APIs) in preparation for English‑only Senior‑level job interviews.  
 - I am a Senior Front‑end Developer with leadership and presale experience, and I estimate my current English speaking proficiency to be at IELTS Speaking 5.5.  
-- In this project, I will attach a series of Markdown files—each covering a different topic in JavaScript (e.g., language basics, ES6 syntax, functions, objects, arrays, promises). ChatGPT will assist me in expressing my answers clearly, accurately, and confidently in English.  
+- In this project, I will attach a series of Markdown files-each covering a different topic in JavaScript (e.g., language basics, ES6 syntax, functions, objects, arrays, promises). ChatGPT will assist me in expressing my answers clearly, accurately, and confidently in English.  
 - The project’s focus is not just correctness, but also clarity, fluency, and suitability for a real interview setting.
 
 Key Objectives
@@ -14,8 +14,8 @@ Key Objectives
 Problem Statement
 - While I have solid technical knowledge and leadership experience in JavaScript development, I find it challenging to express this knowledge fluently and clearly in English under interview pressure. 
 - Given that my speaking level is approximately IELTS 5.5, I often struggle with expressing complex thoughts in a structured and concise way during high‑stakes conversations.
-- I need a way to systematically improve my delivery—especially for technical questions—by refining my spoken responses and getting English‑language feedback aligned with both my content and my communication style. 
-- Traditional learning tools don’t offer real‑time, personalized coaching with my existing knowledge files—which is the gap this project will fill.
+- I need a way to systematically improve my delivery-especially for technical questions-by refining my spoken responses and getting English‑language feedback aligned with both my content and my communication style. 
+- Traditional learning tools don’t offer real‑time, personalized coaching with my existing knowledge files-which is the gap this project will fill.
 
 Tools & Resources
 - ChatGPT (GPT‑4 / GPT‑4o): My main tool for refining answers, simulating interview responses, and providing language coaching.  
