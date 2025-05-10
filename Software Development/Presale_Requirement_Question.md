@@ -42,6 +42,34 @@
   - I document assumptions and key decisions clearly.
   - I hold regular reviews with the client to stay aligned.
 
+## Presale Quality
+
+### presale-quality-1
+
+**Q:** {Scan} While processing high-level design, how can you suggest solution for customer?
+
+### presale-quality-2
+
+**Q:** {Scan} How can you decide effort for a task on wbs?
+
+### presale-quality-3
+
+**Q:** {Scan} What are risks you have in presale process?
+
+### presale-quality-4
+
+**Q:** {Scan} How can you define non-functional requirements for product?
+
+### presale-quality-5
+
+**Q:** {Scan} Which document types are needs in presale process?
+
+### presale-quality-6
+
+**Q:** {Scan} What is common problem do you usually meet in communication with stakeholder while processing presale?
+
+
+
 # System design
 
 ## System Design Process
