@@ -151,13 +151,29 @@
 
 **Q:** {Scan} What is the first step of presale processing?
 
+- Vietnamese outline:
+  - Phân tích ý tưởng của khách hàng
+  - Làm rõ tầm nhìn của khách hàng với sản phẩm
+  - Tìm ra những hạn chế của ý tưởng khách hàng với tầm nhìn, điều kiện của họ
+  - Tạo high‑level design
+
 ### client-presale-4
 
 **Q:** {Scan} How can you break that design into tasks?
 
+- Vietnamese outline:
+  - Tạo các task để đáp ứng functional requirement và non-functional requirement
+  - Đối chiếu chức năng, công việc với các dự án tương tự và vận dụng kinh nghiệm của team
+  - Cân bằng giữa mong muốn của khách hàng với khả năng của mình
+
 ### client-presale-5
 
 **Q:** {Scan} How to make real value for customer while processing presale?
+
+- Vietnamese outline:
+  - Đưa ra giải pháp có thể đáp ứng được mong muốn gốc rễ của khách hàng và phù hợp với điều kiện của khách hàng
+  - Tạo kế hoạch phù hợp với cả hai bên
+  - Đảm bảo rõ ràng giữa cả 2 bên
 
 ## Presale Quality
 
@@ -165,25 +181,102 @@
 
 **Q:** {Scan} While processing high-level design, how can you suggest solution for customer?
 
+- Vietnamese outline:
+  - Question: Đề xuất giải pháp cho khách hàng khi làm high-level design?
+  - Answer:
+    - Hiểu rõ tầm nhìn của khách hàng thông qua ý tưởng của họ
+    - Tìm hiểu những vẫn đề còn thiếu trong tầm nhìn đó
+    - Mình đề xuất những solution phù hợp với customer Vision và điều kiện của khách hàng
+- English sample answer:
+  - First, I repeat the client’s idea in my own words to be sure I see their vision clearly.
+  - Then I look for missing pieces-extra user flows, performance goals, or budget limits that the vision does not cover yet.
+  - Finally, I suggest one or two high-level solutions that fill those gaps while still matching the customer’s vision and real-world constraints.
+
 ### presale-quality-2
 
-**Q:** {Scan} How can you decide effort for a task on wbs?
+**Q:** {Scan} How can you decide effort for a task on WBS file?
+
+- Vietnamese outline
+  - Question: Cách ước lượng effort cho từng task trong WBS?
+  - Answer:
+    - Estimation dựa trên bằng chứng thực từ ý tưởng mà khách hàng đưa ra, điều kiện thực tế của khách hàng và mình, high-level design
+    - Đối chiếu chức năng, công việc với các dự án tương tự và vận dụng kinh nghiệm của team để 
+    - Thảo luận nhóm để đạt đồng thuận.
+    - Điều chỉnh theo năng lực, ngày nghỉ và rủi ro kỹ thuật.
+- English sample answer:
+  - Start from evidence: I look at the customer’s idea, their real limits, and our high-level design to understand what the task really needs.
+  - Use history. I match the task with similar work we did before and use the team’s experience to set a first estimate.
+  - Reach agreement: We discuss the numbers together (Planning Poker or a quick call) until everyone accepts the estimate.
+  - Adjust for reality: Finally, I tweak the figure for team capacity, holidays, and technical risks. 
 
 ### presale-quality-3
 
 **Q:** {Scan} What are risks you have in presale process?
 
+- Vietnamese outline
+  - Question: Các rủi ro thường gặp khi presale?
+  - Answer:
+    - Phạm vi trôi (scope creep) vì yêu cầu chưa rõ.
+    - Ước lượng sai dẫn đến thiếu nguồn lực.
+    - Thiếu thông tin kỹ thuật hoặc phụ thuộc bên thứ ba.
+    - Giao tiếp kém gây hiểu nhầm với stakeholder.
+- English sample answer
+  - The biggest presale risk for me is scope creep—new ideas appear before we sign the contract.
+  - Another risk is wrong estimation; if we guess too low, the project starts with an invisible debt.
+  - We can also face technical unknowns, for example an external API that later proves unstable.
+  - Finally, unclear communication may produce mismatched expectations. I manage these risks by documenting every assumption, adding buffers in the WBS, and holding frequent alignment calls.
+
 ### presale-quality-4
 
 **Q:** {Scan} How can you define non-functional requirements for product?
+
+- Vietnamese outline:
+  - Question: Xác định non-functional requirement (NFR) thế nào?
+  - Answer:
+    - Thu thập từ mục tiêu kinh doanh (phản hồi < 1 s, bảo mật, SLA…).
+    - Viết dưới dạng tiêu chí đo được.
+    - Liên kết NFR vào Definition of Done và kế hoạch kiểm thử hiệu năng, bảo mật.
+- English sample answer:
+  - I start by asking business questions such as “How many users do we expect on launch day?” or “What is the acceptable down-time?”
+  - Each answer becomes a measurable statement—example: “95 % of API calls must respond in under 800 ms.”
+  - I list these statements in a separate NFR section and reference them inside the Definition of Done, so every user story can be tested against the same yard-stick.
+
 
 ### presale-quality-5
 
 **Q:** {Scan} Which document types are needs in presale process?
 
+- Vietnamese outline
+  - Question: Những loại tài liệu cần trong presale?
+  - Answer:
+    - Tài liệu ý tưởng & yêu cầu (Business Brief).
+    - Thiết kế tổng quan (High-Level Design Diagram).
+    - Bảng WBS + ước lượng.
+    - Bản đề xuất / báo giá (Proposal).
+    - Q&A / Assumption log để theo dõi quyết định.
+- English sample answer
+  - During presale I usually prepare five key documents:
+    - Business brief that captures the client’s idea and goals.
+    - High-level design diagram to visualise the solution.
+    - WBS with estimates so cost and timeline are transparent.
+    - Formal proposal or quotation that explains scope and price.
+  - Along the way I keep a living Q&A and assumption list in Confluence, so every decision is traceable.
+
 ### presale-quality-6
 
 **Q:** {Scan} What is common problem do you usually meet in communication with stakeholder while processing presale?
+
+- Vietnamese outline
+  - Question: Vấn đề giao tiếp phổ biến với stakeholder khi presale?
+  - Answer:
+    - Kỳ vọng khác nhau do vai trò không rõ.
+    - Thiếu tài liệu quyết định, dẫn tới hiểu nhầm.
+    - Giải pháp: xác định trách nhiệm, ghi lại giả định, check-in định kỳ.
+- English sample answer
+  - The most common issue is mismatched expectations because roles are not clearly defined.
+  - A sales manager may promise a feature the tech team has not approved, or the client may assume a faster timeline.
+  - I resolve this by opening a cross-team meeting to clarify responsibilities, documenting every assumption in a shared page, and setting regular check-ins.
+  - This triple approach—clear roles, written evidence, and frequent alignment—keeps communication healthy and prevents unpleasant surprises later.
 
 # System design
 

@@ -2,13 +2,13 @@
 
 ### Questions 
 
-[3. {Interrogate} Why is creating a system diagram important during high-level design?](./Presale_Requirement_Question.md#high-level-design-3)
+[3. {Interrogate} Why is creating a system diagram important during high-level design?](./Presale_Requirement_Question.md/#high-level-design-3)
 
-[5. {Interrogate} Why is database design crucial for system performance and scalability?](./Presale_Requirement_Question.md#high-level-design-5)
+[5. {Interrogate} Why is database design crucial for system performance and scalability?](./Presale_Requirement_Question.md/#high-level-design-5)
 
 ## Concept
 
-[7. {Scan} ](./Presale_Requirement_Question.md#high-level-design-7)
+[7. {Scan} What is purpose of high-level Design?](./Presale_Requirement_Question.md/#high-level-design-7)
 
 - Focus: System architecture overview
 - Audience: Architects, senior developers, stakeholders
@@ -21,7 +21,7 @@
 
 ## 1. Analyzing the Business
 
-[1. {Scan} Why is analyzing the idea important before starting system design?](./Presale_Requirement_Question.md#high-level-design-1)
+[1. {Scan} Why is analyzing the idea important before starting system design?](./Presale_Requirement_Question.md/#high-level-design-1)
 
 - Analyzing the ideas => understand the `problem domain`.
 - Ask: `What` is the system supposed to achieve?
@@ -36,7 +36,7 @@
 
 ## 2. Summarizing core requirements
 
-[2. {Scan} What is the purpose of identifying core requirements early?](./Presale_Requirement_Question.md#high-level-design-2)
+[2. {Scan} What is the purpose of identifying core requirements early?](./Presale_Requirement_Question.md/#high-level-design-2)
 
 - Translate main ideas into core functional requirements.
 - Differentiate between Must-have and Nice-to-have features.
@@ -53,7 +53,7 @@
 
 ## 3. Diagramming the approaches
 
-[8. {Scan} How do you image how system operates?](./Presale_Requirement_Question.md#high-level-design-8)
+[8. {Scan} How do you image how system operates?](./Presale_Requirement_Question.md/#high-level-design-8)
 
 - Visualize the core system components and their relationships.
 - Focus on data flow, user interactions, and services.
@@ -68,7 +68,7 @@
 
 ## 4. Designing main workflow (Use Case/APIs)
 
-[4. {Scan} What are key factors to consider when designing a system’s use cases?](./Presale_Requirement_Question.md#high-level-design-4)
+[4. {Scan} What are key factors to consider when designing a system’s use cases?](./Presale_Requirement_Question.md/#high-level-design-4)
 
 - Define how users interact with the system.
 - Each interaction = a Use Case/APIs.
@@ -109,7 +109,7 @@
 
 ## 5. Designing database overview
 
-[9. {Scan} Is main workflow enough to define non-functional requirement and choice technique solution?](./Presale_Requirement_Question.md#high-level-design-9)
+[9. {Scan} Is main workflow enough to define non-functional requirement and choice technique solution?](./Presale_Requirement_Question.md/#high-level-design-9)
 
 - Map out core entities based on the requirements.
 - Identify main relationships (one-to-many, many-to-many).
@@ -127,7 +127,7 @@
 
 ## 6. Define Non-functional requirement
 
-[6. {Scan} How do you select the right technical solution for a system?](./Presale_Requirement_Question.md#high-level-design-6)
+[6. {Scan} How do you select the right technical solution for a system?](./Presale_Requirement_Question.md/#high-level-design-6)
 
 - Define Non-functional requirement then choice technique solution
 - Pick technologies matching system requirements (not trendy tech).
@@ -144,11 +144,11 @@
 
 ### Questions
 
-[1. {Interrogate} Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Presale_Requirement_Question.md#client-presale-1)
+[1. {Interrogate} Describe a challenging presale scenario where conflicting client expectations threatened to derail the engagement. How did you resolve the issues and secure client trust?](./Presale_Requirement_Question.md/#client-presale-1)
 
 ## 1. Analyse the idea
 
-[3. {Scan} What is the first step of presale processing?](./Presale_Requirement_Question.md#client-presale-3)
+[3. {Scan} What is the first step of presale processing?](./Presale_Requirement_Question.md/#client-presale-3)
 
 - Analyze the client’s business needs and ideas in detail to generate effective, well-thought-out proposals.
 - Produce a high‑level design.
@@ -156,7 +156,7 @@
 
 ## 2. Break that design into tasks
 
-[4. {Scan} How can you break that design into tasks?](./Presale_Requirement_Question.md#client-presale-4)
+[4. {Scan} How can you break that design into tasks?](./Presale_Requirement_Question.md/#client-presale-4)
 
 - Leverage standardized project data and shared resources that can be applied across multiple projects to define tasks accurately.
 
@@ -164,7 +164,7 @@
 
 ## 3. Estimate each task to build the WBS
 
-[5. {Scan} How to make real value for customer while processing presale?](./Presale_Requirement_Question.md#client-presale-5)
+[5. {Scan} How to make real value for customer while processing presale?](./Presale_Requirement_Question.md/#client-presale-5)
 
 
 - Encourage team members to document their communications and comments with the client, ensuring a transparent trail of information and decisions.
@@ -184,20 +184,59 @@
 
 ## Solution Vision & High-Level Design
 
-[1. {Scan} While processing high-level design, how can you suggest solution for customer?](./Presale_Requirement_Question.md#presale-quality-1)
+[1. {Scan} While processing high-level design, how can you suggest solution for customer?](./Presale_Requirement_Question.md/#presale-quality-1)
+
+- When get the customer’s idea, their vision is the first thing to understand.
+	- Focus vision more than understand the solution customer proposes
+- Look for ways to improve or adjust solution to match customer's vision, their needs, and their constraints.
+- We always study the requirements first, and only after that do we design the solution.
 
 ## Task Decomposition & Effort Estimation
 
-[2. {Scan} How can you decide effort for a task on wbs?](./Presale_Requirement_Question.md#presale-quality-2)
+[2. {Scan} How can you decide effort for a task on wbs?](./Presale_Requirement_Question.md/#presale-quality-2)
+
+- Break the design into independent, very small tasks so each one can stand alone.
+- Watch for repeated / reusable work and cut the effort of those tasks to reflect that reuse.
+- Create tasks from both functional and non-functional needs to keep quality visible.
+- Base every task on real evidence: the client’s idea, their real constraints, and the high-level design we agreed on.
+- Compare with similar projects and use the team’s past experience when defining new tasks. Presale
+- If a task relies on an assumption, write that assumption clearly next to the task.
+- After Front-end, Back-end, and other roles finish own estimates, the whole team meets to review the numbers before we send them to the customer.
 
 ## Risk, Assumption & Non-Functional Requirement Management
 
-[3. {Scan} What are risks you have in presale process?](./Presale_Requirement_Question.md#presale-quality-3)
+[3. {Scan} What are risks you have in presale process?](./Presale_Requirement_Question.md/#presale-quality-3)
 
-[4. {Scan} How can you define non-functional requirements for product?](./Presale_Requirement_Question.md#presale-quality-4)
+[4. {Scan} How can you define non-functional requirements for product?](./Presale_Requirement_Question.md/#presale-quality-4)
+
+- Scope creep: unclear requirements let the project grow beyond plan.
+- Wrong estimates: under-estimating effort leads to a shortage of people or budget.
+- Technical unknowns: missing details or heavy dependence on third-party services.
+- Poor communication: misunderstandings with stakeholders slow decisions.
+- Collect NFRs from business goals and the agreed high-level design.
+- Link NFRs to the Definition of Done and to performance / security test plans.
+- Record every assumption beside the task or design note, then review it with the client to keep risks clear.
 
 ## Proposal Documentation & Stakeholder Communication
 
-[5. {Scan} Which document types are needs in presale process?](./Presale_Requirement_Question.md#presale-quality-5)
+### Document
 
-[6. {Scan} What is common problem do you usually meet in communication with stakeholder while processing presale?](./Presale_Requirement_Question.md#presale-quality-6)
+[5. {Scan} Which document types are needs in presale process?](./Presale_Requirement_Question.md/#presale-quality-5)
+
+- Business brief: captures the client’s idea and goals.
+- High-level design: document to visualise the solution.
+- WBS: estimates so cost and timeline are transparent.
+- Formal proposal: explains scope and price.
+- Q&A / Assumption log: every decision is traceable
+
+### Communication
+
+[6. {Scan} What is common problem do you usually meet in communication with stakeholder while processing presale?](./Presale_Requirement_Question.md/#presale-quality-6)
+
+- Common problem:
+	- Mismatched expectations because roles are not clearly defined (Most)
+	- Promise unrealitic value / features
+	- Missing decision records can cause misunderstandings between our team and the client.
+	- Clarify responsibilities - what the customer owns and what our team handles.
+	- Note our assumptions clearly and share them early to avoid confusion.
+	- Regular check-ins to update each other and make sure everyone stays aligned.
