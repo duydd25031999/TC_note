@@ -61,8 +61,61 @@
     - Behavior ≈ manual test case
     - Share understanding between Business Analyst and Developer
 
+### 1. Write the Gherkin Feature
+
+```gherkin
+Feature: Todo List                  // describes the high-level capability
+  Scenario: Adding a new todo item  //  captures one behavior to drive out code
+    Given the todo list is empty
+    When I add a new todo with text "Buy milk"
+    Then the list should contain an item "Buy milk"
+```
+
+## 2. Map Steps to Test Code
+
+```jsx
+import React from 'react';
+import { defineFeature, loadFeature } from 'jest-cucumber';
+import { render, fireEvent, screen } from '@testing-library/react';
+import TodoList from '../src/TodoList';
+
+const feature = loadFeature('./tests/features/add_todo.feature');
+
+defineFeature(feature, test => {
+  test('Adding a new todo item', ({ given, when, then }) => {
+    given('the todo list is empty', () => {
+      render(<TodoList />);
+      expect(screen.queryByText('Buy milk')).toBeNull();
+    });
+
+    when(/^I add a new todo with text "(.*)"$/, (todoText) => {
+      fireEvent.change(screen.getByPlaceholderText('Add new todo'), {
+        target: { value: todoText }
+      });
+      fireEvent.click(screen.getByText('Add'));
+    });
+
+    then(/^the list should contain an item "(.*)"$/, (todoText) => {
+      expect(screen.getByText(todoText)).toBeInTheDocument();
+    });
+  });
+});
+```
+
+### 3. Implement the React Component
+
+- Implement code after understanding business and writting test case
+
 # DevOps
 
+- DevOps is a cultural and technical movement that unites development (Dev) and operations (Ops) into a single, continuous workflow. 
+    - Traditionally, developers focus on building features and sysadmins on maintaining infrastructure. 
+    - DevOps practitioners span both domains, taking responsibility for the full lifecycle of software—from code check-in through automated build, test, deployment, monitoring, and feedback loops. 
+- Key DevOps pillars include:
+    - Automation: build, test, and deployment pipelines (CI/CD) to eliminate manual hand-offs and reduce lead time for changes.
+    - Infrastructure as Code (IaC): where servers, networks, and configuration are versioned and managed like application code.
+    - Continuous Monitoring & Feedback: using telemetry and alerts to detect issues in production early and feed insights back into development.
+    - Collaboration & Shared Ownership: breaking down barriers so that developers and operations jointly own uptime and performance
 - Developer:
     - Build software
     - Add new feature
