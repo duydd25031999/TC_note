@@ -4,7 +4,7 @@
 
 ### agile-concept-1
 
-**Q:** How does the concept of "emergence" in Agile challenge traditional project planning methods?
+**Q:** {Interrogate} How does the concept of "emergence" in Agile challenge traditional project planning methods?
 
 - Vietnamese outline:
   - Question:
@@ -25,7 +25,7 @@
 
 ### agile-concept-2
 
-**Q:** How does Agile ensure product quality and flexibility without relying on detailed documentation?
+**Q:** {Interrogate} How does Agile ensure product quality and flexibility without relying on detailed documentation?
 
 - Vietnamese outline:
   - Question:
@@ -48,7 +48,7 @@
 
 ### scrum-concept-1
 
-**Q:** Why is Scrum considered a "lightweight framework" rather than a full methodology?
+**Q:** {Interrogate} Why is Scrum considered a "lightweight framework" rather than a full methodology?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum được gọi là framework nhẹ, không phải phương pháp đầy đủ?
@@ -67,7 +67,7 @@
 
 ### scrum-concept-2
 
-**Q:** How does Scrum use iterative and incremental delivery to manage risk?
+**Q:** {Interrogate} How does Scrum use iterative and incremental delivery to manage risk?
 
 - Vietnamese outline:
   - Question: Scrum dùng cách tiếp cận lặp lại và tăng dần để quản lý rủi ro như thế nào?
@@ -86,7 +86,7 @@
 
 ### scrum-concept-3
 
-**Q:** What is the role of management in an organization adopting Scrum, and why is it still necessary?
+**Q:** {Interrogate} What is the role of management in an organization adopting Scrum, and why is it still necessary?
 
 - Vietnamese outline:
   - Question: Quản lý đóng vai trò gì khi tổ chức áp dụng Scrum? Tại sao vẫn cần?
@@ -105,7 +105,7 @@
 
 ### scrum-concept-4
 
-**Q:** Why is Scrum intentionally incomplete, and how does this benefit organizations using it?
+**Q:** {Interrogate} Why is Scrum intentionally incomplete, and how does this benefit organizations using it?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum cố ý không hoàn chỉnh? Lợi ích là gì?
@@ -124,7 +124,7 @@
 
 ### scrum-concept-5
 
-**Q:** How can different practices and methods be integrated within Scrum without violating its principles?
+**Q:** {Interrogate} How can different practices and methods be integrated within Scrum without violating its principles?
 
 - Vietnamese outline:
   - Question: Làm sao tích hợp nhiều kỹ thuật khác vào Scrum mà không vi phạm nguyên lý?
@@ -143,7 +143,7 @@
 
 ### scrum-concept-6
 
-**Q:** Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?
+**Q:** {Interrogate} Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum Guide không yêu cầu tài liệu chi tiết? Xử lý nhu cầu tài liệu như thế nào?
@@ -162,7 +162,7 @@
 
 ### scrum-concept-7
 
-**Q:** How does Scrum expose the relative efficacy of current management and work practices?
+**Q:** {Interrogate} How does Scrum expose the relative efficacy of current management and work practices?
 
 - Vietnamese outline:
   - Question: Scrum phơi bày hiệu quả tương đối của quản lý và kỹ thuật ra sao?
@@ -181,7 +181,7 @@
 
 ### scrum-concept-8
 
-**Q:** What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?
+**Q:** {Interrogate} What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?
 
 - Vietnamese outline:
   - Question:
@@ -204,7 +204,7 @@
 
 ### kanban-waterfall-1
 
-**Q:** How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?
+**Q:** {Interrogate} How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?
 
 - Vietnamese outline:
   - Question: Giới hạn WIP trong Kanban cải thiện chất lượng và tốc độ thế nào?
@@ -223,7 +223,7 @@
 
 ### kanban-waterfall-2
 
-**Q:** Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?
+**Q:** {Interrogate} Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?
 
 - Vietnamese outline:
   - Question:
@@ -248,7 +248,7 @@
 
 ### scrum-event-1
 
-**Q:** Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?
+**Q:** {Scan} Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?
 
 - Vietnamese outline:
   - Question:
@@ -266,7 +266,7 @@
 
 ### scrum-event-2
 
-**Q:** What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?
+**Q:** {Scan} What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?
 
 - Vietnamese outline:
   - Question:
@@ -283,7 +283,7 @@
 
 ### scrum-event-3
 
-**Q:** Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?
+**Q:** {Scan} Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?
 
 - Vietnamese outline:
   - Question: Vì sao Sprint là container chứa tất cả Scrum Event?
@@ -298,7 +298,7 @@
 
 ### scrum-event-4
 
-**Q:** Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?
+**Q:** {Scan} Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?
 
 - Vietnamese outline:
   - Question:
@@ -316,7 +316,7 @@
 
 ### scrum-event-5
 
-**Q:** What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?
+**Q:** {Scan} What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?
 
 - Vietnamese outline:
   - Question: Developer cần thực hành gì trong Sprint để duy trì tập trung và tiến độ?
@@ -332,7 +332,7 @@
 
 ### scrum-event-6
 
-**Q:** How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?
+**Q:** {Scan} How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?
 
 - Vietnamese outline:
   - Question: Product Owner hỗ trợ Scrum Team thế nào trong Sprint mà không gây gián đoạn?
@@ -348,7 +348,7 @@
 
 ### scrum-event-7
 
-**Q:** What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?
+**Q:** {Scan} What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?
 
 - Vietnamese outline:
   - Question: Scrum Master có vai trò gì trong Sprint để bảo vệ giá trị Scrum và hiệu quả team?
@@ -364,7 +364,7 @@
 
 ### scrum-event-8
 
-**Q:** How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?
+**Q:** {Scan} How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?
 
 - Vietnamese outline:
   - Question: Stakeholder và Sponsor nên tương tác với Scrum Team thế nào trong Sprint?
@@ -382,7 +382,7 @@
 
 ### sprint-planning-1
 
-**Q:**  Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?
+**Q:** {Interrogate}  Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?
 
 - Vietnamese outline:
   - Question:
@@ -399,7 +399,7 @@
 
 ### sprint-planning-2
 
-**Q:** What is the Product Owner’s role during Sprint Planning, and why is their active participation important?
+**Q:** {Scan} What is the Product Owner’s role during Sprint Planning, and why is their active participation important?
 
 - Vietnamese outline:
   - Question:
@@ -416,7 +416,7 @@
 
 ### sprint-planning-3
 
-**Q:** Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?
+**Q:** {Scan} Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?
 
 - Vietnamese outline:
   - Question: 
@@ -433,7 +433,7 @@
 
 ### sprint-planning-4
 
-**Q:** How does the Scrum Master support an effective Sprint Planning session?
+**Q:** {Scan} How does the Scrum Master support an effective Sprint Planning session?
 
 - Vietnamese outline:
   - Question: Scrum Master hỗ trợ Sprint Planning thế nào?
@@ -448,7 +448,7 @@
 
 ### sprint-planning-5
 
-**Q:** Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?
+**Q:** {Interrogate} Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?
 
 - Vietnamese outline:
   - Question:
@@ -465,7 +465,7 @@
 
 ### sprint-planning-6
 
-**Q:** Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?
+**Q:** {Scan} Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?
 
 - Vietnamese outline:
   - Question: 
@@ -482,7 +482,7 @@
 
 ### sprint-planning-7
 
-**Q:** How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?
+**Q:** {Scan} How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?
 
 - Vietnamese outline:
   - Question: 
@@ -499,7 +499,7 @@
 
 ### sprint-planning-8
 
-**Q:** What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?
+**Q:** {Scan} What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?
 
 - Vietnamese outline:
   - Question:
@@ -509,16 +509,35 @@
     - Sprint Goal
     - Sprint Backlog (PBI + task)
     - Kế hoạch được cập nhật theo thực tế
-  - English sample answer:
-    - The plan created during Sprint Planning includes the Sprint Goal, the selected PBIs (Sprint Backlog), and the detailed action plan for completing them.
-    - As new information emerges during the Sprint, Developers adapt the Sprint Backlog but keep the Sprint Goal fixed.
-    - This flexible planning approach allows the team to respond to real-world changes without losing sight of the Sprint’s primary objective.
+- English sample answer:
+  - The plan created during Sprint Planning includes the Sprint Goal, the selected PBIs (Sprint Backlog), and the detailed action plan for completing them.
+  - As new information emerges during the Sprint, Developers adapt the Sprint Backlog but keep the Sprint Goal fixed.
+  - This flexible planning approach allows the team to respond to real-world changes without losing sight of the Sprint’s primary objective.
+
+### sprint-planning-9 
+
+**Q:** What is input of Sprint Planning?
+
+- English sample answer:
+  1. `Product Backlog`
+  2. The `latest` product `Increment`
+  3. Projected `capacity of the Development Team` during the Sprint
+  4. `Past performance` of Development Team
+
+### sprint-planning-10
+
+**Q:** What is output of Sprint Planning?
+
+- English sample answer:
+  1. Sprint Goal
+  2. Sprint Backlog
+  3. Plan for new Sprint
 
 ## Daily Scrum
 
 ### daily-scrum-1
 
-**Q:**  Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?
+**Q:** {Interrogate}  Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?
 
 - Vietnamese outline:
   - Question:
@@ -535,7 +554,14 @@
 
 ### daily-scrum-2
 
-**Q:** What key activities should happen during the Daily Scrum to ensure it achieves its purpose?
+**Q:** {Scan} Who can join Daily meeting?
+
+- English sample answer:
+  - This event is `only` for `Developer`
+
+### daily-scrum-3
+
+**Q:** {Scan} What key activities should happen during the Daily Scrum to ensure it achieves its purpose?
 
 - Vietnamese outline:
   - Question: Những hoạt động chính trong Daily Scrum là gì để đảm bảo hiệu quả?
@@ -552,7 +578,7 @@
 
 ### sprint-review-1
 
-**Q:**  Why is Sprint Review considered a critical event for maximizing product value and steering future development?
+**Q:** {Interrogate} Why is Sprint Review considered a critical event for maximizing product value and steering future development?
 
 - Vietnamese outline:
   - Question: Vì sao Sprint Review rất quan trọng để tối đa hóa giá trị sản phẩm?
@@ -567,7 +593,7 @@
 
 ### sprint-review-2
 
-**Q:** What risks occur if the Scrum Team frequently skips Sprint Reviews?
+**Q:** {Scan} What risks occur if the Scrum Team frequently skips Sprint Reviews?
 
 - Vietnamese outline:
   - Question: Rủi ro gì nếu Scrum Team thường xuyên bỏ Sprint Review?
@@ -582,7 +608,7 @@
 
 ### sprint-review-3
 
-**Q:** What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?
+**Q:** {Scan} What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?
 
 - Vietnamese outline:
   - Question:
@@ -599,7 +625,7 @@
 
 ### sprint-review-4
 
-**Q:** What is the typical flow of a Sprint Review, and why is each step important?
+**Q:** {Scan} What is the typical flow of a Sprint Review, and why is each step important?
 
 - Vietnamese outline:
   - Question:
@@ -612,18 +638,26 @@
 - English sample answer:
   - The Sprint Review typically follows this flow:
     1. The Scrum Team presents the completed Product Increment.
+      - Showcasing the Increment builds transparency
     2. Stakeholders inspect the outcome and provide feedback.
+      - Gathering feedback ensures continuous improvement
     3. The team and Stakeholders collaborate to adjust the Product Backlog based on new insights.
-  - Each step is crucial: 
-    1. Showcasing the Increment builds transparency
-    2. Gathering feedback ensures continuous improvement
-    3. Updating the Product Backlog steers future work to maximize value.
+      - Updating the Product Backlog steers future work to maximize value.
+
+### sprint-review-5
+
+**Q:** {Scan} What does Scrum Team do in Sprint Review?
+
+- English sample answer:
+  - `Scrum Team` presents the results of their work to `key Stakeholders`.
+  - During the event, `Scrum Team` and `Stakeholders` review what was `accomplished` in the `Sprint`and what has `changed` in their `environment`.
+  - They will also `discuss` what has `changed` in the `environment` and `adapt` the `Product Backlog` as needed.
 
 ## Sprint Retrospective
 
 ### sprint-retrospective-1
 
-**Q:** Why is the Sprint Retrospective important for continuous improvement in Scrum?
+**Q:** {Interrogate} Why is the Sprint Retrospective important for continuous improvement in Scrum?
 
 - Vietnamese outline:
   - Question: Vì sao Sprint Retrospective quan trọng cho cải tiến liên tục?
@@ -638,7 +672,16 @@
 
 ### sprint-retrospective-2
 
-**Q:** What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?
+**Q:** {Scan} What does Sprint Retrospective effect to Product quality?
+
+- Vietnamese outline:
+  - Sprint Retrospective chỉ ảnh hưởng gián tiếp tới chất lượng sản phẩm
+  - Sprint Retrospective giúp cải thiện năng lực của Scrum Team
+  - Từ đó Scrum Team làm việc hiệu quả hơn ở các sprint sau và cải thiện chất lượng sản phẩm dần dần
+
+### sprint-retrospective-3
+
+**Q:** {Scan} What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?
 
 - Vietnamese outline:
   - Question: Scrum Team cần tập trung vào điều gì trong Sprint Retrospective để hiệu quả?
@@ -651,9 +694,9 @@
   - They should aim to uncover root causes of problems, not just surface symptoms.
   - Finally, they should agree on a few practical, high-impact improvements to implement in the next Sprint.
 
-### sprint-retrospective-3
+### sprint-retrospective-4
 
-**Q:** What is the typical flow of a Sprint Retrospective, and why is each stage important?
+**Q:** {Scan} What is the typical flow of a Sprint Retrospective, and why is each stage important?
 
 - Vietnamese outline:
   - Question:
@@ -665,10 +708,9 @@
     - Lập kế hoạch cải tiến
 - English sample answer:
   - The Sprint Retrospective typically follows this flow:
-  - Gather data: Everyone shares observations about the Sprint.
-  - Analyze and discuss: Identify key successes, problems, and their causes.
-  - Plan improvements: Select a few concrete actions to improve in the next Sprint.
-  - Each step builds upon the previous one: gathering information ensures no blind spots, analysis brings deep insights, and planning guarantees that improvement actions are real and actionable.
+    - Gather data: Everyone shares observations about the Sprint.
+    - Analyze and discuss: Identify key successes, problems, and their causes.
+    - Plan improvements: Select a few concrete actions to improve in the next Sprint.
 
 # Scrum Artifact
 
@@ -676,7 +718,7 @@
 
 ### scrum-theory-1
 
-**Q:** Why does Scrum rely on empiricism and lean thinking instead of detailed upfront planning?
+**Q:** {Interrogate} Why does Scrum rely on empiricism and lean thinking instead of detailed upfront planning?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum dựa vào kinh nghiệm thực tế và tinh gọn?
@@ -691,7 +733,7 @@
 
 ### scrum-theory-2
 
-**Q:** How does transparency in Scrum reduce risk and improve decision-making?
+**Q:** {Interrogate} How does transparency in Scrum reduce risk and improve decision-making?
 - Vietnamese outline:
   - Question: Minh bạch trong Scrum giúp giảm rủi ro và quyết định tốt hơn thế nào?
   - Answer:
@@ -705,7 +747,7 @@
 
 ### scrum-theory-3
 
-**Q:** What is "emergence" in Scrum and why is it important for handling complex products?
+**Q:** {Interrogate} What is "emergence" in Scrum and why is it important for handling complex products?
 
 - Vietnamese outline:
   - Question:
@@ -722,7 +764,7 @@
 
 ### scrum-theory-4
 
-**Q:** How does emergence affect the way architecture evolves during a Scrum project?
+**Q:** {Interrogate} How does emergence affect the way architecture evolves during a Scrum project?
 
 - Vietnamese outline:
   - Question: Sự rõ nét ảnh hưởng kiến trúc trong Scrum thế nào?
@@ -737,7 +779,7 @@
 
 ### scrum-theory-5
 
-**Q:** Why is frequent inspection essential in Scrum, and what happens if it’s missing?
+**Q:** {Interrogate} Why is frequent inspection essential in Scrum, and what happens if it’s missing?
 
 - Vietnamese outline:
   - Question:
@@ -753,7 +795,7 @@
 
 ### scrum-theory-6
 
-**Q:** Why must Scrum Teams adapt their process or product immediately after detecting a problem?
+**Q:** {Interrogate} Why must Scrum Teams adapt their process or product immediately after detecting a problem?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum Team phải thích nghi ngay khi phát hiện vấn đề?
@@ -768,7 +810,7 @@
 
 ### scrum-theory-7
 
-**Q:** Why is courage essential for Scrum Team success, especially under pressure?
+**Q:** {Interrogate} Why is courage essential for Scrum Team success, especially under pressure?
 
 - Vietnamese outline:
   - Question: Vì sao "dám làm" quan trọng với Scrum Team?
@@ -783,7 +825,7 @@
 
 ### scrum-theory-8
 
-**Q:** How does focus help a Scrum Team achieve Sprint and Product Goals more effectively?
+**Q:** {Interrogate} How does focus help a Scrum Team achieve Sprint and Product Goals more effectively?
 
 - Vietnamese outline:
   - Question: "Tập trung" giúp Scrum Team đạt Sprint và Product Goal thế nào?
@@ -798,7 +840,7 @@
 
 ### scrum-theory-9
 
-**Q:** What does commitment mean in Scrum, and how does it affect team reliability?
+**Q:** {Interrogate} What does commitment mean in Scrum, and how does it affect team reliability?
 
 - Vietnamese outline:
   - Question:
@@ -815,7 +857,7 @@
 
 ### scrum-theory-10
 
-**Q:** How does mutual respect among Scrum Team members improve collaboration?
+**Q:** {Interrogate} How does mutual respect among Scrum Team members improve collaboration?
 
 - Vietnamese outline:
   - Question: Tôn trọng giữa các thành viên Scrum Team cải thiện cộng tác thế nào?
@@ -830,7 +872,7 @@
 
 ### scrum-theory-11
 
-**Q:** Why is openness critical for inspecting and adapting work in Scrum?
+**Q:** {Interrogate} Why is openness critical for inspecting and adapting work in Scrum?
 
 - Vietnamese outline:
   - Question: Vì sao "Cởi mở" quan trọng với kiểm thử & thích nghi ở Scrum?
@@ -845,7 +887,7 @@
 
 ### scrum-theory-12
 
-**Q:** How do Scrum Artifacts maximize transparency and support empirical decision-making?
+**Q:** {Interrogate} How do Scrum Artifacts maximize transparency and support empirical decision-making?
 
 - Vietnamese outline:
   - Question: Artifact trong Scrum giúp minh bạch và quyết định kinh nghiệm thế nào?
@@ -862,7 +904,7 @@
 
 ### product-backlog-1
 
-**Q:** Why is the Product Backlog considered an emergent artifact, and how does that affect product development?
+**Q:** {Interrogate} Why is the Product Backlog considered an emergent artifact, and how does that affect product development?
 
 - Vietnamese outline:
   - Question: 
@@ -879,7 +921,7 @@
 
 ### product-backlog-2
 
-**Q:** Why must each Product Backlog Item be clear enough before Sprint Planning?
+**Q:** {Interrogate} Why must each Product Backlog Item be clear enough before Sprint Planning?
 
 - Vietnamese outline:
   - Question: Vì sao mỗi PBI phải rõ ràng trước Sprint Planning?
@@ -894,7 +936,7 @@
 
 ### product-backlog-3
 
-**Q:** How does proper ordering of PBIs by the Product Owner maximize product value?
+**Q:** {Interrogate} How does proper ordering of PBIs by the Product Owner maximize product value?
 
 - Vietnamese outline:
   - Question: Sắp xếp đúng PBI giúp tối đa hóa giá trị thế nào?
@@ -909,7 +951,7 @@
 
 ### product-backlog-4
 
-**Q:** Why is it critical that Developers own the sizing of Product Backlog Items?
+**Q:** {Interrogate} Why is it critical that Developers own the sizing of Product Backlog Items?
 
 - Vietnamese outline:
   - Question: Vì sao Developer phải chịu trách nhiệm sizing PBI?
@@ -924,7 +966,7 @@
 
 ### product-backlog-5
 
-**Q:** What risks arise if the Product Owner does not actively manage the Product Backlog?
+**Q:** {Interrogate} What risks arise if the Product Owner does not actively manage the Product Backlog?
 
 - Vietnamese outline:
   - Question: Nguy cơ gì nếu Product Owner không quản lý Product Backlog chủ động?
@@ -939,7 +981,7 @@
 
 ### product-backlog-6
 
-**Q:** How does having a clear Product Goal improve Scrum Team alignment and focus?
+**Q:** {Interrogate} How does having a clear Product Goal improve Scrum Team alignment and focus?
 
 - Vietnamese outline:
   - Question: Product Goal rõ ràng cải thiện sự đồng lòng và tập trung thế nào?
@@ -954,7 +996,7 @@
 
 ### product-backlog-7
 
-**Q:** Why is story point estimation based on relative sizing instead of absolute time?
+**Q:** {Interrogate} Why is story point estimation based on relative sizing instead of absolute time?
 
 - Vietnamese outline:
   - Question: Vì sao ước lượng Story Point dựa trên tương đối, không phải thời gian tuyệt đối?
@@ -969,7 +1011,7 @@
 
 ### product-backlog-8
 
-**Q:** Why is continuous Product Backlog Refinement critical for Sprint success?
+**Q:** {Interrogate} Why is continuous Product Backlog Refinement critical for Sprint success?
 
 - Vietnamese outline:
   - Question: Vì sao cần " sự tinh chế" liên tục để thành công Sprint?
@@ -986,7 +1028,7 @@
 
 ### sprint-backlog-1
 
-**Q:** Why is the Sprint Backlog considered a living plan, and how does it support the Sprint Goal?
+**Q:** {Interrogate} Why is the Sprint Backlog considered a living plan, and how does it support the Sprint Goal?
 
 - Vietnamese outline:
   - Question:
@@ -1003,7 +1045,7 @@
 
 ### sprint-backlog-2
 
-**Q:** How does having a Sprint Goal create flexibility in how the Scrum Team completes Sprint work?
+**Q:** {Interrogate} How does having a Sprint Goal create flexibility in how the Scrum Team completes Sprint work?
 
 - Vietnamese outline:
   - Question: Sprint Goal tạo sự linh hoạt cho việc hoàn thành Sprint thế nào?
@@ -1019,7 +1061,7 @@
 
 ### sprint-backlog-3
 
-**Q:** Why are Developers solely responsible for managing the Sprint Backlog, and not the Product Owner?
+**Q:** {Interrogate} Why are Developers solely responsible for managing the Sprint Backlog, and not the Product Owner?
 
 - Vietnamese outline:
   - Question: Vì sao chỉ Developer chịu trách nhiệm Sprint Backlog, không phải Product Owner?
@@ -1034,7 +1076,7 @@
 
 ### sprint-backlog-4
 
-**Q:** What steps must Developers follow to create and update a meaningful Sprint Backlog?
+**Q:** {Interrogate} What steps must Developers follow to create and update a meaningful Sprint Backlog?
 
 - Vietnamese outline:
   - Question: Developer cần theo quy trình nào để tạo và cập nhật Sprint Backlog hiệu quả?
@@ -1051,7 +1093,7 @@
 
 ### sprint-backlog-5
 
-**Q:** Why can the Sprint Scope be adjusted during the Sprint without changing the Sprint Goal?
+**Q:** {Interrogate} Why can the Sprint Scope be adjusted during the Sprint without changing the Sprint Goal?
 
 - Vietnamese outline:
   - Question: Vì sao có thể điều chỉnh Sprint Scope mà không thay đổi Sprint Goal?
@@ -1068,7 +1110,7 @@
 
 ### product-increment-1
 
-**Q:** Why is the Product Increment considered a concrete stepping stone toward the Product Goal?
+**Q:** {Interrogate} Why is the Product Increment considered a concrete stepping stone toward the Product Goal?
 
 - Vietnamese outline:
   - Question: Vì sao Increment là bước đệm cụ thể đến Product Goal?
@@ -1084,7 +1126,7 @@
 
 ### product-increment-2
 
-**Q:** What is the basic process to create a Product Increment during a Sprint?
+**Q:** {Interrogate} What is the basic process to create a Product Increment during a Sprint?
 
 - Vietnamese outline:
   - Question: Quy trình cơ bản tạo Product Increment trong Sprint là gì?
@@ -1097,7 +1139,7 @@
 
 ### product-increment-3
 
-**Q:** Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?
+**Q:** {Interrogate} Why is creating at least one Product Increment per Sprint critical, even if it is not released immediately?
 
 - Vietnamese outline:
   - Question: Vì sao phải tạo ít nhất một Increment mỗi Sprint dù chưa release?
@@ -1113,7 +1155,7 @@
 
 ### product-increment-4
 
-**Q:** What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?
+**Q:** {Interrogate} What factors should the Product Owner and Scrum Team consider when deciding to release a Product Increment?
 
 - Vietnamese outline:
   - Question:
@@ -1135,7 +1177,7 @@
 
 ### definition-done-1
 
-**Q:** Why is the Definition of Done critical for ensuring transparency and quality in Scrum?
+**Q:** {Interrogate} Why is the Definition of Done critical for ensuring transparency and quality in Scrum?
 
 - Vietnamese outline:
   - Question: Vì sao Definition of Done quan trọng cho minh bạch và chất lượng?
@@ -1151,7 +1193,7 @@
 
 ### definition-done-2
 
-**Q:** What is the basic process for establishing the Definition of Done in a Scrum Team?
+**Q:** {Interrogate} What is the basic process for establishing the Definition of Done in a Scrum Team?
 
 - Vietnamese outline:
   - Question: Quy trình cơ bản thiết lập Definition of Done là gì?
@@ -1167,7 +1209,7 @@
 
 ### definition-done-3
 
-**Q:** What factors should a Scrum Team consider when creating their Definition of Done?
+**Q:** {Interrogate} What factors should a Scrum Team consider when creating their Definition of Done?
 
 - Vietnamese outline:
   - Question: Scrum Team cần cân nhắc gì khi tạo Definition of Done?
@@ -1182,7 +1224,7 @@
 
 ### definition-done-4
 
-**Q:** When and why should the Scrum Team update the Definition of Done?
+**Q:** {Interrogate} When and why should the Scrum Team update the Definition of Done?
 
 - Vietnamese outline:
   - Question: Khi nào và vì sao nên cập nhật Definition of Done?
@@ -1197,7 +1239,7 @@
 
 ### definition-done-5
 
-**Q:** How should a Scrum Master support the team in maintaining and evolving the Definition of Done?
+**Q:** {Interrogate} How should a Scrum Master support the team in maintaining and evolving the Definition of Done?
 
 - Vietnamese outline:
   - Question: Scrum Master hỗ trợ Definition of Done thế nào?
@@ -1212,7 +1254,7 @@
 
 ### definition-done-6
 
-**Q:** What are the Developers' responsibilities regarding the Definition of Done during a Sprint?
+**Q:** {Interrogate} What are the Developers' responsibilities regarding the Definition of Done during a Sprint?
 
 - Vietnamese outline:
   - Question: Developer có trách nhiệm gì với Definition of Done?
@@ -1227,7 +1269,7 @@
 
 ### definition-done-7
 
-**Q:** How should multiple Scrum Teams working on the same product manage their Definition of Done?
+**Q:** {Interrogate} How should multiple Scrum Teams working on the same product manage their Definition of Done?
 
 - Vietnamese outline:
   - Question: Nhiều Scrum Team cùng sản phẩm quản lý Definition of Done thế nào?
@@ -1246,7 +1288,7 @@
 
 ### scrum-team-concept-1
 
-**Q:** Why is it essential that the Scrum Team collectively shares accountability for creating a valuable Increment every Sprint?
+**Q:** {Interrogate} Why is it essential that the Scrum Team collectively shares accountability for creating a valuable Increment every Sprint?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum Team cần chia sẻ trách nhiệm chung trong việc tạo ra Increment giá trị mỗi Sprint?
@@ -1263,7 +1305,7 @@
 
 ### scrum-team-conept-2
 
-**Q:** How does the Scrum Team’s ability to adapt immediately upon learning new information during inspection differentiate it from traditional project teams?
+**Q:** {Interrogate} How does the Scrum Team’s ability to adapt immediately upon learning new information during inspection differentiate it from traditional project teams?
 
 - Vietnamese outline:
   - Question: Scrum Team thích nghi ngay sau khi kiểm tra khác gì đội dự án truyền thống?
@@ -1280,7 +1322,7 @@
 
 ### scrum-team-conept-3
 
-**Q:** In what ways does cross-functionality in a Scrum Team reduce dependencies, and why is this critical for delivering high-value Increments each Sprint?
+**Q:** {Interrogate} In what ways does cross-functionality in a Scrum Team reduce dependencies, and why is this critical for delivering high-value Increments each Sprint?
 
 - Vietnamese outline:
   - Question: 
@@ -1299,7 +1341,7 @@
 
 ### scrum-team-conept-4
 
-**Q:** How does self-management of the Scrum Team impact the organization’s approach to leadership and decision-making structures?
+**Q:** {Interrogate} How does self-management of the Scrum Team impact the organization’s approach to leadership and decision-making structures?
 
 - Vietnamese outline:
   - Question: Tự quản lý của Scrum Team ảnh hưởng thế nào đến cách lãnh đạo tổ chức?
@@ -1316,7 +1358,7 @@
 
 ### scrum-team-conept-5
 
-**Q:** Why is it recommended to keep the Scrum Team size between 4 and 10 members, and what risks emerge when the team is too large?
+**Q:** {Interrogate} Why is it recommended to keep the Scrum Team size between 4 and 10 members, and what risks emerge when the team is too large?
 
 - Vietnamese outline:
   - Question: 
@@ -1335,7 +1377,7 @@
 
 ### scrum-team-conept-6
 
-**Q:** Why should velocity be treated as a planning aid rather than a performance metric, and what problems arise when stakeholders misuse it?
+**Q:** {Interrogate} Why should velocity be treated as a planning aid rather than a performance metric, and what problems arise when stakeholders misuse it?
 
 - Vietnamese outline:
   - Question:
@@ -1354,7 +1396,7 @@
 
 ### scrum-team-conept-7
 
-**Q:** What are the critical focuses for the Scrum Team during their first three Sprints, and why is early Increment delivery prioritized even if the functionality is minimal?
+**Q:** {Interrogate} What are the critical focuses for the Scrum Team during their first three Sprints, and why is early Increment delivery prioritized even if the functionality is minimal?
 
 - Vietnamese outline:
   - Question:
@@ -1373,7 +1415,7 @@
 
 ### scrum-team-conept-8
 
-**Q:** How does accumulating technical debt impact Scrum Team transparency and Sprint forecasting?
+**Q:** {Interrogate} How does accumulating technical debt impact Scrum Team transparency and Sprint forecasting?
 
 - Vietnamese outline:
   - Question: Technical debt ảnh hưởng thế nào đến tính minh bạch và dự báo Sprint?
@@ -1390,7 +1432,7 @@
 
 ### scrum-team-conept-9
 
-**Q:** In a Scrum context, what strategies can a team use to manage technical debt without compromising the Sprint Goal?
+**Q:** {Interrogate} In a Scrum context, what strategies can a team use to manage technical debt without compromising the Sprint Goal?
 
 - Vietnamese outline:
   - Question:
@@ -1410,7 +1452,7 @@
 
 ### scrum-master-1
 
-**Q:** Why is the Scrum Master considered a true leader rather than a traditional project manager in Scrum?
+**Q:** {Interrogate} Why is the Scrum Master considered a true leader rather than a traditional project manager in Scrum?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum Master là nhà lãnh đạo thực thụ, không phải quản lý dự án truyền thống?
@@ -1427,7 +1469,7 @@
 
 ### scrum-master-2
 
-**Q:** How does the Scrum Master’s role of establishing Scrum as a culture impact long-term team performance?
+**Q:** {Interrogate} How does the Scrum Master’s role of establishing Scrum as a culture impact long-term team performance?
 
 - Vietnamese outline:
   - Question: Vai trò xây dựng văn hóa Scrum của Scrum Master ảnh hưởng thế nào tới hiệu suất lâu dài?
@@ -1444,7 +1486,7 @@
 
 ### scrum-master-3
 
-**Q:** What practices should a Scrum Master use to improve Scrum Team’s self-management and cross-functionality?
+**Q:** {Interrogate} What practices should a Scrum Master use to improve Scrum Team’s self-management and cross-functionality?
 
 - Vietnamese outline:
   - Question: Scrum Master nên làm gì để tăng tự quản lý và đa kỹ năng cho Scrum Team?
@@ -1461,7 +1503,7 @@
 
 ### scrum-master-4
 
-**Q:** How does a Scrum Master ensure Scrum Events are not just formalities but meaningful activities that drive improvements?
+**Q:** {Interrogate} How does a Scrum Master ensure Scrum Events are not just formalities but meaningful activities that drive improvements?
 
 - Vietnamese outline:
   - Question: Làm sao Scrum Master đảm bảo Scrum Event mang lại giá trị thực chứ không hình thức?
@@ -1478,7 +1520,7 @@
 
 ### scrum-master-5
 
-**Q:** What strategies can a Scrum Master use to detect and resolve impediments that the Scrum Team might hesitate to raise?
+**Q:** {Interrogate} What strategies can a Scrum Master use to detect and resolve impediments that the Scrum Team might hesitate to raise?
 
 - Vietnamese outline:
   - Question: Scrum Master có thể dùng chiến lược nào để phát hiện và xử lý sự trở ngại nhóm ngại nói ra?
@@ -1495,7 +1537,7 @@
 
 ### scrum-master-6
 
-**Q:** How can a Scrum Master effectively support the Product Owner in managing the Product Backlog?
+**Q:** {Interrogate} How can a Scrum Master effectively support the Product Owner in managing the Product Backlog?
 
 - Vietnamese outline:
   - Question: Scrum Master hỗ trợ Product Owner quản lý Product Backlog thế nào hiệu quả?
@@ -1512,7 +1554,7 @@
 
 ### scrum-master-7
 
-**Q:** What actions should a Scrum Master take when Developers are struggling with unclear requirements during a Sprint?
+**Q:** {Interrogate} What actions should a Scrum Master take when Developers are struggling with unclear requirements during a Sprint?
 
 - Vietnamese outline:
   - Question: Scrum Master nên làm gì khi Developer gặp yêu cầu không rõ trong Sprint?
@@ -1529,7 +1571,7 @@
 
 ### scrum-master-8
 
-**Q:** How should a Scrum Master collaborate with a Project Manager who is unfamiliar with Scrum practices?
+**Q:** {Interrogate} How should a Scrum Master collaborate with a Project Manager who is unfamiliar with Scrum practices?
 
 - Vietnamese outline:
   - Question: Scrum Master nên hợp tác với Project Manager không quen Scrum như thế nào?
@@ -1546,7 +1588,7 @@
 
 ### scrum-master-9
 
-**Q:** What are the key responsibilities of a Scrum Master when leading Scrum adoption across an organization?
+**Q:** {Interrogate} What are the key responsibilities of a Scrum Master when leading Scrum adoption across an organization?
 
 - Vietnamese outline:
   - Question: Scrum Master có trách nhiệm gì khi dẫn dắt việc áp dụng Scrum toàn tổ chức?
@@ -1565,7 +1607,7 @@
 
 ### developer-1
 
-**Q:** Why are all members of a Scrum Team called "Developers," even if they have different specialties like design or testing?
+**Q:** {Interrogate} Why are all members of a Scrum Team called "Developers," even if they have different specialties like design or testing?
 
 - Vietnamese outline:
   - Question: Vì sao mọi thành viên đều gọi chung là Developer dù khác chuyên môn?
@@ -1582,7 +1624,7 @@
 
 ### developer-2
 
-**Q:** How does the responsibility for releasing a Product Increment reflect the Developer’s commitment to delivering value?
+**Q:** {Interrogate} How does the responsibility for releasing a Product Increment reflect the Developer’s commitment to delivering value?
 
 - Vietnamese outline:
   - Question: Trách nhiệm release Increment thể hiện cam kết của Developer với giá trị thế nào?
@@ -1599,7 +1641,7 @@
 
 ### developer-3
 
-**Q:** Why must Developers be flexible in adapting the Sprint Backlog during the Sprint, and how does this support the Sprint Goal?
+**Q:** {Interrogate} Why must Developers be flexible in adapting the Sprint Backlog during the Sprint, and how does this support the Sprint Goal?
 
 - Vietnamese outline:
   - Question:
@@ -1618,7 +1660,7 @@
 
 ### developer-4
 
-**Q:** How does daily monitoring of Sprint progress by Developers contribute to empirical process control?
+**Q:** {Interrogate} How does daily monitoring of Sprint progress by Developers contribute to empirical process control?
 
 - Vietnamese outline:
   - Question: Monitoring Sprint mỗi ngày giúp thực hiện kiểm soát kinh nghiệm (empiricism) như thế nào?
@@ -1635,7 +1677,7 @@
 
 ### developer-5
 
-**Q:** How does self-management of Developers improve both individual accountability and team performance?
+**Q:** {Interrogate} How does self-management of Developers improve both individual accountability and team performance?
 
 - Vietnamese outline:
   - Question: Tự quản lý của Developer cải thiện trách nhiệm cá nhân và hiệu suất nhóm thế nào?
@@ -1652,7 +1694,7 @@
 
 ### developer-6
 
-**Q:** Why is it important for Developers to directly communicate with Stakeholders during a Sprint?
+**Q:** {Interrogate} Why is it important for Developers to directly communicate with Stakeholders during a Sprint?
 
 - Vietnamese outline:
   - Question: Vì sao Developer nên giao tiếp trực tiếp với Stakeholder trong Sprint?
@@ -1669,7 +1711,7 @@
 
 ### developer-7
 
-**Q:** What is the significance of Developers owning the estimation of Product Backlog Items in Scrum?
+**Q:** {Interrogate} What is the significance of Developers owning the estimation of Product Backlog Items in Scrum?
 
 - Vietnamese outline:
   - Question: Vì sao Developer cần tự ước lượng PBI trong Scrum?
@@ -1686,7 +1728,7 @@
 
 ### developer-8
 
-**Q:** In a Scrum environment, how does the role of a Business Analyst differ from traditional projects?
+**Q:** {Interrogate} In a Scrum environment, how does the role of a Business Analyst differ from traditional projects?
 
 - Vietnamese outline:
   - Question: Trong Scrum, Business Analyst khác gì với dự án truyền thống?
@@ -1703,7 +1745,7 @@
 
 ### developer-9
 
-**Q:** How does the definition of Developer in Scrum reflect the principle of cross-functionality?
+**Q:** {Interrogate} How does the definition of Developer in Scrum reflect the principle of cross-functionality?
 
 - Vietnamese outline:
   - Question: Định nghĩa Developer trong Scrum thể hiện nguyên lý cross-functionality như thế nào?
@@ -1722,7 +1764,7 @@
 
 ### product-owner-1
 
-**Q:** Why must the Product Owner be a single person, not a committee, and what risks arise if this principle is violated?
+**Q:** {Interrogate} Why must the Product Owner be a single person, not a committee, and what risks arise if this principle is violated?
 
 - Vietnamese outline:
   - Question:
@@ -1741,7 +1783,7 @@
 
 ### product-owner-2
 
-**Q:** How does the Product Owner role reflect the balance between business needs and technical feasibility in Scrum?
+**Q:** {Interrogate} How does the Product Owner role reflect the balance between business needs and technical feasibility in Scrum?
 
 - Vietnamese outline:
   - Question: Vai trò Product Owner cân bằng nhu cầu kinh doanh và khả năng kỹ thuật thế nào?
@@ -1758,7 +1800,7 @@
 
 ### product-owner-3
 
-**Q:** How does the Product Owner ensure the Scrum Team delivers maximum value without directly managing how Developers do their work?
+**Q:** {Interrogate} How does the Product Owner ensure the Scrum Team delivers maximum value without directly managing how Developers do their work?
 - Vietnamese outline:
   - Question: Product Owner làm sao đảm bảo giá trị tối đa mà không quản lý Developer?
   - Answer:
@@ -1774,7 +1816,7 @@
 
 ### product-owner-4
 
-**Q:** Why must the Product Backlog always remain transparent and up-to-date, and how is the Product Owner responsible for this?
+**Q:** {Interrogate} Why must the Product Backlog always remain transparent and up-to-date, and how is the Product Owner responsible for this?
 
 - Vietnamese outline:
   - Question:
@@ -1793,7 +1835,7 @@
 
 ### product-owner-5
 
-**Q:** How does the Product Owner’s skill in clarifying Product Backlog Items impact Sprint Planning and team performance?
+**Q:** {Interrogate} How does the Product Owner’s skill in clarifying Product Backlog Items impact Sprint Planning and team performance?
 
 - Vietnamese outline:
   - Question: Làm rõ PBI của Product Owner ảnh hưởng Sprint Planning thế nào?
@@ -1810,7 +1852,7 @@
 
 ### product-owner-6
 
-**Q:** When a Product Owner delegates tasks like writing PBIs, how should they still maintain overall accountability?
+**Q:** {Interrogate} When a Product Owner delegates tasks like writing PBIs, how should they still maintain overall accountability?
 
 - Vietnamese outline:
   - Question: Khi ủy quyền viết PBI, Product Owner giữ trách nhiệm thế nào?
@@ -1827,7 +1869,7 @@
 
 ### product-owner-7
 
-**Q:** How should a Product Owner balance gathering stakeholder input with maintaining control over Product Backlog prioritization?
+**Q:** {Interrogate} How should a Product Owner balance gathering stakeholder input with maintaining control over Product Backlog prioritization?
 
 - Vietnamese outline:
   - Question: Product Owner cân bằng ý kiến Stakeholder và ưu tiên Backlog thế nào?
@@ -1844,7 +1886,7 @@
 
 ### product-owner-8
 
-**Q:** Why must the entire organization respect the Product Owner’s decisions, and what risks occur if they don’t?
+**Q:** {Interrogate} Why must the entire organization respect the Product Owner’s decisions, and what risks occur if they don’t?
 
 - Vietnamese outline:
   - Question: 
@@ -1863,7 +1905,7 @@
 
 ### product-owner-9
 
-**Q:** Under what circumstances can a Product Owner cancel a Sprint, and why is this authority critical?
+**Q:** {Interrogate} Under what circumstances can a Product Owner cancel a Sprint, and why is this authority critical?
 
 - Vietnamese outline:
   - Question: 

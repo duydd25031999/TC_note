@@ -542,3 +542,101 @@ Inline methods inside the constructor only make sense when each instance truly n
 	- Accepts any value-including objects-as a key without string coercion or prototype pollution risks
 	- Maintains insertion order, useful for predictable iteration (LRU caches, config dumps)
 	- Memory footprint per entry is lower than storing [key, value] pairs in an object stuffed with hidden classes
+
+# Javascript Promise
+
+## Promise Concept
+
+### promise-concept-1
+
+**Q:** {Scan} What is promise?
+
+- English sample answer:
+	- A promise is an object that may produce a single value some time in the future
+	- The future value is either a resolved value or a reason that it’s not resolved
+	- Promise is a variable to manage callbacks for asynchronous processing
+
+### promise-concept-2
+
+**Q:** {Scan} How many state does a promise have?
+
+- English sample answer:
+	- Promises have three states:
+	1. **Pending:** This is an initial state of the Promise while the operation is processing.
+	2. **Fulfilled:** This state indicates that the specified operation was completed.
+	3. **Rejected:** This state indicates that the operation did not complete. In this case an error value will be thrown.
+
+### promise-concept-3
+
+**Q:** {Scan} What is `p.then()` used for?
+
+- English sample answer:
+	- Listen promise response
+		- Both resolve & reject of promise
+		- 1 promise can assign multiple then
+	- Return new promise
+
+### promise-concept-4
+
+**Q:** {Scan} How to execute an action whenever a promise responses?
+
+- English sample answer:
+	- `p.finally()` is called whenever promise responses (resolve or reject)
+
+### promise-concept-5
+
+**Q:** {Scan} How to call multiple promises at the same time?
+
+- English sample answer:
+	- `Promise.all()`: call multiple promises at the same time then returns a single Promise that resolves to an array of the results of the input promises
+	- `Promise.race()`: call multiple promises at the same time then returns a single Promise that resolves to first promise responses
+	- `Promise.any()`: call multiple promises at the same time then returns a single Promise that resolves to first promise is fulfilled.
+	- Call those promises without `await`: Just call the promise then move to next code line immediately
+
+### promise-concept-6
+
+**Q:** {Scan} How to transform a javascript value into promise?
+
+- English sample answer:
+	- `Promise.resolve()` transforms a value to fulfill Promise
+	- `Promise.resolve()` transforms a value to rejected Promise
+
+## Async function 
+
+### async-function-1
+
+**Q:** {Scan} How to know a function is async function?
+
+- English sample answer:
+	- An async function is a function declared with the `async` keyword
+	- The `await` operator is used to wait for a `Promise`.
+  	- It can only be used inside an `async` function
+
+### async-function-2
+
+**Q:** {Scan} What is type of async function's return?
+
+- English sample answer:
+	- Async function always return Promise
+
+### async-function-3
+
+**Q:** {Scan} What is advantage when using Promise?
+
+- English sample answer:
+	- Promise is always asynchrony, romise is to replace `setTimeout(..,0)` hack
+	- Nothing (not even a JS error) can prevent a Promise from notifying its resolution (if it's resolved)
+	- The Promise will accept only the first resolution
+
+### async-function-4
+
+**Q:** {Interrogate} How does await facilitate working with Promises?
+
+- Vietnamese outline:
+	- Question: Cách hoạt động của await
+	- Answer:
+		- Await dừng execution đến khi Promise settle
+		- Cho phép viết code tuần tự, dễ đọc
+- English sample answer:
+	- The `await` operator pauses execution until the awaited Promise settles (fulfills or rejects), then returns the fulfilled value or throws the rejection reason.
+	- This approach transforms Promise chains into linear, try/catch-friendly code, improving readability and maintainability.

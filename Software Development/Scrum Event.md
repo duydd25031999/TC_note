@@ -2,11 +2,9 @@
 
 ### Questions
 
-[1. Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?](./Scrum_Questions.md#scrum-event-1)
-
-[2. What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?](./Scrum_Questions.md#scrum-event-2)
-
 ## Concept
+
+[1. {Scan} Why are Scrum Events designed as formal opportunities to inspect and adapt, and what happens if a Scrum Event is skipped?](./Scrum_Questions.md#scrum-event-1)
 
 - `Each event` in Scrum is a `formal` opportunity to `inspect & adapt` Scrum Artifact.
 	- `Failure` to operate `any events` as prescribed results in `lost` opportunities to `inspect & adapt`.
@@ -26,26 +24,16 @@
 
 ## Developer
 
+[2. {Scan} What is the Developer’s key responsibility in Scrum Events, and why is their active participation critical?](./Scrum_Questions.md#scrum-event-2)
+
 - `All Developers` are accountable for Product Backlog Items in `Sprint Backlog` and decide how to `best distribute the work`.
 	- Developers don’t distribute work equally
 
 # Sprint
 
-### Questions
-
-[1. Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?](./Scrum_Questions.md#scrum-event-3)
-
-[2. Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?](./Scrum_Questions.md#scrum-event-4)
-
-[3. What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?](./Scrum_Questions.md#scrum-event-5)
-
-[4. How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?](./Scrum_Questions.md#scrum-event-6)
-
-[5. What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?](./Scrum_Questions.md#scrum-event-7)
-
-[6. How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?](./Scrum_Questions.md#scrum-event-8)
-
 ## Concept
+
+[1. {Scan} Why is a Sprint considered a container for all Scrum Events, and how does this structure support product development?](./Scrum_Questions.md#scrum-event-3)
 
 - The Sprint is a `container` for all `other events`.
 	- Ideas are turned into value
@@ -67,6 +55,8 @@
 	- All `incomplete Product Backlog Items` are `re-estimated` and put `back` on `Product Backlog`
 
 ## Sprint Length
+
+[2. {Scan} Why is setting an appropriate Sprint length important in Scrum, and what factors influence it?](./Scrum_Questions.md#scrum-event-4)
 
 - 💡 Time-boxed: 1 month
 - A `new` Sprint `starts immediately` after the conclusion of the `previous Sprint`.
@@ -102,6 +92,8 @@
 
 ### Developer
 
+[3. {Scan} What key practices must Developers follow during the Sprint to maintain focus and progress toward the Sprint Goal?](./Scrum_Questions.md#scrum-event-5)
+
 - `Develop` at `least one piece of functionality`.
 	- `Create` at `least an increment` of potentially releasable software.
 - `Track` the `remaining work` of Sprint
@@ -113,16 +105,22 @@
 
 ### Product Owner
 
+[4. {Scan} How should the Product Owner support the Scrum Team during the Sprint without disrupting their work?](./Scrum_Questions.md#scrum-event-6)
+
 - Collaborate with `Stakeholder` & `Developers`
 - Manage `Product Backlog`
 - `Decide (if || when) release` Product Increment with `agreement` of Developer
 
 ### Scrum Master
 
+[5. {Scan} What are the Scrum Master’s critical responsibilities during the Sprint to protect Scrum values and team effectiveness?](./Scrum_Questions.md#scrum-event-7)
+
 - Manage `Scrum implementations`
 - Handle `Impediment` (trở ngại)
 
 ### Stakeholder & Sponsors
+
+[6. {Scan} How should Stakeholders and Sponsors interact with the Scrum Team during the Sprint to maximize project success?](./Scrum_Questions.md#scrum-event-8)
 
 - 💡 Wait for new released Increment
 - The sponsors (nhà tài trợ) of Product can `decide` to `cancel` the `development` effort `after Sprint`.
@@ -131,23 +129,15 @@
 
 ### Questions
 
-[1. Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?](./Scrum_Questions.md#sprint-planning-1)
+[1. {Interrogate} Why is Sprint Planning crucial for setting a clear direction for the Sprint, and what risks arise if it's poorly executed?](./Scrum_Questions.md#sprint-planning-1)
 
-[2. What is the Product Owner’s role during Sprint Planning, and why is their active participation important?](./Scrum_Questions.md#sprint-planning-2)
-
-[3. Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?](./Scrum_Questions.md#sprint-planning-3)
-
-[4. How does the Scrum Master support an effective Sprint Planning session?](./Scrum_Questions.md#sprint-planning-4)
-
-[5. Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?](./Scrum_Questions.md#sprint-planning-5)
-
-[6. Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?](./Scrum_Questions.md#sprint-planning-6)
-
-[7. How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?](./Scrum_Questions.md#sprint-planning-7)
-
-[8. What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?](./Scrum_Questions.md#sprint-planning-8)
+[5. {Interrogate} Under what conditions can Stakeholders attend Sprint Planning, and how should their involvement be handled?](./Scrum_Questions.md#sprint-planning-5)
 
 ## Concept 
+
+[9. {Scan} What is input of Sprint Planning?](./Scrum_Questions.md#sprint-planning-9)
+
+[10. {Scan} What is output of Sprint Planning?](./Scrum_Questions.md#sprint-planning-10)
 
 - `Scrum Team` and `Outsider` (Key Stakeholders)
 	- The Scrum Team may also `invite other people` to attend Sprint Planning to `provide advice`.
@@ -187,14 +177,18 @@
 
 ### Product Owner
 
+[2. {Scan} What is the Product Owner’s role during Sprint Planning, and why is their active participation important?](./Scrum_Questions.md#sprint-planning-2)
+
 - Product Owner `proposes` how the product could `increase its value & utility` in the current Sprint.
-- The Product Owner `ensures` attendees `discuss` the `most important` Product Backlog items
+	- Product Owner `ensures` attendees `discuss` the `most important` Product Backlog items
 	- How they map to the Product Goal.
 	- Clarify PBIs
 - Answer `Developer` question
 	- Advise to Developer team
 
 ### Developer
+
+[3. {Scan} Why must Developers take ownership during Sprint Planning, and what decisions are they responsible for?](./Scrum_Questions.md#sprint-planning-3)
 
 - Developer `pull work by self`
 - The Developers `collaborate` with `Product Owner` until the end of meeting.
@@ -206,6 +200,8 @@
 	- `Developer` s plan the work necessary to meets the `Definition of Done` .
 
 ### Scrum Master
+
+[4. {Scan} How does the Scrum Master support an effective Sprint Planning session?](./Scrum_Questions.md#sprint-planning-4)
 
 - 💡Host meeting
 - Clear `Scrum Artifact`
@@ -219,40 +215,45 @@
 
 ## 1.1. Sprint Goal - `Why` sprint is valuable?
 
+[6. {Scan} Why must the Scrum Team define a Sprint Goal during Sprint Planning, and how does it guide Sprint execution?](./Scrum_Questions.md#sprint-planning-6)
+
 - 💡 Each sprint should create value thing.
 
 - Whole `Scrum Team` collaborates to define a `Sprint Goal` that communicates `why` the Sprint is `valuable` to `Stakeholders`.
     - Product Owner proposes `how` the product could `increase its value & utility` in the current Sprint.
 - Sprint Goal = specific, measurable, flexibility
-    - `Specific` & `Measurable` = Measurable result = ‣
+    - `Specific` & `Measurable` = Measurable result
     - `Flexibility` ⇒ Not fixed how
 - `Sprint Goal` must be `finalized prior` (hoàn thiện trước) to the `end of Sprint Planning`.
     - During Sprint Planning meeting, it is possible to modify the Sprint Goal
 
 ## 1.2. Sprint Backlog - `What` can be Done this Sprint?
 
+[7. {Scan} How is the Sprint Backlog created during Sprint Planning, and why must Developers own it?](./Scrum_Questions.md#sprint-planning-7)
+
 - `Developer` selects items from the `Product Backlog`  to include in the current Sprint.
-    - Through `discussion`, `collaboration` with the `Product Owner`.
-    - `Sprint Backlog` get `top PBIs`.
-    - `Forecast` PBIs selected by `Developer` can be finished in this sprint.
+	- Through `discussion`, `collaboration` with the `Product Owner`.
+	- `Sprint Backlog` get `top PBIs`.
+	- `Forecast` PBIs selected by `Developer` can be finished in this sprint.
 - `Scrum Team` may `refine PBIs` during this process
-    - Increases `understanding` and `confidence`.
+	- Increases `understanding` and `confidence`.
 - Selecting `how much` can be completed within a Sprint may be `challenging` with aspects:
-    - `Past performance`: velocity - empirical data
-    - `Upcomming capacity for the Sprint`: man-hours in sprint
-    - `Definition of Done`: Quality of team
-    
-    ⇒ Based on `Confident in Sprint forecasts`.
+	- `Past performance`: velocity - empirical data
+	- `Upcomming capacity for the Sprint`: man-hours in sprint
+	- `Definition of Done`: Quality of team
+	- ⇒ Based on `Confident in Sprint forecasts`.
 - 💡 `Developer` pull work by self
 	- `NOT` pushed || assigned
 
 ## 1.3. Plan - `How` will the chosen work be done?
 
+[8. {Scan} What are the key elements of the plan made during Sprint Planning, and how does it evolve during the Sprint?](./Scrum_Questions.md#sprint-planning-8)
+
 - Each selected `Product Backlog` item, `Developer` plan to create `Product Increment` that meets the `Definition of Done`
-    - `Decompose` (phân ly) Product Backlog items into smaller work items - tasks of `one day or less`.
-        - Estimate for each task
-        - Review (re-select) Sprint Backlog items
-        - Plan for Sprint
+	- `Decompose` (phân ly) Product Backlog items into smaller work items - tasks of `one day or less`.
+		- Estimate for each task
+		- Review (re-select) Sprint Backlog items
+		- Plan for Sprint
 - `Sprint Planning` has `outcome` ⇒ `Sprint Backlog`
 
 - ⚠️ Sprint Backlog = never completed
@@ -262,11 +263,11 @@
 
 ### Questions
 
-[1. Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?](./Scrum_Questions.md#daily-scrum-1)
-
-[2. What key activities should happen during the Daily Scrum to ensure it achieves its purpose?](./Scrum_Questions.md#daily-scrum-2)
+[1. {Interrogate} Why is the Daily Scrum essential for Sprint progress, and what makes it different from a status meeting?](./Scrum_Questions.md#daily-scrum-1)
 
 ## Concept
+
+[2. {Scan} Who can join Daily meeting?](./Scrum_Questions.md#daily-scrum-2)
 
 - Developer - Only
 - Get `feedback`
@@ -293,6 +294,8 @@
 	- Scrum Guide does `NOT REQUIRE` Scrum Board
 
 ## During
+
+[3. {Scan} What key activities should happen during the Daily Scrum to ensure it achieves its purpose?](./Scrum_Questions.md#daily-scrum-3)
 
 - ⚠️ This event is mandatory
 
@@ -335,15 +338,11 @@
 
 ### Questions
 
-[1. Why is Sprint Review considered a critical event for maximizing product value and steering future development?](./Scrum_Questions.md#sprint-review-1)
-
-[2. What risks occur if the Scrum Team frequently skips Sprint Reviews?](./Scrum_Questions.md#sprint-review-2)
-
-[3. What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?](./Scrum_Questions.md#sprint-review-3)
-
-[4. What is the typical flow of a Sprint Review, and why is each step important?](./Scrum_Questions.md#sprint-review-4)
+[1. {Interrogate} Why is Sprint Review considered a critical event for maximizing product value and steering future development?](./Scrum_Questions.md#sprint-review-1)
 
 ## Concept
+
+[5. {Scan} What does Scrum Team do in Sprint Review?](./Scrum_Questions.md#sprint-review-5)
 
 - `Scrum Team` and `key Stakeholder`
 - Get `feedback`
@@ -357,7 +356,7 @@
 	- 💡 “inspect & adapt” meeting
     
 - `Scrum Team` presents the results of their work to `key Stakeholders`.
-    - `Progress toward the Product Goal` is discussed.
+    - Progress toward the Product Goal is discussed.
     - They will also `discuss` what has `changed` in the `environment` and `adapt` the `Product Backlog` as needed.
     - If the `Product Backlog` does `not` contain the `newest insights`, it is `outdated`
 - During the event, `Scrum Team` and `Stakeholders` review what was `accomplished` in the `Sprint`and what has `changed` in their `environment`.
@@ -378,6 +377,8 @@
 
 ## Skip
 
+[2. {Scan} What risks occur if the Scrum Team frequently skips Sprint Reviews?](./Scrum_Questions.md#sprint-review-2)
+
 ### Scrum Team skip many Sprint Review
 
 - `Product Backlog` might get `outdated`.
@@ -392,12 +393,16 @@
 
 ## Environment
 
+[3. {Scan} What is meant by "Product Environment" during a Sprint Review, and why must it be discussed?](./Scrum_Questions.md#sprint-review-3)
+
 - Anything impacts Product
 	- Market place
 	- Customer demand
 	- New opportunity
 
 ## Flow
+
+[4. {Scan} What is the typical flow of a Sprint Review, and why is each step important?](./Scrum_Questions.md#sprint-review-4)
 
 1. `Scrum Team` & `Stakeholders` review what was `accomplished` in the Sprint
 2. `Product Owner` decide `what to do next`
@@ -412,14 +417,12 @@
 
 ### Questions
 
-[1. Why is the Sprint Retrospective important for continuous improvement in Scrum?](./Scrum_Questions.md#sprint-retrospective-1)
-
-[2. What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?](./Scrum_Questions.md#sprint-retrospective-2)
-
-[3. What is the typical flow of a Sprint Retrospective, and why is each stage important?](./Scrum_Questions.md#sprint-retrospective-3)
+[1. {Interrogate} Why is the Sprint Retrospective important for continuous improvement in Scrum?](./Scrum_Questions.md#sprint-retrospective-1)
 
 
 ## Concept 
+
+[2. {Scan} What does Sprint Retrospective effect to Product quality?](./Scrum_Questions.md#sprint-retrospective-2)
 
 - Scrum Team - Only
 - `Scrum Master` is an event participant at the `same level` as `Product Owner` and `Developer` members.
@@ -430,7 +433,7 @@
 - `Scrum Team` inspects `how the last Sprint went` with regards to individuals, interactions, processes, tools, and their `Definition of Done` .
 	- Buổi riêng của Scrum Team ⇒ bàn luận về cách cải thiện chất lượng làm việc
 	- `Inspected elements` often `vary` (thay đổi) with the `domain of work`.
-	- Identify `assumptions` (giả định) led `Scrum Team` `astray` (lạc lối)
+	- Identify `assumptions` (giả định) led `Scrum Team` astray (lạc lối)
 - `Scrum Team` discusses what during the Sprint
 	- What `went well`
 	- What `problems` it `encountered`
@@ -447,6 +450,8 @@
 
 ## During
 
+[3. {Scan} What should the Scrum Team focus on during the Sprint Retrospective to make it truly effective?](./Scrum_Questions.md#sprint-retrospective-3)
+
 - Sprint Retrospective is for entire `Scrum Team`
 	- Define what `keep going`
 	- Define what `need to be fixed`
@@ -461,6 +466,8 @@
 	- Scrum Team may `add items` to `Sprint Backlog` for the next `Sprint`.
 
 ## Flow
+
+[4. {Scan} What is the typical flow of a Sprint Retrospective, and why is each stage important?](./Scrum_Questions.md#sprint-retrospective-4)
 
 1. Warm-up excercise: [FunRetrospectives | Have fun, learn from the past and prepare for the future!](https://www.funretrospectives.com/)
     
