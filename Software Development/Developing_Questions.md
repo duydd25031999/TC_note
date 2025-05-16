@@ -4,7 +4,7 @@
 
 ### leadership-philosophy-1
 
-**Q:** How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?
+**Q:** {Interrogate} How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?
 
 - Vietnamese outline:
   - Question:
@@ -23,7 +23,7 @@
 
 ### leadership-philosophy-2
 
-**Q:** Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?
+**Q:** {Interrogate} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?
 
 - Vietnamese outline:
   - Question:
@@ -42,7 +42,7 @@
 
 ### leadership-philosophy-3
 
-**Q:** Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?
+**Q:** {Interrogate} Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?
 
 - Vietnamese outline:
   - Question:
@@ -61,7 +61,7 @@
 
 ### leadership-philosophy-4
 
-**Q:** How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.
+**Q:** {Interrogate} How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.
 
 - Vietnamese outline:
   - Question:
@@ -80,7 +80,7 @@
 
 ### leadership-philosophy-5
 
-**Q:** What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?
+**Q:** {Interrogate} What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?
 
 - Vietnamese outline:
   - Question:
@@ -98,7 +98,7 @@
 
 ### leadership-philosophy-6
 
-**Q:** Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?
+**Q:** {Interrogate} Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?
 
 - Vietnamese outline:
   - Question:
@@ -118,7 +118,7 @@
 
 ### leadership-roles-1
 
-**Q:** Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).
+**Q:** {Interrogate} Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).
 
 - Vietnamese outline:
   - Question:
@@ -139,7 +139,7 @@
 
 ### leadership-roles-2
 
-**Q:** How do you handle conflicting priorities between technical requirements and stakeholder demands?
+**Q:** {Interrogate} How do you handle conflicting priorities between technical requirements and stakeholder demands?
 
 - Vietnamese outline:
   - Question:
@@ -159,7 +159,7 @@
 
 ### leadership-roles-3
 
-**Q:** Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?
+**Q:** {Interrogate} Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?
 
 - Vietnamese outline:
   - Question:
@@ -178,7 +178,7 @@
 
 ### leadership-roles-4
 
-**Q:** As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?
+**Q:** {Interrogate} As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?
 
 - Vietnamese outline:
   - Question:
@@ -198,7 +198,7 @@
 
 ### leadership-roles-5
 
-**Q:** How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
+**Q:** {Interrogate} How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
 
 - Vietnamese outline:
   - Question:
@@ -220,7 +220,7 @@
 
 ### team-collaboration-1
 
-**Q:** How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?
+**Q:** {Interrogate} How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?
 
 - Vietnamese outline:
   - Question:
@@ -241,7 +241,7 @@
 
 ### team-collaboration-2
 
-**Q:** Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?
+**Q:** {Interrogate} Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?
 
 - Vietnamese outline:
   - Question:
@@ -261,7 +261,7 @@
 
 ### team-collaboration-3
 
-**Q:** Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?
+**Q:** {Interrogate} Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?
 
 - Vietnamese outline:
   - Question:
@@ -285,7 +285,7 @@
 
 ### git-concept-1
 
-**Q:** What is Git and why is it important in software development?
+**Q:** {Interrogate} What is Git and why is it important in software development?
 
 - Vietnamese outline:
   - Question:
@@ -301,7 +301,7 @@
 
 ### git-concept-2
 
-**Q:** In Git, what does a commit represent?
+**Q:** {Interrogate} In Git, what does a commit represent?
 
 - Vietnamese outline:
   - Question: Commit trong Git đại diện cho điều gì?
@@ -314,7 +314,7 @@
 
 ### git-concept-3
 
-**Q:** What happens when you run the git commit command?
+**Q:** {Interrogate} What happens when you run the git commit command?
 
 - Vietnamese outline:
   - Question: git commit làm gì?
@@ -324,7 +324,7 @@
 
 ### git-concept-4
 
-**Q:** What is a branch in Git and why do we use it?
+**Q:** {Interrogate} What is a branch in Git and why do we use it?
 
 - Vietnamese outline:
   - Question:
@@ -339,7 +339,7 @@
 
 ### git-concept-5
 
-**Q:** What does the git branch command do?
+**Q:** {Interrogate} What does the git branch command do?
 
 - Vietnamese outline:
   - Question: Lệnh git branch làm gì?
@@ -351,7 +351,7 @@
 
 ### git-concept-6
 
-**Q:** What is a pull request and why is it used in team collaboration?
+**Q:** {Interrogate} What is a pull request and why is it used in team collaboration?
 
 - Vietnamese outline:
   - Question:
@@ -366,7 +366,7 @@
 
 ### git-concept-7
 
-**Q:** What is a remote repository in Git?
+**Q:** {Interrogate} What is a remote repository in Git?
 
 - Vietnamese outline:
   - Question: Remote repository trong Git là gì?
@@ -376,7 +376,7 @@
 
 ### git-concept-8
 
-**Q:** What is the purpose of the git add command?
+**Q:** {Interrogate} What is the purpose of the git add command?
 
 - Vietnamese outline:
   - Question: Lệnh git add dùng để làm gì?
@@ -386,7 +386,7 @@
 
 ### git-concept-9
 
-**Q:** What does git fetch do?
+**Q:** {Interrogate} What does git fetch do?
 
 - Vietnamese outline:
   - Question: git fetch thực hiện điều gì?
@@ -396,7 +396,7 @@
 
 ### git-concept-10
 
-**Q:** What does the git merge command accomplish?
+**Q:** {Interrogate} What does the git merge command accomplish?
 
 - Vietnamese outline:
   - Question: git merge dùng để làm gì?
@@ -406,7 +406,7 @@
 
 ### git-concept-11
 
-**Q:** What happens when you run git pull?
+**Q:** {Interrogate} What happens when you run git pull?
 
 - Vietnamese outline:
   - Question: git pull làm gì?
@@ -416,7 +416,7 @@
 
 ### git-concept-12
 
-**Q:** What does the git push command do?
+**Q:** {Interrogate} What does the git push command do?
 
 - Vietnamese outline:
   - Question: Lệnh git push có tác dụng gì?
@@ -426,7 +426,7 @@
 
 ### git-concept-13
 
-**Q:** What is the purpose of using git rebase?
+**Q:** {Interrogate} What is the purpose of using git rebase?
 
 - Vietnamese outline:
   - Question: git rebase dùng để làm gì?
@@ -436,7 +436,7 @@
 
 ### git-concept-14
 
-**Q:** What does git cherry-pick do in Git?
+**Q:** {Interrogate} What does git cherry-pick do in Git?
 
 - Vietnamese outline:
   - Question: git cherry-pick làm gì?
@@ -446,7 +446,7 @@
 
 ### git-concept-15
 
-**Q:** What is the git reset command used for?
+**Q:** {Interrogate} What is the git reset command used for?
 
 - Vietnamese outline:
   - Question: git reset được dùng để làm gì?
@@ -456,7 +456,7 @@
 
 ### git-concept-16
 
-**Q:** What is git stash and when would you use it?
+**Q:** {Interrogate} What is git stash and when would you use it?
 
 - Vietnamese outline:
   - Question:
@@ -473,7 +473,7 @@
 
 ### gitflow-1
 
-**Q:** What is Gitflow and why is it used in software development?
+**Q:** {Interrogate} What is Gitflow and why is it used in software development?
 
 - Vietnamese outline:
   - Question: 
@@ -488,7 +488,7 @@
 
 ### gitflow-2
 
-**Q:** How does Gitflow work with CI/CD pipelines?
+**Q:** {Interrogate} How does Gitflow work with CI/CD pipelines?
 
 - Vietnamese outline:
   - Question: Gitflow hoạt động như thế nào với quy trình CI/CD?
@@ -501,7 +501,7 @@
 
 ### gitflow-3
 
-**Q:** What is a Feature branch in Gitflow and when do you use it?
+**Q:** {Interrogate} What is a Feature branch in Gitflow and when do you use it?
 
 - Vietnamese outline:
   - Question:
@@ -516,7 +516,7 @@
 
 ### gitflow-4
 
-**Q:** What is a Release branch in Gitflow and what is its purpose?
+**Q:** {Interrogate} What is a Release branch in Gitflow and what is its purpose?
 
 - Vietnamese outline:
   - Question:
@@ -531,7 +531,7 @@
 
 ### gitflow-5
 
-**Q:** What is a Hotfix branch in Gitflow and when is it needed?
+**Q:** {Interrogate} What is a Hotfix branch in Gitflow and when is it needed?
 
 - Vietnamese outline:
   - Question:
@@ -544,3 +544,47 @@
   - A Hotfix branch is used to quickly fix critical bugs in the production environment.
   - It is created directly from the main branch and patched back after fixing.
  
+# Development
+
+## Extreme Programming
+
+### extreme-programming-1
+
+**Q:** {Scan} Which situation do we use Extreme Programming?
+
+### extreme-programming-2
+
+**Q:** {Scan} Why we need Pair Programming?
+
+### extreme-programming-3
+
+**Q:** {Scan} What is advantage of Code review?
+
+### extreme-programming-4
+
+**Q:** {Scan} How to deal with hard technical problem?
+
+
+### extreme-programming-5
+
+**Q:** {Scan} Why do we need to apply YAGNI?
+
+## Test-driven development 
+
+### tdd-1
+
+**Q:** {Scan} When we need Test-driven development?
+
+### tdd-2
+
+**Q:** {Scan} What is the most basic level of test-driven development?
+
+### tdd-3
+
+**Q:** {Scan} How to develop a feature with native language?
+
+## DevOps
+
+### devops-1
+
+**Q:** {Scan} What does DevOps do in a project?

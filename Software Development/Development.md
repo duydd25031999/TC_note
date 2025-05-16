@@ -1,5 +1,7 @@
 # Extreme Programming (XP)
 
+[1. {Scan} Which situation do we use Extreme Programming?](./Developing_Questions.md#extreme-programming-1)
+
 - Extreme Programming is an Agile software-development framework that emphasizes close collaboration, frequent releases, and high code quality.
     - Framework for developing software with agility
     - High level quaity programming
@@ -10,16 +12,22 @@
 
 ## Pair Programming
 
+[2. {Scan} Why we need Pair Programming?](./Developing_Questions.md#extreme-programming-2)
+
 - 2 developers work together at one workstation. 
     1. Driver: code writing
     2. Navigator: leading the work
 
 ## Code review
 
+[3. {Scan} What is advantage of Code review?](./Developing_Questions.md#extreme-programming-3)
+
 - Code review is a systematic examination of someone’s code by one or more peers before merging it into the main codebase.
 - Every code need to review before intergrating into Product
 
 ## Spike Solutions
+
+[4. {Scan} How to deal with hard technical problem?](./Developing_Questions.md#extreme-programming-4)
 
 - Deal with hard technical problem
 1. Run small experiments outside main development
@@ -31,12 +39,17 @@
 
 ## You aren't gonna need it (YAGNI)
 
+
+[5. {Scan} Why do we need to apply YAGNI?](./Developing_Questions.md#extreme-programming-5)
+
 - Avoid adding functionality early on
 - Lean thinking & guiding principle
 - ⚠️ We should implement something only when we actually need it
 - Never in anticipation
 
 # Test-driven development (TDD)
+
+[1. {Scan} When we need Test-driven development?](./Developing_Questions.md#tdd-1)
 
 - Agile Software development practice.
 - Business requirements = tranfer => test case before programming.
@@ -47,12 +60,16 @@
 
 ## Unit testing code
 
+[2. {Scan} What is the most basic level of test-driven development?](./Developing_Questions.md#tdd-2)
+
 - Unit testing is the practice of writing automated tests for the smallest testable parts of an application (functions, classes, modules) 
     - Before (or immediately after) writing the corresponding production code. 
 - Better understanding code = describe it with test case
     - No code is written without adding the associated tests
 
 ## Behavior-driven development (BDD)
+
+[3. {Scan} How to develop a feature with native language?](./Developing_Questions.md#tdd-3)
 
 - Agile Software development practice.
 - Have conversations about Business requirement before programming.
@@ -107,6 +124,8 @@ defineFeature(feature, test => {
 - Implement code after understanding business and writting test case
 
 # DevOps
+
+[1. {Scan} What does DevOps do in a project?](./Developing_Questions.md#devops-1)
 
 - DevOps is a cultural and technical movement that unites development (Dev) and operations (Ops) into a single, continuous workflow. 
     - Traditionally, developers focus on building features and sysadmins on maintaining infrastructure. 
