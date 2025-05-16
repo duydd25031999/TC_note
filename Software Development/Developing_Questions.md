@@ -552,22 +552,46 @@
 
 **Q:** {Scan} Which situation do we use Extreme Programming?
 
+- English sample answer:
+  - Small to medium-sized teams: XP thrives in collaborative environments with close communication, which is easier to manage with smaller teams (typically under 12 people)
+  - Uncertain or rapidly changing requirements: XP's short development cycles and emphasis on feedback and adaptation make it well-suited for projects where the customer's needs may evolve frequently.
+  - Close collaboration with customers: XP requires active and ongoing involvement of the customer throughout the development process to provide requirements, feedback, and make decisions.
+
 ### extreme-programming-2
 
 **Q:** {Scan} Why we need Pair Programming?
+
+- English sample answer:
+  - Two heads are better than one: Having a second person review code in real-time helps catch errors, bugs, and logical flaws that a single developer might miss.
+  - Continuous code review: The "navigator" constantly reviews the "driver's" code, ensuring adherence to coding standards and best practices.
+  - Better decisions: Discussing approaches and solutions leads to more robust and well-thought-out decisions.
 
 ### extreme-programming-3
 
 **Q:** {Scan} What is advantage of Code review?
 
+- Vietnamese outline:
+  - Đảm bảo code dễ đọc, dễ bảo trì, tuân theo chuẩn chung của cả team
+  - Tìm được những lỗi logic tiềm ẩn trong code mà khó phát hiện
+
 ### extreme-programming-4
 
 **Q:** {Scan} How to deal with hard technical problem?
 
+- English sample answer:
+  - Apply Spike Solutions approach
+  1. Run small experiments outside main development
+     - Isolation from main development effort
+  2. Test the theory
+     - Mostly code doesn't have production quality as expecting
 
 ### extreme-programming-5
 
 **Q:** {Scan} Why do we need to apply YAGNI?
+
+- Vietnamese outline:
+  - Để tập trung vào những điều mang lại giá trị thực tế
+  - Tránh thừa code không cần thiết
 
 ## Test-driven development 
 
@@ -575,16 +599,39 @@
 
 **Q:** {Scan} When we need Test-driven development?
 
+- English sample answer:
+  - TDD is used to build robust and reliable software. writing tests before code helps catch bugs early, leading to higher code quality and fewer defects in production.
+  - Requirements are relatively clear and stable
+  - TDD is used to build components with complex logic: TDD helps to break down complex functionality into smaller, testable units, making development and debugging easier
+  - Maintainability is a high priority
+
 ### tdd-2
 
 **Q:** {Scan} What is the most basic level of test-driven development?
 
+- English sample answer:
+  - Unit testing is the most basic level of test-driven development
+  - Unit testing is the practice of writing automated tests for the smallest testable parts of an application (functions, classes, modules)
+
+
 ### tdd-3
 
 **Q:** {Scan} How to develop a feature with native language?
+
+- English sample answer:
+  - We can apply Behavior-driven development approach
+  1. Write requirement with the Gherkin format includes "Give-When-Then"
+  2. Transfer requirement to Automatic Test Code
+  3. Write code based on Test Case and Requirement
 
 ## DevOps
 
 ### devops-1
 
 **Q:** {Scan} What does DevOps do in a project?
+
+- Vietnamese outline:
+  - Tự động hóa quy trình: Build, test, deploy, quản lý hạ tầng.
+  - Phát triển, cải thiện CI/CD: Phát hành phần mềm nhanh và ổn định hơn.
+  - Quản lý hạ tầng: Cấp phát và quản lý bằng code (IaC).
+  - Giám sát và ghi log: Theo dõi hiệu suất và sức khỏe hệ thống.
