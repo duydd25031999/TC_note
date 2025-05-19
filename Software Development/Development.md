@@ -1,6 +1,12 @@
 # Extreme Programming (XP)
 
+### Questions
+
 [1. {Scan} Which situation do we use Extreme Programming?](./Developing_Questions.md#extreme-programming-1)
+
+[5. {Interrogate} Compare pair programming and code review in terms of process and benefits.](./Developing_Questions.md#extreme-programming-5)
+
+## Concept
 
 - Extreme Programming is an Agile software-development framework that emphasizes close collaboration, frequent releases, and high code quality.
   - Framework for developing software with agility

@@ -640,3 +640,68 @@ Inline methods inside the constructor only make sense when each instance truly n
 - English sample answer:
 	- The `await` operator pauses execution until the awaited Promise settles (fulfills or rejects), then returns the fulfilled value or throws the rejection reason.
 	- This approach transforms Promise chains into linear, try/catch-friendly code, improving readability and maintainability.
+
+# Javascript Function
+
+## Function Concept
+
+### function-concept-1
+
+**Q:** {Scan} How many way to define a function in Javascript?
+
+### function-concept-2
+
+**Q:** {Scan} How to private call a single function?
+
+### function-concept-3
+
+**Q:** {Scan} When to use `apply()` and use `call()`?
+
+### function-concept-4
+
+**Q:** {Scan} How does the ReactJS framework use `bind()`?
+
+- Vietnamese Outline:
+	- Question:
+		- Tại sao phải dùng `bind()` trong React class components?
+		- `bind()` thực hiện gì với this?
+	- Answer:
+		- Phương thức class không tự động bind this.
+		- Gọi `this.method = this.method.bind(this)` trong constructor để gắn this cho instance.
+		- Bind trực tiếp trong JSX `(onClick={this.handleClick.bind(this)})` tạo hàm mới mỗi lần render.
+		- Dùng arrow-function class fields `(handleClick = () => {})` để tránh phải bind thủ công.
+- English sample answer:
+	- In React class components, methods do not automatically have their this context bound to the component instance.
+	- Calling `.bind(this)` on a method returns a new function whose `this` is permanently set to that component, ensuring you can access `this.props`, `this.state`, and other instance members inside the handler.
+	- You can also bind inline in JSX `(<button onClick={this.handleClick.bind(this)}>…</button>)`, but that creates a brand-new function on every render, which can hinder performance.
+
+### function-concept-5
+
+**Q:** {Scan} How does arrow function replace `bind()`?
+
+
+### function-concept-6
+
+**Q:** {Scan} How to apply block-scope in ES5?
+
+## Javascript Callback
+
+### javascript-callback-1
+
+**Q:** {Scan} What is callback?
+
+### javascript-callback-2
+
+**Q:** {Scan} Is callback only used for assigning future action?
+
+### javascript-callback-3
+
+**Q:** {Scan} How can we run multiple threads in Javascript?
+
+### javascript-callback-4
+
+**Q:** {Scan} What is the harm of Callback hell?
+
+### javascript-callback-5
+
+**Q:** {Scan} How to use Callback effectively?

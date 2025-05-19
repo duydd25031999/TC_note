@@ -593,6 +593,21 @@
   - Để tập trung vào những điều mang lại giá trị thực tế
   - Tránh thừa code không cần thiết
 
+### extreme-programming-5
+
+**Q:** {Interrogate} Compare pair programming and code review in terms of process and benefits.
+
+- Vietnamese outline:
+  - Question: Pair programming và code review khác nhau thế nào?
+  - Answer:
+    - Pair programming: hai dev chia sẻ một máy, Driver/Navigator
+    - Code review: review qua pull request, luồng không đồng bộ
+    - Cùng mục đích: bắt lỗi sớm, chia sẻ kiến thức, nâng cao chất lượng
+- English sample answer:
+  - Pair programming is an in-the-moment practice where two developers share one workstation: the Driver writes code while the Navigator reviews and plans next steps.
+  - Code review is a systematic peer examination of code changes—typically via pull requests—before merging into the main branch.
+  - Both improve code quality and team knowledge sharing: pairing provides real-time collaboration and immediate feedback, while reviews allow asynchronous, broader team involvement .
+
 ## Test-driven development 
 
 ### tdd-1
