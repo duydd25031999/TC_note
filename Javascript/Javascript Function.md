@@ -10,6 +10,8 @@ console.log(typeof b); //function
 
 [1. {Scan} How many way to define a function in Javascript?](./Javascript_Questions.md/#function-concept-1)
 
+[7. {Interrogate} What are the key differences between function declaration and function expression in JavaScript?](./Javascript_Questions.md/#function-concept-7)
+
 ### Function regular declaration
 
 ```jsx
@@ -218,6 +220,8 @@ function foo() {
 # Javascript Callback
 
 ## Concept
+
+[6. {Interrogate} What problems can occur when using nested callbacks, and how do Promises or async/await help fix them?](./Javascript_Questions.md/#function-concept-6)
 
 [1. {Scan} What is callback?](./Javascript_Questions.md/#javascript-callback-1)
 

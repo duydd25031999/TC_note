@@ -58,6 +58,7 @@ Tôi nên hoàn thành từng giai đoạn (waterfall) hay làm từng phần nh
 - Tôi lựa chọn Agile
 
 Làm sao để tôi làm và biết mình đang làm đúng?
+[ ] Tìm đọc trước những SRS mà mình có thể tìm được
 [ ] Đảm bảo đầy đủ đầu mục (Truy cập SRS + List những thành phần chưa có SRS)
 [ ] Thực hiện nghiên cứu Web Terminal
 	- Sau đó sử thử lại vòng lặp với các phần khác

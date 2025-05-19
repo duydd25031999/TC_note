@@ -649,13 +649,27 @@ Inline methods inside the constructor only make sense when each instance truly n
 
 **Q:** {Scan} How many way to define a function in Javascript?
 
+- Vietnamese Outline:
+	- Có 2 cách chính để khai báo function:
+	1. Khai báo bình thường với keyword 'function' trước rồi tên hàm
+	2. Gán 1 biến với 1 function không tên. Function cũng là 1 datatype của javascript
+
 ### function-concept-2
 
 **Q:** {Scan} How to private call a single function?
 
+- English sample answer:
+	- Use 'Immediately Invoked Function Expression' approach
+	- Call function automatically right after definding it without assigning it to any variable
+
 ### function-concept-3
 
 **Q:** {Scan} When to use `apply()` and use `call()`?
+
+- Vietnamese Outline:
+	- Cả 2 methods đều dùng được để gán dynamic `this`
+	- `call()` dùng cho việc arguments rõ ràng và có thể gọi tuần tự
+	- `apply()` chuyên sử dụng với mảng, có thể thay thế cho `forEach` 
 
 ### function-concept-4
 
@@ -679,10 +693,30 @@ Inline methods inside the constructor only make sense when each instance truly n
 
 **Q:** {Scan} How does arrow function replace `bind()`?
 
+- Vietnamese Outline:
+	- Arrow function dùng dynamic `this` như `bind()`
+	- Arrow function cụ thể hơn là tự động lấy `this` gần nhất
 
 ### function-concept-6
 
 **Q:** {Scan} How to apply block-scope in ES5?
+
+- English sample answer:
+	- Use `Strict mode` inside a scope (a file or {})
+	- Scope apply block-scope instead of hoisting
+
+### function-concept-7
+
+**Q:** {Interrogate} What are the key differences between function declaration and function expression in JavaScript?
+
+- Vietnamese Outline:
+	- Declaration: có tên, hoisting được
+	- Expression: không tên (anonymous), gán vào biến, không hoisting
+	- Dùng expression khi cần kiểm soát phạm vi, callback
+- English Sample Answer:
+	- A function declaration uses the function keyword and is hoisted, meaning it can be called before it is defined.
+	- A fuction expression is assigned to a variable and is not hoisted—you can only call it after the line where it is defined.
+	- Function expressions can be anonymous and are often used as callbacks or inside closures for better scope control.
 
 ## Javascript Callback
 
@@ -690,18 +724,56 @@ Inline methods inside the constructor only make sense when each instance truly n
 
 **Q:** {Scan} What is callback?
 
+- English sample answer:
+	- A callback is a function passed into another function as an argument.
+
 ### javascript-callback-2
 
 **Q:** {Scan} Is callback only used for assigning future action?
+
+- English sample answer:
+	- There are many ways to use callback
+	- Assigning future action is 1 of them
+	- Another way is to Assign 1 abstract method
+	- We will know if this method is called but doesn't know exactly logic inside
 
 ### javascript-callback-3
 
 **Q:** {Scan} How can we run multiple threads in Javascript?
 
+- English sample answer:
+	- To simulate multitasking, JavaScript switches between small tasks very fast.
+  1. we switch back and `forth between two or more tasks` in rapid succession
+  2. Simultaneously progressing on each task in `tiny, fast little chunks`
+
 ### javascript-callback-4
 
 **Q:** {Scan} What is the harm of Callback hell?
 
+- English sample answer:
+	- Callback Hell is that executing order of different callbacks cannot be determined.
+	- The most troublesome problem with callbacks is inversion of control leading to a complete breakdown along all those trust lines.
+
 ### javascript-callback-5
 
 **Q:** {Scan} How to use Callback effectively?
+
+- English sample answer:
+	- Split callbacks = break into clearly steps in same level, sequence ⇒ pass multiple callback arguments lead to each step.
+	- Error-first style = thinking about catching error first then implement case success.
+	- Swallow any errors/exceptions that may happen
+
+### javascript-callback-6
+
+**Q:** {Interrogate} What problems can occur when using nested callbacks, and how do Promises or async/await help fix them?
+
+- Vietnamese Outline:
+	- Callback lồng nhau gây khó đọc → callback hell
+	- Khó kiểm soát thứ tự chạy & lỗi
+	- Promise giúp viết code dạng chain dễ đọc hơn
+	- async/await giúp viết giống như code đồng bộ
+- English Sample Answer:
+	- When we use many nested callbacks, it becomes hard to read and debug. This is called callback hell.
+	- We may not know the exact order of execution or where the error happens.
+	- Promises let us chain steps more clearly and return new promises for better control.
+	- async/await makes asynchronous code look and behave like synchronous code, so it's easier to write and maintain.
