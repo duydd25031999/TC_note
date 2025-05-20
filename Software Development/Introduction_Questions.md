@@ -24,7 +24,7 @@
     - Moving forward, I aim to strengthen both my technical leadership and presale consulting skills, with a clear goal of growing into project leadership and solution consulting roles.
     - I’m excited to bring my technical expertise, leadership experience, and client-oriented mindset to contribute to new challenges and opportunities.
 
-# Bespin - Recent Project
+# Bespin - Recent Project Overview
 
 ### Questions
 
@@ -99,15 +99,61 @@
 
 ## User Roles
 
-- `User` - Devs, DevOps, cloud admins, CTOs; ask questions & deploy commands.
-- `Engineer` - In‑house experts; support users and operate as users.
+- `User` - Devs, DevOps, cloud admins, CTOs: ask questions & deploy commands.
+- `Engineer` - In‑house experts: support users and operate as users.
 - `Admin` - Configure menus, permissions, languages via separate Admin panel.
 
 ## Non‑Functional Requirements
 
+[ ] Tóm gọn đống này lại
+
 - Clean, developer‑oriented UI
 - Always‑on, real‑time connectivity
 - High security for customer infrastructure links
+-	The system will be accessed by public internet users. 
+-	All request/response requests should support 128-bit SSL encryption for those pages and processes (e.g. payment) where personal data is transmitted. The requirement for SSL includes both the backend module and the front-end application accessed by users. Both admin module and front-end application sessions should expire after a defined period of inactivity (If any, this will be defined by BESPIN). Individual user IDs should be supported. There must be role-based access control (RBAC) with a hierarchy of privileges (e.g. read only access for some user roles, read/write access for other roles). The administrator should be able to disable/expire any user's ID at any time. 
+4.2.	Definition of security level and countermeasures  
+-	Application vulnerability 
+o	XSS injections 
+o	Static IP filter for accessing into production environment. 
+o	Authentication: the users use Platform accounts, so security level for account management, password policy... is dependent on the Platform system. 
+o	Authorization: the users' permission needs to be verified at both front-end and back-end to prevent unauthorized access. 
+o	Session Management: authorization via cookie so the system needs to prevent: 
+●	Cookie Poisoning 
+●	Session Fixation 
+●	Session Hijacking 
+o	Input value injections: the system must validate the input value that is transferred between front-end and backend. It must prevent: 
+●	Data injection includes SQL injections and XPath injections. 
+●	File injections: file upload, file download 
+-	Function bypass: parameter and response tampering. 
+o	Information leakage: 
+●	Development information leakage: included framework, libraries, code, api, internal documents. 
+●	Redundant necessary public information. 
+o	Encryption: sensitive information needs to be encrypted by a strong method and unpredictable encryption key. They include below items but not all: 
+-	Browser-based Security 
+o	The users can use the system by browser. From the user’s perspective, the browser acts as their Trusted Computing Base. If the user chooses a suitable browser which they can trust, then the system can be considered “secured”. However, if there is any doubt that a browser is trustable, then all the system’s interaction is impacted and may not be reliably secure. 
+o	Same Origin Policy prevents pages from different origins or even iframes on the same page from exchanging information. It is important for the security of both the user and web server. 
+-	Authorization and role management 
+o	Non-authorized APIs are protected by the API KEY. The API Key is 64 – character length, randomized, different between environments, not stored anywhere except the environment itself. 
+o	Permission matrix must be applied and prevents any unauthorized access. Users without permission must be shown the error message about unauthorized access.  
+-	Data validation and sanitization 
+o	Input data needs to be validated before processing. 
+o	Only use known data, not all received data. 
+o	String must be trimmed. 
+-	Privacy consideration 
+o	User’s information collection, transmission, storage, sharing must follow the law of both the user's country, the country that the system located and the company’s country.  
+o	The user’s information collection must be accepted by the user. 
+o	The system must have functions for user’s information extraction and deletion. They can be processed manually by the system administrator. 
+-	Secure Data Storage and Transmission
+o	Enforce HTTPS: Ensure data is encrypted during transit.
+o	Prudent Data Storage: Avoid storing sensitive information in local storage or client-side cookies.
+-	Managing Dependency Vulnerabilities
+o	Dependency Audits: Use tools like npm audit or Yarn for detecting and updating vulnerable dependencies.
+-	DDOS Protection
+
+4.3.	Network communication  
+-	The system must be communicated by using SSL (Secure Sockets Layer) protocol using Public CA. 
+
 
 ## Achievements
 
@@ -121,10 +167,10 @@
 
 ## My responsibilities
 
-### Presales
+### Pre-sale
 
 - Trigger: Customer submits a new phase idea.
-1. Analyse the idea and produce a high‑level design.
+1. Analyze the idea and produce a high‑level design.
 2. Break that design into tasks.
 3. Estimate each task to build the WBS.
 4. Compile the plan and contract, then present it to the customer for approval.
@@ -143,4 +189,83 @@
 - Implementation of critical Front-end features
 - Testing (unit, integration, manual UAT) and bug‑fixing
 
-## Interesting Technologies
+# Bespin - Function requirements
+
+## Chat with AI
+
+## AI Model
+
+- Lựa chọn loại AI model để thực hiện giải đáp câu hỏi
+- ChatGPT 30
+- KKANA3 70B
+- Claude 3.5 Sonnet
+
+## AWS Copilot
+
+- (?) AWS Copilot là gì?
+- User thao tác với AWS thông qua giao diện Chatbox, với sự hỗ trợ của AWS Copilot
+
+### Workplan
+
+- Giải đáp, quản lý liên qua AWS Workplan
+- Có sẵn những AWS Workplan template để khởi tạo
+- Sử dụng prompt để tạo ra riêng AWS Workplan cho riêng mình
+    - Hệ thống sẽ gợi ý template phù hợp
+- Execute AWS Workplan, view Execution plan
+- Phân tích kết quả chạy được sau mỗi execute plan bằng AI để cho ra những gợi ý phù hợp
+- View được status chạy của từng step
+- Có thể save Workplan template của riêng mình
+- Work plan có thể edit, tạo form (variable)
+
+## EKS Copilot
+
+- (?) EKS Copilot là gì?
+-  As a user, I want to have A chat-based AI assistant that helps me manage my EKS clusters, so that I can efficiently deploy, monitor, and troubleshoot applications in Kubernetes without diving deep into command-line tools or extensive documentation.
+
+## Mermaid
+
+- As a users, I want to see the generated diagram from AI Chat’s response directly without going over code
+- When AI chat generate the code representing diagram, the system would use Mermaind library to apply the diagram overriding the code
+
+## Web terminal
+
+### Introduction
+
+- User control EC2 remotely with the help of OS copilot
+- Effortlessly manage EC2 instances via a web terminal with intelligent OS Copilot assistance. 
+- This feature simplifies remote control, offering context-aware help, suggested commands, integrated file editing
+
+### Activity Flow
+
+1. List EC2 on main chatbot
+    1. BE attaches EC2 instance id in AI response with specific format: i-{instance_id}
+    2. FE catch EC2 instance id by regex then transform them into a button to open web terminal
+2. Open Terminal Popup
+    - Web terminal has 2 part
+    1. Left: Terminal UI: User run the command on web terminal to remote EC2
+    2. Right: Copilot: GPT AI chatbot supports user to control EC2
+3. Use Web terminal to remote EC2
+    - Web terminal connects directly to AWS EC2 with SSM
+    - Every keydown event is sent directly to AWS EC2
+    - File Editor: when running a editing file command, open a specific web editor to modify file with support from OS Copilot
+4. Use Copilot to suggest command to control EC2
+    - System administrator attaches context so that chat OS can read the attached documents to answer questions related to the desired content
+    - Suggest command for user to remote. With confirmation, it can be executed without copy into web terminal
+5. Edit file with Copilot support
+    1. Catch editing file command on Web terminal
+    2. Open specific file editor on left side
+    3. Edit file on editor
+    4. Use Copilot for modification suggest, show copilot response on right side and comparative between original and insert content of left side
+    5. Save file
+6. Show activity logs
+    - Show activity logs history
+    - View activity log
+    - Download log file
+
+### Challenge
+
+- Elastic Compute Cloud (EC2): a renting virtual computers (instances) service, launch virtual servers 
+- AWS Systems Manager (SSM): a comprehensive management service manages and configures AWS resources (EC2 instances, on-premises servers, and virtual machines)
+- (?) Advantage and disadvantage of using SSM instead of SSH
+- (?) Connect multiple session
+
