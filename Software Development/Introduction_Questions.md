@@ -152,6 +152,26 @@
 
 ## Chat with AI
 
+- As an engineer user, I want to open a new chat, so that I can start a conversation with AI chatbot.
+- Add graph (Chat Source and Assistant Modification): As a user, I want to see information related to the graph that will be displayed.
+    - When user asked the question need to display the graph, graph will be display include (Screen 26)
+
+### Chat with AI: Agent list update
+
+- (?) Agent là gì với AWS Copilot
+
+- As a user, I want to select 1 agent for my question, so that I can select 1 or more agents to response
+
+## Freshdesk ticket
+
+- (?) Freshdesk là gì? Freshdesk ticket là gì? 
+
+- As a user, I want to open the Freshdesk ticket, so that I can view the details of the ticket and add notes to the ticket.
+
+## Chat with customer support
+
+- As a customer user, I want to chat with customer support, so that I can get help from them to solve my questions or problems.
+
 ## AI Model
 
 - Select the type of AI model to perform question answering
@@ -164,8 +184,11 @@
 - (?) AWS Copilot là gì?
 - User thao tác với AWS thông qua giao diện Chatbox, với sự hỗ trợ của AWS Copilot
 
+## aws_conductor
+
 ### Workplan
 
+- Users must select aws_conductor agent for room chat
 - Giải đáp, quản lý liên qua AWS Workplan
 - Có sẵn những AWS Workplan template để khởi tạo
 - Sử dụng prompt để tạo ra riêng AWS Workplan cho riêng mình
@@ -175,6 +198,10 @@
 - View được status chạy của từng step
 - Có thể save Workplan template của riêng mình
 - Work plan có thể edit, tạo form (variable)
+
+### Child chat
+
+- As a user, I want to have a child chat room to send and receive a message with agent aws_viewer in the original aws_conductor room.
 
 ## EKS Copilot
 
