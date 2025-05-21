@@ -48,7 +48,7 @@
 
 ### scrum-concept-1
 
-**Q:** {Interrogate} Why is Scrum considered a "lightweight framework" rather than a full methodology?
+**Q:** {Scan} Why is Scrum considered a "lightweight framework" rather than a full methodology?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum được gọi là framework nhẹ, không phải phương pháp đầy đủ?
@@ -67,7 +67,7 @@
 
 ### scrum-concept-2
 
-**Q:** {Interrogate} How does Scrum use iterative and incremental delivery to manage risk?
+**Q:** {Scan} How does Scrum use iterative and incremental delivery to manage risk?
 
 - Vietnamese outline:
   - Question: Scrum dùng cách tiếp cận lặp lại và tăng dần để quản lý rủi ro như thế nào?
@@ -86,7 +86,7 @@
 
 ### scrum-concept-3
 
-**Q:** {Interrogate} What is the role of management in an organization adopting Scrum, and why is it still necessary?
+**Q:** {Scan} What is the role of management in an organization adopting Scrum, and why is it still necessary?
 
 - Vietnamese outline:
   - Question: Quản lý đóng vai trò gì khi tổ chức áp dụng Scrum? Tại sao vẫn cần?
@@ -105,7 +105,7 @@
 
 ### scrum-concept-4
 
-**Q:** {Interrogate} Why is Scrum intentionally incomplete, and how does this benefit organizations using it?
+**Q:** {Scan} Why is Scrum intentionally incomplete, and how does this benefit organizations using it?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum cố ý không hoàn chỉnh? Lợi ích là gì?
@@ -124,7 +124,7 @@
 
 ### scrum-concept-5
 
-**Q:** {Interrogate} How can different practices and methods be integrated within Scrum without violating its principles?
+**Q:** {Scan} How can different practices and methods be integrated within Scrum without violating its principles?
 
 - Vietnamese outline:
   - Question: Làm sao tích hợp nhiều kỹ thuật khác vào Scrum mà không vi phạm nguyên lý?
@@ -143,7 +143,7 @@
 
 ### scrum-concept-6
 
-**Q:** {Interrogate} Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?
+**Q:** {Scan} Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?
 
 - Vietnamese outline:
   - Question: Vì sao Scrum Guide không yêu cầu tài liệu chi tiết? Xử lý nhu cầu tài liệu như thế nào?
@@ -162,7 +162,7 @@
 
 ### scrum-concept-7
 
-**Q:** {Interrogate} How does Scrum expose the relative efficacy of current management and work practices?
+**Q:** {Scan} How does Scrum expose the relative efficacy of current management and work practices?
 
 - Vietnamese outline:
   - Question: Scrum phơi bày hiệu quả tương đối của quản lý và kỹ thuật ra sao?
@@ -181,7 +181,7 @@
 
 ### scrum-concept-8
 
-**Q:** {Interrogate} What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?
+**Q:** {Scan} What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?
 
 - Vietnamese outline:
   - Question:
@@ -204,7 +204,7 @@
 
 ### kanban-waterfall-1
 
-**Q:** {Interrogate} How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?
+**Q:** {Scan} How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?
 
 - Vietnamese outline:
   - Question: Giới hạn WIP trong Kanban cải thiện chất lượng và tốc độ thế nào?
@@ -223,7 +223,7 @@
 
 ### kanban-waterfall-2
 
-**Q:** {Interrogate} Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?
+**Q:** {Scan} Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?
 
 - Vietnamese outline:
   - Question:

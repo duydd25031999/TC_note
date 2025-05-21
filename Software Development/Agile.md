@@ -2,9 +2,9 @@
 
 ### Questions
 
-[1. How does the concept of "emergence" in Agile challenge traditional project planning methods?](./Scrum_Questions.md#agile-concept-1)
+[1. {Interrogate} How does the concept of "emergence" in Agile challenge traditional project planning methods?](./Scrum_Questions.md#agile-concept-1)
 
-[2. How does Agile ensure product quality and flexibility without relying on detailed documentation?](./Scrum_Questions.md#agile-concept-2)
+[2. {Interrogate} How does Agile ensure product quality and flexibility without relying on detailed documentation?](./Scrum_Questions.md#agile-concept-2)
 
 ## Concept
 
@@ -41,7 +41,7 @@
 
 ### Questions
 
-[1. How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?](./Scrum_Questions.md#kanban-waterfall-1)
+[1. {Scan} How does limiting Work In Progress (WIP) in Kanban improve both the quality and speed of delivery?](./Scrum_Questions.md#kanban-waterfall-1)
 
 ## Concept
 
@@ -70,12 +70,7 @@
     - Lead time: time from added idea to Backlog to release
     - Cycle time: how long the development work took
         - From To-Do to Done
-    
-    <aside>
-    💡 Kanban `doesn’t` involve `sprints`
-    
-    </aside>
-    
+    - 💡 Kanban `doesn’t` involve `sprints`
     - The main goal is to have a `smooth flow` of work from start to completion `without` any stoppage or bottlenecks.
 - The team must define what that flow of work details.
     - How does a particular work item go from start to completion?
@@ -84,25 +79,9 @@
 
 # Scrum
 
-### Questions
-
-[1. Why is Scrum considered a "lightweight framework" rather than a full methodology?](./Scrum_Questions.md#scrum-concept-1)
-
-[2. How does Scrum use iterative and incremental delivery to manage risk?](./Scrum_Questions.md#scrum-concept-2)
-
-[3. What is the role of management in an organization adopting Scrum, and why is it still necessary?](./Scrum_Questions.md#scrum-concept-3)
-
-[4. Why is Scrum intentionally incomplete, and how does this benefit organizations using it?](./Scrum_Questions.md#scrum-concept-4)
-
-[5. How can different practices and methods be integrated within Scrum without violating its principles?](./Scrum_Questions.md#scrum-concept-5)
-
-[6. Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?](./Scrum_Questions.md#scrum-concept-6)
-
-[7. How does Scrum expose the relative efficacy of current management and work practices?](./Scrum_Questions.md#scrum-concept-7)
-
-[8. What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?](./Scrum_Questions.md#scrum-concept-8)
-
 ## Definition
+
+[1. {Scan} Why is Scrum considered a "lightweight framework" rather than a full methodology?](./Scrum_Questions.md#scrum-concept-1)
 
 💡 Scrum is a lightweight `framework` that helps people, teams and organizations generate `value` through adaptive solutions for `complex problems`.
 
@@ -120,6 +99,8 @@
 
 ## Process
 
+[2. {Scan} How does Scrum use iterative and incremental delivery to manage risk?](./Scrum_Questions.md#scrum-concept-2)
+
 1. A Product Owner `orders the work` for a `complex problem` into a Product Backlog.
 2. The Scrum Team turns a `selection of the work` into a Product Increment of value during a Sprint.
 3. The Scrum Team and its `Stakeholder`s `inspect` the `results` and `adjust` for the `next Sprint`.
@@ -127,15 +108,19 @@
 
 ## Management (sự quản lý)
 
+[3. {Interrogate} What is the role of management in an organization adopting Scrum, and why is it still necessary?](./Scrum_Questions.md#scrum-concept-3)
+
 - The `Management` is expected to `set` a `vision` and a `direction` for the `business`.
     - Sự quản lý từ Organization
 - It `supports` the Product Owner with `business insights` and helps the Scrum Master in causing `change` within the `organization`.
 - While the `Scrum Guide` says `nothing` about `Management`, it does not mean that the `organization` will no longer `have managers`.
 - They still play an `important role` but need to `understand empiricism`, Scrum, and allow the teams to self-manage.
 
-# Characteristic
+## Characteristic
 
-## Purposefully Incomplete
+### Purposefully Incomplete
+
+[4. {Scan} Why is Scrum intentionally incomplete, and how does this benefit organizations using it?](./Scrum_Questions.md#scrum-concept-4)
 
 - Scrum framework is `Purposefully Incomplete`.
     - 💡 `Only` defining the `parts` required to `implement Scrum theory`.
@@ -144,7 +129,9 @@
 - Scrum is `built` upon by the `Collective Intelligence` of the people using it.
     - Scrum dựa trên mindset của những người tham gia
 
-## Various (đa dạng) Processes
+### Various (đa dạng) Processes
+
+[5. {Scan} How can different practices and methods be integrated within Scrum without violating its principles?](./Scrum_Questions.md#scrum-concept-5)
 
 - `Various` processes, techniques and methods can be employed within the framework.
     - Scrum `wraps` around `existing practices`.
@@ -153,11 +140,14 @@
 
 ### Documentation
 
-⚠️ Scrum Guide doesn't require documentation.
+[6. {Scan} Why doesn’t the Scrum Guide mandate specific documentation practices, and how should teams handle documentation needs?](./Scrum_Questions.md#scrum-concept-6)
 
+- ⚠️ Scrum Guide doesn't require documentation.
 - Documentation is useful to develop product
 
 ### Relative Efficacy (Hiệu quả tương đối)
+
+[7. {Scan} How does Scrum expose the relative efficacy of current management and work practices?](./Scrum_Questions.md#scrum-concept-7)
 
 - Scrum makes `visible` the `Relative Efficacy`:
     - `Current` Management
@@ -168,6 +158,8 @@
 
 ### Cone of Uncertainty
 
+[8. {Scan} What is the Cone of Uncertainty in Scrum, and how should teams manage it during development?](./Scrum_Questions.md#scrum-concept-8)
+
 ⚠️ `LONGER` the Forecast => `HIGHER` the Uncertainty
     - Never COMMITMENT
 - Describe the Uncertainty by Cone
@@ -177,7 +169,7 @@
 
 ### Questions
 
-[1. Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?](./Scrum_Questions.md#kanban-waterfall-2)
+[1. {Scan} Why is the Waterfall model less suitable for projects with frequently changing requirements, and how does it impact project risk?](./Scrum_Questions.md#kanban-waterfall-2)
 
 ## Concept
 

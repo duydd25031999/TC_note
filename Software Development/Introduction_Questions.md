@@ -70,7 +70,7 @@
 ### Project Overview
 
 - Project `Bespin` is a web‑based chatbot platform that lets cloud‑focused engineers manage servers and AWS resources through natural‑language conversations.
-- Users can query multiple AI models (ChatGPT, Copilot, bespoke LLMs) or escalate to in‑house experts, then execute the resulting commands in a secure, real‑time web terminal.
+- Users can query multiple AI models (ChatGPT, KKANA3, Claude) or escalate to in‑house experts, then execute the resulting commands in a secure, real‑time AI/CLI assistant.
 - Over four phases the product has expanded from basic Q&A to full remote control, attracting investor interest and demonstrating the power of combining AI guidance with human expertise.
 - Web chatbot for server and cloud management.
 - Dual‑layer answers: AI first, human experts refine.
@@ -105,55 +105,14 @@
 
 ## Non‑Functional Requirements
 
-[ ] Tóm gọn đống này lại
-
-- Clean, developer‑oriented UI
-- Always‑on, real‑time connectivity
-- High security for customer infrastructure links
--	The system will be accessed by public internet users. 
--	All request/response requests should support 128-bit SSL encryption for those pages and processes (e.g. payment) where personal data is transmitted. The requirement for SSL includes both the backend module and the front-end application accessed by users. Both admin module and front-end application sessions should expire after a defined period of inactivity (If any, this will be defined by BESPIN). Individual user IDs should be supported. There must be role-based access control (RBAC) with a hierarchy of privileges (e.g. read only access for some user roles, read/write access for other roles). The administrator should be able to disable/expire any user's ID at any time. 
-4.2.	Definition of security level and countermeasures  
--	Application vulnerability 
-o	XSS injections 
-o	Static IP filter for accessing into production environment. 
-o	Authentication: the users use Platform accounts, so security level for account management, password policy... is dependent on the Platform system. 
-o	Authorization: the users' permission needs to be verified at both front-end and back-end to prevent unauthorized access. 
-o	Session Management: authorization via cookie so the system needs to prevent: 
-●	Cookie Poisoning 
-●	Session Fixation 
-●	Session Hijacking 
-o	Input value injections: the system must validate the input value that is transferred between front-end and backend. It must prevent: 
-●	Data injection includes SQL injections and XPath injections. 
-●	File injections: file upload, file download 
--	Function bypass: parameter and response tampering. 
-o	Information leakage: 
-●	Development information leakage: included framework, libraries, code, api, internal documents. 
-●	Redundant necessary public information. 
-o	Encryption: sensitive information needs to be encrypted by a strong method and unpredictable encryption key. They include below items but not all: 
--	Browser-based Security 
-o	The users can use the system by browser. From the user’s perspective, the browser acts as their Trusted Computing Base. If the user chooses a suitable browser which they can trust, then the system can be considered “secured”. However, if there is any doubt that a browser is trustable, then all the system’s interaction is impacted and may not be reliably secure. 
-o	Same Origin Policy prevents pages from different origins or even iframes on the same page from exchanging information. It is important for the security of both the user and web server. 
--	Authorization and role management 
-o	Non-authorized APIs are protected by the API KEY. The API Key is 64 – character length, randomized, different between environments, not stored anywhere except the environment itself. 
-o	Permission matrix must be applied and prevents any unauthorized access. Users without permission must be shown the error message about unauthorized access.  
--	Data validation and sanitization 
-o	Input data needs to be validated before processing. 
-o	Only use known data, not all received data. 
-o	String must be trimmed. 
--	Privacy consideration 
-o	User’s information collection, transmission, storage, sharing must follow the law of both the user's country, the country that the system located and the company’s country.  
-o	The user’s information collection must be accepted by the user. 
-o	The system must have functions for user’s information extraction and deletion. They can be processed manually by the system administrator. 
--	Secure Data Storage and Transmission
-o	Enforce HTTPS: Ensure data is encrypted during transit.
-o	Prudent Data Storage: Avoid storing sensitive information in local storage or client-side cookies.
--	Managing Dependency Vulnerabilities
-o	Dependency Audits: Use tools like npm audit or Yarn for detecting and updating vulnerable dependencies.
--	DDOS Protection
-
-4.3.	Network communication  
--	The system must be communicated by using SSL (Secure Sockets Layer) protocol using Public CA. 
-
+- Clean & Developer-Oriented User Interface: Interface should be minimalist, intuitive, and optimized for developers’ workflows.
+- Always-on Real-time Connectivity: The system must maintain always-on, low-latency, real-time connections across all user-facing components.
+    - End-to-end 128-bit SSL encryption on both FE & BE
+    - WebSocket integration + Session Expiry for expert/admin layers
+- Protection against XSS, Cookie Poisoning, Session Fixation, Hijacking
+    - Trusted Browser Assumption + Same-Origin Policy Consideration
+- API-level Authorization with 64-character randomized API keys per environment
+- Infrastructure & Attack Surface Protection: DDOS protection, dependency vulnerability scanning, and compliance with browser security standards (Same-Origin Policy, Trusted Browsers) must be enforced.
 
 ## Achievements
 
@@ -195,10 +154,10 @@ o	Dependency Audits: Use tools like npm audit or Yarn for detecting and updating
 
 ## AI Model
 
-- Lựa chọn loại AI model để thực hiện giải đáp câu hỏi
-- ChatGPT 30
-- KKANA3 70B
-- Claude 3.5 Sonnet
+- Select the type of AI model to perform question answering
+    - ChatGPT 30
+    - KKANA3 70B
+    - Claude 3.5 Sonnet
 
 ## AWS Copilot
 
