@@ -120,8 +120,6 @@
 - Adaptability to rapid change
 - Client communication & stakeholder alignment
 - Internal leadership under dynamic conditions
-- (?) Advantage and disadvantage of using SSM instead of SSH
-- (?) Connect multiple session
 
 ## My responsibilities
 
@@ -170,6 +168,8 @@
 ## Freshdesk
 
 - Engineer user can manage Freshdesk to support customer
+    - Categorize, track, respond to, and resolve tickets
+    - Provide a self-service portal for customers
 - Engineer user view the details of the ticket and add notes to the ticket.
 
 ## AI Model
@@ -181,36 +181,39 @@
 
 ## AWS Copilot
 
-- (?) AWS Copilot là gì?
-- User thao tác với AWS thông qua giao diện Chatbox, với sự hỗ trợ của AWS Copilot
+- AWS Copilot is an official CLI tool provided by AWS to help developers easily deploy and manage containerized applications on services like:
+    - Amazon ECS (Elastic Container Service)
+    - AWS Fargate
+    - App Runner
+- With Bespin, interaction with AWS is more easier with Chatbox interface
 
-### "aws_conductor" agent
+### AWS Conductor agent
+
+- AWS Conductor is a custom AI-powered agent developed as part of the Bespin platform.
+- It acts as a layer that allows users to control AWS Copilot via natural language or structured forms. 
 
 ### Workplan
 
-- Users must select aws_conductor agent for room chat
-- Giải đáp, quản lý liên qua AWS Workplan
-- Có sẵn những AWS Workplan template để khởi tạo
-- Sử dụng prompt để tạo ra riêng AWS Workplan cho riêng mình
-    - Hệ thống sẽ gợi ý template phù hợp
-- Execute AWS Workplan, view Execution plan
-- Phân tích kết quả chạy được sau mỗi execute plan bằng AI để cho ra những gợi ý phù hợp
-- View được status chạy của từng step
-- Có thể save Workplan template của riêng mình
-- Work plan có thể edit, tạo form (variable)
-
-### Child chat
-
-- As a user, I want to have a child chat room to send and receive a message with agent aws_viewer in the original aws_conductor room.
+- A Workplan is a structured, deployment plan that defines what cloud infrastructure to create configure it, and execute it using AWS Copilot, all coordinated by AWS Conductor.
+    - Users must select `aws_conductor` agent for room chat
+- User manages AWS Workplans
+    - Access pre-defined AWS Workplan templates
+    - Generate custom Workplans using natural language prompts
+    - System suggests the most relevant template based on intent
+- Execute the Workplan and view its detailed execution steps
+    - AI analyzes execution results and provides actionable suggestions
+    - View real-time status of each execution step
+- Save personalized Workplan templates for future use
+- Workplans are editable and support variable-based form generation
 
 ## EKS Copilot
 
-- (?) EKS Copilot là gì?
--  As a user, I want to have A chat-based AI assistant that helps me manage my EKS clusters, so that I can efficiently deploy, monitor, and troubleshoot applications in Kubernetes without diving deep into command-line tools or extensive documentation.
+- EKS Copilot is a chat-based AI assistant that helps developers interact with Amazon EKS (Elastic Kubernetes Service) using natural language or form-based inputs - suggest `kubectl` commands or `Helm` charts.
+-  Users manage their EKS clusters, so that they can efficiently deploy, monitor, and troubleshoot applications in Kubernetes without diving deep into command-line tools or extensive documentation.
 
 ## Mermaid
 
-- As a users, I want to see the generated diagram from AI Chat’s response directly without going over code
+- Generate diagram from nature language prompt directly without going over code
 - When AI chat generate the code representing diagram, the system would use Mermaind library to apply the diagram overriding the code
 
 ## Web terminal
