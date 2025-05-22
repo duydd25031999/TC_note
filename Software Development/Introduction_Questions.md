@@ -93,14 +93,14 @@
 
 ## Technical Stack
 
-- `Front‑end:` Vue 3, Pinia, TailwindCSS, Socket.IO (real‑time)
+- `Front‑end:` Vue 3, Pinia, TailwindCSS, Socket (real‑time)
 - `Back‑end:` Client‑owned AI server & REST/WS APIs
 - `Security:` JWT auth, RBAC, command sandboxing (future)
 
 ## User Roles
 
-- `User` - Devs, DevOps, cloud admins, CTOs: ask questions & deploy commands.
-- `Engineer` - In‑house experts: support users and operate as users.
+- `User` - Devs, DevOps, cloud admins, CTOs: ask questions & overact with cloud servise with simple interface.
+- `Engineer` - In‑house experts: support users and also operate as users.
 - `Admin` - Configure menus, permissions, languages via separate Admin panel.
 
 ## Non‑Functional Requirements
@@ -114,15 +114,14 @@
 - API-level Authorization with 64-character randomized API keys per environment
 - Infrastructure & Attack Surface Protection: DDOS protection, dependency vulnerability scanning, and compliance with browser security standards (Same-Origin Policy, Trusted Browsers) must be enforced.
 
-## Achievements
+## Challenge and Achievements
 
 - Multiple funding rounds secured through live demos
-
-## Lessons Learned
-
 - Adaptability to rapid change
 - Client communication & stakeholder alignment
 - Internal leadership under dynamic conditions
+- (?) Advantage and disadvantage of using SSM instead of SSH
+- (?) Connect multiple session
 
 ## My responsibilities
 
@@ -152,25 +151,26 @@
 
 ## Chat with AI
 
-- As an engineer user, I want to open a new chat, so that I can start a conversation with AI chatbot.
-- Add graph (Chat Source and Assistant Modification): As a user, I want to see information related to the graph that will be displayed.
-    - When user asked the question need to display the graph, graph will be display include (Screen 26)
+### Introduction
 
-### Chat with AI: Agent list update
+- Users chat with an AI Chatbot to get support and manage a cloud service.
+- The interface is similar to typical AI Chatbots like ChatGPT.
+- Users can select the instance ID and region to focus the conversation on a specific cloud service, making it easier to manage.
+- The response of AI chatbot also has many type: text, code, graph, workplan form, etc; based on user's question
 
-- (?) Agent là gì với AWS Copilot
+### Agent
 
-- As a user, I want to select 1 agent for my question, so that I can select 1 or more agents to response
+- `Agent` refers to a component in an AI system or cloud management assistant
+- The `Agent` can be a background service or AI worker responsible for:
+    - Receiving user prompts
+    - Analyzing the intent, calling the corresponding API (e.g., AWS CLI, Copilot CLI)
+    - Executing tasks such as creating services, deploying applications, or monitoring
+    - Sending results back to the chatbot or user interface
 
-## Freshdesk ticket
+## Freshdesk
 
-- (?) Freshdesk là gì? Freshdesk ticket là gì? 
-
-- As a user, I want to open the Freshdesk ticket, so that I can view the details of the ticket and add notes to the ticket.
-
-## Chat with customer support
-
-- As a customer user, I want to chat with customer support, so that I can get help from them to solve my questions or problems.
+- Engineer user can manage Freshdesk to support customer
+- Engineer user view the details of the ticket and add notes to the ticket.
 
 ## AI Model
 
@@ -184,7 +184,7 @@
 - (?) AWS Copilot là gì?
 - User thao tác với AWS thông qua giao diện Chatbox, với sự hỗ trợ của AWS Copilot
 
-## aws_conductor
+### "aws_conductor" agent
 
 ### Workplan
 
@@ -217,6 +217,8 @@
 
 ### Introduction
 
+- Elastic Compute Cloud (EC2): a renting virtual computers (instances) service, launch virtual servers 
+- AWS Systems Manager (SSM): a comprehensive management service manages and configures AWS resources (EC2 instances, on-premises servers, and virtual machines)
 - User control EC2 remotely with the help of OS copilot
 - Effortlessly manage EC2 instances via a web terminal with intelligent OS Copilot assistance. 
 - This feature simplifies remote control, offering context-aware help, suggested commands, integrated file editing
@@ -247,11 +249,4 @@
     - Show activity logs history
     - View activity log
     - Download log file
-
-### Challenge
-
-- Elastic Compute Cloud (EC2): a renting virtual computers (instances) service, launch virtual servers 
-- AWS Systems Manager (SSM): a comprehensive management service manages and configures AWS resources (EC2 instances, on-premises servers, and virtual machines)
-- (?) Advantage and disadvantage of using SSM instead of SSH
-- (?) Connect multiple session
 
