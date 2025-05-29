@@ -165,19 +165,19 @@
     - Executing tasks such as creating services, deploying applications, or monitoring
     - Sending results back to the chatbot or user interface
 
+### AI Model
+
+- Select the type of AI model to perform question answering
+    - ChatGPT 30
+    - KKANA3 70B
+    - Claude 3.5 Sonnet#
+
 ## Freshdesk
 
 - Engineer user can manage Freshdesk to support customer
     - Categorize, track, respond to, and resolve tickets
     - Provide a self-service portal for customers
 - Engineer user view the details of the ticket and add notes to the ticket.
-
-## AI Model
-
-- Select the type of AI model to perform question answering
-    - ChatGPT 30
-    - KKANA3 70B
-    - Claude 3.5 Sonnet
 
 ## AWS Copilot
 
