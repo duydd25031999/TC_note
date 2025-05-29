@@ -8,9 +8,9 @@ var b = a;
 console.log(typeof b); //function
 ```
 
-[1. {Scan} How many way to define a function in Javascript?](./Javascript_Questions.md/#function-concept-1)
+[1. {Scan} How many way to define a function in Javascript?](./Javascript_Basic_Questions.md/#function-concept-1)
 
-[7. {Interrogate} What are the key differences between function declaration and function expression in JavaScript?](./Javascript_Questions.md/#function-concept-7)
+[7. {Interrogate} What are the key differences between function declaration and function expression in JavaScript?](./Javascript_Basic_Questions.md/#function-concept-7)
 
 ### Function regular declaration
 
@@ -36,7 +36,7 @@ var foo = function() {...}
 
 ### Immediately Invoked Function Expression (IIFE)
 
-[2. {Scan} How to private call a single function?](./Javascript_Questions.md/#function-concept-2)
+[2. {Scan} How to private call a single function?](./Javascript_Basic_Questions.md/#function-concept-2)
 
 - Self-invoking function expression.
 - Function that runs as soon as it is defined.
@@ -68,7 +68,7 @@ invite.call(employee2, "Hello", "How are you?"); // Hello Jimmy Baily, How are y
 
 ### apply()
 
-[1. {Scan} When to use `apply()` and use `call()`?](./Javascript_Questions.md/#function-concept-3)
+[1. {Scan} When to use `apply()` and use `call()`?](./Javascript_Basic_Questions.md/#function-concept-3)
 
 - Invokes the function with a given `this` value and allows you to pass arguments as an array.
   - Simmilar with `call()` but arguments as an array
@@ -95,7 +95,7 @@ invite.apply(employee2, ["Hello", "How are you?"]); // Hello Jimmy Baily, How ar
   - Doesn’t execute it immediately.
 - Allow to define `this` object actively.
 
-[2. {Scan} How does the ReactJS framework use `bind()`?](./Javascript_Questions.md/#function-concept-4)
+[2. {Scan} How does the ReactJS framework use `bind()`?](./Javascript_Basic_Questions.md/#function-concept-4)
 
 ```jsx
 var employee1 = { firstName: "John", lastName: "Rodson" };
@@ -138,7 +138,7 @@ class MyComponent extends React.Component {
 
 ## Arrow function (ES6)
 
-[5. {Scan} How does arrow function replace `bind()`?](./Javascript_Questions.md/#function-concept-5)
+[5. {Scan} How does arrow function replace `bind()`?](./Javascript_Basic_Questions.md/#function-concept-5)
 
 - An arrow function is a shorter syntax for a function expression.
 - It does not have its own `this` object, `arguments` array, `super`, or `new.target` like normal function.
@@ -189,7 +189,7 @@ console.log(adder.add(1));
 
 ## Strict mode
 
-[6. {Scan} How to apply block-scope in ES5?](./Javascript_Questions.md/#function-concept-6)
+[6. {Scan} How to apply block-scope in ES5?](./Javascript_Basic_Questions.md/#function-concept-6)
 
 - Strict context prevents certain actions from being taken and throws more exceptions.
 - Strict mode eliminates some JavaScript silent errors by changing them to throw errors.
@@ -221,9 +221,9 @@ function foo() {
 
 ## Concept
 
-[6. {Interrogate} What problems can occur when using nested callbacks, and how do Promises or async/await help fix them?](./Javascript_Questions.md/#function-concept-6)
+[6. {Interrogate} What problems can occur when using nested callbacks, and how do Promises or async/await help fix them?](./Javascript_Basic_Questions.md/#function-concept-6)
 
-[1. {Scan} What is callback?](./Javascript_Questions.md/#javascript-callback-1)
+[1. {Scan} What is callback?](./Javascript_Basic_Questions.md/#javascript-callback-1)
 
 - A callback is a function passed into another function as an argument.
 
@@ -251,7 +251,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Use of Callback
 
-[2. {Scan} Is callback only used for assigning future action?](./Javascript_Questions.md/#javascript-callback-2)
+[2. {Scan} Is callback only used for assigning future action?](./Javascript_Basic_Questions.md/#javascript-callback-2)
 
 - Callback có rất nhiều tác dụng
 - Nhưng có 2 cái được biết đến nhiều nhất
@@ -287,7 +287,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Sequential Brain
 
-[3. {Scan} How can we run multiple threads in Javascript?](./Javascript_Questions.md/#javascript-callback-3)
+[3. {Scan} How can we run multiple threads in Javascript?](./Javascript_Basic_Questions.md/#javascript-callback-3)
 
 - JavaScript runs in one thread, so it cannot do many things at the same time.
 - To simulate multitasking, JavaScript switches between small tasks very fast. We `fake multitasking`
@@ -297,7 +297,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Callback Hell
 
-[4. {Scan} What is the harm of Callback hell?](./Javascript_Questions.md/#javascript-callback-4)
+[4. {Scan} What is the harm of Callback hell?](./Javascript_Basic_Questions.md/#javascript-callback-4)
 
 - Callback Hell is an anti-pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic.
 - Callback Hell is that executing order of different callbacks cannot be determined.
@@ -314,7 +314,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Trying to Save Callbacks
 
-[5. {Scan} How to use Callback effectively?](./Javascript_Questions.md/#javascript-callback-5)
+[5. {Scan} How to use Callback effectively?](./Javascript_Basic_Questions.md/#javascript-callback-5)
 
 - Split callbacks = break into clearly steps in same level, sequence ⇒ pass multiple callback arguments lead to each step.
 - Error-first style =  thinking about catching error first then implement case success.

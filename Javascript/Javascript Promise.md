@@ -2,7 +2,7 @@
 
 ## Conept
 
-[1. {Scan} What is promise?](./Javascript_Questions.md/#promise-concept-1)
+[1. {Scan} What is promise?](./Javascript_Basic_Questions.md/#promise-concept-1)
 
 - A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved.
 - Promise is a variable to manage callbacks for asynchronous processing.
@@ -24,7 +24,7 @@
 
 ## Promise state
 
-[2. {Scan} How many state does a promise have?](./Javascript_Questions.md/#promise-concept-2)
+[2. {Scan} How many state does a promise have?](./Javascript_Basic_Questions.md/#promise-concept-2)
 
 Promises have three states:
 
@@ -41,7 +41,7 @@ Promises have three states:
 
 ### then
 
-[3. {Scan} What is `p.then()` used for?](./Javascript_Questions.md/#promise-concept-3)
+[3. {Scan} What is `p.then()` used for?](./Javascript_Basic_Questions.md/#promise-concept-3)
 
 ```jsx
 p.then(onFulfilled, onRejected?);
@@ -93,7 +93,7 @@ p.then(null, onRejected);
 
 ### finally
 
-[4. {Scan} How to execute an action whenever a promise responses?](./Javascript_Questions.md/#promise-concept-4)
+[4. {Scan} How to execute an action whenever a promise responses?](./Javascript_Basic_Questions.md/#promise-concept-4)
 
 ```jsx
 p.finally(onFinally);
@@ -108,7 +108,7 @@ p.finally(onFinally);
 
 ### all
 
-[5. {Scan} How to call multiple promises at the same time](./Javascript_Questions.md/#promise-concept-5)
+[5. {Scan} How to call multiple promises at the same time](./Javascript_Basic_Questions.md/#promise-concept-5)
 
 ```jsx
 Promise.all([ ...promiseArray ])
@@ -161,7 +161,7 @@ Promise.allSettled ([ ...promiseArray ])
 
 ### resolve
 
-[6. {Scan} How to transform a javascript value into promise?](./Javascript_Questions.md/#promise-concept-6)
+[6. {Scan} How to transform a javascript value into promise?](./Javascript_Basic_Questions.md/#promise-concept-6)
 
 ```jsx
 Promise.resolve(value)
@@ -182,13 +182,13 @@ Promise.reject(value)
 
 ### Questions
 
-[4. {Interrogate} How does await facilitate working with Promises?](./Javascript_Questions.md/#async-function-4)
+[4. {Interrogate} How does await facilitate working with Promises?](./Javascript_Basic_Questions.md/#async-function-4)
 
 ## Concept
 
-[1. {Scan} How to know a function is async function?](./Javascript_Questions.md/#async-function-1)
+[1. {Scan} How to know a function is async function?](./Javascript_Basic_Questions.md/#async-function-1)
 
-[2. {Scan} What is type of async function's return?](./Javascript_Questions.md/#async-function-2)
+[2. {Scan} What is type of async function's return?](./Javascript_Basic_Questions.md/#async-function-2)
 
 - An async function is a function declared with the `async` keyword which enables asynchronous.
 - Promise-based behavior to be written in a cleaner style by avoiding promise chains.
@@ -239,7 +239,7 @@ logger();
 
 ## Thenable Duck Typing
 
-[3. {Scan} What is advantage when using Promise?](./Javascript_Questions.md/#async-function-3)
+[3. {Scan} What is advantage when using Promise?](./Javascript_Basic_Questions.md/#async-function-3)
 
 - Instead of checking whether something is an actual Promise (`instanceof Promise`), we test whether it has a callable `then` property .
 

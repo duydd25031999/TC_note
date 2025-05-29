@@ -1,6 +1,6 @@
 # Prototype
 
-[1. {Scan} What is javascript prototype?](./Javascript_Questions.md#javascript-prototype-1)
+[1. {Scan} What is javascript prototype?](./Javascript_Object_Questions.md#javascript-prototype-1)
 
 - In JavaScript, every object carries an internal `[[Prototype]]` link to another object.
 - That prototype object stores methods or static properties of  constructor or class
@@ -11,7 +11,7 @@
 
 ## Constructor
 
-[2. {Scan} What is constructor in javascript?](./Javascript_Questions.md#javascript-prototype-2)
+[2. {Scan} What is constructor in javascript?](./Javascript_Object_Questions.md#javascript-prototype-2)
 
 - Constructor is a kind of Javascript function to defind an instance object (a blueprint)
   - If the function doesn’t explicitly return an object
@@ -32,13 +32,13 @@ a.constructor === Foo; // true
 
 ## Class stimulator
 
-[3. {Scan} How does "JS Prototype" replace "Class" in OOP like Java?](./Javascript_Questions.md#javascript-prototype-3)
+[3. {Scan} How does "JS Prototype" replace "Class" in OOP like Java?](./Javascript_Object_Questions.md#javascript-prototype-3)
 
 - Javascript in old version doesn’t have `class` concept
 - It just `stimulates class` => It stimulates OOP
 
 ```jsx
-// [4. {Scan} How to create "stimulates class" with javascript function](./Javascript_Questions.md#javascript-prototype-4)
+// [4. {Scan} How to create "stimulates class" with javascript function](./Javascript_Object_Questions.md#javascript-prototype-4)
 var Human = function(name) { // contructor
   this.name = name;
 }
@@ -57,10 +57,10 @@ var person1 = new Human('person1');   // new =call=> Human.prototype.constructor
 var person2 = new Human('person2');
 
 person1.sayHello();
-person2.sayHello(); // [5. {Scan} Is return of "person2.sayHello()" same with "person1.sayHello()"](./Javascript_Questions.md#javascript-prototype-5)
+person2.sayHello(); // [5. {Scan} Is return of "person2.sayHello()" same with "person1.sayHello()"](./Javascript_Object_Questions.md#javascript-prototype-5)
 person1.goRage();
 
-// [6. {Scan} What is return of those console.log](./Javascript_Questions.md#javascript-prototype-6)
+// [6. {Scan} What is return of those console.log](./Javascript_Object_Questions.md#javascript-prototype-6)
 console.log(person1.hasOwnProperty('name'));
 console.log(person1.hasOwnProperty('goRage'));
 console.log(person1.hasOwnProperty('hasOwnProperty'));
@@ -92,7 +92,7 @@ SuperHero.prototype.sayHello = function() {
 
 ### instanceof
 
-[7. {Scan} How to check an object is instance of a class / function?](./Javascript_Questions.md#javascript-prototype-7)
+[7. {Scan} How to check an object is instance of a class / function?](./Javascript_Object_Questions.md#javascript-prototype-7)
 
 - Check that is object instance of a class.
 
@@ -106,11 +106,11 @@ console.log(superHero1 instanceof Human);
 
 ### Questions
 
-[8. {Scan} Why is Object Prototype important?](./Javascript_Questions.md#javascript-prototype-8)
+[8. {Scan} Why is Object Prototype important?](./Javascript_Object_Questions.md#javascript-prototype-8)
 
-[17. {Interrogate} Why is storing methods on the constructor’s prototype more memory-efficient than defining them inside the constructor, and when can the extra lookup hurt performance?](./Javascript_Questions.md#javascript-prototype-17)
+[17. {Interrogate} Why is storing methods on the constructor’s prototype more memory-efficient than defining them inside the constructor, and when can the extra lookup hurt performance?](./Javascript_Object_Questions.md#javascript-prototype-17)
 
-[18. {Interrogate} Why do developers often use `Object.create(null)` to build “pure dictionary” objects, and what drawbacks should you watch out for?](./Javascript_Questions.md#javascript-prototype-18)
+[18. {Interrogate} Why do developers often use `Object.create(null)` to build “pure dictionary” objects, and what drawbacks should you watch out for?](./Javascript_Object_Questions.md#javascript-prototype-18)
 
 ----
 
@@ -121,13 +121,13 @@ console.log(superHero1 instanceof Human);
 
 ```jsx
 Object.getPrototypeOf(obj) // get Prototype of obj
-Object.getPrototypeOf(superHero1) // [9. {Scan} What is return of this line?](./Javascript_Questions.md#javascript-prototype-9)
+Object.getPrototypeOf(superHero1) // [9. {Scan} What is return of this line?](./Javascript_Object_Questions.md#javascript-prototype-9)
 ```
 
 ### Shallow clone, deep clone
 
-[10. {Scan} When do we use Shallow clone?](./Javascript_Questions.md#javascript-prototype-10)
-[11. {Scan} When do we use Deep clone?](./Javascript_Questions.md#javascript-prototype-11)
+[10. {Scan} When do we use Shallow clone?](./Javascript_Object_Questions.md#javascript-prototype-10)
+[11. {Scan} When do we use Deep clone?](./Javascript_Object_Questions.md#javascript-prototype-11)
 
 - Shallow clone: Copies the first-level properties of an object/array into a new container
   - Any nested objects/arrays are still shared references
@@ -165,12 +165,12 @@ console.log(returnedTarget);
 // expected output: Object { a: 1, b: 4, c: 5 }
 ```
 
-[12. {Scan} Does `returnedTarget` properties refer with `target` properties](./Javascript_Questions.md#javascript-prototype-12)
+[12. {Scan} Does `returnedTarget` properties refer with `target` properties](./Javascript_Object_Questions.md#javascript-prototype-12)
 
 ### create()
 
-[13. {Scan} What is different between `assign()` and `create()`](./Javascript_Questions.md#javascript-prototype-13)
-[14. {Scan} `create()` is shallow clone or deep clone](./Javascript_Questions.md#javascript-prototype-14)
+[13. {Scan} What is different between `assign()` and `create()`](./Javascript_Object_Questions.md#javascript-prototype-13)
+[14. {Scan} `create()` is shallow clone or deep clone](./Javascript_Object_Questions.md#javascript-prototype-14)
 
 - `Object.create(proto)` creates a new empty object and sets its `[[Prototype]]` link to point at proto.
 - **No data is copied**: properties on proto are accessed only through the prototype chain
@@ -182,7 +182,7 @@ var obj2 = Object.create(obj) // return clone of original obj
 
 ### hasOwnProperty
 
-[15. {Scan} How to check object has an property or not](./Javascript_Questions.md#javascript-prototype-15)
+[15. {Scan} How to check object has an property or not](./Javascript_Object_Questions.md#javascript-prototype-15)
 
 ```jsx
 obj.hasOwnProperty('nameOfProperty') // return boolean
@@ -191,7 +191,7 @@ nameOfProperty in obj //use "in" keyword
 
 ### defineProperty
 
-[16. {Scan}  Why we need to define property](./Javascript_Questions.md#javascript-prototype-16)
+[16. {Scan}  Why we need to define property](./Javascript_Object_Questions.md#javascript-prototype-16)
 
 ```jsx
 Object.defineProperty(obj, prop, option); // create new property for object
@@ -208,9 +208,9 @@ Object.defineProperty(obj, prop, option); // create new property for object
 
 ### Questions
 
-[1. {Scan} Why can Callback be passed into another function as an argument?](./Javascript_Questions.md#javascript-callback-1)
+[1. {Scan} Why can Callback be passed into another function as an argument?](./Javascript_Object_Questions.md#javascript-callback-1)
 
-[7. {Scan} {Interrograte} Why do we register a deferred action as a callback (e.g., via setTimeout, AJAX), and what trade-offs does this non-blocking model introduce?](./Javascript_Questions.md#javascript-callback-7)
+[7. {Scan} {Interrograte} Why do we register a deferred action as a callback (e.g., via setTimeout, AJAX), and what trade-offs does this non-blocking model introduce?](./Javascript_Object_Questions.md#javascript-callback-7)
 
 ----
 
@@ -242,7 +242,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ## Use of Callback
 
-[2. {Scan} Callback is used only for calling API, isn't it?](./Javascript_Questions.md#javascript-callback-2)
+[2. {Scan} Callback is used only for calling API, isn't it?](./Javascript_Object_Questions.md#javascript-callback-2)
 
 - Callbacks have numerous applications
 - But two of them are the most widely recognized
@@ -281,15 +281,15 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ### Sequential Brain
 
-[3. {Scan} How can we run multitasking in Javascript?](./Javascript_Questions.md#javascript-callback-3)
+[3. {Scan} How can we run multitasking in Javascript?](./Javascript_Object_Questions.md#javascript-callback-3)
 
 - When we `fake multitasking` ⇒  we switch back and `forth between two or more tasks` in rapid succession ⇒ simultaneously progressing on each task in `tiny, fast little chunks`
 - We do it so `fast` that to the `outside world` it appears as if we're `doing these things in parallel`.
 
 ### Callback Hell
 
-[4. {Scan} What is callback hell?](./Javascript_Questions.md#javascript-callback-4)
-[5. {Scan} Why does “callback hell” emerge in deeply nested asynchronous code, and how does inversion of control hurt maintainability?](./Javascript_Questions.md#javascript-callback-5)
+[4. {Scan} What is callback hell?](./Javascript_Object_Questions.md#javascript-callback-4)
+[5. {Scan} Why does “callback hell” emerge in deeply nested asynchronous code, and how does inversion of control hurt maintainability?](./Javascript_Object_Questions.md#javascript-callback-5)
 
 - Callback Hell is an anti-pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic.
 - Callback Hell is that executing order of different callbacks cannot be determined.
@@ -308,7 +308,7 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ### Trying to Save Callbacks
 
-[6. {Scan} How to save callback from Callback hell?](./Javascript_Questions.md#javascript-callback-6)
+[6. {Scan} How to save callback from Callback hell?](./Javascript_Object_Questions.md#javascript-callback-6)
 
 - Split callbacks = break into clearly steps in same level, sequence ⇒ pass multiple callback arguments lead to each step.
 - Error-first style = thinking about catching error first then implement case success.
@@ -324,9 +324,9 @@ consoleLogFrom(sayHelloWorld); //hello world
 
 ### Questions
 
-[1. {Scan} What is advantage of Map with Array?](./Javascript_Questions.md#javascript-map-1)
+[1. {Scan} What is advantage of Map with Array?](./Javascript_Object_Questions.md#javascript-map-1)
 
-[2. {Interrograte} Why would you choose Map over a plain object for a key-value store, and what real impact does that have on large-scale data handling?](./Javascript_Questions.md#javascript-map-2)
+[2. {Interrograte} Why would you choose Map over a plain object for a key-value store, and what real impact does that have on large-scale data handling?](./Javascript_Object_Questions.md#javascript-map-2)
 
 ## Concept
 
