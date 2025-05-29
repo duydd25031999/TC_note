@@ -301,30 +301,91 @@ Inline methods inside the constructor only make sense when each instance truly n
 
 ### iterator-concept-1
 
-**Q:** {Scan} 
+**Q:** {Scan}  What is signature of Iterator?
 
-[1. {Scan} ](./Javascript_Object_Questions.md#iterator-concept-1)
+- English sample answer:
+	- Iterator object has `.next()` method
 
 ### iterator-concept-2
 
-**Q:** {Scan} 
+**Q:** {Scan} What kinds of variable that `for..of` loops used for?
 
-[2. {Scan} ](./Javascript_Object_Questions.md#iterator-concept-2)
+- English sample answer:
+	- The `for..of` loop expects variable to be an *iterable*.
 
 ### iterator-concept-3
 
-**Q:** {Scan} 
+**Q:** {Interrograte} What’s the difference between an iterator and an iterable in JavaScript, and how does `for...of` work with them?
 
-[3. {Scan} ](./Javascript_Object_Questions.md#iterator-concept-3)
+- Vietnamese outline:
+	- Iterator: có `.next()` để lặp từng bước
+	- Iterable: có `[Symbol.iterator]()` trả về một iterator
+	- `for...of`: chỉ hoạt động với Iterable
+- English sample answer:
+	- In JavaScript, an iterator is an object with a `.next()` method that returns `{ value, done }`.
+	- An iterable is an object that implements the `[Symbol.iterator]()` method and returns an iterator.
+	- The `for...of` loop only works on iterables, like arrays, strings, maps, sets, or custom objects that implement `[Symbol.iterator]()`.
+	- Under the hood, `for...of` keeps calling `.next()` on the returned iterator until done is true.
+	- A common real-life use is custom data streams or generators, where each next value is computed on demand.
 
-### iterator-concept-4
+## Javascript Array
 
-**Q:** {Scan} 
+### javascript-array-1
 
-[4. {Scan} ](./Javascript_Object_Questions.md#iterator-concept-4)
+**Q:** {Scan} What method of array returns new array, what method change the original array?
 
-### iterator-concept-5
+- English sample answer:
+	- Methods That Return a New Array (Non-mutating)
+		- `map()`: Transforms each item and returns a new array
+		- `filter()`: Filters items by condition
+		- `slice()`: Extracts a subarray
+		- `concat()`: Combines arrays
+		- `flat()`: Flattens nested arrays
+		- `Array.from()`: Converts iterable or array-like object
+		- `Array.of()`: Creates array from arguments
+	- Methods That Change the Original Array (Mutating)
+		- `push()`: Adds item(s) to the end
+		- `pop()`: Removes item from the end
+		- `shift()`: Removes item from the beginning
+		- `unshift()`: Adds item(s) to the beginning
+		- `splice()`: Add/remove/replace items at a position
+		- `sort()`: Sorts array in place
+		- `reverse()`: Reverses the order
 
-**Q:** {Scan} 
+### javascript-array-2
 
-[5. {Scan} ](./Javascript_Object_Questions.md#iterator-concept-5)
+**Q:** {Interrograte} What are the differences between `.map()`, `.forEach()`, and `.reduce()` in JavaScript? Which should you use in real-world data processing?
+
+- Vietnamese outline:
+	- `.map()`: trả về mảng mới
+	- `.forEach()`: không return gì
+	- `.reduce()`: tính ra giá trị duy nhất
+	- Thực tế: `.map` cho transform, `.reduce` cho aggregate, `.forEach` cho side effect
+- English sample answer:
+	- `.map()` returns a new array where each item is transformed. It's great for converting formats or structures.
+	- `.forEach()` runs a function on each element but returns undefined. It’s only for side effects like logging.
+	- `.reduce()` compresses the array into a single value, like a total, an object map, or a new array.
+	- In real-world apps, I use `.map()` for transformations, `.reduce()` for aggregating data, and `.forEach()` when I need side-effects but not a result.
+	- For example, transforming user data from API uses `.map()`, while grouping them by ID uses `.reduce()`.
+
+## Javascript String
+
+### javascript-string-1
+
+**Q:** {Scan} Length of string is number of characters, isn't it?
+
+- English sample answer:
+	-  Not always. In JavaScript, length of a string returns the number of UTF-16 code units, not actual characters
+
+### javascript-string-2
+
+**Q:** {Interrograte} How do you compare strings in JavaScript, and why is it important to remember that strings are immutable?
+
+- Vietnamese outline:
+	- So sánh chuỗi dùng `===`, phân biệt ký tự và độ dài
+	- Chuỗi là immutable: mọi thay đổi tạo chuỗi mới
+	- Thao tác như `replace`, `slice`, `toUpperCase` không sửa chuỗi gốc
+- English sample answer:
+	- In JavaScript, strings are compared by value using `===` which checks both the content and the order of characters.
+	- For example, `"abc" === "abc"` returns `true`, but `"abc" === "ABC"` returns `false` due to case.
+	- Strings are immutable, meaning any operation like `replace()`, `slice()`, or `toUpperCase()` returns a new string instead of changing the original.

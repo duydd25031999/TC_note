@@ -1,8 +1,16 @@
 # Iterator
 
+[1. {Scan} What is signature of Iterator?](./Javascript_Object_Questions.md#iterator-concept-1)
+
+[3. {Interrograte} What’s the difference between an iterator and an iterable in JavaScript, and how does `for...of` work with them?](./Javascript_Object_Questions.md#iterator-concept-3)
+
 ## Iterator: trình lặp lại
 
-- An iterator is a well-defined interface for stepping through a series of values from a producer.
+- Iterator is an object that lets us step through a sequence of values one at a time using a `.next()` method. 
+- Each time we call `next()`, it gives us an object with two properties:
+	- `value`: the current item
+	- `done`: a boolean that tells us whether the sequence is finished
+- Generators make iterators easier
 
 ```jsx
 var something = (function(){
@@ -41,6 +49,11 @@ for (var v of something) {
 
 ## Iterable: có thể lặp lại
 
+[2. {Scan} What kinds of variable that `for..of` loops used for?](./Javascript_Object_Questions.md#iterator-concept-2)
+
+- An iterable is any object that can be used in a `for...of` loop or with the spread operator (`...`). 
+- It must have a `[Symbol.iterator]()` method that returns an iterator.
+
 ```jsx
 var a = [1,3,5,7,9];
 var it = a[Symbol.iterator]();
@@ -49,7 +62,7 @@ it.next().value; // 3
 it.next().value; // 5
 ```
 
-- The for..of loop expects *something* to be an *iterable*.
+- The `for..of` loop expects variable to be an *iterable*.
 
 ```jsx
 function *something() {
@@ -78,7 +91,15 @@ break;
 
 ## Concept
 
+- Array: ordered list, zero-based index
+- length: total number of elements
+- index: starts from 0
+
 ## Function
+
+[1. {Scan} What method of array returns new array, what method change the original array?](./Javascript_Object_Questions.md#javascript-array-1)
+
+[2. {Interrograte} What are the differences between `.map()`, `.forEach()`, and `.reduce()` in JavaScript? Which should you use in real-world data processing?](./Javascript_Object_Questions.md#javascript-array-2)
 
 ### forEarch
 
@@ -223,9 +244,9 @@ function filterFunc(item) {
 array.every(filterFunc);
 ```
 
-### **concat**
+### concat
 
-- The **`concat()`** method is used to merge two or more arrays.
+- The `concat()` method is used to merge two or more arrays.
 - Return new array.
 
 ```jsx
@@ -237,7 +258,7 @@ console.log(array3);
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
 ```
 
-### **find**
+### find
 
 - Returns the first element in the provided array that satisfies the provided testing function.
 - If no values satisfy the testing function, `undefined` is returned.
@@ -250,12 +271,12 @@ const found = array1.find(element => element > 10);
 console.log(found); // expected output: 12
 ```
 
-### **findIndex**
+### findIndex
 
 - Like `find` but return index number.
 - Return `-1` if not found.
 
-### **slice**
+### slice
 
 - Return sub array of current array.
 
@@ -292,7 +313,49 @@ splice(
 
 ## Concept
 
+[1. {Scan} Length of string is number of characters, isn't it?](./Javascript_Object_Questions.md#javascript-string-1)
+
+[2. {Interrograte} How do you compare strings in JavaScript, and why is it important to remember that strings are immutable?](./Javascript_Object_Questions.md#javascript-string-2)
+
+
 - String is a iterator ⇒ access character by index
-    
-    `char = string[i]`
+
+```js
+char = string[i]
+```
+
+- `length`: Number of UTF-16 code units (not characters)
+
+## Method
+
+### Search & Check
+
+| Method             | Description                        |
+| ------------------ | ---------------------------------- |
+| `indexOf(sub)`     | First index of `sub`, or -1        |
+| `lastIndexOf(sub)` | Last index of `sub`, or -1         |
+| `includes(sub)`    | Returns `true` if `sub` exists     |
+| `startsWith(sub)`  | `true` if string starts with `sub` |
+| `endsWith(sub)`    | `true` if string ends with `sub`   |
+
+### Slice & Substring
+
+| Method                   | Description                                      |
+| ------------------------ | ------------------------------------------------ |
+| `slice(start, end?)`     | Returns part of string (supports negative index) |
+| `substring(start, end?)` | Similar to `slice`, but **no negative index**    |
+| `substr(start, length?)` | Deprecated, avoid using in new code              |
+
+### Replace & Transform
+
+| Method                      | Description                       				|
+| --------------------------- | ------------------------------------------|
+| `trim()`                    | Removes whitespace from both ends 				|
+| `trimStart()` / `trimEnd()` | Start or end only                 				|
+| `split(separator)` 					| Converts string into array        				|
+| `.join()`          					| (Array method – combine back into string) |
+| `replace(search, new)`    	| Replace first match              					|
+| `replaceAll(search, new)` 	| Replace all matches (ES2021)     					|
+| `toUpperCase()`           	| ALL CAPS                         					|
+| `toLowerCase()`           	| all lowercase                    					|
 
