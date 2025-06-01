@@ -285,7 +285,7 @@
 
 ### git-concept-1
 
-**Q:** {Interrogate} What is Git and why is it important in software development?
+**Q:** {Scan} What is Git and why is it important in software development?
 
 - Vietnamese outline:
   - Question:
@@ -301,7 +301,7 @@
 
 ### git-concept-2
 
-**Q:** {Interrogate} In Git, what does a commit represent?
+**Q:** {Scan} In Git, what does a commit represent?
 
 - Vietnamese outline:
   - Question: Commit trong Git đại diện cho điều gì?
@@ -324,7 +324,7 @@
 
 ### git-concept-4
 
-**Q:** {Interrogate} What is a branch in Git and why do we use it?
+**Q:** {Scan} What is a branch in Git and why do we use it?
 
 - Vietnamese outline:
   - Question:
@@ -351,7 +351,7 @@
 
 ### git-concept-6
 
-**Q:** {Interrogate} What is a pull request and why is it used in team collaboration?
+**Q:** {Scan} What is a pull request and why is it used in team collaboration?
 
 - Vietnamese outline:
   - Question:
@@ -366,7 +366,7 @@
 
 ### git-concept-7
 
-**Q:** {Interrogate} What is a remote repository in Git?
+**Q:** {Scan} What is a remote repository in Git?
 
 - Vietnamese outline:
   - Question: Remote repository trong Git là gì?
@@ -376,7 +376,7 @@
 
 ### git-concept-8
 
-**Q:** {Interrogate} What is the purpose of the git add command?
+**Q:** {Scan} What is the purpose of the git add command?
 
 - Vietnamese outline:
   - Question: Lệnh git add dùng để làm gì?
@@ -386,7 +386,7 @@
 
 ### git-concept-9
 
-**Q:** {Interrogate} What does git fetch do?
+**Q:** {Scan} What does git fetch do?
 
 - Vietnamese outline:
   - Question: git fetch thực hiện điều gì?
@@ -396,7 +396,7 @@
 
 ### git-concept-10
 
-**Q:** {Interrogate} What does the git merge command accomplish?
+**Q:** {Scan} What does the git merge command accomplish?
 
 - Vietnamese outline:
   - Question: git merge dùng để làm gì?
@@ -406,7 +406,7 @@
 
 ### git-concept-11
 
-**Q:** {Interrogate} What happens when you run git pull?
+**Q:** {Scan} What happens when you run git pull?
 
 - Vietnamese outline:
   - Question: git pull làm gì?
@@ -416,7 +416,7 @@
 
 ### git-concept-12
 
-**Q:** {Interrogate} What does the git push command do?
+**Q:** {Scan} What does the git push command do?
 
 - Vietnamese outline:
   - Question: Lệnh git push có tác dụng gì?
@@ -426,7 +426,7 @@
 
 ### git-concept-13
 
-**Q:** {Interrogate} What is the purpose of using git rebase?
+**Q:** {Scan} What is the purpose of using git rebase?
 
 - Vietnamese outline:
   - Question: git rebase dùng để làm gì?
@@ -436,7 +436,7 @@
 
 ### git-concept-14
 
-**Q:** {Interrogate} What does git cherry-pick do in Git?
+**Q:** {Scan} What does git cherry-pick do in Git?
 
 - Vietnamese outline:
   - Question: git cherry-pick làm gì?
@@ -446,7 +446,7 @@
 
 ### git-concept-15
 
-**Q:** {Interrogate} What is the git reset command used for?
+**Q:** {Scan} What is the git reset command used for?
 
 - Vietnamese outline:
   - Question: git reset được dùng để làm gì?
@@ -456,7 +456,7 @@
 
 ### git-concept-16
 
-**Q:** {Interrogate} What is git stash and when would you use it?
+**Q:** {Scan} What is git stash and when would you use it?
 
 - Vietnamese outline:
   - Question:
@@ -473,7 +473,7 @@
 
 ### gitflow-1
 
-**Q:** {Interrogate} What is Gitflow and why is it used in software development?
+**Q:** {Scan} What is Gitflow and why is it used in software development?
 
 - Vietnamese outline:
   - Question: 
@@ -501,7 +501,7 @@
 
 ### gitflow-3
 
-**Q:** {Interrogate} What is a Feature branch in Gitflow and when do you use it?
+**Q:** {Scan} What is a Feature branch in Gitflow and when do you use it?
 
 - Vietnamese outline:
   - Question:
@@ -516,7 +516,7 @@
 
 ### gitflow-4
 
-**Q:** {Interrogate} What is a Release branch in Gitflow and what is its purpose?
+**Q:** {Scan} What is a Release branch in Gitflow and what is its purpose?
 
 - Vietnamese outline:
   - Question:
@@ -531,7 +531,7 @@
 
 ### gitflow-5
 
-**Q:** {Interrogate} What is a Hotfix branch in Gitflow and when is it needed?
+**Q:** {Scan} What is a Hotfix branch in Gitflow and when is it needed?
 
 - Vietnamese outline:
   - Question:
