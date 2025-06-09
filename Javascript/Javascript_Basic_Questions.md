@@ -480,3 +480,99 @@
 	- We may not know the exact order of execution or where the error happens.
 	- Promises let us chain steps more clearly and return new promises for better control.
 	- async/await makes asynchronous code look and behave like synchronous code, so it's easier to write and maintain.
+
+# Javascript ES6
+
+## ES6 Basic
+
+### es6-basic-1
+
+**Q:** {Scan} What are new features of ES6 with older version?
+
+- English Sample Answer:
+	1. Support for constants or immutable variables
+	2. Block-scope support for variables, constants and functions
+	3. Arrow functions
+	4. Default parameters
+	5. Rest and Spread Parameters
+	6. Template Literals
+	7. Multi-line Strings
+	8. Destructuring Assignment
+	9. Enhanced Object Literals
+	10. Promises
+	11. Classes
+	12. Modules
+
+### es6-basic-2
+
+**Q:** {Scan} What is Destructuring used for?
+
+- English Sample Answer:
+	- Unpack values from arrays, or properties from objects
+
+### es6-basic-3
+
+**Q:** {Scan} What is ellipsis keyword used in ES6?
+
+- English Sample Answer:
+	- Ellipsis `...` is used as Spread Syntax or Destructuring
+
+### es6-basic-4
+
+**Q:** {Scan} What is Template literal used for?
+
+- Outline:
+	- Multi-line strings
+	- Embedded expressions, string interpolation (using ${})
+
+### es6-basic-5
+
+**Q:** {Scan} What is `for ... in` for and `for ... of` for?
+
+- English Sample Answer:
+	- `for ... in` is for (Object) values
+	- `for ... of` is for (Array) keys
+
+### es6-basic-6
+
+**Q:** {Interrogate} What is advantage of ES6 with ES5?
+
+- Vietnamese Outline:
+	- Question: Cải thiện của ES6 với ES5
+	- Answers:
+		- Cú pháp ngắn gọn, dễ đọc hơn
+		- Có block scope (let, const) → an toàn hơn var
+		- Hỗ trợ OOP rõ ràng hơn (class, extends)
+		- Làm việc với bất đồng bộ dễ hơn (Promise, async/await)
+		- Spread / Destructuring giúp code linh hoạt, gọn
+		- Hỗ trợ module (import/export) → dễ tổ chức mã nguồn
+		- Dễ viết test, maintain, và scale hệ thống
+- English Sample Answer:
+	- ES6 brings several important advantages compared to ES5.
+	1. The syntax is much cleaner and more expressive, making code easier to read and write. For example, arrow functions, template literals, and destructuring help reduce boilerplate.
+	2. ES6 introduces block-scoped variables (let and const) which fix many issues caused by var hoisting in ES5.
+	3. ES6 adds class syntax and inheritance with extends, making it easier to implement object-oriented design, especially for React components.
+	- It also makes asynchronous programming cleaner with Promises and async/await, helping us avoid callback hell.
+	- Finally, ES6 supports modules (import / export) so code can be split into reusable files — which is very helpful in large projects.
+
+## ES6 Module
+
+### es6-module-1
+
+**Q:** {Scan} What is `class` in ES6?
+
+- English Sample Answer:
+	- `class` is blueprint prototype-based OOP
+	- `constructor` is First method called when `new Class()` is used
+	- `extends` is for Subclass inherits from parent class
+	- `super` calls parent constructor or parent method
+
+### es6-module-2
+
+**Q:** {Scan} What are the keywords about ES6 Module?
+
+- English Sample Answer:
+	- `export`: Named exports (can export many per file)
+	- `export default`: One default export per file, imported without `{}`
+	- `import`: Use to bring in either named or default exports
+

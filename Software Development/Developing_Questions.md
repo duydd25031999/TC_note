@@ -23,7 +23,7 @@
 
 ### leadership-philosophy-2
 
-**Q:** {Interrogate} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?
+**Q:** {Scan} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?
 
 - Vietnamese outline:
   - Question:
@@ -42,7 +42,7 @@
 
 ### leadership-philosophy-3
 
-**Q:** {Interrogate} Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?
+**Q:** {Scan} Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?
 
 - Vietnamese outline:
   - Question:
@@ -61,7 +61,7 @@
 
 ### leadership-philosophy-4
 
-**Q:** {Interrogate} How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.
+**Q:** {Scan} How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.
 
 - Vietnamese outline:
   - Question:
@@ -98,7 +98,7 @@
 
 ### leadership-philosophy-6
 
-**Q:** {Interrogate} Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?
+**Q:** {Scan} Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?
 
 - Vietnamese outline:
   - Question:
@@ -118,7 +118,7 @@
 
 ### leadership-roles-1
 
-**Q:** {Interrogate} Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).
+**Q:** {Scan} Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).
 
 - Vietnamese outline:
   - Question:
@@ -139,7 +139,7 @@
 
 ### leadership-roles-2
 
-**Q:** {Interrogate} How do you handle conflicting priorities between technical requirements and stakeholder demands?
+**Q:** {Scan} How do you handle conflicting priorities between technical requirements and stakeholder demands?
 
 - Vietnamese outline:
   - Question:
@@ -159,7 +159,7 @@
 
 ### leadership-roles-3
 
-**Q:** {Interrogate} Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?
+**Q:** {Scan} Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?
 
 - Vietnamese outline:
   - Question:
@@ -198,7 +198,7 @@
 
 ### leadership-roles-5
 
-**Q:** {Interrogate} How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
+**Q:** {Interrogate} How do you integra te your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
 
 - Vietnamese outline:
   - Question:
@@ -220,7 +220,7 @@
 
 ### team-collaboration-1
 
-**Q:** {Interrogate} How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?
+**Q:** {Scan} How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?
 
 - Vietnamese outline:
   - Question:
@@ -241,7 +241,7 @@
 
 ### team-collaboration-2
 
-**Q:** {Interrogate} Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?
+**Q:** {Scan} Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?
 
 - Vietnamese outline:
   - Question:
@@ -261,7 +261,7 @@
 
 ### team-collaboration-3
 
-**Q:** {Interrogate} Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?
+**Q:** {Scan} Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?
 
 - Vietnamese outline:
   - Question:
