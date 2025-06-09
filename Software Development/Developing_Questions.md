@@ -30,12 +30,13 @@
     - Làm sao cân bằng giữa kỷ luật và sáng tạo?
     - Có ví dụ cụ thể không?
   - Answer:
-    - Phát triển tính năng mới trong thời hạn gấp
+    - Bắt đầu với việc tự đặt thời hạn ngắn và kết quả đầu dễ dàng để kích thích động não và dễ dàng đặt được
     - Tổ chức brainstorm giới hạn thời gian để khơi nguồn sáng tạo
     - Đánh giá ý tưởng theo giá trị, khẩn cấp, tính khả thi
     - Kết quả: tạo được giải pháp sáng tạo và kế hoạch rõ ràng
 - English sample answer:
-  - I once had to lead a new feature development under a tight deadline.
+  - Begin by giving ourselves tight deadlines and focusing on straightforward, immediate results. 
+    - This can spark new ideas and make the goals simple to attain.
   - I started with a creative brainstorming session under a strict time limit.
   - Then we evaluated ideas by value, urgency, and feasibility.
   - This helped us generate innovative solutions while keeping a clear and structured plan.
@@ -54,9 +55,9 @@
     - Kết quả: team chủ động hơn, tăng năng suất
     - Bài học: cân bằng giữa kiểm soát và trao quyền
 - English sample answer:
-  - I used to micromanage, which reduced team autonomy.
+  - Excessive control often leads to a lack of team autonomy.
   - I started having regular one-on-one sessions to delegate and give feedback.
-  - The team became more independent and productive.
+    - The team became more independent and productive.
   - I learned that balancing control with empowerment is key.
 
 ### leadership-philosophy-4
