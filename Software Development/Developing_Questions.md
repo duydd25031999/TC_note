@@ -69,14 +69,14 @@
     - Khi thành viên không tuân theo giá trị lãnh đạo thì sao?
     - Có ví dụ cụ thể không?
   - Answer:
-    - Một thành viên hay trễ deadline tài liệu
+    - Một thành viên hay trễ deadline cho việc làm tài liệu
     - Họp 1-1 để làm rõ trách nhiệm và quy định chung
-    - Đưa ra deadline mới và hệ thống tài liệu hợp tác
+    - Đưa ra deadline mới và cải thiện hệ thống tài liệu
     - Kết quả: hiệu suất cải thiện và tăng tính cam kết
 - English sample answer:
-  - A team member kept missing documentation deadlines.
+  - A team member kept missing deadlines for documentation.
   - I held a one-on-one meeting to clarify the impact and our shared values.
-  - We adjusted deadlines and used a shared system.
+  - We adjusted deadlines and improve the document system myself.
   - This improved their performance and reinforced accountability.
 
 ### leadership-philosophy-5
@@ -132,7 +132,7 @@
     - Ghi chép đầy đủ để đảm bảo minh bạch
     - Dự án hoàn thành đúng hạn và tăng phối hợp nhóm
 - English sample answer:
-  - I defined the scope and picked the best front-end tech.
+  - I defined the scope and picked the suitable front-end tech.
   - I led meetings, assigning tasks by team members’ strengths.
   - I represented our team in stakeholder discussions and decision-making.
   - I kept detailed records to trace key decisions.
@@ -155,8 +155,8 @@
   - I document decisions to clarify context if issues arise.
   - I prioritize tasks by value and urgency.
   - I explain technical limits clearly in stakeholder meetings.
-  - I keep everyone updated to avoid misalignment.
-  - This approach protects quality and ensures compromise.
+  - I provide regular progress updates to both the team and stakeholders.
+  - I ensure the solution balances quality with requirements.
 
 ### leadership-roles-3
 
@@ -166,7 +166,6 @@
   - Question:
     - Bạn từng mentor team khi áp lực cao chưa? Hiệu quả thế nào?
   - Answer:
-    - Tổ chức buổi training và gặp 1-1 khi dự án bận rộn
     - Đưa feedback cụ thể, dễ hành động
     - Theo dõi tiến bộ và đặt mốc đo lường
     - Xây văn hóa học hỏi và chia sẻ
@@ -175,6 +174,7 @@
   - During a busy sprint, I arranged targeted mentoring sessions.
   - I gave direct feedback to address performance gaps.
   - I tracked growth through milestones and check-ins.
+  - I build a culture of learning and easy sharing.
   - This built a learning culture and lifted team performance.
 
 ### leadership-roles-4
@@ -199,7 +199,7 @@
 
 ### leadership-roles-5
 
-**Q:** {Interrogate} How do you integra te your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
+**Q:** {Interrogate} How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?
 
 - Vietnamese outline:
   - Question:

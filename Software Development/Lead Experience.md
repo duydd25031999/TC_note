@@ -1,11 +1,5 @@
 # Leadership Philosophy and Personal Growth
 
-### Questions
-
-[1. {Interrogate} How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?](./Developing_Questions.md#leadership-philosophy-1)
-
-[5. {Interrogate} What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?](./Developing_Questions.md#leadership-philosophy-5)
-
 ## Adaptability
 
 [2. {Scan} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?](./Developing_Questions.md#leadership-philosophy-2)
@@ -29,17 +23,15 @@
 
 ## Responsibility
 
-[4. {Scan} How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.](./Developing_Questions.md#leadership-philosophy-4)
-
 - Definition: A commitment where each team member understands their individual role and appreciates that the entire team’s success depends on every person’s contributions.
 - Actions:
 	- Clearly communicate individual as well as team responsibilities from the start.
 	- Stress that one person’s issues impact the whole team, promoting collective accountability.
 - Example: I emphasized the concept that if one team member encountered a problem, it would affect the overall outcome, reinforcing the idea that everyone must take ownership of their tasks.
 
-## Smart Work Organization
+[4. {Scan} How do you handle situations when a team member’s actions conflict with your leadership values, such as responsibility or maintaining order? Please share a specific example.](./Developing_Questions.md#leadership-philosophy-4)
 
-[6. {Scan} Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?](./Developing_Questions.md#leadership-philosophy-6)
+## Smart Work Organization
 
 - Definition: Efficiently managing tasks by balancing quality with productivity, ensuring that work is prioritized to match both business needs and team capabilities.
 - Actions:
@@ -47,17 +39,17 @@
 	- Arrange the project backlog accordingly to streamline task assignment and execution.
 - Example: I organized the project’s tasks into a backlog by categorizing them as important, urgent, and easy, which allowed for a more strategic and manageable distribution of work among team members.
 
+[6. {Scan} Reflect on a scenario where your commitment to smart work organization was tested by competing priorities. How did you manage the situation, and what was the outcome?](./Developing_Questions.md#leadership-philosophy-6)
+
+## Questions
+
+[1. {Interrogate} How has your leadership philosophy evolved over time, and how do you integrate your core values into daily practice?](./Developing_Questions.md#leadership-philosophy-1)
+
+[5. {Interrogate} What strategies do you use to foster your own personal growth as a leader in a rapidly changing environment?](./Developing_Questions.md#leadership-philosophy-5)
+
 # 2. Key Leadership Roles and Responsibilities
 
-### Questions
-
-[4. {Interrogate} As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?](./Developing_Questions.md#leadership-roles-4)
-
-[5. {Interrogate} How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?](./Developing_Questions.md#leadership-roles-5)
-
 ## Leader for the Front-End Team
-
-[1. {Scan} Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).](./Developing_Questions.md#leadership-roles-1)
 
 - Built projects from the ground up by selecting the appropriate front-end technology and setting project-specific rules.
 - Organized tasks for the entire team, ensuring that assignments were clearly communicated and aligned with project goals.
@@ -72,9 +64,9 @@
 	- Engaged in discussions with stakeholders to clarify and negotiate responsibilities, ensuring the team’s interests were well represented.
 	- Managed communication channels to relay important updates and resolve issues promptly between the technical team and customers.
 
-## Mentor for Team Members
+[1. {Scan} Describe a challenging project where you had to balance multiple leadership responsibilities (team management, project representation, and technical oversight).](./Developing_Questions.md#leadership-roles-1)
 
-[2. {Scan} How do you handle conflicting priorities between technical requirements and stakeholder demands?](./Developing_Questions.md#leadership-roles-2)
+## Mentor for Team Members
 
 - Provided guidance and career advice to Junior and Fresher developers within the team.
 - Shared new technical knowledge and personal experiences to help team members grow their skill sets.
@@ -84,9 +76,9 @@
 	- Offered constructive feedback on work performance, ensuring each team member understood areas for improvement and growth opportunities.
 	- Helped shape the team’s culture by consistently encouraging collaboration and knowledge sharing.
 
-## Front-End Technical Leader in the Unit
+[2. {Scan} How do you handle conflicting priorities between technical requirements and stakeholder demands?](./Developing_Questions.md#leadership-roles-2)
 
-[3. {Scan} Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?](./Developing_Questions.md#leadership-roles-3)
+## Front-End Technical Leader in the Unit
 
 - Served as the front-end expert in the unit.
 - Conducted interviews to evaluate and select potential front-end candidates.
@@ -97,12 +89,18 @@
 	- Evaluated technical competencies of candidates during interviews and provided clear, objective recommendations.
 	- Collaborated with the sales team in presale presentations, articulating how front-end innovations could add value to clients.
 	- Offered technical support across projects by troubleshooting complex issues, ensuring that front-end functionalities met design and UX requirements.
+
+[3. {Scan} Can you share an example of when you mentored your team under pressure and how you measured the impact of your guidance?](./Developing_Questions.md#leadership-roles-3)
+
+## Questions
+
+[4. {Interrogate} As a Front-End Technical Leader, how do you balance introducing innovative technologies with enforcing standardized practices?](./Developing_Questions.md#leadership-roles-4)
+
+[5. {Interrogate} How do you integrate your roles as a Team Leader, Mentor, and Technical Expert to drive overall project success and team growth?](./Developing_Questions.md#leadership-roles-5)
  
 # 3. Strategies for Team Collaboration and Mentorship
 
 ## Team Collaboration
-
-[1. {Scan} How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?](./Developing_Questions.md#team-collaboration-1)
 
 ### Objective:
 
@@ -119,9 +117,9 @@
 
 - Encourage every team member to record key decisions and changes in our projects, creating a documented trail that can be reviewed later if needed.
 
-## Communication Between Team and Outside
+[1. {Scan} How do you build and maintain a collaborative environment within your team while ensuring smooth communication with external stakeholders?](./Developing_Questions.md#team-collaboration-1)
 
-[2. {Scan} Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?](./Developing_Questions.md#team-collaboration-2)
+## Communication Between Team and Outside
 
 ### Clear Role Definition:
 
@@ -139,9 +137,9 @@
 
 - Promote communication with external parties-through documented comments and shared pages-to maintain a clear record of updates and decisions for future reference.
 
-## Mentorship
+[2. {Scan} Describe a time when you encountered a significant communication breakdown between your team and external stakeholders. How did you resolve the issue?](./Developing_Questions.md#team-collaboration-2)
 
-[3. {Scan} Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?](./Developing_Questions.md#team-collaboration-3)
+## Mentorship
 
 ### Knowledge Sharing:
 
@@ -163,12 +161,9 @@
 
 - Lead by example, making it clear that everyone’s input is valued, and ensure that team members see mentorship as a pathway for both personal and collective success.
 
+[3. {Scan} Can you provide an example of a challenging mentorship situation and explain how your approach helped a team member improve?](./Developing_Questions.md#team-collaboration-3)
+
 # 4. Client Engagement
-
-### Questions:
-
-[2. {Interrogate} How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Presale_Requirement_Question.md#client-presale-2)
-
 
 ## Concept
 
@@ -177,3 +172,7 @@
 - Communicate clearly and decisively by organizing internal brainstorming meetings as soon as a new client request or requirement arises.
 - Filter and prioritize client information during these sessions to prepare focused, valuable discussion points before engaging with the client.
 - Ensure effective communication by being mindful of client culture-especially for international clients-avoiding sensitive language and reserved humor to maintain professionalism.
+
+## Questions:
+
+[2. {Interrogate} How do you balance client requirements with your company’s capabilities during the presale process, and what strategies do you use to ensure transparency and accountability?](./Presale_Requirement_Question.md#client-presale-2)
