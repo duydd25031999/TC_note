@@ -2,17 +2,15 @@
 
 ## Adaptability
 
-[2. {Scan} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?](./Developing_Questions.md#leadership-philosophy-2)
-
 - Definition: Embracing the uniqueness of every project and being ready to adjust quickly to unforeseen challenges.
 - Actions:
 	- Start with a brainstorming session to capture a wide range of ideas.
 	- Set a time limit to encourage focused yet rapid ideation.
 - Example: When a customer requested a new feature, I convened a time-limited brainstorming meeting, allowing all ideas-even those not immediately feasible-to be shared, demonstrating our readiness to pivot and adjust.
 
-## Order (Discipline)
+[2. {Scan} Can you provide an example where you had to balance the need for strict organizational order with creative flexibility in your leadership?](./Developing_Questions.md#leadership-philosophy-2)
 
-[3. {Scan} Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?](./Developing_Questions.md#leadership-philosophy-3)
+## Order (Discipline)
 
 - Definition: Establishing clear processes and structured workflows to maintain clarity and organization while still allowing creativity.
 - Actions:
@@ -20,6 +18,8 @@
 	- Create a dedicated Confluence page for Q&A and documentation of decisions.
 	- Develop flexible guidelines that maintain structure without stifling creativity.
 - Example: I required the team to document every decision on Confluence, ensuring that all guidelines and Q&A were recorded. This practice maintained a structured environment and served as a reference when conflicts arose.
+
+[3. {Scan} Describe a situation when you had to confront a personal leadership shortcoming. How did you address it, and what did you learn?](./Developing_Questions.md#leadership-philosophy-3)
 
 ## Responsibility
 
