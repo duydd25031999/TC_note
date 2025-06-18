@@ -564,7 +564,7 @@
 
 - English sample answer:
   - Two heads are better than one: Having a second person review code in real-time helps catch errors, bugs, and logical flaws that a single developer might miss.
-  - Continuous code review: The "navigator" constantly reviews the "driver's" code, ensuring adherence to coding standards and best practices.
+  - Continuous code review: The **navigator** constantly reviews the **driver's** code, ensuring adherence to coding standards and best practices.
   - Better decisions: Discussing approaches and solutions leads to more robust and well-thought-out decisions.
 
 ### extreme-programming-3
@@ -594,7 +594,7 @@
   - Để tập trung vào những điều mang lại giá trị thực tế
   - Tránh thừa code không cần thiết
 
-### extreme-programming-5
+### extreme-programming-6
 
 **Q:** {Interrogate} Compare pair programming and code review in terms of process and benefits.
 
@@ -606,8 +606,8 @@
     - Cùng mục đích: bắt lỗi sớm, chia sẻ kiến thức, nâng cao chất lượng
 - English sample answer:
   - Pair programming is an in-the-moment practice where two developers share one workstation: the Driver writes code while the Navigator reviews and plans next steps.
-  - Code review is a systematic peer examination of code changes—typically via pull requests—before merging into the main branch.
-  - Both improve code quality and team knowledge sharing: pairing provides real-time collaboration and immediate feedback, while reviews allow asynchronous, broader team involvement .
+  - Code review is a systematic peer examination of code changes, typically via pull requests, before merging into the main branch.
+  - Both improve code quality and team knowledge sharing: pairing provides real-time collaboration and immediate feedback, while reviews allow asynchronous, broader team involvement.
 
 ## Test-driven development 
 
@@ -647,7 +647,16 @@
 **Q:** {Scan} What does DevOps do in a project?
 
 - Vietnamese outline:
-  - Tự động hóa quy trình: Build, test, deploy, quản lý hạ tầng.
-  - Phát triển, cải thiện CI/CD: Phát hành phần mềm nhanh và ổn định hơn.
-  - Quản lý hạ tầng: Cấp phát và quản lý bằng code (IaC).
-  - Giám sát và ghi log: Theo dõi hiệu suất và sức khỏe hệ thống.
+  - Code Version Control: Sử dụng Git để quản lý, theo dõi và phối hợp thay đổi mã nguồn.
+  - Continuous Integration (CI) – Automated build: Mỗi lần commit tự động build qua CI (Jenkins/GitLab CI…), đảm bảo code luôn có thể biên dịch.
+  - Automated Test: Chạy tự động unit/integration/end-to-end tests để phát hiện lỗi sớm.
+  - Continuous Deployment (CD) – Automated Deployment: Khi tests xanh, pipeline tự động đẩy artifact lên staging/production.
+  - Monitoring: Giám sát liên tục logs và metrics để phát hiện vấn đề về hiệu năng hoặc lỗi.
+  - Feedback Loops: Kết quả giám sát và phản hồi người dùng vòng kín đưa thẳng về team để cải tiến nhanh chóng.
+- English sample answer:
+  - **Code Version Control** (push code to the common repository): **All source code** changes are committed and **sent to the version control system** (such as Git), making it easier to track history and coordinate teams.
+  - **Continuous Integration (CI) – Automated build** (automatic packaging): New source code is **automatically compiled and packaged into artifacts (libraries, containers, etc.) by CI systems** such as Jenkins, GitLab CI, etc., minimizing errors due to manual operations.
+  - **Automated test** (automated testing): Before being put into the testing or production environment, **tests (unit test, integration test, end-to-end test) are run automatically** to detect errors early, ensuring the quality of each change.
+  - **Continuous Deployment (CD) – Automated Deployment**: Each tested artifact can be **deployed to staging or production environments via an automated pipeline**, ensuring consistency and speed.
+  - **Monitoring**: **Applications and infrastructure are continuously monitored (metrics, logs, tracing)** to detect performance issues, anomalies or resource issues.
+  - **Feedback loops**: Monitoring data, test results, and user feedback are called back to the development team for **continuous improvement, rapid troubleshooting and feature adjustments according to actual needs**.
