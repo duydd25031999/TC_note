@@ -63,3 +63,5 @@ Làm sao để tôi làm và biết mình đang làm đúng?
 [ ] Thực hiện nghiên cứu Web Terminal
 	- Sau đó sử thử lại vòng lặp với các phần khác
 [ ] Thực hiện hết về zeus-ui thôi
+
+There is an interview meeting for Senior Front-end Developer position. This is the answer of question: "Why we need Pair Programming?" from a Vietnamese candidate. Add rhythm, feeling, emotion to the answer. The answer is for IELTS 6.0 Speaking level.
