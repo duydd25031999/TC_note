@@ -38,29 +38,23 @@
         - Team tôi phụ trách chủ yếu phần Front-end, UI/UX, Admin system
         - Chúng tôi đồng hành với dự án từ lúc bắt đầu, thiết kế giao diện đầu tiên
         - Sau 2 năm phát triển, dự án đang phát triển web terminal
-        - Trách nhiệm mà tôi đã đảm nhiệm: presale, thiết kế high/low-level, phân task, kiểm thử, bàn giao
+        - Trách nhiệm mà tôi đã đảm nhiệm: thiết kế high/low-level, phân task, kiểm thử, bàn giao
         - Dự án thành công trong việc gọi vốn nhiều lần
         - Học được nhiều về thích nghi yêu cầu thay đổi nhanh, giao tiếp khách hàng, quản lý nhóm nội bộ
 - English sample answer:
-
-- My last project was building a web-based chatbot platform that supports server and cloud management tasks.
-- The chatbot initially answers user prompts using AI, with expert review and enhancement afterward.
-- I worked on the front-end using Vue 3 and Socket for real-time interactions.
-- We collaborated from the project's beginning, we setted up Front-end side for this product, designed and developed all Front-end interfaces
-
-
-- My Responsibilities in project:
-- Participated in presale activities for new phases.
-- Designed high-level and low-level solutions for new features.
-- Created work breakdown structures (WBS) for task management.
-- Assigned tasks and supported internal team collaboration.
-- Implemented, tested, and delivered each phase to the client.
-- The project successfully secured multiple rounds of investment, largely based on the demos we developed.
-- I have learned from project:
-- Improved adaptability to rapid client-driven changes.
-- Enhanced communication skills with clients and stakeholders.
-- Strengthened internal leadership and team management skills under dynamic conditions.
-
+    - My last project was building a cloud-native platform designed to assist users working with server and cloud service
+    - Integrates an LLM AI model that understands and translate natural words into right commands for cloud service
+    - Allows visual tracking of step-by-step execution results with AI-powered feedback.
+    - Enables real-time communication through WebSocket for responsive AI command execution.
+    - The chatbot initially answers user prompts using AI, with expert review and enhancement afterward.
+    - I worked on the front-end using Vue 3 and Socket for real-time interactions.
+    - We collaborated from the project's beginning, we setted up Front-end side for this product, designed and developed all the interfaces
+    - One challenge I faced was during the early phase, when the client had a rough idea but no detailed SRS. 
+    - So I had to organize the information, listing unclear points, and working with the team lead to drive conversations with the client. That helped us align quickly and avoid late misunderstandings and make high-level design for new features
+    - From there, I handled the front-end structure, implemented key interactive features, supported testing, and ensured each delivery matched our milestone.
+    - I'm proud that this project successfully secured multiple rounds of investment, largely based on the demos we developed
+    - Looking back, this was the first time I worked on an AI-integrated developer tool from scratch.
+    - I became more confident in client communication, more structured in handling vague specs, and more comfortable leading in a fast-paced team, even when things felt unclear.
 ## Project Introduction
 
 ### Project Overview
