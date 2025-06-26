@@ -8,7 +8,6 @@
         - Nêu rõ kỹ năng & kinh nghiệm nổi bật
         - Định hướng phát triển
     - Answer:
-        - Tên: Duy
         - Vị trí: Front-end Developer, hơn 5 năm kinh nghiệm
         - Công nghệ chính: ReactJS, VueJS, Scrum
         - 1 chút kinh nghiệm Back-end: NodeJS, LaravelPHP, mySQL, mongoDB
@@ -16,13 +15,13 @@
         - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia presale với khách hàng, mentoring
         - Định hướng: phát triển song song kỹ năng quản lý kỹ thuật và kỹ năng presale, hướng tới vai trò lãnh đạo dự án và tư vấn giải pháp
 - English sample answer:
-- My name is Duy.
-- I am a Front-end Developer with more than five years of experience, mainly focusing on ReactJS, VueJS, and working within Scrum environments.
-- Besides front-end development, I also have some hands-on experience in back-end technologies like NodeJS, Laravel PHP, MySQL, and MongoDB, which helps me understand the full-stack flow and collaborate better across teams.
-- Throughout my career, I have specialized in projects related to Ecommerce platforms, CRM systems, and chatbot solutions, always aiming to deliver user-friendly and high-performance applications.
-- I have had the opportunity to lead small front-end teams, mentor junior developers, and participate directly in presale activities, working closely with clients to understand their business needs and propose technical solutions.
-- Moving forward, I aim to strengthen both my technical leadership and presale consulting skills, with a clear goal of growing into project leadership and solution consulting roles.
-- I’m excited to bring my technical expertise, leadership experience, and client-oriented mindset to contribute to new challenges and opportunities.
+    - I’m a Front-end Developer with over five years of experience, mostly in outsourcing projects.
+    -  My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+    - I’ve also had hands-on experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
+    - Working in outsourcing has taught me how to adapt quickly to different business domains and development styles. 
+    - I used to get stuck when specs were vague or designs unclear. But over time, I learned to ask better questions, clarify goals early, and manage uncertainty more confidently. That shift helped reduce misunderstandings and made my contributions more valuable during daily standups and sprint planning.
+    - I have had the opportunity to lead small front-end teams, mentor junior developers, and participate directly in presale activities, working closely with clients to understand their business needs and propose technical solutions.
+    - Moving forward, I’m excited to grow into a solution-oriented role that blends project leadership with technical consulting, where I can guide both people and product direction.
 
 # Bespin - Recent Project Overview
 
@@ -43,25 +42,24 @@
         - Dự án thành công trong việc gọi vốn nhiều lần
         - Học được nhiều về thích nghi yêu cầu thay đổi nhanh, giao tiếp khách hàng, quản lý nhóm nội bộ
 - English sample answer:
-    - This project is a web-based chatbot platform that supports server and cloud management tasks.
-        - The chatbot initially answers user prompts using AI, with expert review and enhancement afterward.
-    - About technical stack:
-        - Front-end is developed with Vue 3 and Socket for real-time interactions.
-        - Back-end is developed with Python, including AI server integration, fully developed by the client.
-    - Our team mainly handled Front-end development, UI/UX design, and Admin system development.
-        - We collaborated from the project's beginning, designing and developing from the very first interface.
-    - After two years of development, the project is currently expanding to build a Web Terminal where users can execute server commands directly from the browser.
-    - My Responsibilities in project:
-        - Participated in presale activities for new phases.
-        - Designed high-level and low-level solutions for new features.
-        - Created work breakdown structures (WBS) for task management.
-        - Assigned tasks and supported internal team collaboration.
-        - Implemented, tested, and delivered each phase to the client.
-    - The project successfully secured multiple rounds of investment, largely based on the demos we developed.
-    - I have learned from project:
-        - Improved adaptability to rapid client-driven changes.
-        - Enhanced communication skills with clients and stakeholders.
-        - Strengthened internal leadership and team management skills under dynamic conditions.
+
+- My last project was building a web-based chatbot platform that supports server and cloud management tasks.
+- The chatbot initially answers user prompts using AI, with expert review and enhancement afterward.
+- I worked on the front-end using Vue 3 and Socket for real-time interactions.
+- We collaborated from the project's beginning, we setted up Front-end side for this product, designed and developed all Front-end interfaces
+
+
+- My Responsibilities in project:
+- Participated in presale activities for new phases.
+- Designed high-level and low-level solutions for new features.
+- Created work breakdown structures (WBS) for task management.
+- Assigned tasks and supported internal team collaboration.
+- Implemented, tested, and delivered each phase to the client.
+- The project successfully secured multiple rounds of investment, largely based on the demos we developed.
+- I have learned from project:
+- Improved adaptability to rapid client-driven changes.
+- Enhanced communication skills with clients and stakeholders.
+- Strengthened internal leadership and team management skills under dynamic conditions.
 
 ## Project Introduction
 
