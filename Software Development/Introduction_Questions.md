@@ -9,20 +9,18 @@
         - Định hướng phát triển
     - Answer:
         - Vị trí: Front-end Developer, hơn 5 năm kinh nghiệm
-        - Công nghệ chính: ReactJS, VueJS, Scrum
+        - Công nghệ chính: ReactJS, VueJS, TypeScript, RESTful APIs, Tailwind CSS.
         - 1 chút kinh nghiệm Back-end: NodeJS, LaravelPHP, mySQL, mongoDB
         - Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
-        - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia presale với khách hàng, mentoring
-        - Định hướng: phát triển song song kỹ năng quản lý kỹ thuật và kỹ năng presale, hướng tới vai trò lãnh đạo dự án và tư vấn giải pháp
+        - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia mentoring, presale
 - English sample answer:
     - I’m a Front-end Developer with over five years of experience, mostly in outsourcing projects.
-    -  My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
-    - I’ve also had hands-on experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
-    - Working in outsourcing has taught me how to adapt quickly to different business domains and development styles. 
-    - I used to get stuck when specs were vague or designs unclear. But over time, I learned to ask better questions, clarify goals early, and manage uncertainty more confidently. That shift helped reduce misunderstandings and made my contributions more valuable during daily standups and sprint planning.
-    - I have had the opportunity to lead small front-end teams, mentor junior developers, and participate directly in presale activities, working closely with clients to understand their business needs and propose technical solutions.
-    - Moving forward, I’m excited to grow into a solution-oriented role that blends project leadership with technical consulting, where I can guide both people and product direction.
-
+    - My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+    - I’ve also had experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
+    - I often work in projects for Ecommerce, Cloud management, CRM, AI Assitants
+    - My last company is CMC Global. Beside working as a front-end developer, I have had the opportunity to lead small front-end teams, conduct interview meeting
+    - I also participate directly in presale activities, as a technical advisor for front-end solution
+    - My recent project is Bepsin, a AI chatbot for managing server and cloud service. It is also the project that I joined to presale
 # Bespin - Recent Project Overview
 
 ### Questions
@@ -34,27 +32,23 @@
     - Answer:
         - Dự án web chatbot hỗ trợ quản lý server và cloud
         - Front-end: Vue 3, Socket
-        - Back-end: Python, khách hàng tự phát triển AI server
-        - Team tôi phụ trách chủ yếu phần Front-end, UI/UX, Admin system
-        - Chúng tôi đồng hành với dự án từ lúc bắt đầu, thiết kế giao diện đầu tiên
-        - Sau 2 năm phát triển, dự án đang phát triển web terminal
-        - Trách nhiệm mà tôi đã đảm nhiệm: thiết kế high/low-level, phân task, kiểm thử, bàn giao
-        - Dự án thành công trong việc gọi vốn nhiều lần
-        - Học được nhiều về thích nghi yêu cầu thay đổi nhanh, giao tiếp khách hàng, quản lý nhóm nội bộ
+        - Dự án start-up, thay đổi liên tục và nhiều ý tưởng mới
+        - Web terminal, khó khăn technique lớn nhất
+        - Tự tìm giải pháp nhiều, tự phân tách dữ liệu từ Stream của AWS EC2, chạy nhiều EC2 cùng lúc, gửi kết quả cho AI
 - English sample answer:
-    - My last project was building a cloud-native platform designed to assist users working with server and cloud service
-    - Integrates an LLM AI model that understands and translate natural words into right commands for cloud service
-    - Allows visual tracking of step-by-step execution results with AI-powered feedback.
-    - Enables real-time communication through WebSocket for responsive AI command execution.
-    - The chatbot initially answers user prompts using AI, with expert review and enhancement afterward.
+    - My recent project was building a cloud-native platform designed to assist users working with server and cloud service
+    - Integrates an LLM AI model to translate natural words into right commands for cloud service and real-time communication to server through WebSocket 
     - I worked on the front-end using Vue 3 and Socket for real-time interactions.
-    - We collaborated from the project's beginning, we setted up Front-end side for this product, designed and developed all the interfaces
-    - One challenge I faced was during the early phase, when the client had a rough idea but no detailed SRS. 
-    - So I had to organize the information, listing unclear points, and working with the team lead to drive conversations with the client. That helped us align quickly and avoid late misunderstandings and make high-level design for new features
-    - From there, I handled the front-end structure, implemented key interactive features, supported testing, and ensured each delivery matched our milestone.
+    - I met serveral challenges when developing this product
+    - This was a startup project from our client, and we started by building the front-end side of the product. The client constantly came up with new ideas or frequently changed business requirements.
+    - At the beginning, this overwhelmed us and made the direction unclear. But later, we took the initiative to suggest technical solutions based on the client’s ideas. That helped us work more closely with the client and actively adapt to changes together.
     - I'm proud that this project successfully secured multiple rounds of investment, largely based on the demos we developed
-    - Looking back, this was the first time I worked on an AI-integrated developer tool from scratch.
-    - I became more confident in client communication, more structured in handling vague specs, and more comfortable leading in a fast-paced team, even when things felt unclear.
+    - One of the most technically demanding features I developed was a Web Terminal for remote EC2 control, fully integrated with an AI Copilot.
+    - The Front-end didn’t just render keystrokes — it had to synchronize real-time streams from AWS EC2.
+    - Biggest problem of use is with limited library support, we we built a custom solution almost from scratch, to detect when commands finished, and gracefully handle unstable socket flows and multi-terminal orchestration. 
+    - We needed splitting and understanding the response data, so we could show it correctly and also send it to an AI assistant for help.
+
+
 ## Project Introduction
 
 ### Project Overview

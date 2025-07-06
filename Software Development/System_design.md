@@ -2,7 +2,7 @@
 
 ### Questions
 
-[1. What are the key design challenges you must solve when building a large-scale distributed system?](./Presale_Requirement_Question.md#system-design-process-1)
+[1. {Scan} What are the key design challenges you must solve when building a large-scale distributed system?](./Presale_Requirement_Question.md#system-design-process-1)
 
 [2. In a distributed system, what are the primary reasons for choosing a distributed architecture over a centralized one?](./Presale_Requirement_Question.md#system-design-process-2)
 

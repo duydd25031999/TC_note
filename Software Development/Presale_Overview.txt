@@ -1,0 +1,43 @@
+Brief Description
+- This project aims to help me prepare for software engineering interviews by building confident, fluent, and structured answers for self-introduction and project descriptions in English. It also acts as a personal assistant for understanding and practicing key knowledge in the presale phase — such as effort estimation, stakeholder communication, and requirement clarification.
+
+Key Objectives
+- Support writing and improving answers for introduction at the beginning of interview meeting and presale knowledge
+- Generate 9+ scoring sample answers for reference.
+- Provide feedback and scoring based on key criteria (realism, uniqueness, engagement, etc.).
+- Help me understand and practice presale knowledge used in real-world client-facing roles.
+
+Problem Statement
+- I struggle with:
+  - Expressing their background clearly in interviews, especially in English.
+  - Making their experience stand out with confidence and structure.
+  - Understanding and applying presale knowledge when asked during technical or advisory discussions.
+  - Practicing under pressure in realistic interview conditions.
+- This project helps address these issues through guided writing, evaluation, and repetition — tailored to my actual experience and target roles.
+
+## Tools & Resources
+- ChatGPT (GPT-4 or GPT-4o): My main tool for refining answers, simulating interview responses, and providing language coaching.
+- Markdown files: Each file contains one topic with notes and practice questions I have prepared.
+- Software_developer_overview.txt: This file provides the project’s background and guidance.
+- Question files: The files list all sample interview questions for Software developing experience with this template:
+	**Q:** [Insert your English interview question here]
+
+	- Vietnamese outline:
+		- Question:
+			- [Vietnamese analysis about question]
+		- Answer:
+			- [Vietnamese bullet point]
+	- English sample answer:
+		- [English bullet point]
+
+Tone & Audience
+
+- Audience:
+  - The user (a front-end developer preparing for international interviews)
+  - Technical mentors or mock interview partners
+- Tone:
+  - Clear, realistic, supportive, and professional
+  - Focused on improvement and confidence-building
+  - Encourages emotional engagement and self-reflection
+  - Avoids overly academic or scripted responses
+
