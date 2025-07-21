@@ -1,6 +1,6 @@
 # Introduce Yourself
 
-**Q:** Can you introduce yourself and your work experience
+**Q:** Can you introduce yourself and your work experience?
 
 - Vietnamese outline
     - Question:
@@ -14,13 +14,15 @@
         - Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
         - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia mentoring, presale
 - English sample answer:
-    - I’m a Front-end Developer with over five years of experience, mostly in outsourcing projects.
-    - My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
-    - I’ve also had experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
-    - I often work in projects for Ecommerce, Cloud management, CRM, AI Assitants
-    - My last company is CMC Global. Beside working as a front-end developer, I have had the opportunity to lead small front-end teams, conduct interview meeting
-    - I also participate directly in presale activities, as a technical advisor for front-end solution
-    - My recent project is Bepsin, a AI chatbot for managing server and cloud service. It is also the project that I joined to presale
+- I’m a Front-end Developer with over five years of experience, mostly in outsourcing projects.
+- My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+- I’ve also had experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
+- I often work in projects for Ecommerce, Cloud management, CRM, AI Assitants
+- My last company is CMC Global. Beside working as a front-end developer, I have had the opportunity to lead small front-end teams, conduct interview meeting
+- I also participate in presale activities, as a technical advisor for front-end solution
+- My recent project is Bepsin, an AI chatbot for managing server and cloud service. It is also the project that I joined to presale process. I analyzed customer's beginning idea, designed high-level solution and estimated front-end side for first phase of it.
+- This is the overview of my experience. If you want, I can introduce more about my recent project
+
 # Bespin - Recent Project Overview
 
 ### Questions
@@ -36,17 +38,19 @@
         - Web terminal, khó khăn technique lớn nhất
         - Tự tìm giải pháp nhiều, tự phân tách dữ liệu từ Stream của AWS EC2, chạy nhiều EC2 cùng lúc, gửi kết quả cho AI
 - English sample answer:
-    - My recent project was building a cloud-native platform designed to assist users working with server and cloud service
-    - Integrates an LLM AI model to translate natural words into right commands for cloud service and real-time communication to server through WebSocket 
-    - I worked on the front-end using Vue 3 and Socket for real-time interactions.
+    - My recent project was buildings a AI platform to assist users working with server and cloud service
+    - With LLM AI model, it translates natural words into right commands for cloud service and real-time communication to server through WebSocket 
+    - I have worked on the front-end using Vue 3.
     - I met serveral challenges when developing this product
-    - This was a startup project from our client, and we started by building the front-end side of the product. The client constantly came up with new ideas or frequently changed business requirements.
-    - At the beginning, this overwhelmed us and made the direction unclear. But later, we took the initiative to suggest technical solutions based on the client’s ideas. That helped us work more closely with the client and actively adapt to changes together.
-    - I'm proud that this project successfully secured multiple rounds of investment, largely based on the demos we developed
-    - One of the most technically demanding features I developed was a Web Terminal for remote EC2 control, fully integrated with an AI Copilot.
+    - This is a startup project of our customer, and we take care all the front-end side of it. The client constantly came up with new ideas or frequently changed business requirements.
+    - At the beginning, this overwhelmed us and made the direction unclear. But later, we quickly adapted and suggest our own technical solutions based on the client’s ideas. That helped us work more closely with the client and actively develop together.
+    - I'm proud that this project has been successful in many demos with end user, and mostly based on what we developed
+    - One of the most technically feature I developed is a Web Terminal for remote EC2 service and integrated with an AI Copilot.
     - The Front-end didn’t just render keystrokes — it had to synchronize real-time streams from AWS EC2.
-    - Biggest problem of use is with limited library support, we we built a custom solution almost from scratch, to detect when commands finished, and gracefully handle unstable socket flows and multi-terminal orchestration. 
-    - We needed splitting and understanding the response data, so we could show it correctly and also send it to an AI assistant for help.
+    - The biggest challenge was the lack of library support, so we had to build a custom solution almost from scratch, to detect when commands finished, and gracefully handle unstable socket flows and multi-terminal working.
+    - Each action from end user keyboard is sent to stream of EC2 and the output is everything needed to render fully terminal, both the command and result of it
+    - So we needed splitting the output of data stream from AWS EC2, to send the result to AI Copilot and handle some special command
+    - It was one of the most challenging and rewarding projects I have worked on. I would be happy to explain more about the Web Terminal or how we handled real-time challenges if you're interested.
 
 
 ## Project Introduction

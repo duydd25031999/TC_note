@@ -18,7 +18,15 @@
     - Chỉ cập nhật phần thay đổi lên DOM thật
     - Tránh thao tác DOM không cần thiết
     - Giúp render nhanh, ứng dụng mượt hơn
-- English sample answer:
+- English sample answer 2:
+  - Virtual DOM is a light-weight version of real DOM
+  - It's kept in JS memory, not shown directly
+  - React updates Virtual DOM first when detecting changes in the app
+  - Virtual DOM compare between old value and new value to find different parts
+  - So that it could update only the different without re-render the whole page
+  - Avoid touch into unnecessary DOM elements
+  - Render faster, make the application more fluently
+- English sample answer 1:
   - Virtual DOM is like a copy of real DOM that is kept in computer’s memory. 
   - When something changes in the app, React changes this copy first. 
   - Then, it compares the copy with the real web page and updates only the parts that are different. 
@@ -177,15 +185,27 @@ useEffect(() => {
 
 **Q:** What is the primary difference between state and props in React?
 
-State:
-- Managed locally within a component.
-- Mutable and can be updated over time.
-- Used to store data that affects the component's behavior and rendering.
-
-Props:
-- Passed into a component from a parent.
-- Immutable within the component (read-only).
-- Used to share data and configuration across components.
+- Vietnamese outline:
+  - Question: điểm khác nhau cơ bản giữa State và Prop là gì?
+  - Answer:
+    - State:
+      - Quản lý dữ liệu chỉ trong component và ảnh hưởng với component
+      - Có thể thay đổi
+    - Props:
+      - Truyền dữ liệu từ cha tới con
+      - Không thể thay đổi
+- English sample answer 2:
+  - First is about mutable, state is mutable, prop is immutable
+  - Second, state is used to manage local data of component, prop is used to share data from parent to children
+- English sample answer 1:
+  - State:
+    - Managed locally within a component.
+    - Mutable and can be updated over time.
+    - Used to store data that affects the component's behavior and rendering.
+  - Props:
+    - Passed into a component from a parent.
+    - Immutable within the component (read-only).
+    - Used to share data and configuration across components.
 
 ---
 
