@@ -298,12 +298,27 @@ useMemo:
 ### use-effect-4
 
 **Q:** How do you manage asynchronous tasks in useEffect and prevent potential race conditions?
-
-- You should define an inner asynchronous function inside or outside the useEffect callback rather than making the callback async.
-- Use an AbortController or a flag variable to cancel ongoing asynchronous tasks if the component unmounts or if new effects begin before previous ones complete.
-- Return a cleanup function from useEffect to cancel pending requests or timers, ensuring that stale responses do not update state.
-- Carefully check that the component is still mounted or that the current request is valid before updating state.
-- This approach prevents race conditions when multiple asynchronous operations might overlap.
+- Vietnamese outline:
+  - Question: 
+    - Làm sao để xử lý các tasks bất đồng bộ trong useEffect 
+    - Ngăn chặn các điều kiện chạy ẩn
+  - Answer:
+    - Tạo hàm bất đồng bộ riêng với useEffect callback
+    - Không dùng async callback vì useEffect chỉ nhận return là cleanup function hoặc undefined
+    - Ngăn chặn các điều kiện chạy ẩn
+      - Dùng AbortController hoặc cờ để chặn async task khi component unmount hoặc effect bắt đầu mới
+      - Dùng cleanup để bỏ những logic (timeout, interval, ...) sau khi unmount
+- English sample answer 2:
+  - Callback of useEffect only returns cleanup function or undefined. 
+  - So we can't let this callback be asynchronous function because it will return Promise
+  - To prevents race conditions when multiple asynchronous operations overlap
+  - I will use a flag variable to manage ongoing asynchronous tasks if the component unmounts or if new effects begin before previous ones complete.
+- English sample answer 1:
+  - You should define an inner asynchronous function inside or outside the useEffect callback rather than making the callback async.
+  - Use an AbortController or a flag variable to cancel ongoing asynchronous tasks if the component unmounts or if new effects begin before previous ones complete.
+  - Return a cleanup function from useEffect to cancel pending requests or timers, ensuring that stale responses do not update state.
+  - Carefully check that the component is still mounted or that the current request is valid before updating state.
+  - This approach prevents race conditions when multiple asynchronous operations might overlap.
 
 ---
 
