@@ -1,5 +1,23 @@
 # Introduce Yourself
 
+## Overview
+
+My name is Do Duc Duy. I’m a driven Front-end Developer with over 5 years of experience in ReactJS and VueJS. I’m seeking to leverage my expertise in modern web technologies to build scalable and user-centric applications across domains like E-commerce, Cloud, and AI.
+
+## About me
+
+- I'm a passionate developer specializing in Front-end development, mainly with ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS, and I also enjoy working with back-end tools like NodeJS, Laravel, MySQL, and MongoDB when needed.
+- My work spans across domains including E-commerce, Cloud Management, CRM, and AI Assistants. I’ve not only developed features but also delivered end-to-end solutions, handled client requests, estimated timelines, managed budgets, and resoled user issues. I’ve led front-end teams of 3–5 members, conducted technical interviews, and contributed to presale activities by providing architectural guidance and front-end strategy.
+- I began my journey as a developer in 2019, and since then, I've grown from implementing designs to leading feature teams, participating in presale planning, and delivering high-impact solutions for enterprise clients like Samsung and Panasonic. I enjoy working in fast-paced environments where technical clarity, teamwork, and user value are all top priorities.
+- I’m passionate about clean code, thoughtful UI, and building applications that scale and serve real business needs.
+- Finally, some quick bits about me. 
+  - B.E. in Software Engineering 
+  - End-to-end product thinking 
+  - Presale contributor 
+  - Detail-oriented but flexible
+
+## Question
+
 **Q:** Can you introduce yourself and your work experience?
 
 - Vietnamese outline
@@ -14,14 +32,22 @@
         - Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
         - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia mentoring, presale
 - English sample answer:
-- I’m a Front-end Developer with over five years of experience, mostly in outsourcing projects.
-- My core technologies are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
-- I’ve also had experience with back-end tools like NodeJS, Laravel PHP, MySQL, and MongoDB.
-- I often work in projects for Ecommerce, Cloud management, CRM, AI Assitants
-- My last company is CMC Global. Beside working as a front-end developer, I have had the opportunity to lead small front-end teams, conduct interview meeting
-- I also participate in presale activities, as a technical advisor for front-end solution
-- My recent project is Bepsin, an AI chatbot for managing server and cloud service. It is also the project that I joined to presale process. I analyzed customer's beginning idea, designed high-level solution and estimated front-end side for first phase of it.
-- This is the overview of my experience. If you want, I can introduce more about my recent project
+  - Hello, my name is Do Duc Duy. You can just call me Duy.
+  - I’m a Front-end Developer with more than, 5 years of experience, in building, modern web applications.
+  - My main tools are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+  - Sometimes I also play with back-end tools, like, NodeJS, LaravelPHP, MySQL, and MongoDB.
+  - I love building clean UI, writing maintainable code, and creating apps, that, users actually enjoy.
+  - My work covers domains like, E-commerce, Cloud management, CRM, and AI Assistant platforms.
+  - Besides coding, I often work directly with clients:
+  - I analyze requests, make technical plans, estimate timelines
+  - And when the ideas are too crazy, I would say “no”, politely
+  - I have experience leading small front-end teams (3 or 5 members), running code reviews, mentoring juniors
+  - And even joining presale activities, as a front-end advisor.
+  - I believe in smart teamwork: balancing between, discipline and flexibility.
+  - For example, I organize tasks clearly by my-self, but also, encourage other members, brainstorming and creativity.
+  - I’ve also, conducted technical interviews, and helped teams improve their coding practices.
+  - My leadership style is simple: clear goals, clean communication and open to speech.
+  - That’s a bit about me. If you want, I can introduce about my latest project
 
 # Bespin - Recent Project Overview
 
@@ -38,21 +64,19 @@
         - Web terminal, khó khăn technique lớn nhất
         - Tự tìm giải pháp nhiều, tự phân tách dữ liệu từ Stream của AWS EC2, chạy nhiều EC2 cùng lúc, gửi kết quả cho AI
 - English sample answer:
-    - My recent project was buildings a AI platform to assist users working with server and cloud service
-    - With LLM AI model, it translates natural words into right commands for cloud service and real-time communication to server through WebSocket 
-    - I have worked on the front-end using Vue 3.
-    - I met serveral challenges when developing this product
-    - This is a startup project of our customer, and we take care all the front-end side of it. The client constantly came up with new ideas or frequently changed business requirements.
-    - At the beginning, this overwhelmed us and made the direction unclear. But later, we quickly adapted and suggest our own technical solutions based on the client’s ideas. That helped us work more closely with the client and actively develop together.
-    - I'm proud that this project has been successful in many demos with end user, and mostly based on what we developed
-    - One of the most technically feature I developed is a Web Terminal for remote EC2 service and integrated with an AI Copilot.
-    - The Front-end didn’t just render keystrokes — it had to synchronize real-time streams from AWS EC2.
-    - The biggest challenge was the lack of library support, so we had to build a custom solution almost from scratch, to detect when commands finished, and gracefully handle unstable socket flows and multi-terminal working.
-    - Each action from end user keyboard is sent to stream of EC2 and the output is everything needed to render fully terminal, both the command and result of it
-    - So we needed splitting the output of data stream from AWS EC2, to send the result to AI Copilot and handle some special command
-    - It was one of the most challenging and rewarding projects I have worked on. I would be happy to explain more about the Web Terminal or how we handled real-time challenges if you're interested.
-
-
+  - My latest project is Bespin, an AI platform that helps DevOps and cloud engineers manage servers and AWS services with natural language.
+  - Think of it as “ChatGPT for the cloud”:
+      - you tell the system what you want, and an LLM translates your words into the right commands, then runs them safely.
+  - I joined from the presale phase, analyzing the client’s idea, creating the high-level design, and estimating the work.
+  - On the front end, I built a real-time Web Terminal in Vue 3 using WebSocket so users can remote-control EC2 instances.
+  - We also integrated an AI Copilot that suggests commands and can help edit files.
+  - The toughest part was that no reliable library did what we needed, so we built a custom solution almost from scratch:
+      - Synchronizing continue streams, detecting command boundaries, handling unstable sockets, supporting multiple terminals,
+      - And splitting the EC2 output to both render the terminal and feed the Copilot.
+  - It was a startup environment with fast-changing requirements
+      - At first, it felt chaotic,
+      - But we adapted, proposed our own technical solutions, and worked closely with the client.
+  - Our demos impressed end users and investors, and I’m proud that front-end engineering played a central role in that success.
 ## Project Introduction
 
 ### Project Overview
