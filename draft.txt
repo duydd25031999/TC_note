@@ -1,12 +1,31 @@
-**Q:** [Insert your English interview question here]
+# Tình hình của mình
 
-- Vietnamese outline:
-  - Question:
-    - [Vietnamese analysis about question]
-  - Answer:
-    - [Vietnamese bullet point]
-- English sample answer:
-	- [English bullet point]
+- ADHD: Gặp tình huống bất ngờ, mất kiểm sát có thể mất tập trung
 
-// demo1
+# Worry Time là gì
 
+- Worry Time: Lên lịch cho lo lắng, thay vì nghĩ sẽ ngừng lo lắng
+    - Nếu kiềm chế lo lắng từng chút 1 => giảm mức độ lo lắng tổng thể
+- Phá vỡ chu kỳ suy nghĩ miên man
+    - Huấn luyện não bộ trì hoãn lo lắng
+    - Nếu lo lắng bật chợt đến thì sao (?)
+- Mang lại cho bạn cảm giác kiểm soát
+    - Tôi có một khoảng thời gian riêng để giải quyết vấn đề này
+- Giải phóng tâm trí để tập trung vào hiện tại
+    - Dành ít thời gian hơn để lo lắng
+    - Giải phóng năng lượng tinh thần cho các phần khác của cuộc sống
+- Thúc đẩy giải quyết vấn đề hiệu quả hơn
+    - Bớt lo lắng bất lực
+    - Chủ động tham gia vào từng nỗi lo lắng: giải quyết vấn đề hoặc buông bỏ một cách có ý thức
+    - Phân loại lo lắng:
+        - Có thể thay đổi hoặc giải quyết: Động não tìm giải pháp hoặc lập một kế hoạch cụ thể
+        - Nằm ngoài tầm kiểm soát: Thực hành chấp nhận sự không chắc chắn và buông bỏ suy nghĩ đó
+- Giảm tác động về thể chất và tinh thần của sự lo lắng
+    - Lo lắng kinh niên cả ngày khiến cơ thể và tâm trí luôn trong trạng thái căng thẳng
+    - Giảm tổng thời gian lo lắng => giảm hormone căng thẳng + các triệu chứng thể chất của sự lo lắng
+    - Viết ra hoặc nói ra những lo lắng của bạn có thể có tác dụng thanh lọc
+        - Diễn đạt những lo lắng thành lời sẽ làm dịu các trung tâm cảm xúc của não
+    - Phù hợp với não bộ ADHD
+# Thiết kê thói quen
+
+# Mẫu phiên họp
