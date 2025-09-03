@@ -1,67 +1,16 @@
-1. Xác định vấn đề:
-
-Vấn đề của tôi là gì?
-- Tôi đang cần tìm hiểu về các chức năng của Bespin.
- 
-Tại sao tôi lại cần nó?
-- Đây là kiến thức, kinh nghiệm chắc chắn sẽ được hỏi trong buổi phỏng vấn
-- Không chỉ là được hỏi, tôi muốn biến nó thành lợi thế trong buổi phỏng vấn
-
-Đầu ra (kết quả) mong muốn là gì?
-- Tôi muốn 1 file kiến thức đầy đủ mô tả về dự án bao gồm: Chức năng, quy trình, công nghệ, tình huống
-- Chức năng phải mô tả chính xác workflow cho nó
-
-Tạo sao tôi lại thấy nó khó?
-- Tôi đang mông lung vì tôi mới join dự án. Tôi mới nắm được 5%.
-- Tôi đang không biết phải bắt đầu từ đâu
-- Tôi không biết bao nhiêu là đủ
-
-2. Những thứ tôi đang có: 
-
-Tôi đã biết gì về Bespin?
-- Tôi biết sơ qua về các chức năng đang được phát triển hiện tại
-- Tôi nắm đượ
-
-Tài liệu (tài nguyên) mà tôi có để tìm hiểu Bespin là gì?
-- SRS
-	[ ] Hỏi Thơm về SRS full của Bespin từ trước tới giờ
-	[ ] (Nếu không đủ) Hỏi Thơm còn những chức năng chưa được ghi vào SRS
-- Design
-	[ ] Vừa đọc SRS => vừa nhìn design (để hiểu nội dung) => vừa tự mô tả (copy mô tả) về chức năng 
-- Front-end repository 
-	[ ] Sau khi tìm hiểu chức năng, tính năng của 1 page thì đào sâu vào code của nó
-
-Ai có thể giúp tôi giải đáp Bespin?
-- Thơm: nắm về SRS, chức năng
-- Trị: hỏi về công nghệ Front-end
-
-3. Phân tách các topic lớn, dễ thấy của vấn đề:
-
-Bespin có những page nào?
-[ ] Liệt kê các page
-
-Trong folder component có những folder chính nào?
-[ ] Liệt kê các chức năng chính ứng với từng page
-
-4. Bóc tách các topic lớn thành các vấn đề nhỏ và giải quyết
-
-Mỗi chức năng chính mình nên tìm hiểu mực mục nào?
-[ ] 1. Mục tiêu
-[ ] 2. User role
-[ ] 3. Activity flow
-[ ] 4. Xử lý code (logic) của từng activity
-[ ] 5. Tổng kết = tự nghĩ ra >= 1 khó khăn với chứng năng với 1 Front-end developer
-
-5. Tổng hợp và review lại toàn bộ quá trình
-
-Tôi nên hoàn thành từng giai đoạn (waterfall) hay làm từng phần nhỏ 1 rồi chuyển qua phần tiếp theo và cải tiến (agile)?
-- Tôi lựa chọn Agile
-
-Làm sao để tôi làm và biết mình đang làm đúng?
-[ ] Tìm đọc trước những SRS mà mình có thể tìm được
-[ ] Đảm bảo đầy đủ đầu mục (Truy cập SRS + List những thành phần chưa có SRS)
-[ ] Thực hiện nghiên cứu Web Terminal
-	- Sau đó sử thử lại vòng lặp với các phần khác
-[ ] Thực hiện hết về zeus-ui thôi
-
-There is an interview meeting for Senior Front-end Developer position. This is the answer of question: "Why we need Pair Programming?" from a Vietnamese candidate. Add rhythm, feeling, emotion to the answer. The answer is for IELTS 6.0 Speaking level.
+- Hello, my name is Do Duc Duy. You can just call me Duy.
+- I’m a Front-end Developer with more than, 5 years of experience, in building, modern web applications.
+- My main tools are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+- Sometimes I also play with back-end tools, like, NodeJS, LaravelPHP, MySQL, and MongoDB.
+- I love building clean UI, writing maintainable code, and creating apps, that, users actually enjoy.
+- My work covers domains like, E-commerce, Cloud management, CRM, and AI Assistant platforms.
+- Besides coding, I often work directly with clients:
+- I analyze requests, make technical plans, estimate timelines
+- And when the ideas are too crazy, I would say “no”, politely
+- I have experience leading small front-end teams (3 or 5 members), running code reviews, mentoring juniors
+- And even joining presale activities, as a front-end advisor.
+- I believe in smart teamwork: balancing between, discipline and flexibility.
+- For example, I organize tasks clearly by my-self, but also, encourage other members, brainstorming and creativity.
+- I’ve also, conducted technical interviews, and helped teams improve their coding practices.
+- My leadership style is simple: clear goals, clean communication and open to speech.
+- That’s a bit about me. If you want, I can introduce about my latest project

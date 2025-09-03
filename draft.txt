@@ -1,31 +1,72 @@
-# Tình hình của mình
+Nội dung:
+- Hello, my name is Do Duc Duy. You can just call me Duy.
+- I’m a Front-end Developer with more than, 5 years of experience, in building, modern web applications.
+- My main tools are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
+- Sometimes I also play with back-end tools, like NodeJS, Laravel, MySQL, and MongoDB.
+- I love building clean UI, writing maintainable code, and creating apps that, users actually enjoy.
+- My work covers domains like, E-commerce, Cloud management, CRM, and AI Assistant platforms.
+- Besides coding, I often work directly with clients:
+- I analyze requests, make technical plans, estimate timelines
+- And when the ideas are too crazy, I would say “no”, politely
+- I have experience leading small front-end teams (3 or 5 members), running code reviews, mentoring juniors, and even joining presale activities, as a front-end advisor.
+- I believe in smart teamwork: balancing between, discipline and flexibility.
+- For example, I organize tasks clearly by my-self, but also, encourage other members, brainstorming and creativity.
+- I’ve also, conducted technical interviews, and helped teams improve their coding practices.
+- My leadership style is simple: clear goals, clean communication and open to speech.
+- My latest project is Bespin, an AI chatbot for DevOps and cloud engineers.
+- Imagine chatting with AI to control AWS servers.
+- Yes, it’s like talking to Jarvis, but for cloud.
+- My roles in that project: First, I joined presale phase: analyzed client’s idea, created high-level design, estimated tasks.
+- I also developed a real-time Web Terminal using Vue 3, WebSocket, where users can remote-control EC2 instances.
+- Integrated AI Copilot inside the terminal to suggest commands and even help edit files.
+- The hardest part: there no existing library trusty supported what we wanted, so we had to build a custom solution from scratch.
+- The best part: our demos impressed investors, and the project secured multiple funding rounds.
+- That’s a bit about me. Thank you for listening!
 
-- ADHD: Gặp tình huống bất ngờ, mất kiểm sát có thể mất tập trung
+Nhận xét của bạn 1:
+- Cái này cũng được, nhưng để ấn tượng hơn thì giới thiệu kĩ hơn về điểm mạnh của em.
+- Như chị nói hôm trước, chủ yếu các phần em nói đều như liệt kê task, không thấy được là em mạnh về cái gì và mạnh như thế nào.
+- Có thể chọn 3 cái như trong phần giới thiệu hiện tại của em: 
+    - Các phần frameworks: mạnh như thế nào - đã có nhiều kinh nghiệm, làm trong các dự án khó yêu cầu solutions mới - cần investigate hay research nhiều để đưa ra solutions. Nói chung là đã dùng nó như thế nào để mình có thể nói là mình mạnh.
+    - Có kinh nghiệm làm leader vs việc review codes và hướng dẫn team các solutions. Được khách hàng đánh giá cao hay không. 
+    - Tiếp là làm việc trực tiếp vs khách hàng nước ngoài, chủ yếu là các domain gì. Có thể trực tiếp giải thích, thảo luận và đề xuất về các vấn đề về tech. 
+- Có thể nói thêm về phong cách làm việc. Style gọn gàng, giải quyết vấn đề nhanh chóng, hay như thế nào. 1 mình thì như thế nào, teamwork ra sao. 
+- Cuối mới đưa ra là ngoài ra có tham gia các hoạt động về presale, phỏng vấn,...
+- Để bài nói tự nhiên hơn thì thêm nhiều từ nối hơn 1 chút: có beside rồi, thì thêm kiểu in other words, moreover, last but not least, on top of that, ... 
+- Không rõ phần intro có yêu cầu giới thiệu về dự án hiện tại không. Nếu không thì chỉ cần nói ngắn gọn khoảng 2-3 câu. Hiện tại tôi đang làm tech lead cho 1 dự án về AI của khách hàng hàn được khoảng 6 tháng. Dự án là platform gồm khá nhiều công nghệ phức tạp như:... tôi cũng đã hỗ trợ và tư vấn cho khách hàng khá nhiều giải pháp trong quá trình làm.
 
-# Worry Time là gì
+Nhận xét của bạn 2:
+- 0:12 fiVe thiếu chữ V
+- 0:13 experienCe thiếu chữ C (s)
+- 0:26 sometimeS thiếu S (cuối)
+- 0:29 toolS thiếu S
+- 0:32 PHP đọc tiếng anh Pi-Hết-Pi. Em đang dùng tiếng việt.
+- 0:45 create app that user actually enjoy --> create user friendly app.
+- 0:57 assiStant thiếu chữ S thứ 3
+- 0:59 besideS thiếu s
+- 1:05 analySe thiếu S/Z
+- 1:12: the ideas are too crazy --> ideas are impractical
+- 1:14 I will say no poliTely (thiếu T), và bổ sung: and I explain why to clients and offer better alternatives.
+- 1:23 fiVe thiếu V.
+- 1:35 adviSor thiếu s
+- 1:48 organiZe (thiếu Z)
+- 1:53 encouraGe thiếu G
+- 1:56 brainstorming --> to brainstorm
+- 2:12 leadership (đọc liền, đừng để vấp)
+- 2:30 open to speeCH (âm tr nặng trong tiếng việt)
+- 2:39 it'S like (thiếu S)
+- 2:52 analyZe (thiếu Z)
+- 2:30 there IS no (is thiếu S)
+- 3:37 soluTion (thiếu âm Sh nặng của -tion)
+- 3:39 Scratch thiếu S đầu
+- 3:42 beST thiếu S và T
 
-- Worry Time: Lên lịch cho lo lắng, thay vì nghĩ sẽ ngừng lo lắng
-    - Nếu kiềm chế lo lắng từng chút 1 => giảm mức độ lo lắng tổng thể
-- Phá vỡ chu kỳ suy nghĩ miên man
-    - Huấn luyện não bộ trì hoãn lo lắng
-    - Nếu lo lắng bật chợt đến thì sao (?)
-- Mang lại cho bạn cảm giác kiểm soát
-    - Tôi có một khoảng thời gian riêng để giải quyết vấn đề này
-- Giải phóng tâm trí để tập trung vào hiện tại
-    - Dành ít thời gian hơn để lo lắng
-    - Giải phóng năng lượng tinh thần cho các phần khác của cuộc sống
-- Thúc đẩy giải quyết vấn đề hiệu quả hơn
-    - Bớt lo lắng bất lực
-    - Chủ động tham gia vào từng nỗi lo lắng: giải quyết vấn đề hoặc buông bỏ một cách có ý thức
-    - Phân loại lo lắng:
-        - Có thể thay đổi hoặc giải quyết: Động não tìm giải pháp hoặc lập một kế hoạch cụ thể
-        - Nằm ngoài tầm kiểm soát: Thực hành chấp nhận sự không chắc chắn và buông bỏ suy nghĩ đó
-- Giảm tác động về thể chất và tinh thần của sự lo lắng
-    - Lo lắng kinh niên cả ngày khiến cơ thể và tâm trí luôn trong trạng thái căng thẳng
-    - Giảm tổng thời gian lo lắng => giảm hormone căng thẳng + các triệu chứng thể chất của sự lo lắng
-    - Viết ra hoặc nói ra những lo lắng của bạn có thể có tác dụng thanh lọc
-        - Diễn đạt những lo lắng thành lời sẽ làm dịu các trung tâm cảm xúc của não
-    - Phù hợp với não bộ ADHD
-# Thiết kê thói quen
-
-# Mẫu phiên họp
+Nhận xét của bạn 3:
+- Multiple 3:51
+- 3:21 suggest cái này anh check lại phát âm
+- 1:13 And when the ideas are too unrealistic, I say “no” politely.
+- Management 0:54 cái này anh đọc kĩ hơn
+- 0:44 create đọc cri-ây t thay vì cri-ết
+- Em nghĩ không nên dùng play 0:28 hơi informal. I also have some experience working with back-end tools, including NodeJS, Laravel, MySQL, and MongoDB
+- 0:27 sometimes thiếu âm z cuối anh
+- 0:14 experience thiếu s ở cuối anh
