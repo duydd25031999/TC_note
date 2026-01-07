@@ -1,16 +1,42 @@
-- Hello, my name is Do Duc Duy. You can just call me Duy.
-- I’m a Front-end Developer with more than, 5 years of experience, in building, modern web applications.
-- My main tools are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
-- Sometimes I also play with back-end tools, like, NodeJS, LaravelPHP, MySQL, and MongoDB.
-- I love building clean UI, writing maintainable code, and creating apps, that, users actually enjoy.
-- My work covers domains like, E-commerce, Cloud management, CRM, and AI Assistant platforms.
-- Besides coding, I often work directly with clients:
-- I analyze requests, make technical plans, estimate timelines
-- And when the ideas are too crazy, I would say “no”, politely
-- I have experience leading small front-end teams (3 or 5 members), running code reviews, mentoring juniors
-- And even joining presale activities, as a front-end advisor.
-- I believe in smart teamwork: balancing between, discipline and flexibility.
-- For example, I organize tasks clearly by my-self, but also, encourage other members, brainstorming and creativity.
-- I’ve also, conducted technical interviews, and helped teams improve their coding practices.
-- My leadership style is simple: clear goals, clean communication and open to speech.
-- That’s a bit about me. If you want, I can introduce about my latest project
+
+- Thiên hà là 1 thực thể, tổng hợp của toàn bộ dòng năng lượng. Trong thiên hà có vô vàn thực tại, hay còn gọi là vũ trụ
+- Mỗi khái niệm (thời gian, không gian, ánh sáng, bóng tối, ....) đều là 1 loại năng lượng, 1 "phần cơ thể" của thiên hà
+- Đối nghịch với thiên hà là hư vô, nằm ngoài thiên hà.
+- Hư vô cũng là 1 loại năng lượng riêng, nhưng hư vô đối với thiên hà như 1 mầm bệnh. Chỉ muốn xâm nhập vào thiên hà để hấp thụ nguồn năng lượng của thiên hà
+- Thiên hà cũng sinh ra "kháng thể" để đối chọi với "mầm bệnh" hư vô
+- Cuộc đối đầu này chỉ là bản năng của 2 tồn tại này, sẽ không có đúng hay sai
+- Khi có 1 dòng năng lượng hội tụ đủ mạnh, sẽ sinh ra tinh linh - linh hồn từ dòng năng lượng đó. Có thể điều khiển được dòng năng lượng
+- Tinh linh có 3 cấp cơ bản: Tiểu, Trung, Đại
+- Vượt qua cấp đại tinh linh sẽ là cấp thần - đại diện cho 1 khái niệm của thiên hà trong 1 thực tại
+- Tuy thần rất mạnh, nhưng chỉ là đại diện cho khái niệm. Tuy 1 vị thần có thể điều khiển được khái niệm, nhưng khi thần chết đi, chỉ đơn giản là tan rã năng lượng, khái niệm vẫn tồn tại và 1 vị thần mới có thể thành đại diện cho khái niệm đó.
+- Thần chính là những kháng thể có chi thức chính để bảo vệ thiên hà, chống lại hư vô
+- Đó là nhiệm vụ của thân. Thần sẽ thực hiện nhiệm vụ đó mà không quan tâm tới các yếu tố khác, không quan tâm tới cảm xúc của các sinh vật hay phải tạo ra 1 sự phá hủy nghiêm trọng
+- Có 1 vị thần mà hầu hết thực tại nào cũng có 1 bản sao - Odin - God father
+- Ông ta có vai trò là admin của thế giới, quản lý cả thể giới cũng như các vị thần
+- Odin biết rằng hư vô luôn cố gắng gặm nhấm thực tại. Và từ từ sẽ dẫn tới cuộc tổng tiến công của hư vô, mỗi lần tổng tiến công đó Odin đều gọi là Ragnarok - Cuộc chiến khải huyền. Đơn giản vì quy mô nó quá lớn làm thay đổi hoàn toàn trật tự thế giới.
+- Mana - năng lượng linh hồn. Đối với tinh linh & thần, những linh hồn của các khái niệm tự nhiên, mana của chúng chính là năng lượng tự nhiên
+- Với các sinh vật sống, mana của mỗi sinh vật thuộc về riêng
+- Rất khó để 1 sinh vật sống hấp thụ được năng lượng tự nhiên như mana của mình. Sinh vật đó phải đại tới sự tinh thông năng lượng như 1 tinh linh
+- Để chuẩn bị cho Ragnarok đầu tiên, Odin đã nhận nuôi 1 thực thể hư vô - Loki.
+- Người đời thường coi Loki là vị thần lừa lọc, nhưng thật ra Loki chỉ đang làm theo kịch bản của Odin mà không hề hay biết
+- Odin muốn Loki dẫn dụ hư vô từ từ xâm nhập thực tại dưới quyền kiểm soát của mình, thay vì cố gắng ngăn cản hoàn toàn hay để cho hư vô tất công quá ồ ạt
+- Ngoài ra Odin còn muốn mượn tay Loki để tạo ra Hỗn mang - năng lượng kết hợp giữa thiên hà và hư vô. Năng lượng này đều độc hại cho cả 2 phe
+- Odin để cho Baldur là bình chứa cho thật nhiều năng lượng của thiên hà. Rồi để Loki giết Baldur như châm nổ 1 quả mìn. Tạo ra 1 vụ nổ năng lượng Hỗn mang làm giảm sức mạnh của hư vô
+- Thể rồi Ragnarok đầu tiên kết thúc vơí việc đẩy lùi được gần hết hư vô khỏi thực tại.
+- Trận chiến với Hư vô xảy ra chủ yếu Trái Đất - hành tinh có mật độ sinh vật sống cao nhât
+- Nhưng sau Ragnarok số 2, Baldur hoàn toàn bị tiêu diệt nhưng hắn lại tạo ra 1 cơ chế hậu để hư vô có thể xâm nhập vào nhiều nơi trong vũ trụ
+- Bán tinh linh là những tinh linh nhập vào sinh vật sống. Bán tính linh có năng lực của tinh linh nhưng có cơ thể sống nên mưc tăng trưởng nhanh hơn tinh linh thuần năng lượng rất nhiều
+- Bán thần là các linh hồn cấp thần nhập vào sinh vật sống. Các bán thần thường là rồng
+- Ragnarok đầu tiên đã giết chết hết các thần. Các bán thần lui về ngủ đông để chờ đợi cho Ragnarok thứ 2, đồng thời tự phong ấn năng lượng của mình lại để tạo điều kiện cho các sinh vật sống không bị ảnh hưởng nhiều bởi quyền uy của bán thần
+- Baldur ở Ragnarok số 2 đã tạo 1 sinh vật sống đủ mạnh để chứa linh hồn thần Hỗn mang của mình. Điều này tạo ra 1 bán thân Hỗn mang khiến các bán thần phải hợp lực để tiêu diệt
+- Sau Ragnarok số 2, các bán thần cùng các sinh vật thông minh bước vào kỉ nguyên chinh phục vũ trụ nhằm chống lại các lỗ hổng vũ trụ cho Baldur lúc chết gây ra
+- Cũng từ đó khai sinh ra "Hiệp hội khai phá hành tinh", gồm những nhà khoa học nguyên cưú các hành tinh mới, tạo môi trường để các sinh vật từ Trái Đất tới định cư
+- Bố mẹ của Sukkin thuộc "Hiệp hội khai phá hành tinh", đang trong 1 dự án xây dựng khu định cư cho con người trên 1 hành tinh mới.
+- Nhưng không ngờ rằng họ bị 1 nhóm con người trên hành tinh đó làm phản, truy sát và giết chết
+- Bố mẹ của Sukkin đã cố gắng vận dụng tất cả, hy sinh mạng mình để giữ Sukkin còn sống cho tới khi cứu viện tới
+- Nhưng điều đó là không đủ, Sukkin vẫn tại cố tự sống sót nhờ bản lĩnh và pháp thuật hóa thú của mình
+- "Hiệp hội khai phá hành tinh" có 1 bộ phận là "Vệ binh vũ trụ". Chuyên về giải quyết vấn đề của "Hiệp hội khai phá hành tinh" bằng vũ lực
+- 1 "Vệ binh vũ trụ" đã đến cứu trợ cho gia đình Sukkin. 1 mình ông đã tiêu diệt băng đảng giết bố mẹ Sukkin. Giải cứu Sukkin đưa về "hiệp hội"
+- Ông cũng là elf mà bố mẹ bị giết do băng đảng khi còn nhỏ. Ông đã thương tình và nhận Sukkin làm đệ tử
+- Vẫn còn những lô hổng nhỏ mà hư vô xâm nhập vào thực tại, chính là các hầm ngục
+- Hư vô khi hấp thụ năng lượng thiên hà sẽ đóng cục năng lượng. Từ đó tạo ra lõi quái vật, cuối cùng tạo ra quái vật hầm ngục
