@@ -32,21 +32,20 @@ My name is Do Duc Duy. I’m a driven Front-end Developer with over 5 years of e
         - Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
         - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia mentoring, presale
 - English sample answer:
-  - Hello, my name is Do Duc Duy. You can just call me Duy.
-  - I’m a Front-end Developer with more than, 5 years of experience, in building, modern web applications.
-  - My main tools are ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS.
-  - Sometimes I also play with back-end tools, like, NodeJS, LaravelPHP, MySQL, and MongoDB.
-  - I love building clean UI, writing maintainable code, and creating apps, that, users actually enjoy.
-  - My work covers domains like, E-commerce, Cloud management, CRM, and AI Assistant platforms.
-  - Besides coding, I often work directly with clients:
-  - I analyze requests, make technical plans, estimate timelines
-  - And when the ideas are too crazy, I would say “no”, politely
-  - I have experience leading small front-end teams (3 or 5 members), running code reviews, mentoring juniors
-  - And even joining presale activities, as a front-end advisor.
-  - I believe in smart teamwork: balancing between, discipline and flexibility.
-  - For example, I organize tasks clearly by my-self, but also, encourage other members, brainstorming and creativity.
-  - I’ve also, conducted technical interviews, and helped teams improve their coding practices.
-  - My leadership style is simple: clear goals, clean communication and open to speech.
+  - Hello, my **name** is Do Duc Duy. You can just **call** me **Alex**.
+  - I’m a **Front-end Developer** with more than **5 years of experience**, in building, **modern web applications**.
+  - My **main** tools are **ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS**.
+  - Sometimes I also play with **back-end tools**, like, **NodeJS, LaravelPHP, MySQL, and MongoDB**.
+  - I love building **clean UI**, writing **maintainable code**, and creating apps, that, **users actually enjoy them**.
+  - My work covers **domains** like, **E-commerce, Cloud management, CRM, and AI Assistant platforms**.
+  - Besides coding, I often work **directly** with **customers**:
+  - I take part in **presale activities**, as a **front-end advisor**.
+  - I **analyze** their **requestments**, make **technical plans**, estimate **timelines for the project**
+  - And when the ideas are **too crazy**, I would politely **discuss** the **risk** of those ideas to **my customer**
+  - I also have experience in **leading small front-end teams** (about 3 or 5 members). I run code reviews, mentor juniors members.
+  - I believe in **smart teamwork**: **balancing** between, **discipline** and **flexibility**. My **leadership** style is **simple**: **clear goals, clean communication and open to speech**.
+  - For example, I organize tasks **clearly at the beginning**, but then I **encourage** other members, **brainstorming and creativity** to find the **best solution**.
+  - I’ve also, conducted **technical interviews** for my **department**, and helped **other teams** **improve** their coding **practices**.
   - That’s a bit about me. If you want, I can introduce about my latest project
 
 # Bespin - Recent Project Overview

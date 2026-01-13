@@ -1,37 +1,11 @@
-Đây là thông tin của Sukkin và nhóm Vệ binh của Sukkin
-- Sukkin
-  - Vũ khí cận chiến: Khiên
-  - Chuyên môn: Thực vật
-  - Ma thuật đặc trưng level 1: Lợn quái thú - các ma thuật bình thường cũng nâng cấp ở dạng quái thú
-  - Ma thuật đặc trưng level 2:
-- Quạ máy:
-  - Món quà máy móc từ bố Sukkin
-  - Tinh linh săt
-  - Ma thuật đặc trưng level 1: Kết nối linh hồn
-    - Tạo 2 vòng kết nối: 1 cho quạ, 1 cho đối tượng khác kết nối linh hồn, mana giữa 2 người
-    - Với đồng minh chấp thuận -> chia sẻ suy nghĩ, giác quan, mana
-    - Sukkin thường hay sử dụng với rối quạ => Sukkin có thể sử dụng thêm ma thuật sắt, máy móc
-    - Với kẻ thủ -> Quạ sử dụng sự áp đảo mana để đàn áp kẻ thù -> biến kẻ thù thành nô lệ
-  - Ma thuật đặc trưng level 2: Mô phỏng các ma thuât bình thường và ma thuật đặc trưng level 1-2
-- Nữ thú nhân (hổ)
-  - Năng lượng sắt thép
-  - Vũ khí cận chiến: Giáo
-  - Chuyên môn: Cơ khí
-  - Ma thuật đặc trưng level 1: Đầu rồng
-  - Ma thuật đặc trưng level 2: Giáo thần
-- Nam người + hỏa ngục
-  - Ma thuật hỏa ngục
-  - Bị thí nghiệm thành bán tinh linh với hỏa ngục
-  - Vũ khí cận chiến: Rìu cưa máy
-  - Chuyên môn: Động vật
-  - Ma thuật đặc trưng level 1: Người hoả ngục - mọi pháp thật thành hoả ngục
-  - Ma thuật đặc trưng level 2: Cổng hỏa ngục
-    - Giải phóng năng lượng hỏa ngục (tia lớn)
-    - Nuôi nhốt quái thu
-    - Cổng đi qua không gian
-- Người lùn - ma thuật đất
-  - Đam mê về tay
-  - Vũ khí cận chiến: Găng tay
-  - Chuyên môn: Giả kim thuật
-  - Ma thuật đặc trưng level 1: Nắm đấm chấn động
-  - Ma thuật đặc trưng level 2: Quái vật tay
+- Name: Do Duc Duy
+- Nickname: Alex
+- Position: Front-end Developer
+- Experience: More than 5 years
+- Main tools: ReactJS, VueJS, TypeScript, RESTful APIs, Tailwind CSS
+- Back-end tools: NodeJS, LaravelPHP, MySQL, MongoDB
+- Domains: E-commerce, Cloud management, CRM, AI Assistant platforms
+- Presale: Analyze requirements, make technical plans, estimate timelines
+- Lead small front-end teams
+- Leadership style: Simple, clear goals, clean communication and open to speech
+- Department: Technical interview, improve coding practices, run code reviews, mentor juniors members 
