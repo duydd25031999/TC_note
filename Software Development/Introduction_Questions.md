@@ -63,19 +63,11 @@ My name is Do Duc Duy. I’m a driven Front-end Developer with over 5 years of e
         - Web terminal, khó khăn technique lớn nhất
         - Tự tìm giải pháp nhiều, tự phân tách dữ liệu từ Stream của AWS EC2, chạy nhiều EC2 cùng lúc, gửi kết quả cho AI
 - English sample answer:
-  - My latest project is Bespin, an AI platform that helps DevOps and cloud engineers manage servers and AWS services with natural language.
-  - Think of it as “ChatGPT for the cloud”:
-      - you tell the system what you want, and an LLM translates your words into the right commands, then runs them safely.
-  - I joined from the presale phase, analyzing the client’s idea, creating the high-level design, and estimating the work.
-  - On the front end, I built a real-time Web Terminal in Vue 3 using WebSocket so users can remote-control EC2 instances.
-  - We also integrated an AI Copilot that suggests commands and can help edit files.
-  - The toughest part was that no reliable library did what we needed, so we built a custom solution almost from scratch:
-      - Synchronizing continue streams, detecting command boundaries, handling unstable sockets, supporting multiple terminals,
-      - And splitting the EC2 output to both render the terminal and feed the Copilot.
-  - It was a startup environment with fast-changing requirements
-      - At first, it felt chaotic,
-      - But we adapted, proposed our own technical solutions, and worked closely with the client.
-  - Our demos impressed end users and investors, and I’m proud that front-end engineering played a central role in that success.
+    - My **most recent** project is **Bespin**, a **web-based AI platform** designed to help **DevOps engineers** manage **Cloud resources** using **natural language**. Think of it as a **ChatGPT for the Cloud** where users can **control cloud services directly via chat**
+    - I took on dual roles as the **Senior Front-end Developer** and **Team Lead**.
+    - On the **technical side**, my **biggest challenge** was building a **Real-time Web Terminal** to **control EC2 instances** from the **browser**. We needed to **synchronize data streams over unstable connections**, and since **no existing library** met our requirements, I built the logic **from scratch**. This involved **complex tasks** like **detecting command boundaries** and **splitting the output** to feed both the **UI** and the **AI Copilot Assistant**.
+    - Transitioning to my **leadership role**, I joined the project **right from the pre-sale phase**. I **analyzed** the client's **raw ideas** to create **high-level designs and WBS for estimation**. I also **coordinated my team** to **adapt** to the **startup’s fast-changing requirements**.
+    - **Luckily**, the **Web Terminal** became a **core feature**, playing a **key role in securing multiple funding rounds**. The **system** successfully **evolved through 4 phases**, and I was proud to see **our solution directly helping the product get better**.
 ## Project Introduction
 
 ### Project Overview

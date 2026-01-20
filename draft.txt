@@ -1,11 +1,240 @@
-- Name: Do Duc Duy
-- Nickname: Alex
-- Position: Front-end Developer
-- Experience: More than 5 years
-- Main tools: ReactJS, VueJS, TypeScript, RESTful APIs, Tailwind CSS
-- Back-end tools: NodeJS, LaravelPHP, MySQL, MongoDB
-- Domains: E-commerce, Cloud management, CRM, AI Assistant platforms
-- Presale: Analyze requirements, make technical plans, estimate timelines
-- Lead small front-end teams
-- Leadership style: Simple, clear goals, clean communication and open to speech
-- Department: Technical interview, improve coding practices, run code reviews, mentor juniors members 
+Nếu bạn giống tôi, bạn sẽ thấy việc đặt mục tiêu vào năm mới thật ngu ngốc.
+Bởi vì hầu hết mọi người thay đổi cuộc đời theo cách hoàn toàn sai lầm. Họ tạo ra những quyết tâm này chỉ vì người khác cũng làm thế – chúng ta tạo ra ý nghĩa hời hợt từ những Status games (trò chơi địa vị) – nhưng chúng không đáp ứng được những yêu cầu cho sự thay đổi thực sự. Thay đổi thật sự đi sâu hơn nhiều so với việc tự thuyết phục bản thân rằng mình sẽ kỷ luật hơn hay năng suất hơn trong năm nay.
+Nếu bạn thuộc nhóm người này, tôi không ở đây để lên mặt dạy đời bạn (dù văn phong của tôi có xu hướng hơi gay gắt). Tôi đã bỏ cuộc gấp 10 lần số mục tiêu tôi đạt được. Tôi nghĩ điều đó nên là bình thường với hầu hết mọi người. Nhưng thực tế là con người cố gắng thay đổi cuộc đời và thất bại thảm hại gần như mọi lần vẫn là một sự thật.
+Tuy nhiên, dù tôi nghĩ quyết tâm năm mới là ngu ngốc, việc nhìn lại cuộc sống mà bạn đang chán ghét để phóng mình tới một thứ tốt đẹp hơn luôn là điều khôn ngoan, như chúng ta sẽ thảo luận sau đây.
+Vì vậy, dù bạn muốn bắt đầu kinh doanh, thay đổi hình thể, hay chấp nhận rủi ro để hướng tới một cuộc sống ý nghĩa hơn mà không bỏ cuộc sau 2 tuần, tôi muốn chia sẻ 7 ý tưởng mà có thể bạn chưa từng nghe về thay đổi hành vi, tâm lý học và sự năng suất để bạn thực hiện điều đó trong năm 2026.
+Bài viết này sẽ rất toàn diện.
+
+Đây không phải là kiểu thư bạn đọc lướt qua rồi quên ngay.
+Đây là thứ bạn sẽ muốn đánh dấu, ghi chú và dành thời gian suy ngẫm.
+Protocol (quy trình) ở phần cuối – nhằm đào sâu vào tâm trí và khám phá những gì bạn thực sự muốn – sẽ mất khoảng một ngày trọn vẹn để hoàn thành, với những hiệu quả kéo dài lâu hơn thế nhiều.
+Bắt đầu thôi.
+I – Bạn chưa ở nơi bạn muốn vì bạn chưa phải là người xứng đáng ở đó
+Khi đặt mục tiêu lớn, mọi người thường tập trung vào một trong hai yêu cầu để thành công:
+Thay đổi hành động để tạo ra tiến triển hướng tới mục tiêu (ít quan trọng nhất, Second order – cấp độ hai).
+Thay đổi con người bạn để hành vi tự nhiên tuân theo (quan trọng nhất, First order – cấp độ một).
+Hầu hết mọi người đặt mục tiêu bề nổi, tự kích thích bản thân (hype) để giữ kỷ luật trong vài tuần đầu, rồi quay lại lối mòn cũ mà không gặp nhiều trở ngại, bởi vì họ đang cố xây dựng một cuộc đời tuyệt vời trên một nền móng mục nát.
+Nếu chưa hiểu, hãy xem ví dụ này.
+Hãy nghĩ về một người thành công. Một vận động viên thể hình với vóc dáng tuyệt vời, một Founder/CEO sở hữu hàng trăm triệu đô, hay một gã lôi cuốn có thể trò chuyện với đám đông mà không hề lo lắng.
+Bạn nghĩ vận động viên thể hình phải "cày cuốc" để ăn uống lành mạnh? Liệu vị CEO có phải ép bản thân kỷ luật để xuất hiện và lãnh đạo đội ngũ? Với bạn, nhìn bề ngoài có vẻ là như vậy, nhưng sự thật là họ không thể thấy bản thân sống theo cách nào khác. Vận động viên thể hình phải "gồng mình" mới ăn uống thiếu lành mạnh được. Vị CEO phải ép bản thân nằm lỳ trên giường sau khi chuông báo thức reo, và họ ghét từng giây phút đó (có chút sắc thái khác biệt ở đây, nhưng hãy cứ nghe tôi nói đã).
+Với một số người, lối sống của tôi có vẻ hơi cực đoan và kỷ luật. Với tôi, nó là tự nhiên, và tôi không nói để so sánh với bất kỳ lối sống nào khác. Tôi đơn giản thích sống thế này. Khi mẹ bảo tôi nên nghỉ ngơi, đi chơi và vui vẻ chút đi... Tôi phải kìm lại để không nói với bà rằng: "Nếu con không thấy vui, tại sao con lại làm những việc con đang làm chứ?"
+Câu tiếp theo nghe có vẻ đơn giản, nhưng thật khó hiểu khi quá nhiều người không nắm bắt được nó.
+Nếu muốn một kết quả cụ thể trong đời, bạn phải có lối sống tạo ra kết quả đó rất lâu trước khi bạn chạm tới nó.
+Nếu ai đó nói họ muốn giảm 30 pounds (khoảng 13.6kg), tôi thường không tin. Không phải tôi nghĩ họ không có khả năng, mà vì đã quá nhiều lần chính người đó nói: "Tôi không thể chờ đến lúc giảm cân xong để bắt đầu tận hưởng cuộc sống trở lại". Tôi rất tiếc phải nói thẳng, nhưng nếu bạn không áp dụng lối sống giúp bạn giảm cân đó cả đời, và tìm ra một lý do có lực hấp dẫn lớn hơn lý do đang trói buộc bạn với lối cũ, thì bạn sẽ quay lại ngay vạch xuất phát, và bạn có thể buồn bã nói rằng mình đã lãng phí một tài nguyên không bao giờ lấy lại được: thời gian.
+Khi thực sự thay đổi bản thân, tất cả những thói quen không giúp bạn tiến tới mục tiêu sẽ trở nên kinh tởm, bởi vì bạn có nhận thức sâu sắc về việc những hành động đó sẽ tích lũy thành loại cuộc đời nào. Bạn đang ổn với các hiện tại vì bạn chưa nhận thức đầy đủ chúng là gì hoặc chúng dẫn đến đâu. Chúng ta sẽ thảo luận cách khám phá điều này, nhưng cần xây dựng nền tảng trước đã.
+Bạn nói bạn muốn thay đổi. Bạn nói bạn muốn "tự do tài chính" và "trở nên khỏe mạnh", nhưng hành động của bạn lại cho thấy điều ngược lại đều có lý do. Và nó sâu xa hơn bạn nghĩ nhiều.
+II – Bạn chưa ở nơi bạn muốn vì thực tâm bạn không muốn ở đó
+"Chỉ tin vào sự chuyển động. Cuộc sống diễn ra ở cấp độ của các sự kiện, không phải lời nói. Hãy tin vào sự chuyển động." – Alfred Adler
+Nếu muốn thay đổi con người mình, bạn phải hiểu cách tâm trí hoạt động để bắt đầu lập trình lại nó.
+Bước đầu tiên để hiểu tâm trí là hiểu rằng tất cả hành vi đều là có mục tiêu. Nó mang tính Teleological (mục đích luận). Khi nghĩ về điều này, nó khá hiển nhiên, nhưng khi đào sâu vào, hầu hết mọi người không muốn nghe.
+Bạn bước một bước về phía trước vì muốn đến một vị trí nhất định.
+Bạn gãi mũi vì muốn làm cơn ngứa biến mất.
+Những điều đó thì rõ ràng, nhưng phần lớn thời gian, mục tiêu của bạn là vô thức (unconscious). Bạn có thể không nhận ra rằng khi ngồi trên ghế sofa giữa ban ngày, bạn đang cố gắng đốt thời gian trước trách nhiệm tiếp theo, đó là một ví dụ đơn giản.
+Ở một cấp độ vô thức và phức tạp hơn, bạn theo đuổi những mục tiêu có thể gây hại cho mình, nhưng bạn biện minh cho hành động theo cách được xã hội chấp nhận và không làm bạn trông giống một kẻ thất bại.
+Ví dụ, nếu không thể ngừng trì hoãn công việc, bạn có thể biện minh bằng thực tế là bạn "thiếu kỷ luật", nhưng thực tế, bạn đang cố gắng đạt được một mục tiêu như bạn vẫn luôn làm. Trong trường hợp này, mục tiêu đó có thể là để bảo vệ bản thân khỏi sự phán xét sẽ đến khi bạn hoàn thành và chia sẻ công việc của mình.
+Nếu bạn nói muốn bỏ công việc dậm chân tại chỗ hiện tại, nhưng vẫn ở lại mà không có lý do thực sự, bạn có thể bắt đầu nghĩ mình không đủ can đảm, hoặc chưa bao giờ thực sự là người "dám mạo hiểm", nhưng sự thật là bạn đang theo đuổi mục tiêu của sự an toàn, sự dễ đoán, và một cái cớ để không trông giống kẻ thất bại trước mặt những người khác – những người xem việc làm một công việc đó là dấu hiệu của thành công.
+Bài học ở đây: Thay đổi thực sự đòi hỏi phải thay đổi mục tiêu.
+Tôi không nói đến việc đặt ra một mục tiêu bề nổi vì hành động đó phục vụ một mục tiêu vô thức đang thực sự làm hại bạn. Điều đó đã được nói quá nhiều trong giới Productivity rồi. Ý tôi là thay đổi quan điểm (point of view). Bởi vì đó chính là mục tiêu. Một mục tiêu là sự phóng chiếu vào tương lai, đóng vai trò như một thấu kính nhận thức cho phép bạn chú ý đến thông tin, ý tưởng và nguồn lực hỗ trợ bạn đạt được mục tiêu đó.
+III – Bạn chưa ở nơi bạn muốn vì bạn sợ phải ở đó
+"Điều quan trọng bạn cần nhớ là không quan trọng bạn lấy ý tưởng đó từ đâu hay như thế nào. Bạn có thể chưa bao giờ gặp một nhà thôi miên chuyên nghiệp. Bạn có thể chưa bao giờ được thôi miên chính thức. Nhưng nếu bạn đã chấp nhận một ý tưởng - từ chính mình, giáo viên, cha mẹ, bạn bè, quảng cáo, hay bất kỳ nguồn nào khác - và hơn nữa, nếu bạn tin chắc ý tưởng đó là sự thật, nó có sức mạnh đối với bạn y như lời của nhà thôi miên đối với người bị thôi miên." – Maxwell Maltz
+Đây là cách bạn trở thành con người hiện tại, và cách bạn sẽ trở thành con người của ngày mai. Đây là Anatomy of Identity (Giải phẫu của Bản dạng):
+Bạn muốn đạt được một mục tiêu.
+Bạn nhìn nhận thực tế qua lăng kính của mục tiêu đó.
+Bạn chỉ chú ý đến thông tin và ý tưởng "quan trọng" cho phép bạn đạt mục tiêu (học tập).
+Bạn hành động hướng tới mục tiêu và nhận Feedback (phản hồi) rằng bạn đang tiến bộ.
+Bạn lặp lại hành vi đó cho đến khi nó trở thành tự động và vô thức (Conditioning - Điều kiện hóa).
+Hành vi đó trở thành một phần của con người bạn ("Tôi là kiểu người...").
+Bạn bảo vệ Identity của mình để duy trì sự nhất quán về tâm lý.
+Identity của bạn định hình các mục tiêu mới, khởi động lại chu kỳ, và nếu Identity đó bất lợi cho một cuộc sống tốt đẹp, điều này sẽ trở nên tồi tệ rất nhanh.
+Thực tế đáng tiếc là bạn phải phá vỡ chu kỳ giữa bước 6 và 7, nhưng quá trình này bắt đầu từ khi bạn còn là một đứa trẻ.
+Bạn có mục tiêu sinh tồn.
+
+Bạn phụ thuộc vào cha mẹ để dạy cách sinh tồn. Bạn buộc phải tuân thủ (conform). Và vì cách hầu hết mọi người dạy dỗ là thông qua thưởng và phạt, trừ khi bạn chấp nhận niềm tin và giá trị của họ, bạn sẽ bị phạt. Bạn không thực sự suy nghĩ cho chính mình cho đến khi nhìn thấu điều này.
+Nhưng cha mẹ bạn cũng đã trải qua quá trình này suốt cuộc đời họ. Đó là nơi mọi thứ trở nên nguy hiểm. Cha mẹ bạn, trừ khi họ tự phá vỡ khuôn mẫu, đã bị điều kiện hóa bởi những ý tưởng về thành công được chấp nhận về mặt văn hóa từ thời đại Công nghiệp. Họ cũng mang theo sự điều kiện hóa tốt nhất và tồi tệ nhất từ cha mẹ họ.
+Để đi sâu hơn một lớp nữa, một khi đáp ứng được nhu cầu sinh tồn thể chất (điều khá dễ trong thế giới ngày nay, bạn gần như được sinh ra trong sự an toàn), bạn bắt đầu sinh tồn ở cấp độ khái niệm hoặc tư tưởng. Bạn có thể không cố gắng bảo vệ và tái tạo cơ thể, nhưng bạn hoàn toàn bảo vệ và tái tạo tâm trí mình. Không khó để thấy cuộc chiến ý tưởng trên internet, và những người tham gia là các Identity cá nhân và nhóm.
+Khi cơ thể cảm thấy bị đe dọa, bạn rơi vào trạng thái Fight or Flight (chiến hoặc biến).
+
+Khi Identity cảm thấy bị đe dọa, điều tương tự cũng xảy ra.
+Nếu bạn đồng nhất nặng nề với một hệ tư tưởng chính trị (theo quy trình chúng ta vừa nói), bạn sẽ cảm thấy bị đe dọa khi ai đó thách thức niềm tin của bạn. Bạn thực sự cảm thấy Stress (căng thẳng). Về mặt cảm xúc, bạn cảm thấy như vừa bị tát vào mặt. Vì hầu hết mọi người không phân tích cảm xúc của họ để tìm sự thật, bạn có xu hướng mắc kẹt trong các Echo chambers (buồng vang thông tin) và càng cố chấp (double down) với những tuyên bố làm hại chính mình và người khác.
+Nếu lớn lên trong một gia đình tôn giáo, và không tự suy nghĩ, bạn sẽ chiến đấu và tấn công những người đe dọa sự an toàn tâm lý của bạn trong cái bong bóng nhỏ bé đó.
+Điều tương tự xảy ra khi bạn vô thức xem mình là một luật sư, một game thủ, hay một ai đó sẽ không thực hiện các hành động để đạt được cuộc sống tốt hơn.
+IV – Cuộc đời bạn muốn nằm ở một tầng nhận thức cụ thể (Đoạn này bạn nào dịch lại hay hay giúp mình nhé)
+Tâm trí tiến hóa qua các giai đoạn có thể dự đoán được theo thời gian.
+
+Khi sinh ra, bạn giống như một miếng bọt biển sinh tồn nhỏ bé hấp thụ bất kỳ niềm tin nào có thể (vốn bị chi phối nặng nề bởi văn hóa) để cảm thấy an toàn. Và nếu không cẩn thận, tâm trí bạn có thể bị kết tinh và gây khó khăn cho việc sống một cuộc đời ý nghĩa.
+Điều này đã được ghi chép đủ nhiều trong các mô hình như Tháp nhu cầu Maslow, các giai đoạn phát triển Ego (cái tôi) của Greuter, Spiral Dynamics (Động lực xoắn ốc), và Integral Theory (Lý thuyết Tích hợp), mỗi cái xây dựng dựa trên cái kia, nhưng cũng không khó để quan sát trong xã hội.
+Tôi đã nói về những điều này nhiều lần, và tổng hợp chúng vào mô hình Human 3.0 của riêng tôi với các câu lệnh AI khác nhau để khám phá cấp độ phát triển của bạn, nhưng đây là nguyên tắc 80/20 của 9 giai đoạn phát triển Ego để nhắc lại:
+Impulsive (Bốc đồng) — Không có sự tách biệt giữa xung động và hành động. Tư duy trắng đen. Ví dụ: Một đứa trẻ đánh người khi tức giận vì cảm xúc và hành vi là một.
+Self-Protective (Tự vệ) — Thế giới nguy hiểm và bạn học cách lo cho bản thân. Ví dụ: Một đứa trẻ học cách giấu phiếu điểm, nói dối về việc nhà, và tìm ra điều người lớn muốn nghe.
+Conformist (Tuân thủ) — Bạn là nhóm của bạn và các quy tắc của nó cảm giác như chính thực tại. Ví dụ: Ai đó thực sự không thể hiểu nổi tại sao có người lại bầu cử khác với gia đình hoặc nhóm của họ.
+Self-Aware (Tự nhận thức) — Bạn nhận thấy mình có đời sống nội tâm không khớp với bên ngoài. Ví dụ: Ngồi trong nhà thờ và nhận ra bạn không chắc mình tin những gì mọi người xung quanh có vẻ tin, nhưng chưa biết làm gì với cảm giác đó.
+Conscientious (Tận tâm) — Bạn xây dựng hệ thống nguyên tắc riêng và tự chịu trách nhiệm với chúng. Ví dụ: Rời bỏ tôn giáo của gia đình sau khi nghiên cứu kỹ lưỡng và áp dụng một triết lý cá nhân, hoặc xây dựng kế hoạch sự nghiệp với các cột mốc rõ ràng vì tin rằng nỗ lực đúng đắn mang lại kết quả đúng đắn.
+Individualist (Cá nhân) — Bạn thấy các nguyên tắc của mình được định hình bởi bối cảnh và bắt đầu nắm giữ chúng lỏng lẻo hơn. Ví dụ: Nhận ra quan điểm chính trị liên quan nhiều đến nơi bạn lớn lên hơn là chân lý khách quan, hoặc nhận thấy các mục tiêu sự nghiệp tham vọng thực ra là để giành được sự chấp thuận của cha bạn.
+Strategist (Chiến lược gia) — Bạn làm việc với các hệ thống trong khi nhận thức được sự tham gia của chính mình trong đó. Ví dụ: Lãnh đạo một tổ chức trong khi chủ động đặt câu hỏi về điểm mù (blind spots) của chính mình, hoặc tham gia chính trị khi biết quan điểm của mình là một phần và bị định hình bởi thiên kiến.
+Construct-Aware (Nhận thức cấu trúc) — Bạn xem tất cả các Framework (khuôn khổ), bao gồm cả Identity, là những hư cấu hữu ích. Ví dụ: Nắm giữ niềm tin tâm linh theo nghĩa ẩn dụ thay vì nghĩa đen, biết rằng bản đồ không phải là lãnh thổ.
+Unitive (Hợp nhất) — Sự tách biệt giữa bản thân và cuộc sống tan biến. Ví dụ: Làm việc, nghỉ ngơi và vui chơi cảm giác như cùng một thứ. Không còn ai cần phải trở thành cái gì đó, chỉ có sự hiện diện phản hồi với những gì nảy sinh.
+Với hầu hết người đọc, tôi cho rằng bạn dao động giữa mức 4 và 8, một khoảng cách rất lớn. Những người gần mức 8 đọc bài này để học hỏi hoặc giết thời gian theo cách không phá hoại. Những người gần mức 4 thực sự đang tìm kiếm sự thay đổi. Bạn cảm thấy mình sinh ra để làm nhiều hơn thế, nhưng chưa thể hiểu hết mọi thứ, vì rõ ràng có quá nhiều yếu tố tác động.
+Tin tốt là, không quan trọng bạn đang ở giai đoạn nào, vì việc di chuyển qua bất kỳ giai đoạn nào cũng tuân theo một khuôn mẫu.
+V – Intelligence (Trí thông minh) là khả năng đạt được những gì bạn muốn
+"Thước đo duy nhất của trí thông minh là bạn có đạt được thứ bạn muốn trong đời hay không." – Naval Ravikant (Naval cũng có những cái bài posts rất hay, mình khuyến khích mọi người xem qua nhé , @naval)
+Có một công thức cho thành công.
+
+Một thành phần là Agency (Quyền tự quyết/Năng lực hành động).
+Một thành phần là Opportunity (Cơ hội - thứ mà nhiều người thích nhầm là "đặc quyền" - bởi vì họ thiếu các thành phần khác).
+
+Thành phần cuối cùng là Intelligence (Trí thông minh).
+Nếu có Agency cao nhưng Opportunity thấp, không quan trọng bạn hành động hướng tới mục tiêu thế nào, vì đó không phải là mục tiêu sẽ mang lại nhiều kết quả.
+
+Nếu có Opportunity và Agency nhưng Intelligence thấp, bạn sẽ không bao giờ có thể hưởng lợi đầy đủ từ cơ hội đó.
+Đầu tiên, chúng ta đã nói về Agency trước đây. Về Opportunity, tôi không thể bảo bạn thay đổi vị trí địa lý, nhưng nếu không thấy sự dồi dào của cơ hội kỹ thuật số ngay trước mặt, tôi không biết phải nói gì với bạn.
+Tôi muốn tập trung vào Intelligence là gì trong bối cảnh của hai thành phần kia và bài viết này. Về điều này, chúng ta nhìn vào Cybernetics (Điều khiển học).
+Cybernetics đến từ tiếng Hy Lạp kybernetikos có nghĩa là "lái tàu" hoặc "giỏi lái tàu".
+
+Nó cũng được biết đến là "nghệ thuật đạt được điều bạn muốn".
+Vì vậy, nếu định nghĩa của Naval về Intelligence là đạt được điều bạn muốn trong đời, hiểu về Cybernetics giúp bạn làm điều đó nhanh hơn nhiều.
+Cybernetics minh họa các tính chất của các hệ thống thông minh:
+Có một mục tiêu.
+Hành động hướng tới mục tiêu đó.
+Cảm nhận vị trí hiện tại của bạn.
+So sánh nó với mục tiêu.
+Và hành động lại dựa trên Feedback (phản hồi).
+Bạn có thể đánh giá Intelligence dựa trên khả năng lặp lại (iterate) và kiên trì với phương pháp thử và sai của hệ thống.
+
+Một con tàu bị gió thổi chệch hướng sẽ điều chỉnh về phía điểm đến. Một máy điều nhiệt cảm nhận sự thay đổi nhiệt và bật lên.
+Tuyến tụy tiết insulin sau khi đường huyết tăng vọt.
+Điều này liên quan gì đến việc đạt được điều bạn muốn trong đời?
+
+Tất cả mọi thứ.
+Hành động, cảm nhận, so sánh và hiểu hệ thống từ một Meta-perspective (góc nhìn siêu hình/tổng quan) là nền tảng của trí thông minh cao.
+Trí thông minh cao là khả năng lặp lại, kiên trì và hiểu bức tranh lớn. Dấu hiệu của trí thông minh thấp là không có khả năng học hỏi từ sai lầm.
+Người kém thông minh mắc kẹt ở vấn đề thay vì giải quyết chúng. Họ gặp rào cản và bỏ cuộc. Giống như một nhà văn thất bại trong việc xây dựng độc giả và bỏ cuộc vì thiếu khả năng thử những cái mới, thử nghiệm và tìm ra quy trình hiệu quả (việc nghĩ rằng không có quy trình hiệu quả nào bạn có thể tạo ra là sai lầm, bất chấp những niềm tin giới hạn của bạn, đó là dấu hiệu của trí thông minh thấp).
+Trí thông minh cao là nhận ra bất kỳ vấn đề nào cũng có thể được giải quyết trên một khung thời gian đủ lớn. Thực tế là bạn có thể đạt được bất kỳ mục tiêu nào bạn đặt tâm trí vào.
+Intelligence là nhận ra rằng có một chuỗi các lựa chọn dẫn đến việc đạt được mục tiêu bạn muốn. Bạn hiểu rằng các ý tưởng có tôn ti trật tự và bạn không thể đi từ giấy cói đến Google Docs trong một bước nhảy. Ngay cả khi mục tiêu đó là không thể ngay bây giờ, bạn đơn giản là chưa có đủ nguồn lực – thứ có thể được phát minh trong vài năm tới – để đạt được điều đó.
+Khi nói về "mục tiêu", và như tôi sẽ tiếp tục lặp lại, tôi không nói từ lăng kính Self-help điển hình, dù đó là một lăng kính hữu ích đôi khi.
+
+Tôi đang nói từ lăng kính của Teleology (Mục đích luận) hay Kosmos của Hy Lạp – rằng mọi thứ đều phục vụ một mục đích. Rằng mọi thứ là một phần của tổng thể lớn hơn.
+Mục tiêu xác định cách bạn nhìn thế giới.
+
+Mục tiêu xác định cái bạn coi là "thành công" hay "thất bại".
+
+Bạn có thể cố gắng "tận hưởng hành trình", nhưng nếu theo đuổi sai mục tiêu, bạn sẽ không tận hưởng nó.
+Tâm trí bạn là Operating System (hệ điều hành) cho thực tại.
+Hệ thống đó được cấu thành từ các mục tiêu.
+
+Với hầu hết mọi người, những mục tiêu đó được gán (assigned) cho họ. Được lập trình như những dòng code trong tâm lý.
+Đi học. Kiếm việc. Dễ bị xúc phạm. Đóng vai nạn nhân. Nghỉ hưu năm 65 tuổi.
+
+Một con đường đã biết nhưng không hiệu quả.
+Để trở nên thông minh hơn, bạn phải:
+Từ chối con đường đã biết
+Lao vào cái chưa biết
+Đặt ra những mục tiêu mới, cao hơn để mở rộng tâm trí
+Ôm lấy sự hỗn loạn và cho phép sự phát triển
+Nghiên cứu các nguyên tắc tổng quát của tự nhiên
+Trở thành một Deep Generalist (Nhà tổng quát học sâu sắc)
+Tôi hiểu đây có thể không phải là định nghĩa truyền thống về trí thông minh, nhưng chuỗi các bước đó dẫn đến một mức độ kết nối phi thường trong não bộ, dẫn đến cái mà chúng ta quan sát là một người thông minh. Kết hợp điều đó với Agency và bạn có một người chiến thắng.
+Điều đó dẫn chúng ta vào phần tiếp theo một cách hoàn hảo.
+VI – Cách reset một cuộc đời hoàn toàn mới (trong 1 ngày)
+Những giai đoạn tốt nhất trong đời tôi luôn đến sau một giai đoạn chán ngấy tột độ với sự thiếu tiến bộ của bản thân.
+
+Làm thế nào để đào sâu vào tâm trí?
+
+Làm thế nào để nhận thức được sự Conditioning (điều kiện hóa) của bạn?
+
+Làm thế nào để đạt được những Insight (hiểu biết sâu sắc) và chân lý thay đổi quỹ đạo cuộc đời?
+
+Thông qua hành động đơn giản, nhưng thường đau đớn là đặt câu hỏi.
+Thứ mà quá ít người làm, và bạn có thể nhận thấy qua cách họ nói hoặc đưa ra suy nghĩ về một chủ đề cụ thể. Đặt câu hỏi là tư duy, và rất ít người làm điều đó.
+Tôi muốn đưa cho bạn một Protocol (quy trình) toàn diện mà bạn có thể sử dụng hàng năm để Reset (thiết lập lại) cuộc sống và phóng mình vào một mùa của sự tiến bộ mạnh mẽ. Quy trình này giúp bạn đặt đúng câu hỏi.
+Những câu hỏi này sẽ bao gồm từ vĩ mô đến vi mô: bạn muốn ở đâu, bạn cần làm gì để đến đó, và bạn có thể làm gì ngay lập tức để bắt đầu di chuyển "cây kim" về phía thực tại đó.
+
+Việc này sẽ đòi hỏi một ngày trọn vẹn để hoàn thành, vì vậy tôi khuyên bạn nên làm theo đúng Protocol. Bạn sẽ cần bút, giấy và một tâm trí cởi mở.
+Khi quan sát các mô thức ở những người thành công trong việc lật ngược Identity của họ, nó xảy ra nhanh sau khi sự căng thẳng tích tụ. Cụ thể, tôi nhận thấy 3 giai đoạn họ thường trải qua:
+Dissonance (Sự bất hòa) – Họ cảm thấy mình không thuộc về cuộc sống hiện tại, và trở nên đủ chán ngấy với sự thiếu tiến bộ.
+Uncertainty (Sự bất định) – Họ không biết cái gì sẽ đến tiếp theo, nên họ hoặc thử nghiệm hoặc lạc lối và cảm thấy tệ hơn.
+Discovery (Sự khám phá) – Họ khám phá ra cái họ muốn theo đuổi và tạo ra 6 năm tiến bộ chỉ trong 6 tháng.
+Mục tiêu của chúng ta với Protocol này là giúp bạn đạt đến điểm Dissonance, điều hướng qua Uncertainty, và Discovery ra cái bạn thực sự muốn đạt được, đến mức sự rõ ràng trở nên choáng ngợp và những xao nhãng không còn trọng lượng.
+Quy trình này được cấu trúc để hoàn thành trong một ngày. Buổi sáng, bạn thực hiện khai quật tâm lý để tìm ra động cơ ẩn giấu. Trong ngày, bạn nhắc nhở bản thân bằng các "ngắt quãng" (interrupts) để giữ mình không rơi vào chế độ lái tự động (autopilot) và chiêm nghiệm cuộc sống. Buổi tối, bạn tổng hợp các Insight thành một hướng đi để bắt đầu di chuyển vào ngày mai.
+Tôi không đảm bảo điều này sẽ hiệu quả với tất cả mọi người, vì tôi không thể đảm bảo mọi người đọc bài này đều đang ở đúng chương của cuộc đời khiến những điểm này trở nên tác động. Bạn không thể đặt cao trào ở đầu cuốn sách và mong nó thú vị.
+Phần 1) Buổi sáng – Khai quật Tâm lý – Vision & Anti-Vision
+Đầu tiên phải tạo ra một khung mới, hoặc lăng kính nhận thức mới, để tâm trí vận hành.
+
+Giống như tạo ra một cái vỏ mới, rời bỏ cái cũ, và từ từ lớn lên trong đó theo thời gian. Nó sẽ không cảm thấy vừa vặn lúc đầu. Đó là điều tốt.
+Dành ra 15-30 phút (độ dài một video YouTube... bạn làm được mà) để suy nghĩ và trả lời những câu hỏi này. Đừng cố Outsourcing (thuê ngoài) việc chiêm nghiệm này cho AI. Tôi muốn bạn phá vỡ bộ giới hạn (limiter) trên tâm trí mình. Nếu không thể trả lời ngay, hãy quay lại sau.
+Nỗi bất mãn âm ỉ và dai dẳng nào mà bạn đã học cách sống chung? Không phải nỗi đau khổ sâu sắc mà là cái bạn đã học cách dung thứ. (Nếu bạn không ghét nó, bạn sẽ dung thứ nó).
+Bạn phàn nàn về điều gì lặp đi lặp lại nhưng không bao giờ thực sự thay đổi? Viết ra 3 lời phàn nàn bạn nói nhiều nhất trong năm qua.
+Với mỗi lời phàn nàn: Một người quan sát hành vi của bạn (chứ không phải lời nói) sẽ kết luận rằng bạn thực sự muốn gì?
+Sự thật nào về cuộc sống hiện tại sẽ là không thể chịu nổi nếu phải thừa nhận với người mà bạn kính trọng sâu sắc?
+Những câu hỏi đó nhằm làm bạn nhận thức về nỗi đau trong cuộc sống hiện tại. Bây giờ, chúng ta cần biến chúng thành cái tôi gọi là "Anti-vision" (Phản tầm nhìn) – một nhận thức tàn nhẫn về cuộc đời mà bạn KHÔNG muốn sống. Bằng cách đó, bạn có thể dùng năng lượng tiêu cực để nhắm nỗ lực theo hướng tích cực và hành động từ động lực nội tại (intrinsic motivation).
+Nếu hoàn toàn không có gì thay đổi trong 5 năm tới, hãy mô tả một ngày thứ Ba trung bình. Bạn thức dậy ở đâu? Cơ thể cảm thấy thế nào? Suy nghĩ đầu tiên là gì? Ai ở quanh bạn? Bạn làm gì từ 9h sáng đến 6h tối? Bạn cảm thấy thế nào lúc 10h đêm?
+Bây giờ làm tương tự cho 10 năm. Bạn đã bỏ lỡ điều gì? Những cơ hội nào đã đóng lại? Ai đã từ bỏ bạn? Mọi người nói gì về bạn khi bạn không có trong phòng?
+Bạn đang ở cuối đời. Bạn đã sống phiên bản an toàn. Bạn chưa bao giờ phá vỡ khuôn mẫu. Cái giá phải trả là gì? Bạn đã không bao giờ cho phép mình cảm nhận, thử, hay trở thành điều gì?
+Ai trong đời bạn đang sống cái tương lai bạn vừa mô tả? Ai đó đi trước 5, 10, 20 năm trên cùng quỹ đạo? Bạn cảm thấy gì khi nghĩ đến việc trở thành họ?
+Bạn phải từ bỏ Identity nào để thực sự thay đổi? ("Tôi là kiểu người...") Bạn sẽ phải trả giá gì về mặt xã hội để không còn là người đó nữa?
+Lý do xấu hổ nhất khiến bạn chưa thay đổi là gì? Cái lý do khiến bạn nghe có vẻ yếu đuối, sợ hãi, hay lười biếng thay vì hợp lý?
+Nếu hành vi hiện tại là một dạng Self-protection (tự bảo vệ), bạn đang bảo vệ chính xác cái gì? Và sự bảo vệ đó đang tiêu tốn của bạn cái gì?
+Nếu trả lời trung thực, và nếu đang ở đúng chương của cuộc đời, bạn sẽ cảm thấy một cảm giác Dis-ease (bất an) sâu sắc và có thể là ghê tởm với cách sống hiện tại. Bây giờ, cần định hướng năng lượng đó theo hướng tích cực. Cần tạo ra một Minimum Viable Vision (Tầm nhìn khả thi tối thiểu), vì Vision giống như một sản phẩm. Nó bắt đầu không rõ ràng, nhưng với thời gian và kinh nghiệm, nó trở nên mạnh mẽ và hiệu quả hơn.
+Quên tính thực tế đi một phút. Nếu có thể búng tay và sống cuộc đời khác trong 3 năm nữa, không phải cái gì thực tế, mà cái bạn thực sự muốn? Một ngày thứ Ba trung bình trông như thế nào? Chi tiết như câu hỏi 5.
+Bạn phải tin gì về bản thân để cuộc sống đó cảm thấy tự nhiên thay vì gượng ép? Viết tuyên bố Identity: "Tôi là kiểu người..."
+Một điều bạn sẽ làm trong tuần này nếu bạn đã là người đó là gì?
+Hãy trả lời tất cả những câu này vào sáng sớm ngày mai.
+Phần 2) Trong suốt cả ngày – Ngắt kết nối Autopilot – Phá vỡ khuôn mẫu vô thức
+Mấy bài tập viết nhật ký (journaling) này thì dễ thương đấy, nhưng chúng ta muốn thay đổi thực sự.
+
+Thẳng thắn mà nói, điều đó sẽ không xảy ra nếu bạn không phá vỡ các khuôn mẫu vô thức hiện tại đang giữ bạn y nguyên.
+
+Trong ngày, tôi muốn bạn chiêm nghiệm (contemplate) mọi thứ đã viết ở phần một. Đừng quên chiêm nghiệm. Hãy nghiêm túc. Bạn sẽ không thay đổi bằng cách làm y hệt những gì đã làm trong phần đời còn lại. Bạn cần buộc phải phá vỡ khuôn mẫu một cách có ý thức.
+Dành thời gian ngay bây giờ để tạo lời nhắc hoặc sự kiện lịch trong điện thoại. Bao gồm câu hỏi trong lời nhắc để ngay lập tức suy nghĩ về nó.
+
+Càng ngẫu nhiên và không xung đột với lịch trình càng tốt.
+11:00am: Tôi đang né tránh điều gì ngay lúc này bằng việc làm cái tôi đang làm?
+1:30pm: Nếu ai đó quay phim 2 tiếng vừa qua, họ sẽ kết luận tôi muốn gì từ cuộc đời mình?
+3:15pm: Tôi đang di chuyển về phía cuộc đời tôi ghét hay cuộc đời tôi muốn?
+5:00pm: Điều quan trọng nhất mà tôi đang giả vờ là không quan trọng là gì?
+7:30pm: Hôm nay tôi đã làm gì vì bảo vệ Identity thay vì khao khát thực sự? (Gợi ý: hầu hết mọi thứ bạn làm)
+9:00pm: Khi nào tôi cảm thấy sống động nhất hôm nay? Khi nào tôi cảm thấy chết chóc nhất?
+Thêm chút dầu vào lửa, hãy lên lịch những câu hỏi này vào những lúc đang di chuyển, đi bộ hoặc nằm nghỉ.
+Điều gì sẽ thay đổi nếu tôi ngừng cần mọi người nhìn tôi như là [Identity bạn viết ở câu 10]?
+Ở đâu trong cuộc đời tôi đang đánh đổi sự sống động lấy sự an toàn?
+Phiên bản nhỏ nhất của người tôi muốn trở thành mà tôi có thể là vào ngày mai là gì?
+Phần 3) Buổi tối – Tổng hợp Insight – Bước vào Mùa của sự Tiến bộ
+Nếu theo đúng quy trình, tôi sẽ ngạc nhiên nếu bạn không có ít nhất một Insight (hiểu biết sâu sắc) có thể thay đổi hướng đi cuộc đời. Bây giờ, cần làm cho chúng trở nên rõ ràng, tích hợp vào con người bạn, và hành động dựa trên chúng để bắt đầu củng cố hành trình tới cấp độ tâm trí mới.
+Sau ngày hôm nay, điều gì cảm thấy đúng nhất về lý do tại sao bạn bị mắc kẹt?
+Kẻ thù thực sự là gì? Đặt tên nó rõ ràng. Không phải hoàn cảnh. Không phải người khác. Mà là khuôn mẫu hoặc niềm tin nội tại đang điều hành mọi thứ.
+Viết một câu tóm gọn những gì bạn từ chối để cuộc đời mình trở thành. Đây là Anti-vision được nén lại. Nó phải làm bạn cảm thấy gì đó khi đọc.
+Viết một câu tóm gọn những gì bạn đang xây dựng hướng tới, biết rằng nó sẽ tiến hóa. Đây là Vision MVP của bạn.
+Cuối cùng, cần tạo ra các mục tiêu.
+
+Một lần nữa, đây không phải mục tiêu đặt ra vì lợi ích của thành tích, vì mục tiêu chỉ là sự phóng chiếu. Chúng không đáng tin cậy và làm bạn cảm thấy bị ràng buộc vào thứ chắc chắn sẽ thay đổi. Thay vào đó, hãy nghĩ về mục tiêu như một quan điểm (point of view). Một thấu kính bạn có thể thay đổi để bước vào trạng thái tâm trí đúng đắn nhằm thực hiện hành động dẫn bạn ra khỏi cuộc đời bạn không muốn. Đừng lo lắng về vạch đích, vì như chúng ta sẽ thấy, nó không tồn tại. Sự tận hưởng được tìm thấy trong sự tiến bộ.
+Lăng kính 1 năm: Điều gì phải là sự thật trong 1 năm nữa để bạn biết bạn đã phá vỡ khuôn mẫu cũ? Một điều cụ thể.
+Lăng kính 1 tháng: Điều gì phải là sự thật trong 1 tháng nữa để lăng kính 1 năm vẫn khả thi?
+Lăng kính hàng ngày: 2-3 hành động bạn có thể Timeblock (phân bổ thời gian) vào ngày mai mà con người bạn đang trở thành sẽ đơn giản là làm chúng?
+Đó là rất nhiều thứ.
+
+Hy vọng nó hữu ích.
+
+Nhưng chúng ta còn một mảnh ghép cuối cùng để khóa tất cả lại.
+Theo tôi.
+VII – Biến cuộc đời thành Video Game
+"Trạng thái tối ưu của trải nghiệm nội tâm là trật tự trong ý thức. Điều này xảy ra khi năng lượng tâm linh—hay sự chú ý—được đầu tư vào các mục tiêu thực tế, và khi kỹ năng phù hợp với cơ hội hành động. Việc theo đuổi một mục tiêu mang lại trật tự trong nhận thức bởi vì một người phải tập trung sự chú ý vào nhiệm vụ trước mắt và tạm thời quên đi mọi thứ khác." – Mihaly Csikszentmihalyi (bạn nào dịch lại giúp mình nhé, dịch tiếng Việt hơi phê ý mà Mihaly muốn nói)
+Bạn hiện có tất cả các thành phần dẫn đến một cuộc sống tốt đẹp.
+Bây giờ, sẽ hữu ích nếu tổ chức tất cả Insight thành một kế hoạch mạch lạc. Lấy một trang giấy mới và viết xuống 6 thành phần này:
+Anti-vision (Phản tầm nhìn) – Tai ương của sự tồn tại, hay cuộc sống tôi không bao giờ muốn trải nghiệm lại là gì?
+Vision (Tầm nhìn) – Cuộc sống lý tưởng mà tôi nghĩ tôi muốn và có thể cải thiện khi làm việc hướng tới nó là gì?
+1 year goal (Mục tiêu 1 năm) – Cuộc sống sẽ trông như thế nào trong 1 năm tới, và liệu nó có gần hơn với cuộc sống tôi muốn không?
+1 month project (Dự án 1 tháng) – Tôi cần học gì? Kỹ năng nào cần đạt được? Tôi có thể xây dựng cái gì sẽ đưa tôi đến gần hơn với mục tiêu 1 năm?
+Daily levers (Đòn bẩy hàng ngày) – Những nhiệm vụ ưu tiên, tạo chuyển biến nào giúp đưa dự án đến gần hoàn thành hơn?
+Constraints (Ràng buộc) – Tôi không sẵn lòng hy sinh điều gì để đạt được tầm nhìn từ con số không?
+Tại sao điều này mạnh mẽ đến vậy?
+
+Bởi vì những thành phần này theo nghĩa đen tạo ra thế giới nhỏ của riêng bạn. Nếu sinh ra để theo đuổi hệ thống phân cấp mục tiêu này ở giai đoạn này của cuộc đời, bạn sẽ không có lựa chọn nào khác ngoài việc trở nên bị ám ảnh. Bạn sẽ cảm thấy lực hút tới một cái gì đó vĩ đại hơn.
+Bạn biến cuộc đời mình thành một Video Game.
+Bởi vì game là điển hình cho sự ám ảnh, sự thích thú và Flow states (trạng thái dòng chảy). Chúng có tất cả thành phần dẫn đến sự tập trung và rõ ràng, vì vậy nếu Reverse engineer (thiết kế ngược) những thành phần đó, chúng ta có thể sống trong trạng thái tận hưởng sâu sắc hơn, ít xao nhãng hơn và thành công hơn.
+Vision của bạn là cách bạn chiến thắng. Ít nhất là cho đến khi trò chơi tiến hóa.
+Anti-vision là cái đang bị đe dọa. Điều gì xảy ra nếu bạn thua hoặc bỏ cuộc.
+1 year goal là Mission (nhiệm vụ chính). Đây là ưu tiên duy nhất của bạn trong đời.
+1 month project là Boss fight (trận đấu trùm). Cách bạn đạt XP (điểm kinh nghiệm) và thu thập Loot (chiến lợi phẩm).
+Daily levers là Quests (nhiệm vụ). Quy trình hàng ngày mở khóa các cơ hội mới.
+Constraints là luật chơi. Những giới hạn khuyến khích sự sáng tạo.
+Tất cả những điều này hoạt động như một tập hợp các vòng tròn đồng tâm, giống như một trường lực, bảo vệ tâm trí khỏi sự xao nhãng và những vật thể lấp lánh (shiny objects).
+Càng chơi trò chơi này, lực này càng trở nên mạnh mẽ, và chẳng mấy chốc nó trở thành con người bạn, và bạn sẽ không muốn nó theo bất kỳ cách nào khác.
