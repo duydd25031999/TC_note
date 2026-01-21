@@ -1,1 +1,24 @@
-Đây là bản giới thiệu bản thân trong buổi phỏng vấn của tôi. Chấm điểm nó theo độ đầy đủ, hấp dẫn với người phỏng vấn. Chỉ ra điểm mà người phỏng vấn thích, không thích. 
+Many parents would not know what to do if their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron, research shows. 
+
+Many parents would not know what to do if their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron.
+
+1. V: Would not know => ( - )
+2. S: Many parents
+3. O:  what to do 
+4. Context: If their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron.
+4.1: Fell and banged their head (Ngã và đập đầu). -> Dấu hiệu: Nguy hiểm (-)
+4.2: "Choked" on a small toy. -> Dấu hiệu: Đang tìm... -> ( - ) dựa vào các yếu tố khác -> 1 tai nạn với "small toy"
+4.3: Scalded themselves on a hot iron (Bị bỏng bởi bàn là nóng). -> Dấu hiệu: Nguy hiểm (-)
+
+---------------------------------
+
+The British Red Cross organisation, which "commissioned" the survey, is so alarmed by the findings that it has created a cheap and easy computer-based training programme for parents called 'learn first aid fast'. 
+
+1. V: commissioned -> Dấu hiệu: Đang tìm... -> (+) dựa theo các yếu tố khác
+2. S: British Red Cross organisation & which -> (+)
+3. O:  the survey -> (+)
+4. Context: alarmed by the findings that it has created a cheap and easy computer-based training programme for parents called 'learn first aid fast'. -> (+)
+
+---------------------------------
+
+Hướng dẫn tôi tìm từ đồng nghĩa với "fatalities" bằng phương pháp Scanning: Accidents are the main reason for deaths in children aged more than twelve months, accounting for nearly 400 "fatalities" a year
