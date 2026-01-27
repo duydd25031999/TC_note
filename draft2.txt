@@ -1,24 +1,14 @@
-Many parents would not know what to do if their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron, research shows. 
-
-Many parents would not know what to do if their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron.
-
-1. V: Would not know => ( - )
-2. S: Many parents
-3. O:  what to do 
-4. Context: If their child fell and banged their head, "choked" on a small toy or scalded themselves on a hot iron.
-4.1: Fell and banged their head (Ngã và đập đầu). -> Dấu hiệu: Nguy hiểm (-)
-4.2: "Choked" on a small toy. -> Dấu hiệu: Đang tìm... -> ( - ) dựa vào các yếu tố khác -> 1 tai nạn với "small toy"
-4.3: Scalded themselves on a hot iron (Bị bỏng bởi bàn là nóng). -> Dấu hiệu: Nguy hiểm (-)
-
----------------------------------
-
-The British Red Cross organisation, which "commissioned" the survey, is so alarmed by the findings that it has created a cheap and easy computer-based training programme for parents called 'learn first aid fast'. 
-
-1. V: commissioned -> Dấu hiệu: Đang tìm... -> (+) dựa theo các yếu tố khác
-2. S: British Red Cross organisation & which -> (+)
-3. O:  the survey -> (+)
-4. Context: alarmed by the findings that it has created a cheap and easy computer-based training programme for parents called 'learn first aid fast'. -> (+)
-
----------------------------------
-
-Hướng dẫn tôi tìm từ đồng nghĩa với "fatalities" bằng phương pháp Scanning: Accidents are the main reason for deaths in children aged more than twelve months, accounting for nearly 400 "fatalities" a year
+- Hi, My name is Do Duc Duy, but you can call me Alex.
+- I'm a front-end engineer with more than five years of experience in building web applications. 
+- I love building clean UI, writting maintainable code and creating enjoyable apps for my customer. 
+- Besides Front-end, I also have experience with some backend tools like NodeJS and PHP, MySQL and MongoDB. 
+- My work covers domain like commerce, cloud management, CRM and AI assistant platforms. 
+- I also take part in pre-sale activities. 
+- I work directly with my customer to analyze their requirements, make technical plan and estimate timeline for the project. 
+- I often discuss with my customer about the idea and risk to find the best scope for my product. 
+- I lead a small front end team from three to five members. 
+- My leadership style is simple, clear, clean communication and open speech. 
+- For example, when we take a big features I will try to defind the first detail plan for our team.
+- But before starting I and my team will brainstorm and discuss to find the best schedule for us to work effectively 
+- And in my part department, besides front end developer roles, my responsibility also includes technical interviews improve code practices and mentoring junior members. 
+- So that's a bit about me. Please feel free to ask any question about me or my latest project.

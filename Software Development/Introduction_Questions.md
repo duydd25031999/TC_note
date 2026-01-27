@@ -20,54 +20,73 @@ My name is Do Duc Duy. I’m a driven Front-end Developer with over 5 years of e
 
 **Q:** Can you introduce yourself and your work experience?
 
-- Vietnamese outline
-    - Question:
-        - Giới thiệu bản thân
-        - Nêu rõ kỹ năng & kinh nghiệm nổi bật
-        - Định hướng phát triển
-    - Answer:
-        - Vị trí: Front-end Developer, hơn 5 năm kinh nghiệm
-        - Công nghệ chính: ReactJS, VueJS, TypeScript, RESTful APIs, Tailwind CSS.
-        - 1 chút kinh nghiệm Back-end: NodeJS, LaravelPHP, mySQL, mongoDB
-        - Lĩnh vực chuyên sâu: Ecommerce, CRM, Chatbot hỗ trợ khách hàng
-        - Kinh nghiệm nổi bật: dẫn dắt team nhỏ, tham gia mentoring, presale
-- English sample answer:
-  - Hello, my **name** is Do Duc Duy. You can just **call** me **Alex**.
-  - I’m a **Front-end Developer** with more than **5 years of experience**, in building, **modern web applications**.
-  - My **main** tools are **ReactJS, VueJS, TypeScript, RESTful APIs, and Tailwind CSS**.
-  - Sometimes I also play with **back-end tools**, like, **NodeJS, LaravelPHP, MySQL, and MongoDB**.
-  - I love building **clean UI**, writing **maintainable code**, and creating apps, that, **users actually enjoy them**.
-  - My work covers **domains** like, **E-commerce, Cloud management, CRM, and AI Assistant platforms**.
-  - Besides coding, I often work **directly** with **customers**:
-  - I take part in **presale activities**, as a **front-end advisor**.
-  - I **analyze** their **requestments**, make **technical plans**, estimate **timelines for the project**
-  - And when the ideas are **too crazy**, I would politely **discuss** the **risk** of those ideas to **my customer**
-  - I also have experience in **leading small front-end teams** (about 3 or 5 members). I run code reviews, mentor juniors members.
-  - I believe in **smart teamwork**: **balancing** between, **discipline** and **flexibility**. My **leadership** style is **simple**: **clear goals, clean communication and open to speech**.
-  - For example, I organize tasks **clearly at the beginning**, but then I **encourage** other members, **brainstorming and creativity** to find the **best solution**.
-  - I’ve also, conducted **technical interviews** for my **department**, and helped **other teams** **improve** their coding **practices**.
-  - That’s a bit about me. If you want, I can introduce about my latest project
+### Outline
+
+- Question:
+    - Giới thiệu bản thân
+    - Nêu rõ kỹ năng & kinh nghiệm nổi bật
+    - Định hướng phát triển
+1. Who am I? (Định vị)
+    - Keyword: **Alex**, **5 years experience**.
+    - Hi, I'm Duy, please call me **Alex**. I have more than **5 years of experience** in software development.
+2. Technical Background (Nền tảng kỹ thuật)
+    - Keyword: **Full-stack mindset**, **Clean UI** , **Backend tools** (NodeJS, PHP).
+    - Starting as a Front-end engineer who loves **clean UI** , I expanded my skills to **Backend tools** like NodeJS and MongoDB  to understand the full system.
+3. PM & Business Skills (Trọng tâm cho phỏng vấn hôm nay)
+    - Keyword: **Pre-sale** , **Requirements** , **Scope & Risk** , **Estimation**.
+    - Crucially, I engage deeply in **pre-sale activities**. I work with customers to define **requirements**, estimate **timelines** , and balance **scope and risk**.
+4. Leadership & Mentoring (Chứng minh khả năng dẫn dắt)
+    - Keyword: **Team Leader** , **Clear communication** , **Brainstorm** , **Mentoring**.
+    - Currently, I lead a team of 5 members. My style focuses on **clear communication**. Before any big feature, we **brainstorm**  to find the best solution. I also love **mentoring** junior members.
+5. Closing (Kết bài)
+    - That is a brief introduction. I am ready for your questions.
+
+### English sample answer:
+
+- Hi, My name is Do Duc Duy, but you can call me Alex.
+- I'm a front-end engineer with more than five years of experience in building web applications. 
+- I love building clean UI, writting maintainable code and creating enjoyable apps for my customer. 
+- Besides Front-end, I also have experience with some backend tools like NodeJS and PHP, MySQL and MongoDB. 
+- My work covers domain like commerce, cloud management, CRM and AI assistant platforms. 
+- I also take part in pre-sale activities. 
+- I work directly with my customer to analyze their requirements, make technical plan and estimate timeline for the project. 
+- I often discuss with my customer about the idea and risk to find the best scope for my product. 
+- I lead a small front end team from three to five members. 
+- My leadership style is simple, clear, clean communication and open speech. 
+- For example, when we take a big features I will try to defind the first detail plan for our team.
+- But before starting I and my team will brainstorm and discuss to find the best schedule for us to work effectively 
+- And in my part department, besides front end developer roles, my responsibility also includes technical interviews improve code practices and mentoring junior members. 
+- So that's a bit about me. Please feel free to ask any question about me or my latest project.
+
 
 # Bespin - Recent Project Overview
 
-### Questions
+## Questions
 
 **Q:** Can you describe your recent project?
 
-- Vietnamese outline
-    - Question: Dự án gần đây nhất của bạn
-    - Answer:
-        - Dự án web chatbot hỗ trợ quản lý server và cloud
-        - Front-end: Vue 3, Socket
-        - Dự án start-up, thay đổi liên tục và nhiều ý tưởng mới
-        - Web terminal, khó khăn technique lớn nhất
-        - Tự tìm giải pháp nhiều, tự phân tách dữ liệu từ Stream của AWS EC2, chạy nhiều EC2 cùng lúc, gửi kết quả cho AI
-- English sample answer:
-    - My **most recent** project is **Bespin**, a **web-based AI platform** designed to help **DevOps engineers** manage **Cloud resources** using **natural language**. Think of it as a **ChatGPT for the Cloud** where users can **control cloud services directly via chat**
-    - I took on dual roles as the **Senior Front-end Developer** and **Team Lead**.
-    - On the **technical side**, my **biggest challenge** was building a **Real-time Web Terminal** to **control EC2 instances** from the **browser**. We needed to **synchronize data streams over unstable connections**, and since **no existing library** met our requirements, I built the logic **from scratch**. This involved **complex tasks** like **detecting command boundaries** and **splitting the output** to feed both the **UI** and the **AI Copilot Assistant**.
-    - Transitioning to my **leadership role**, I joined the project **right from the pre-sale phase**. I **analyzed** the client's **raw ideas** to create **high-level designs and WBS for estimation**. I also **coordinated my team** to **adapt** to the **startup’s fast-changing requirements**.
-    - **Luckily**, the **Web Terminal** became a **core feature**, playing a **key role in securing multiple funding rounds**. The **system** successfully **evolved through 4 phases**, and I was proud to see **our solution directly helping the product get better**.
+### Outline
+
+- Question: Dự án gần đây nhất của bạn
+- Recent project: Bespin
+- Web-based AI platform: manage **Cloud resources** using **natural language**
+- TEAM LEADER & TECHNICAL DEVELOPMENT
+- Biggest technical challenge: Real-time Web Terminal => control EC2 instances from browser
+- Synchronize data streams over unstable connections + no existing library => build logic from scratch
+- Complex tasks: detecting command boundaries & splitting the output => UI & AI Copilot Assistant
+- Leadership role: join from pre-sale phase, analyzed raw ideas, make high-level designs and WBS
+- coordinated my team => adapt startup’s fast-changing requirements
+- Web Terminal = core feature => multiple funding rounds
+- System is evolved through 4 phases
+
+### English sample answer:
+
+- My **most recent** project is **Bespin**, a **web-based AI platform** designed to help **DevOps engineers** manage **Cloud resources** using **natural language**. You think of it as a **ChatGPT for the Cloud** where users can **control cloud services directly via chat**
+- I WAS THE **TEAM LEADER**. I PARTICIPATED IN THE **TECHNICAL DEVELOPMENT** AS WELL AS **MANAGING MY TEAM**.
+- On the **technical side**, my **biggest challenge** was building a **Real-time Web Terminal** to **control EC2 instances** from the **browser**. We needed to **synchronize data streams over unstable connections**, and since **no existing library** met our requirements, I built the logic **from scratch**. This involved **complex tasks** like **detecting command boundaries** and **splitting the output** to feed both the **UI** and the **AI Copilot Assistant**.
+- WHEN I TOOK THE **leadership role**, I joined the project **right from the pre-sale phase**. I **analyzed** the client's **raw ideas** to create **high-level designs and WBS for estimation**. I also **coordinated my team** to **adapt** to the **startup’s fast-changing requirements**.
+- **Luckily**, the **Web Terminal** became a **core feature**, playing a **key role in securing multiple funding rounds**. The **system** successfully **evolved through 4 phases**, and I was proud to see **our solution directly helping the product BECOME better**.
+
 ## Project Introduction
 
 ### Project Overview
@@ -255,4 +274,3 @@ My name is Do Duc Duy. I’m a driven Front-end Developer with over 5 years of e
     - Show activity logs history
     - View activity log
     - Download log file
-

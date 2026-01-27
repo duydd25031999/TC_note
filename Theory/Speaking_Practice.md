@@ -585,3 +585,57 @@ Khi có sự cố (bug, lỗi thi công), đừng vội kết luận nếu chưa
 * *"It's a kind of..."* (Nó là một loại...)  
 * *"It is used for..."* (Nó được dùng để...)
 
+# Session 9: Answering Structure
+
+## Giới thiệu bản thân & Mục tiêu
+
+*(Câu hỏi: Tell me about yourself / Where do you see yourself in 5 years?)*
+
+**Cấu trúc: Past - Present - Future (Quá khứ - Hiện tại - Tương lai)**
+Đây là dòng thời gian tự nhiên, giúp bạn không bị loạn ý.
+
+| Bước | Nội dung | Mẫu câu (Key Phrases) |
+| --- | --- | --- |
+| **1. Past** | Nền tảng nghề nghiệp cũ. | "I **started** as a [Developer] for [3] years..." |
+| **2. Present** | Vị trí hiện tại & Kỹ năng chính. | "Right now, I **am** a [Project Manager]. My strength is [system thinking]..." |
+| **3. Future** | Mục tiêu hướng tới tại công ty mới. | "In the future, I **want to** [manage larger teams] here." |
+
+## Câu hỏi Kinh nghiệm & Giải quyết vấn đề
+
+*(Câu hỏi: Tell me about a challenge / How did you handle a conflict / Tell me about a success)*
+
+**Cấu trúc: P.A.R (Problem - Action - Result)**
+Phiên bản tinh gọn của STAR, tập trung vào **giải pháp** (tố chất của PM).
+
+| Bước | Nội dung | Mẫu câu (Key Phrases) |
+| --- | --- | --- |
+| **1. Problem** | Nêu ngắn gọn vấn đề/khó khăn. | "We faced a big problem: [we were behind schedule]." |
+| **2. Action** | Bạn ĐÃ làm gì? (Dùng động từ mạnh). | "So, I **decided** to [cut low-priority features] and I **supported** the team..." |
+| **3. Result** | Kết quả tốt đẹp cuối cùng. | "As a result, we **finished** on time." |
+
+## Câu hỏi Quan điểm & Tại sao
+
+*(Câu hỏi: Why do you want this job? / What is your management style? / Why should we hire you?)*
+
+**Cấu trúc: P.R.E.P (Point - Reason - Example - Point)**
+Cấu trúc "bánh mì kẹp thịt": Mở đầu và kết thúc đều là quan điểm chính để gây ấn tượng.
+
+| Bước | Nội dung | Mẫu câu (Key Phrases) |
+| --- | --- | --- |
+| **1. Point** | Trả lời thẳng vào vấn đề. | "I think [communication] is most important." |
+| **2. Reason** | Lý do ngắn gọn (1 câu). | "Because clear communication reduces bugs." |
+| **3. Example** | Ví dụ thực tế (ngắn). | "For example, I always have daily meetings with my team." |
+| **4. Point** | Chốt lại quan điểm. | "So, I focus heavily on communication." |
+
+## Câu hỏi Quy trình & Kỹ thuật
+
+*(Câu hỏi: How do you manage a sprint? / How do you report progress?)*
+
+**Cấu trúc: Step-by-Step (Liệt kê tuần tự)**
+Dùng các từ nối (Linking words) để người nghe thấy bạn có tư duy logic, hệ thống.
+
+* **Bước 1:** "**First**, I [check the backlog]..."
+* **Bước 2:** "**Next**, I [assign tasks to members]..."
+* **Bước 3:** "**Then**, I [monitor the progress daily]..."
+* **Bước 4:** "**Finally**, we [review the product]..."
+
