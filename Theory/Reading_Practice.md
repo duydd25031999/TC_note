@@ -199,6 +199,109 @@ The results  of the Red Cross survey revealed alarming levels of "ignorance", wi
 	- shows that the number of "insulin items" prescribed "last year" rose by "300,000 to 5.5 million", at a "total cost of £288.3 million" => (5) 288.3
 	- It marked an "8 per cent rise on the £267 million spent in the previous year" => (6) 267
 
+## UNIT 6
+
+### Part 2
+
+#### Exercise 1
+
+Requirement: Skim-read the passage and find the sections that refer to:
+1. size, weight or other physical properties of brains
+2. intelligence
+
+Passage:
+- Dolphins have been declared the world's second most intelligent creatures after humans, with scientists suggesting they are so bright that they should be treated as 'non-human persons'.
+- Studies into dolphin behaviour have highlighted how similar their communications are to those of humans and that they are brighter than chimpanzees. These have been backed up by anatomical research showing that dolphin brains have many key features associated with high intelligence. The researchers argue that their work shows it is morally unacceptable to keep such intelligent animals in amusement parks or to kill them for food or by accident when fishing. Some 300,000 whales, dolphins and porpoises die in this way each year.
+- 'Many dolphin brains are larger than our own and second in mass only to the human brain when corrected for body size,' said Lori Marino, a zoologist at Emory University in Atlanta, Georgia, who has used magnetic resonance imaging scans to map the brains of dolphin species and compare them with those of primates. 'The neuroanatomy suggests psychological continuity between humans and dolphins and has profound implications for the ethics of human-dolphin interactions,' she added.
+- Dolphins have long been recognised as among the most intelligent of animals. Recently, a series of behavioural studies has suggested that dolphins, especially species such as the bottlenose, whose brains weigh about 5lb, could even be brighter than chimps, which some studies have found can reach the intelligence levels of three-year-old children. The studies show how dolphins have distinct personalities, a strong sense of self and can think about the future.
+- It has also become clear that they are 'cultural' animals, meaning that new types of behaviour can quickly be picked up by one dolphin from another. In one study, Diana Reiss, professor of psychology at Hunter College, City University of New York, showed that bottlenose dolphins could recognise themselves in a mirror and use it to inspect various parts of their bodies, an ability that had been thought limited to humans and great apes. In another, she found that captive animals also had the ability to learn a rudimentary symbol-based language.
+- Other research has shown dolphins can solve difficult problems, while those living in the wild co-operate in ways that imply complex social structures and a high level of emotional sophistication. In one recent case, a dolphin rescued from the wild was taught to tail-walk while recuperating for three weeks in a dolphinarium in Australia. After she was released, scientists were astonished to see the trick spreading among wild dolphins who had learnt it from the former captive. There are many similar examples, such as the way dolphins living off Western Australia learnt to hold sponges over their snouts to protect themselves when searching for spiny fish on the ocean floor. Such observations, along with others showing, for example, how dolphins could co-operate with military precision to round up shoals of fish to eat, have prompted questions about the brain structures that must underlie them.
+- Size is only one factor. Researchers have found that brain size varies hugely from around 7oz for smaller cetacean species such as the Ganges River dolphin to more than 19lb for sperm whales, whose brains are the largest on the planet. Human brains, by contrast, range from 2lb-4lb, while a chimp's brain is about 12oz. When it comes to intelligence, however, brain size is less important than its size relative to the body. What Marino and her colleagues found was that the cerebral cortex and neocortex of bottlenose dolphins were so large that 'the anatomical ratios that assess cognitive capacity place it second only to the human brain'. They also found that the brain cortex of dolphins such as the bottlenose had the same convoluted folds that are strongly linked with human intelligence. Such folds increase the volume of the cortex and the ability of brain cells to interconnect with each other. 'Despite evolving along a different neuroanatomical trajectory to humans, cetacean brains have several features that are correlated with complex intelligence', Marino said.
+- 'Marino and Reiss will present their findings at a conference in San Diego, California, next month, concluding that the new evidence about dolphin intelligence makes it morally repugnant to mistreat them. Thomas White, professor of ethics at Loyola Marymount University, Los Angeles, who has written a series of academic studies suggesting dolphins should have rights, will speak at the same conference. 'The scientific research... suggests that dolphins are "non-human persons" who qualify for moral standing as individuals,' he said.
+
+Định vị:
+
+- Phân loại câu (1): size, weight or other physical properties of brains - đặc điểm vật lý: Con số (lb, oz, kg), Đơn vị đo, từ chỉ Cấu tạo (anatomy, cortex, size, weight)
+- Phân loại câu (2): intelligence - trí thông minh: Động từ hành động (think, learn, communicate, recognize) hoặc Tính từ (smart, bright).
+
+Khanh vùng:
+
+- Dolphins have been declared the world's second most "intelligent" creatures after humans, with scientists suggesting they are so bright that they should be treated as 'non-human persons' (2).
+
+- Studies into dolphin "behaviour" have highlighted how similar their "communications" are to those of humans and that they are brighter than chimpanzees (2). These have been backed up by anatomical research showing that dolphin "brains" have many key features associated with high "intelligence" (1). The researchers argue that their work shows it is morally unacceptable to keep such "intelligent" animals in amusement parks or to kill them for food or by accident when fishing. Some "300,000" whales, dolphins and porpoises die in this way each year.
+
+- 'Many dolphin "brains" are larger than our own and second in mass only to the human "brain" when corrected for "body size",' said Lori Marino, a zoologist at Emory University in Atlanta, Georgia, who has used magnetic resonance imaging scans to map the "brains" of dolphin species and compare them with those of primates (1). 'The "neuro" anatomy suggests psycho"logical continuity between humans and dolphins and has profound "implications" for the ethics of human-dolphin interactions,' she added (1).
+
+- Dolphins have long been recognised as among the most "intelligent" of animals. Recently, a series of "behavioural" studies has suggested that dolphins, especially species such as the "bottlenose", whose "brains" weigh about "5lb", could even be brighter than chimps, which some studies have found can reach the intelligence levels of three-year-old children (1). The studies show how dolphins have distinct "personalities", a strong "sense" of self and can "think" about the future (2).
+
+- It has also become clear that they are 'cultural' animals, meaning that new types of "behaviour" can quickly be picked up by one dolphin from another (2). In one study, Diana Reiss, professor of psychology at Hunter College, City University of New York, showed that bottlenose dolphins could "recognise" themselves in a mirror and use it to inspect various parts of their "bodies", an "ability" that had been "thought" limited to humans and great apes (2). In another, she found that captive animals also had the "ability" to "learn" a rudimentary symbol-based "language" (2).
+
+- Other research has shown dolphins can "solve" difficult "problems", while those living in the wild "co-operate" in ways that imply complex "social structures" and a high level of "emotional" sophistication (1). In one recent case, a dolphin rescued from the wild was "taught" to tail-walk while recuperating for three weeks in a dolphinarium in Australia (2). After she was released, scientists were astonished to see the trick spreading among wild dolphins who had "learnt" it from the former captive (2). There are many similar examples, such as the way dolphins living off Western Australia "learnt" to hold sponges over their snouts to protect themselves when searching for spiny fish on the ocean floor (2). Such observations, along with others showing, for example, how dolphins could "co-operate" with military precision to round up shoals of fish to eat, have prompted questions about the "brain" structures that must underlie them (2).
+
+- "Size" is only one factor (1). Researchers have found that "brain size" varies hugely from around "7oz" for smaller cetacean species such as the Ganges River dolphin to more than "19lb" for sperm whales, whose "brains" are the largest on the planet (1). Human "brains", by contrast, range from "2lb"-"4lb", while a chimp's "brain" is about "12oz" (1). When it comes to "intelligence", however, "brain size" is less important than its "size" relative to the body (1). What Marino and her colleagues found was that the cerebral "cortex" and "neocortex" of bottlenose dolphins were so lar"ge that 'the anatomical ratios that assess cognitive capacity place it second only to the human "brain"' (1). They also found that the "brain cortex" of dolphins such as the bottlenose had the same convoluted folds that are strongly linked with human "intelligence" (1). Such folds increase the "volume" of the "cortex" and the ability of "brain cells" to interconnect with each other (1). 'Despite evolving along a different "neuroanatomical" trajectory to humans, cetacean "brains" have several features that are correlated with complex "intelligence"', Marino said (1).
+
+- 'Marino and Reiss will present their findings at a conference in San Diego, California, next month, concluding that the new evidence about dolphin "intelligence" makes it morally repugnant to mistreat them (2). Thomas White, professor of ethics at Loyola Marymount University, Los Angeles, who has written a series of academic studies suggesting dolphins should "have rights", will speak at the same conference. 'The scientific research... suggests that dolphins are "non-human persons" who qualify for moral standing as individuals,' he said (2).
+
+Đáp án:
+
+- Dolphins have been declared the world's second most "intelligent" creatures after humans, with scientists suggesting they are so "bright" that they should be treated as 'non-human persons' (2).
+
+- Studies into dolphin behaviour have highlighted how similar their "communications" are to those of humans and that they are "brighter" than chimpanzees (2). These have been backed up by "anatomical" research showing that dolphin brains have many key "features" associated with high intelligence (1). The researchers argue that their work shows it is morally unacceptable to keep such intelligent animals in amusement parks or to kill them for food or by accident when fishing. Some 300,000 whales, dolphins and porpoises die in this way each year. 
+
+- 'Many dolphin brains are "larger" than our own and second in "mass" only to the human brain when corrected for body size,' said Lori Marino, a zoologist at Emory University in Atlanta, Georgia, who has used "magnetic resonance imaging scans" to "map" the brains of dolphin species and compare them with those of primates (1). 'The "neuroanatomy" suggests psychological continuity between humans and dolphins and has profound implications for the ethics of human-dolphin interactions,' she added (1). 
+
+- Dolphins have long been recognised as among the most "intelligent" of animals (2). Recently, a series of behavioural studies has suggested that dolphins, especially species such as the bottlenose, whose brains weigh about 5lb, could even be "brighter" than chimps, which some studies have found can reach the intelligence levels of three-year-old children (2). The studies show how dolphins have distinct "personalities", a strong "sense of self" and can "think" about the future (2).
+
+- It has also become clear that they are "'cultural'" animals, meaning that new types of behaviour can quickly be picked up by one dolphin from another (2). In one study, Diana Reiss, professor of psychology at Hunter College, City University of New York, showed that bottlenose dolphins could "recognise themselves" in a mirror and use it to "inspect" various parts of their bodies, an ability that had been thought limited to humans and great apes (2). In another, she found that captive animals also had the ability to "learn" a rudimentary symbol-based "language" (2). 
+
+- Other research has shown dolphins can "solve" difficult "problems", while those living in the wild "co-operate" in ways that imply complex social structures and a high level of emotional sophistication (2). In one recent case, a dolphin rescued from the wild was "taught" to "tail-walk" while recuperating for three weeks in a dolphinarium in Australia (2). After she was released, scientists were astonished to see the "trick" spreading among wild dolphins who had "learnt" it from the former captive (2). There are many similar examples, such as the way dolphins living off Western Australia "learnt" to "hold sponges" over their snouts to protect themselves when searching for spiny fish on the ocean floor (2). Such observations, along with others showing, for example, how dolphins could co-operate with military precision to round up shoals of fish to eat, have prompted questions about the "brain structures" that must underlie them (1).
+
+- "Size" is only one factor (1). Researchers have found that brain "size" varies hugely from around "7oz" for smaller cetacean species such as the Ganges River dolphin to more than "19lb" for sperm whales, whose brains are the largest on the planet (1). Human brains, by contrast, range from "2lb-4lb", while a chimp's brain is about "12oz" (1). When it comes to intelligence, however, brain size is less important than its "size relative to the body" (1). What Marino and her colleagues found was that the "cerebral cortex" and "neocortex" of bottlenose dolphins were so "large" that 'the anatomical ratios that assess cognitive capacity place it second only to the human brain' (1). They also found that the brain "cortex" of dolphins such as the bottlenose had the same "convoluted folds" that are strongly linked with human intelligence (1). Such "folds" increase the "volume" of the cortex and the ability of brain cells to interconnect with each other (1). 'Despite evolving along a different neuroanatomical trajectory to humans, cetacean brains have several "features" that are correlated with complex intelligence', Marino said (1). 
+
+- 'Marino and Reiss will present their findings at a conference in San Diego, California, next month, concluding that the new evidence about dolphin intelligence makes it morally repugnant to mistreat them. Thomas White, professor of ethics at Loyola Marymount University, Los Angeles, who has written a series of academic studies suggesting dolphins should have rights, will speak at the same conference. 'The scientific research... suggests that dolphins are "non-human persons" who qualify for moral standing as individuals,' he said. 
+
+Lưu ý:
+
+- Không phải cứ từ nào liên quan tới topic và question đều là keyword
+1. Đánh dấu Mỏ neo Cứng:
+	- Ưu tiên 1: Con số.
+	- Ưu tiên 2: Chữ viết hoa (tên riêng, địa danh).
+	- Ưu tiên 3: Từ có gạch nối hoặc trong ngoặc kép.
+2. Tìm động từ chính trong câu (hoặc từng vế) => biết "vibe" của câu
+3. Tìm keyword trong từng phần của câu: mỗi phần nên chỉ có nhiều nhất 1 keyword
+	- Tránh gây sao lãng
+	- Nên giới hạn 1 câu chỉ nên có 2-3 keywords trong 1 câu => nếu đã thấy 2 keyword rồi thì hãy cân nhắc giá trị của keyword thứ 3
+
+#### Exercise 2
+
+(*) Khoanh vùng
+
+Diagram 1:
+- Researchers have found that brain "size" varies hugely from around "7oz" for smaller cetacean species such as the Ganges River dolphin => (1) Ganges River dolphin 
+- While a chimp's brain is about "12oz" => (2) 12oz
+- Human brains, by contrast, range from "2lb-4lb" => (3) Human, (4) 2lb-4lb
+- A series of behavioural studies has suggested that dolphins, especially species such as the bottlenose, whose brains weigh about 5lb => (5) Dolphin
+- More than "19lb" for sperm whales => (6) Sperm whale, (7) 19lb
+
+Diagram 2:
+- a series of behavioural studies has suggested that dolphins, especially species such as the bottlenose, whose brains weigh about 5lb, could even be "brighter" than chimps, which some studies have found can reach the intelligence levels of three-year-old children => (1) three-year-old children, (2) Dolphin
+
+#### Exercise 3
+
+1. Định vị: tìm keyword trong câu hỏi
+	1. Reasons, dolphin, regarded as
+	2. Consequences, using, entertainment, now
+	3. Compare, dolphin, human, brain, scientists, used
+	4. Dolphin, cooperate, problem solving, scientists, think again
+	5. Scientists, intelligent, dolphin, physical structure, suggested by
+2. Khoanh vùng: trích dẫn bài đọc liên quan tới keyword
+	1. Reasons, dolphin, regarded as => suggests that dolphins are "non-human persons" who qualify for moral standing as individuals => (c) non-human person
+	2. Consequences, using, entertainment, now => The researchers argue that their work shows it is morally unacceptable to keep such intelligent animals in amusement parks or to kill them for food or by accident when fishing. => (a) morally unacceptable
+	3. Compare, dolphin, human, brain, scientists, used => who has used "magnetic resonance imaging scans" to "map" the brains of dolphin species and compare them with those of primates => (e) imaging scans 
+	4. Dolphin, cooperate, problem solving, scientists, think again => Such observations, along with others showing, for example, how dolphins could co-operate with military precision to round up shoals of fish to eat, have prompted questions about the "brain structures" that must underlie them => (b) brain structures
+	5. Scientists, intelligent, dolphin, physical structure, suggested by => They also found that the brain "cortex" of dolphins such as the bottlenose had the same "convoluted folds" that are strongly linked with human intelligence => (d) brain cortex
+
+
 # Cambridge 19 Reading
 
 ## Test 2
