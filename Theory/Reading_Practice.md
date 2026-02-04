@@ -301,14 +301,103 @@ Diagram 2:
 	4. Dolphin, cooperate, problem solving, scientists, think again => Such observations, along with others showing, for example, how dolphins could co-operate with military precision to round up shoals of fish to eat, have prompted questions about the "brain structures" that must underlie them => (b) brain structures
 	5. Scientists, intelligent, dolphin, physical structure, suggested by => They also found that the brain "cortex" of dolphins such as the bottlenose had the same "convoluted folds" that are strongly linked with human intelligence => (d) brain cortex
 
+#### Exercise 4
 
-# Cambridge 19 Reading
+Requirement: Complete the sentences 1-5 using no more than three words from the passage below. The answers follow the order of the questions. Remember to look for paraphrases in the text.
 
-## Test 2
+1. Jane Goodall has attained global recognition as a role model for ____
+2. Her studies have had far-reaching consequences, one of them being that we might have to accept that some animals should be treated ____
+3. Goodall believed that the main reason why women made good field scientists was their natural capacity ____
+4. ____ have been encouraged to become field scientists by the example of the three sisters in science.
+5. Even today, when women are more visible in the field of science, their role is limited and they do not tend to be the ____
 
-### Passage 1
+Passage:
 
-#### Original
+- It is 50 years since Jane Goodall first dipped her toes in the waters of Lake Tanganyika, in what is now the Gombe National Park in Tanzania. Since then she has been responsible for the most comprehensive study of wild chimpanzees - and become an idol of contemporary women scientists around the world.
+- In 1962, at a time when no woman in the world held a PhD in primatology, Goodall started a PhD in ethology - the scientific study of animal behaviour - at the University of Cambridge. Her resulting thesis, Nest Building Behaviour in the Fre0hopjse Ranging Chimpanzee, included the observations that chimps use tools and eat meat. Goodall had redefined our understanding of the origins of Man. Louis Leakey, the famous palaeontologist and Goodall's mentor, said of her work: 'Now we must redefine "tool", redefine "Man", or accept chimpanzees as humans. Goodall's work, and that of two other female pioneers in primatology, Dian Fossey and Biruté Galdikas, was made possible by the example of Leakey. Born to British missionaries in Kenya in 1903, he was the first white baby the Kikuyu people had seen and he spoke their language before he learnt English. He grew up to be an ardent palaeontologist, archaeologist and anthropologist at the University of Cambridge and, later, with his wife Mary Douglas Nicol. Leakey thought that the attributes that made a good field scientist were innate to women.
+- Because women were pre-programmed to be mothers, he thought, they had three crucial traits: they were patient, they were better able to understand an animal's desires by observing social non-verbal cues and they were less aggressive than men all beliefs later echoed by Goodall. He also felt that men were more concerned with conquering nature than committing themselves to detailed field studies.
+- Goodall's career began in the late 1950s, when she worked as secretary to Leakey at the Coryndon Museum in Nairobi, of which he was the director. In 1960, after the 26-year-old Goodall had assisted on a fossil dig at Olduvai Gorge in Tanzania, she was sent by her mentor to study chimpanzees in the wild. At the insistence of the British Government she arrived in Gombe with her mother, Vanne, in tow. Spending day after day among the primates, she became fascinated by their behaviour and began informal studies. But at the insistence of Leakey, who warned that she would need to formalise her work to gain scientific credibility, she applied for a place at Cambridge.
+- Since then Goodall and her two sisters in science, Fossey and Galdikas, have paved the way in primatology, a field that is now dominated by women. Gombe is one of the longest running research studies of wild animals anywhere in the world: it has produced 35 PhD theses, more than 30 books and 200 research papers and nine films. Furthermore, according to Julie Des Jardins, the author of The Madame Curie Complex: the Hidden History of Women in Science, 78 per cent of all PhDs awarded in primatology in 2000 were awarded to women. Goodall, Fossey and Galdikas have helped to inspire generations of women to pick up their binoculars and take to the world's fields and forests.
+- Goodall comes from a dynasty of strong women and describes her mother and grandmother as 'those two amazing, strong women, undaunted'. Goodall's mother did not laugh at her daughter when she said she was going to Africa. 'My mother used to say: "If you really want something and you work hard and never give up, you find a way",' Goodall says. "She was definitely the greatest inspiration that I had.'
+- If only science's old guard had had the same attitude. Today's scientific community was formalised by men. As a consequence of the scientific 'revolution' of the 17th and 18th centuries, science moved from the home to laboratories, universities and hospitals, establishments to which women were denied access, irrespective of their aptitude or contribution. In most fields of scientific research, most of the big players continue to be men. According to the UKRC (the body responsible for advancing gender equality in science, engineering and technology), in the 2007-08 academic year, in STEM - science, technology, engineering and maths - subjects, about one third of researchers were women. But in the higher reaches of the academic world, the numbers fall away. About a quarter of lecturers and fewer than one in ten professors are female.
+- Perhaps this under-representation of women in science has in part been caused by a lack of prominent role models. The women who flourished under the guidance of Leakey, however, provide ample proof that if women are given opportunities, they can surpass all expectation. They can tread their own path through the forest and conduct credible research with far-reaching and long-lasting implications.
+- Jane Goodall still believes that her mother's words about working hard to achieve a goal have the power to inspire young women who dream of becoming scientists. 'I would say to them what Mum said to me,' she says. Clearly, it works.
+
+Định vị:
+
+1. Jane Goodall (mỏ neo cứng), global recognition (mỏ neo mềm), role model (liên kết trực tiếp tới đáp án)
+2. studies (chủ ngữ chính), consequences (tân ngữ chính), accept (động từ quan trọng), treated (liên kết trực tiếp tới đáp án)
+3. Goodall believed (cụm chủ ngữ + động từ chính), women (đối tượng chính mà câu hỏi muốn nhắc tới), natural capacity (liên kết trực tiếp tới đáp án)
+4. encouraged (động từ chính + liên kết trực tiếp tới đáp án), three sisters (Mỏ neo cứng)
+5. today (mỏ neo cứng), do not tend to be (liên kết trực tiếp tới đáp án)
+
+Khanh vùng:
+
+- It is 50 years since *Jane Goodall* first dipped her toes in the waters of Lake Tanganyika, in what is now the Gombe National Park in Tanzania. Since then she has been responsible for the most comprehensive study of wild chimpanzees - and become an *idol* of contemporary women scientists *around the world*.
+- In 1962, at a time when no woman in the world held a PhD in primatology, *Goodall* started a PhD in ethology - the scientific *study* of animal behaviour - at the University of Cambridge. Her *resulting* thesis, Nest Building Behaviour in the Free Ranging Chimpanzee, included the observations that chimps use tools and eat meat. Goodall had *redefined* our *understanding* of the origins of Man. Louis Leakey, the famous palaeontologist and Goodall's mentor, said of her work: 'Now we must redefine "tool", redefine "Man", or accept chimpanzees as humans. Goodall's work, and that of two other female pioneers in primatology, Dian Fossey and Biruté Galdikas, was made possible by the example of Leakey. Born to British missionaries in Kenya in 1903, he was the first white baby the Kikuyu people had seen and he spoke their language before he learnt English. He grew up to be an ardent palaeontologist, archaeologist and anthropologist at the University of Cambridge and, later, with his wife Mary Douglas Nicol. Leakey thought that the attributes that made a good field scientist were innate to women.
+- Because women were pre-programmed to be mothers, he thought, they had three crucial traits: they were patient, they were better able to understand an animal's desires by observing social non-verbal cues and they were less aggressive than men all beliefs later echoed by Goodall. He also felt that men were more concerned with conquering nature than committing themselves to detailed field studies.
+- Goodall's career began in the late 1950s, when she worked as secretary to Leakey at the Coryndon Museum in Nairobi, of which he was the director. In 1960, after the 26-year-old Goodall had assisted on a fossil dig at Olduvai Gorge in Tanzania, she was sent by her mentor to study chimpanzees in the wild. At the insistence of the British Government she arrived in Gombe with her mother, Vanne, in tow. Spending day after day among the primates, she became fascinated by their behaviour and began informal studies. But at the insistence of Leakey, who warned that she would need to formalise her work to gain scientific credibility, she applied for a place at Cambridge.
+- Since then Goodall and her two sisters in science, Fossey and Galdikas, have paved the way in primatology, a field that is now dominated by women. Gombe is one of the longest running research studies of wild animals anywhere in the world: it has produced 35 PhD theses, more than 30 books and 200 research papers and nine films. Furthermore, according to Julie Des Jardins, the author of The Madame Curie Complex: the Hidden History of Women in Science, 78 per cent of all PhDs awarded in primatology in 2000 were awarded to women. Goodall, Fossey and Galdikas have helped to inspire generations of women to pick up their binoculars and take to the world's fields and forests.
+- Goodall comes from a dynasty of strong women and describes her mother and grandmother as 'those two amazing, strong women, undaunted'. Goodall's mother did not laugh at her daughter when she said she was going to Africa. 'My mother used to say: "If you really want something and you work hard and never give up, you find a way",' Goodall says. "She was definitely the greatest inspiration that I had.'
+- If only science's old guard had had the same attitude. Today's scientific community was formalised by men. As a consequence of the scientific 'revolution' of the 17th and 18th centuries, science moved from the home to laboratories, universities and hospitals, establishments to which women were denied access, irrespective of their aptitude or contribution. In most fields of scientific research, most of the big players continue to be men. According to the UKRC (the body responsible for advancing gender equality in science, engineering and technology), in the 2007-08 academic year, in STEM - science, technology, engineering and maths - subjects, about one third of researchers were women. But in the higher reaches of the academic world, the numbers fall away. About a quarter of lecturers and fewer than one in ten professors are female.
+- Perhaps this under-representation of women in science has in part been caused by a lack of prominent role models. The women who flourished under the guidance of Leakey, however, provide ample proof that if women are given opportunities, they can surpass all expectation. They can tread their own path through the forest and conduct credible research with far-reaching and long-lasting implications.
+- Jane Goodall still believes that her mother's words about working hard to achieve a goal have the power to inspire young women who dream of becoming scientists. 'I would say to them what Mum said to me,' she says. Clearly, it works.
+
+Phân tích:
+
+1. Keywords: Jane Goodall (mỏ neo cứng), global recognition (mỏ neo mềm), role model (liên kết trực tiếp tới đáp án)
+	- Quote: Since then she has been responsible for the most comprehensive study of wild chimpanzees - and become an "idol" of contemporary women scientists "around the world"
+	- => Answer: contemporary women scientist
+2. Keywords: studies (chủ ngữ chính), consequences (tân ngữ chính), accept (động từ quan trọng), treated (liên kết trực tiếp tới đáp án)
+	- Quote: Her "resulting" thesis, Nest Building Behaviour in the Free Ranging Chimpanzee, included the observations that chimps use tools and eat meat. Goodall had "redefined" our "understanding" of the origins of Man.
+	- => Answer: origins of Man
+3. Keywords: Goodall believed (cụm chủ ngữ + động từ chính), women (đối tượng chính mà câu hỏi muốn nhắc tới), natural capacity (liên kết trực tiếp tới đáp án)
+4. Keywords: encouraged (động từ chính + liên kết trực tiếp tới đáp án), three sisters (Mỏ neo cứng)
+5. Keywords: today (mỏ neo cứng), do not tend to be (liên kết trực tiếp tới đáp án)
+
+### Part 3
+
+Requirement: Using NO MORE THAN THREE WORDS from the passage, complete each gap in the diagram below.
+
+Passage:
+- Holidaymakers faced disruption yesterday because of new plumes of ash from an Icelandic volcano, which forced the closure of airports in Spain and Portugal.
+- The cancellations - which mainly affected Ryanair and easyJet services operating out of Stansted and Gatwick - came as scientists produced the first internal map of Eyjafjallajokull's network of magma chambers, which extend 12 miles below the ground.
+- A new ash cloud has risen 30,000ft into the air and drifted south after a pulse of meltwater and ice poured into the Eyjafjallajokull volcano last week. The water caused huge explosions as it hit the hot lava, generating more ash plumes. European aviation regulators have imposed a maximum safe limit of 0.002 grammes of ash per cubic metre of air, meaning that if levels rise above this, flights cannot enter that airspace.
+- The map shows how the volcano's tubes plunge deep down through the earth's crust to the start of the mantle, which is made of semi-molten rock. It reveals the huge scale of the eruption and the potential for a far greater one. This is because the magma chamber of Eyjafjallajokull is dwarfed by the much larger one under Katla, a volcano 15 miles to the east. Two of Katla's eruptions, in 1612 and 1821, are thought to have been triggered by those of its neighbour. While Katla is not part of the same underground network of magma channels and chambers, it is close enough to be affected by changes in pressure in Eyjafjallajokull's system. There is also a chance that a horizontal sheet of magma, known as a dike, beneath Eyjafjallajokull could stretch out far enough to penetrate a magma chamber beneath Katla. Hitting the roots of its neighbour would almost certainly trigger an eruption. The three eruptions of Eyjafjallajokull on record have each been associated with a subsequent eruption of Katla. There have, so far, been no signs of turbulence beneath Katla's surface but, having last erupted in 1918, vulcanologists say that a new blast is overdue.
+- The workings of the volcanoes have been provisionally drawn up by Professor Erik Sturkell, a geologist at the Nordic Volcanological Centre, University of Iceland. Sturkell suggests the Eyjafjallajokull eruption has been building since 1994, when new lava began rising, forming two reservoirs three miles beneath the volcano. A surge of earthquakes under Katla mean it has experienced a similar influx of lava, Sturkell said. 'This suggests the volcano is close to eruption.'
+
+Khoanh vùng:
+- Holidaymakers faced disruption yesterday because of new plumes of ash from an *Icelandic* volcano, which forced the closure of airports in *Spain* and *Portugal*.
+- The *cancellations* - which mainly affected Ryanair and easyJet services operating out of Stansted and Gatwick - came as scientists produced the first internal map of *Eyjafjallajokull*'s network of magma chambers, which extend *12 miles* below the ground.
+- A new ash cloud has risen 30,000ft into the air and drifted south after a pulse of meltwater and ice poured into the *Eyjafjallajokull* volcano last week. The water caused huge explosions as it hit the hot lava, generating more ash plumes. European aviation regulators have imposed a maximum safe limit of 0.002 grammes of ash per cubic metre of air, meaning that if levels rise above this, flights cannot enter that airspace.
+- The map shows how the volcano's *tubes* plunge deep down through the earth's *crust* to the start of the mantle, which is made of semi-molten rock. It reveals the huge scale of the eruption and the potential for a far greater one. This is because the magma chamber of *Eyjafjallajokull* is dwarfed by the much larger one under *Katla*, a volcano *15 miles* to the east. *Two* of *Katla*'s eruptions, in 1612 and 1821, are thought to have been triggered by those of its neighbour. While *Katla* is not part of the same underground network of magma channels and chambers, it is close enough to be affected by changes in pressure in *Eyjafjallajokull*'s system. There is also a chance that a *horizontal* *sheet* of magma, known as a dike, beneath *Eyjafjallajokull* could stretch out far enough to penetrate a magma chamber beneath *Katla*. Hitting the roots of its neighbour would almost certainly trigger an eruption. The three eruptions of *Eyjafjallajokull* on record have each been associated with a subsequent eruption of *Katla*. There have, so far, been no signs of turbulence beneath *Katla*'s surface but, having last erupted in 1918, vulcanologists say that a new blast is overdue.
+- The workings of the volcanoes have been provisionally drawn up by Professor Erik Sturkell, a geologist at the Nordic Volcanological Centre, University of Iceland. Sturkell suggests the *Eyjafjallajokull* eruption has been building since 1994, when new lava began rising, forming *two* reservoirs three *miles* beneath the volcano. A surge of earthquakes under *Katla* mean it has experienced a similar influx of lava, Sturkell said. 'This suggests the volcano is close to eruption.'
+
+Phân tích:
+1. Keywords: Eyjafjallajokull, 15 miles => tên 1 ngọn núi cách Eyjafjallajokull 15 miles
+	- Quote: his is because the magma chamber of *Eyjafjallajokull* is dwarfed by the much larger one under *Katla*, a volcano *15 miles* to the east.
+	- => Answer: Katla
+2. Keywords: Danh từ, bộ phận ngay bên dưới bề mặt, Eyjafjallajokull và (1) đều có => two
+	- Quote: Sturkell suggests the *Eyjafjallajokull* eruption has been building since 1994, when new lava began rising, forming *two* reservoirs three *miles* beneath the volcano.
+	- => Answer: reservoirs
+3. Keywords: Danh từ, bộ phận ngay bên dưới (2), nằm trên "crust", Eyjafjallajokull có mà (1) không có, hình dáng horizontal (nằm ngang), sheet (tấm/lá),
+	- Quote: There is also a chance that a *horizontal* *sheet* of magma, known as a dike, beneath *Eyjafjallajokull* could stretch out far enough to penetrate a magma chamber beneath *Katla*.
+	- => Answer: dike
+4. Keywords: Danh từ, bộ phận sâu nhất, dưới cả "tubes", Eyjafjallajokull và (1) đều có
+	- Quote: The map shows how the volcano's *tubes* plunge deep down through the earth's *crust* to the start of the mantle, which is made of semi-molten rock.
+	- => Answer: mantle
+5. Keywords: Số, độ sâu của (3), theo "miles"
+	- Quote: Sturkell suggests the *Eyjafjallajokull* eruption has been building since 1994, when new lava began rising, forming *two* reservoirs three *miles* beneath the volcano.
+	- => Answer: 3
+6. Keywords: Số + đơn bị đo, độ sâu của (4)
+	- Quote: The cancellations - which mainly affected Ryanair and easyJet services operating out of Stansted and Gatwick - came as scientists produced the first internal map of *Eyjafjallajokull*'s network of magma chambers, which extend *12 miles* below the ground.
+	- => Answer: 12 miles
+
+# Others
+
+## Completing sentences
+
+### Passage
 
 - The Industrial Revolution began in Britain in the mid-1700s and by the 1830s and 1840s had spread to many other parts of the world, including the United States. In Britain, it was a period when a largely rural, agrarian* society was transformed into an industrialised, urban one. Goods that had once been crafted by hand started to be produced in mass quantities by machines in factories, thanks to the invention of steam power and the introduction of new machines and manufacturing techniques in textiles, iron-making and other industries.
 - The foundations of the Industrial Revolution date back to the early 1700s, when the English inventor Thomas Newcomen designed the first modern steam engine. Called the 'atmospheric steam engine', Newcomen's invention was originally used to power machines that pumped water out of mines. In the 1760s, the Scottish engineer James Watt started to adapt one of Newcomen's models, and succeeded in making it far more efficient. Watt later worked with the English manufacturer Matthew Boulton to invent a new steam engine driven by both the forward and backward strokes of the piston, while the gear mechanism it was connected to produced rotary motion. It was a key innovation that would allow steam power to spread across British industries.
@@ -320,7 +409,8 @@ Diagram 2:
 - Although industrialisation increased the country's economic output overall and improved the standard of living for the middle and upper classes, many poor people continued to struggle. Factory workers had to work long hours in dangerous conditions for extremely low wages. These conditions along with the rapid pace of change fuelled opposition to industrialisation. A group of British workers who became known as 'Luddites' were British weavers and textile workers who objected to the increased use of mechanised looms and knitting frames. Many had spent years learning their craft, and they feared that unskilled machine operators were robbing them of their livelihood. A few desperate weavers began breaking into factories and smashing textile machines. They called themselves Luddites after Ned Ludd, a young apprentice who was rumoured to have wrecked a textile machine in 1779.
 - The first major instances of machine breaking took place in 1811 in the city of Nottingham, and the practice soon spread across the country. Machine-breaking Luddites attacked and burned factories, and in some cases they even exchanged gunfire with company guards and soldiers. The workers wanted employers to stop installing new machinery, but the British government responded to the uprisings by making machine-breaking punishable by death. The unrest finally reached its peak in April 1812, when a few Luddites were shot during an attack on a mill near Huddersfield. In the days that followed, other Luddites were arrested, and dozens were hanged or transported to Australia. By 1813, the Luddite resistance had all but vanished.
 
-#### Question 1: Choose ONE WORD ONLY from the passage for each answer.
+### Question: 
+Requirement: Choose ONE WORD ONLY from the passage for each answer.
 
 Label: Britain's Industrial Revolution
 
@@ -344,16 +434,7 @@ Communications
 
 Urbanisation
 - Small towns turned into cities very quickly.
-- The new cities were dirty, crowded and lacked sufficient (7)
-
-#### Question 2: True/False/Not Given
-
-8. Britain's canal network grew rapidly so that more goods could be transported around the country.
-9. Costs in the iron industry rose when the technique of smelting iron ore with coke was introduced.
-10. Samuel Morse's communication system was more reliable than that developed by William Cooke and Charles Wheatstone.
-11. The economic benefits of industrialisation were limited to certain sectors of society.
-12. Some skilled weavers believed that the introduction of the new textile machines would lead to job losses.
-13. There was some sympathy among local people for the Luddites who were arrested near Huddersfield.
+- The new cities were dirty, crowded and lacked sufficient (7)Ư
 
 #### 1. Định vị
 
@@ -368,13 +449,6 @@ Urbanisation
 	5. Danh từ không đếm được, iron, industry, smelt, coke (từ nghĩ chuyên ngành - không biết nghĩa)
 	6. Danh từ, iron
 	7. Danh từ, urbanisation, sufficient, city
-- Question 8-13: Đánh dấu True/False/Not Given cho mỗi câu
-	8. Britain, canal, network, goods, transport, country
-	9. Cost, iron, industry, technique, smelting, iron, coke
-	10. Samuel Morse, communication, reliable, William Cooke, Charles Wheatstone, có phép so sánh
-	11. Industrialisation,
-	12. Weaver, textile, job, lose
-	13. Sympathy, Luddites, Huddersfield
 
 #### 2. Khoanh vùng 
 
@@ -397,10 +471,19 @@ Urbanisation
 5. Chief among the new techniques was the "smelting" of "iron" ore with "coke" (a material made by heating coal) instead of the traditional charcoal. This method was cheaper and produced metals that were of a higher quality => Quality
 6. enabling "Britain"'s "iron" and steel production to expand in response to demand created by the "Napoleonic Wars (1803-15)" and the "expansion" of the railways from the "1830s". => Railways
 7. This rapid "urbanisation" brought significant challenges, as overcrowded "cities" suffered from pollution and inadequate sanitation. => Sanitation
-8. In addition, "steam"-powered boats and ships were widely used to carry "goods" along "Britain's canals" as well as across the Atlantic. => Not Given
-9. This method was cheaper and produced metals that were of a higher quality => False
-10. In "1837", British inventors "William Cooke" and "Charles Wheatstone" patented the first commercial telegraphy system. In the "1830s" and "1840s", "Samuel Morse" and other inventors worked on their own versions in the United States. => Not Given
-11. Although "industrialisation" increased the country's economic output overall and improved the standard of living for the middle and upper classes, many poor people continued to struggle. => True
-12. Many had spent years learning their craft, and they feared that unskilled machine operators were robbing them of their livelihood. => True
-13. The unrest finally reached its peak in April 1812, when a few "Luddites" were shot during an attack on a mill near "Huddersfield". In the days that followed, other "Luddites" were arrested, and dozens were hanged or transported to "Australia". => Not Given
+
+## Completing Diagram
+
+### Passage
+
+Bicycle
+
+- I learned how to ride a bike when I was very young but I never really knew much about what each part of the bike was called. As I began to ask questions about bikes, I realized I had no clue what the experts were saying. It was like a foreign language to me. So like any foreign language you have to start with the basics.
+- The most known part of a bicycle, a bicycle saddle, often called a seat, is one of three contact points on an upright bicycle. It’s a place where you seat while riding a bike. A bicycle saddle is commonly attached to the bicycle frame, the main component of a bicycle, onto which wheels and other components are fitted. Cyclist often attach a bottle of water to the underneath part of the frame, called a down tube.
+- The second contact point of the bicycle is a pedal, the part of your bicycle that you push with your foot to propel the bicycle. The pedal provides the connection between the cyclist's foot or shoe and the crankarm. The crankarm turns the chain and propels the bicycle's wheel. The dark round detail in the centre of the back wheel is called cogset, it is used as speed transmission mechanism.
+- The last contact point of the bicycle is bicycle handlebar, the steering mechanism for bicycles. You put your hands on the bicycle handlebar and drive your bike by turning it to different sides. The handlebars are attached to the stem, which goes down and connects with a fork. The fork is a thin metal rod, which fore wheel is attached to.
+
+### Question
+
+![Alt text](./img/bicycle-scheme.png)
 
