@@ -476,14 +476,82 @@ Urbanisation
 
 ### Passage
 
-Bicycle
-
-- I learned how to ride a bike when I was very young but I never really knew much about what each part of the bike was called. As I began to ask questions about bikes, I realized I had no clue what the experts were saying. It was like a foreign language to me. So like any foreign language you have to start with the basics.
-- The most known part of a bicycle, a bicycle saddle, often called a seat, is one of three contact points on an upright bicycle. It’s a place where you seat while riding a bike. A bicycle saddle is commonly attached to the bicycle frame, the main component of a bicycle, onto which wheels and other components are fitted. Cyclist often attach a bottle of water to the underneath part of the frame, called a down tube.
-- The second contact point of the bicycle is a pedal, the part of your bicycle that you push with your foot to propel the bicycle. The pedal provides the connection between the cyclist's foot or shoe and the crankarm. The crankarm turns the chain and propels the bicycle's wheel. The dark round detail in the centre of the back wheel is called cogset, it is used as speed transmission mechanism.
-- The last contact point of the bicycle is bicycle handlebar, the steering mechanism for bicycles. You put your hands on the bicycle handlebar and drive your bike by turning it to different sides. The handlebars are attached to the stem, which goes down and connects with a fork. The fork is a thin metal rod, which fore wheel is attached to.
-
 ### Question
 
 ![Alt text](./img/bicycle-scheme.png)
+
+### Định vị
+
+- Có sẵn: "Back wheel" (Bánh sau), "Fore wheel" (Bánh trước), "Bottle of water" (Chai nước).
+- Nhóm Trên (Tay lái/Yên): Số 1, 6, 2, 8.
+- Nhóm Dưới (Truyền động): Số 3, 4, 10, 5.
+- Nhóm Giữa/Khung: Số 9 (gần chai nước).
+
+### Khoanh vùng
+
+Bicycle
+
+- I learned how to ride a bike when I was very young but I never really knew much about what each part of the bike was called. As I began to ask questions about bikes, I realized I had no clue what the experts were saying. It was like a foreign language to me. So like any foreign language you have to start with the basics.
+- The most known part of a bicycle, a bicycle saddle, often *called* a *seat*, is one of three contact points on an upright bicycle. It’s a place where you seat while riding a bike. A bicycle *saddle* is commonly *attached* to the bicycle frame, the main component of a bicycle, onto which *wheels* and other components are fitted. Cyclist often attach a *bottle of water* to the *underneath* part of the frame, called a down tube.
+- The second contact point of the bicycle is a pedal, the part of your bicycle that you *push* with your *foot* to propel the bicycle. The *pedal* provides the connection between the cyclist's *foot* or *shoe* and the crankarm. The *crankarm* turns the chain and propels the bicycle's *wheel*. The dark round detail in the centre of the *back wheel* is called cogset, it is used as speed transmission mechanism.
+- The last contact point of the bicycle is bicycle handlebar, the steering mechanism for bicycles. You *put* your *hands* on the bicycle handlebar and *drive* your bike by *turning* it to different sides. The *handlebars* are *attached* to the stem, which *goes down* and connects with a *fork*. The fork is a thin metal rod, which *fore wheel* is attached to.
+
+### Phân tích
+
+1. Quote: You *put* your *hands* on the bicycle handlebar and *drive* your bike by *turning* it to different sides. => Answer: handlebar
+2. Quote: The most known part of a bicycle, a bicycle saddle, often *called* a *seat*, is one of three contact points on an upright bicycle. => Answer: saddle
+3. Quote: The second contact point of the bicycle is a pedal, the part of your bicycle that you *push* with your *foot* to propel the bicycle. => Answer: pedal
+4. Quote: The pedal provides the connection between the cyclist's *foot* or *shoe* and the crankarm. => Answer: crankarm
+5. Quote: The dark round detail in the centre of the *back wheel* is called cogset, it is used as speed transmission mechanism. => Answer: cogset
+6. Quote: The *handlebars* are *attached* to the stem, which *goes down* and connects with a *fork*. => Answer: stem
+7. Quote: The fork is a thin metal rod, which *fore wheel* is attached to. => Answer: fork
+8. Quote: A bicycle *saddle* is commonly *attached* to the bicycle frame, the main component of a bicycle, onto which *wheels* and other components are fitted. => Answer: frame
+9. Quote: Cyclist often attach a *bottle of water* to the *underneath* part of the frame, called a down tube. => Answer: down tube
+10. Quote: The *crankarm* turns the chain and propels the bicycle's *wheel*. => Answer: chain
+
+## Completing Table
+
+### Question
+
+Requirement: Choose NO MORE THAN 3 WORDS AND/OR A NUMBER from the passage for each answer.s
+
+| English    | French     | German    |
+| ------- | ------------ | ------- |
+| It was taught in 1...........% of primary schools in Cyprus. | It was available in less than 5% of schools in Malta. | 100% of primary schools in Luxembourg taught German as a 2........... |
+| 9 out of 10 primary schools in France taught the language. | Less than 20% of schools in Spain 3.......... the language. | Less than 4..........% of primary schools in Slovenia delivered German classes. |
+| 80% of Slovenian primary schools taught it. | French language classes were supplied in 84% of schools in Luxembourg. | Less than 20% of Greek schools taught the language. |
+| 0% of primary schools introduced the language in 5.......... | It is not applicable to France. | In 2019, less than 5% of Maltese primary schools implemented German classes. |
+
+### Passage:
+
+- Due to the growing need for linguistic diversity in further education establishments and workplaces, an early introduction to foreign language learning is implemented in primary schools in the European Union (EU). At present there are 24 officially recognised languages within the EU. The number of official languages in the EU has always been lower than that of its Member States, as some EU Member States share common languages. For instance, the official languages of Belgium are Dutch, French and German. In addition to the official languages, there are indigenous regional and minority languages spoken in some EU Member States, such as Catalan, Galician and Basque in Spain. Many other languages have been brought to the EU by migrant populations, including Arabic, Chinese and Turkish.
+- Within primary education, a very high proportion of pupils learn English in a majority of EU Member States. Learning English is mandatory within secondary education institutions in several Member States, and therefore a number of them have close to 100 % of pupils learning this language already in primary education. The countries of Cyprus and Malta, for instance, have reached 100% in 2019, and Spain 99%. In Greece and in France, at least 9 out of 10 primary schools taught English as a foreign language.
+- Many of the eastern and northern European Member States that joined the EU in 2004 or 2007 were previously required to learn Russian. This situation has changed rapidly and in most of these countries there has been a marked increase in the proportion of pupils learning English. For instance, by 2019, 80% of Slovenian Primary schools taught English.
+- Luxembourg is an interesting case, as it has three official languages, with most pupils receiving instruction in Luxembourgish, German and French in primary education, and where English is only introduced at secondary school. Luxembourg has the highest percentage (84%) of primary schools teaching French. Less than 20% of Spanish and Greek primary schools have introduced the language, and less than 5% did in Cyprus, Malta and Slovenia.
+- In 2019, German was the principal foreign language taught to all primary school children in Luxembourg (100 %). Less than 20% of primary schools in Greece taught the language, and less than 5% did in Cyprus, Malta, Spain, France and Slovenia.
+
+### Định vị
+1. Số % tại Cyprus
+2. Tìm đặc điểm chung về Tiếng Đức tại mọi trường tiểu học ở Luxembourgish
+3. Less than 20% of schools, Spain, language, French
+4. Số %, less, Slovenia, primary school
+5. Tìm 1 địa điểm mà không có trường tiểu học nào dạy Tiếng Anh
+
+### Khoanh vùng
+
+- Due to the growing need for linguistic diversity in further education establishments and workplaces, an early introduction to foreign language learning is implemented in primary schools in the European Union (EU). At present there are 24 officially recognised languages within the EU. The number of official languages in the EU has always been lower than that of its Member States, as some EU Member States share common languages. For instance, the official languages of Belgium are Dutch, French and German. In addition to the official languages, there are indigenous regional and minority languages spoken in some EU Member States, such as Catalan, Galician and Basque in Spain. Many other languages have been brought to the EU by migrant populations, including Arabic, Chinese and Turkish.
+- Within primary education, a very high proportion of pupils learn English in a majority of EU Member States. Learning English is mandatory within secondary education institutions in several Member States, and therefore a number of them have close to 100 % of pupils learning this language already in primary education. The countries of *Cyprus* and Malta, for instance, have reached 100% in 2019, and Spain 99%. In Greece and in France, at least 9 out of 10 primary schools taught English as a foreign language.
+- Many of the eastern and northern European Member States that joined the EU in 2004 or 2007 were previously required to learn Russian. This situation has changed rapidly and in most of these countries there has been a marked increase in the proportion of pupils learning English. For instance, by 2019, 80% of *Slovenian* Primary schools taught English.
+- Luxembourg is an interesting case, as it has three *official languages*, with most pupils receiving instruction in Luxembourgish, *German* and *French* in *primary* education, and where *English* is *only* introduced at *secondary school*. Luxembourg has the highest percentage (84%) of primary schools teaching French. *Less than 20%* of *Spanish* and Greek *primary* schools have introduced the *language*, and *less* than 5% did in Cyprus, Malta and *Slovenia*.
+- In 2019, *German* was the principal foreign language taught to *all primary school* children in *Luxembourg* (100%). *Less than 20%* of primary schools in Greece taught the language, and *less* than 5% did in Cyprus, Malta, *Spain*, France and *Slovenia*.
+
+### Phân tích
+
+1. Quote: The countries of *Cyprus* and Malta, for instance, have reached 100% in 2019, and Spain 99%. => Answer: 100
+2. Quote: In 2019, *German* was the principal foreign language taught to *all primary school* children in *Luxembourg* (100%) => Answer: principal foreign language
+3. Quote: *Less than 20%* of *Spanish* and Greek *primary* schools have introduced the *language*, and *less* than 5% did in Cyprus, Malta and *Slovenia*. => Answer: introduced
+4. Quote: *Less than 20%* of *Spanish* and Greek *primary* schools have introduced the *language*, and *less* than 5% did in Cyprus, Malta and *Slovenia*. => Answer: 5
+5. Quote: with most pupils receiving instruction in Luxembourgish, German and French in primary education, and where *English* is *only* introduced at *secondary school*. => Answer: Luxembourgish
+
+
 
